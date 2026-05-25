@@ -12,6 +12,14 @@ import {
   WatchlistItem
 } from "@/lib/types";
 import { getDatabase, json, migrate, parseJson } from "./connection";
+import {
+  getFileReportByDate,
+  getFileReportById,
+  getLatestFileReport,
+  listFileReports,
+  searchFileReports,
+  shouldUseFileStore
+} from "./file-store";
 
 type QueryOptions = {
   page?: number;
@@ -75,6 +83,25 @@ function rowToSource(row: Record<string, unknown>): Source {
 }
 
 export function upsertReport(input: GeneratedReport): FullReport {
+  if (shouldUseFileStore()) {
+    const now = new Date().toISOString();
+    return {
+      report: {
+        ...input.report,
+        id: Number(input.report.report_date.replaceAll("-", "")),
+        created_at: now,
+        updated_at: now
+      },
+      topSignals: input.topSignals,
+      events: input.events,
+      sectors: input.sectors,
+      macro: input.macro,
+      decliners: input.decliners,
+      watchlist: input.watchlist,
+      sources: input.sources
+    };
+  }
+
   migrate();
   const db = getDatabase();
   const existing = db.prepare("SELECT id FROM reports WHERE report_date = ?").get(input.report.report_date);
@@ -245,6 +272,8 @@ export function upsertReport(input: GeneratedReport): FullReport {
 }
 
 export function getReportById(id: number): FullReport | null {
+  if (shouldUseFileStore()) return getFileReportById(id);
+
   migrate();
   const db = getDatabase();
   const report = db.prepare("SELECT * FROM reports WHERE id = ?").get(id);
@@ -266,18 +295,24 @@ export function getReportById(id: number): FullReport | null {
 }
 
 export function getReportByDate(date: string): FullReport | null {
+  if (shouldUseFileStore()) return getFileReportByDate(date);
+
   migrate();
   const row = getDatabase().prepare("SELECT id FROM reports WHERE report_date = ?").get(date);
   return row?.id ? getReportById(Number(row.id)) : null;
 }
 
 export function getLatestReport(): FullReport | null {
+  if (shouldUseFileStore()) return getLatestFileReport();
+
   migrate();
   const row = getDatabase().prepare("SELECT id FROM reports ORDER BY report_date DESC, generated_at DESC LIMIT 1").get();
   return row?.id ? getReportById(Number(row.id)) : null;
 }
 
 export function listReports(options: QueryOptions = {}) {
+  if (shouldUseFileStore()) return listFileReports(options);
+
   migrate();
   const page = Math.max(1, options.page ?? 1);
   const pageSize = Math.min(50, Math.max(1, options.pageSize ?? 12));
@@ -347,10 +382,17 @@ export function listReports(options: QueryOptions = {}) {
 }
 
 export function searchReports(q: string, options: QueryOptions = {}) {
+  if (shouldUseFileStore()) return searchFileReports(q, options);
+
   return listReports({ ...options, q, pageSize: options.pageSize ?? 20 });
 }
 
 export function logGeneration(reportDate: string | null, status: "success" | "error", message: string, details?: string) {
+  if (shouldUseFileStore()) {
+    console.log(JSON.stringify({ reportDate, status, message, details }));
+    return;
+  }
+
   migrate();
   getDatabase()
     .prepare("INSERT INTO generation_logs (report_date, status, message, details) VALUES (?, ?, ?, ?)")

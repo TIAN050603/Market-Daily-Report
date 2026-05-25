@@ -5,5 +5,8 @@ dist
 .env
 .env.local
 data/*.db-*
+data/*.db
+!data/reports/
+!data/reports/*.json
 npm-debug.log*
 .next-start*.log

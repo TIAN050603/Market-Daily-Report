@@ -6,7 +6,8 @@ A full-stack dashboard for daily U.S. market intelligence reports, focused on AI
 
 - Frontend: Next.js App Router, React, TypeScript
 - Backend: Next.js API Routes
-- Database: SQLite via Node 24 built-in `node:sqlite`
+- Local storage: SQLite via Node 24 built-in `node:sqlite`
+- Public free storage: committed JSON report snapshots for Vercel read-only hosting
 - Scheduler: GitHub Actions cron, with local command support
 - Data generation: provider interface + mock provider, ready for real APIs
 
@@ -18,13 +19,14 @@ app/
   reports/                     history and detail pages
 components/                    dashboard UI sections
 config/watchlist.json          user watchlist
-lib/db/                        SQLite schema and repository
+lib/db/                        SQLite repository and file snapshot repository
 lib/providers/                 data provider interface and mock provider
 lib/reporting/                 report generation, markdown export, date helpers
 scripts/                       migration, seed, manual generation commands
 .github/workflows/             daily cron workflow
 YYYY-MM/                       generated monthly markdown report folders
-data/                          local SQLite database, ignored by git
+data/reports/                  committed JSON report snapshots for free public hosting
+data/*.db                      local SQLite database, ignored by git
 ```
 
 ## Install
@@ -33,7 +35,7 @@ data/                          local SQLite database, ignored by git
 npm install
 ```
 
-This project expects Node.js 24 because it uses the built-in SQLite driver.
+For local SQLite commands, use Node.js 24 because they rely on the built-in SQLite driver. The free Vercel deployment reads committed JSON snapshots and does not need a writable database.
 
 ## Initialize Database
 
@@ -42,7 +44,7 @@ npm run db:migrate
 npm run db:seed
 ```
 
-The seed command creates a mock report for `2026-05-25`, writes it into SQLite, and exports a Markdown copy under:
+The seed command creates a mock report for `2026-05-25`, writes it into SQLite, exports a JSON snapshot under `data/reports/`, and exports a Markdown copy under:
 
 ```text
 2026-05/2026-05-25-Daily-US-Market-Intelligence-Report.md
@@ -75,6 +77,12 @@ npm run reports:generate -- 2026-05-25
 ```
 
 The generator upserts by `report_date`, so rerunning for the same date updates the existing report instead of creating duplicates.
+
+For the free public Vercel mode, generate file snapshots with:
+
+```bash
+STORAGE_MODE=files npm run reports:generate -- 2026-05-25
+```
 
 ## API
 
@@ -116,12 +124,14 @@ Generated Markdown is committed under the monthly folder convention:
 YYYY-MM/YYYY-MM-DD-Daily-US-Market-Intelligence-Report.md
 ```
 
-If the dashboard is deployed publicly, add these GitHub repository secrets so the same workflow also updates the live database:
+The workflow commits both:
 
 ```text
-PUBLIC_GENERATE_URL=https://your-render-service.onrender.com/api/reports/generate
-REPORT_GENERATION_TOKEN=the-same-token-configured-on-render
+data/reports/YYYY-MM-DD.json
+YYYY-MM/YYYY-MM-DD-Daily-US-Market-Intelligence-Report.md
 ```
+
+When this repository is connected to Vercel, every commit triggers a fresh deployment, so the public website updates after GitHub Actions commits the new report.
 
 ## Current Mock Data
 
@@ -141,7 +151,7 @@ Mocked areas:
 - big decliners
 - market prices and volume notes
 
-The UI and APIs do not hardcode report content. They read from SQLite.
+The UI and APIs do not hardcode report content. Locally they can read SQLite; on Vercel they read committed JSON snapshots from `data/reports/`.
 
 ## Connecting Real Data Sources
 
@@ -169,41 +179,43 @@ Keep the generator contract in:
 lib/reporting/generator.ts
 ```
 
-It expects structured provider outputs and saves normalized records into the database.
+It expects structured provider outputs and saves normalized records into SQLite locally and JSON snapshots for free public hosting.
 
-## Public Deployment on Render
+## Free Public Deployment on Vercel
+
+Vercel's Hobby plan is free for personal projects. The free deployment mode in this repo avoids paid databases by reading committed JSON report snapshots.
 
 This repository includes:
 
 ```text
-Dockerfile
-render.yaml
-.dockerignore
+vercel.json
+data/reports/*.json
 ```
 
-Render deployment steps:
+Vercel deployment steps:
 
-1. Create or sign in to a Render account.
-2. Click **New +** -> **Blueprint**.
-3. Connect this GitHub repository.
-4. Render will detect `render.yaml`.
-5. Create the service.
-6. After deploy finishes, open the generated `.onrender.com` URL.
+1. Create or sign in to a Vercel account.
+2. Click **Add New...** -> **Project**.
+3. Import this GitHub repository: `TIAN050603/Market-Daily-Report`.
+4. Keep the default Next.js settings.
+5. Deploy.
+6. Open the generated `.vercel.app` URL on your phone.
 
-The Blueprint config uses:
+The included `vercel.json` sets:
 
-- Docker runtime
-- `healthCheckPath: /api/health`
-- `DATABASE_URL=/var/data/market-intel.db`
-- a 1 GB persistent disk mounted at `/var/data`
-- generated `REPORT_GENERATION_TOKEN`
+- `STORAGE_MODE=files`
+- `npm ci` as install command
+- `npm run build` as build command
 
-Important: Render's default filesystem is ephemeral. This app uses SQLite, so the `render.yaml` attaches a persistent disk. Render persistent disks are available for paid web services; if you choose a free service without a disk, generated database changes can be lost after redeploys or restarts.
+Important limitation: the Vercel site is read-only. Daily updates come from GitHub Actions committing new JSON/Markdown files, then Vercel auto-deploying the new commit. `POST /api/reports/generate` is mainly for local testing.
 
-After Render creates the service, copy the generated `REPORT_GENERATION_TOKEN` from Render and add it to GitHub Secrets together with:
+To update manually without waiting for the schedule:
 
-```text
-PUBLIC_GENERATE_URL=https://your-render-service.onrender.com/api/reports/generate
+```bash
+npm run reports:generate -- 2026-05-25
+git add data/reports 2026-05/*.md
+git commit -m "Add daily market report 2026-05-25"
+git push
 ```
 
-For a more scalable hosted deployment, replace SQLite with PostgreSQL and keep the API response shapes unchanged.
+For a more scalable hosted deployment later, replace JSON/SQLite with PostgreSQL and keep the API response shapes unchanged.

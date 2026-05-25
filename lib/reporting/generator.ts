@@ -4,6 +4,7 @@ import watchlistConfig from "@/config/watchlist.json";
 import { getDataProvider } from "@/lib/providers";
 import { MarketNewsItem } from "@/lib/providers/types";
 import { upsertReport } from "@/lib/db/reports";
+import { writeReportSnapshot } from "@/lib/db/file-store";
 import { GeneratedReport, SectorUpdate, Source, TopSignal, WatchlistItem } from "@/lib/types";
 import { getMonthlyReportPath, getTodayDate } from "./date-utils";
 import { renderMarkdown } from "./markdown";
@@ -191,6 +192,7 @@ export async function generateMarketReport(date = getTodayDate()) {
   generated.report.markdown_summary = renderMarkdown(generated);
   const saved = upsertReport(generated);
   writeMonthlyMarkdown(saved);
+  writeReportSnapshot(saved);
   return saved;
 }
 
