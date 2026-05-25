@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: market-daily-report
+    runtime: docker
+    plan: starter
+    region: oregon
+    autoDeploy: true
+    healthCheckPath: /api/health
+    disk:
+      name: market-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_TELEMETRY_DISABLED
+        value: "1"
+      - key: DATABASE_URL
+        value: /var/data/market-intel.db
+      - key: REPORT_GENERATION_TOKEN
+        generateValue: true

@@ -116,6 +116,13 @@ Generated Markdown is committed under the monthly folder convention:
 YYYY-MM/YYYY-MM-DD-Daily-US-Market-Intelligence-Report.md
 ```
 
+If the dashboard is deployed publicly, add these GitHub repository secrets so the same workflow also updates the live database:
+
+```text
+PUBLIC_GENERATE_URL=https://your-render-service.onrender.com/api/reports/generate
+REPORT_GENERATION_TOKEN=the-same-token-configured-on-render
+```
+
 ## Current Mock Data
 
 The MVP uses mock data in:
@@ -164,6 +171,39 @@ lib/reporting/generator.ts
 
 It expects structured provider outputs and saves normalized records into the database.
 
-## Deployment Notes
+## Public Deployment on Render
 
-For a single-user deployment, SQLite is fine. For multi-user hosted deployment, replace `lib/db` with PostgreSQL-backed queries and keep the API response shapes unchanged.
+This repository includes:
+
+```text
+Dockerfile
+render.yaml
+.dockerignore
+```
+
+Render deployment steps:
+
+1. Create or sign in to a Render account.
+2. Click **New +** -> **Blueprint**.
+3. Connect this GitHub repository.
+4. Render will detect `render.yaml`.
+5. Create the service.
+6. After deploy finishes, open the generated `.onrender.com` URL.
+
+The Blueprint config uses:
+
+- Docker runtime
+- `healthCheckPath: /api/health`
+- `DATABASE_URL=/var/data/market-intel.db`
+- a 1 GB persistent disk mounted at `/var/data`
+- generated `REPORT_GENERATION_TOKEN`
+
+Important: Render's default filesystem is ephemeral. This app uses SQLite, so the `render.yaml` attaches a persistent disk. Render persistent disks are available for paid web services; if you choose a free service without a disk, generated database changes can be lost after redeploys or restarts.
+
+After Render creates the service, copy the generated `REPORT_GENERATION_TOKEN` from Render and add it to GitHub Secrets together with:
+
+```text
+PUBLIC_GENERATE_URL=https://your-render-service.onrender.com/api/reports/generate
+```
+
+For a more scalable hosted deployment, replace SQLite with PostgreSQL and keep the API response shapes unchanged.

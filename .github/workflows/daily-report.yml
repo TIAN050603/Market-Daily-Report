@@ -39,3 +39,21 @@ jobs:
             git commit -m "Add daily market report $(date -u +%F)"
             git push
           fi
+      - name: Trigger deployed dashboard generation
+        env:
+          PUBLIC_GENERATE_URL: ${{ secrets.PUBLIC_GENERATE_URL }}
+          REPORT_GENERATION_TOKEN: ${{ secrets.REPORT_GENERATION_TOKEN }}
+          REPORT_DATE: ${{ github.event.inputs.report_date }}
+        run: |
+          if [ -z "$PUBLIC_GENERATE_URL" ] || [ -z "$REPORT_GENERATION_TOKEN" ]; then
+            echo "PUBLIC_GENERATE_URL or REPORT_GENERATION_TOKEN not configured; skipping deployed dashboard trigger."
+            exit 0
+          fi
+          payload="{\"date\":\"${REPORT_DATE}\"}"
+          if [ "$payload" = "{\"date\":\"\"}" ]; then
+            payload="{}"
+          fi
+          curl --fail-with-body -X POST "${PUBLIC_GENERATE_URL}" \
+            -H "Authorization: Bearer ${REPORT_GENERATION_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d "$payload"
