@@ -1,0 +1,41 @@
+name: Daily Market Report
+
+on:
+  schedule:
+    # 08:00 ET during U.S. daylight saving time. Use 13:00 UTC during standard time.
+    - cron: "0 12 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      report_date:
+        description: "Optional report date, YYYY-MM-DD"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: "npm"
+      - run: npm ci
+      - run: npm run db:migrate
+      - name: Generate report
+        run: npm run reports:generate -- ${{ github.event.inputs.report_date }}
+        env:
+          REPORT_GENERATION_TOKEN: ${{ secrets.REPORT_GENERATION_TOKEN }}
+      - name: Commit generated report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data 20??-??/*.md || true
+          if git diff --cached --quiet; then
+            echo "No report changes to commit."
+          else
+            git commit -m "Add daily market report $(date -u +%F)"
+            git push
+          fi

@@ -1,0 +1,37 @@
+{
+  "tickers": [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "TSM",
+    "ASML",
+    "ARM",
+    "SMCI",
+    "ANET",
+    "AAOI",
+    "COHR",
+    "CIEN",
+    "RKLB",
+    "ASTS",
+    "TSLA",
+    "PLTR",
+    "CRCL",
+    "GOOGL",
+    "MSFT",
+    "AMZN",
+    "META",
+    "AAPL"
+  ],
+  "sectors": [
+    "AI",
+    "Semiconductor",
+    "Optical Communication",
+    "Data Center",
+    "Cloud",
+    "Nuclear Energy",
+    "Grid Infrastructure",
+    "Defense Tech",
+    "Space Tech",
+    "Crypto Infrastructure"
+  ]
+}
