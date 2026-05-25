@@ -1,4 +1,4 @@
-# Market Intelligence Dashboard
+# Market Intelligence Dashboard (Version 1)
 
 A full-stack dashboard for daily U.S. market intelligence reports, focused on AI infrastructure, semiconductors, optical communication, cloud/software, data center power, macro risk, big decliners, and upcoming market events.
 
