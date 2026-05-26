@@ -174,13 +174,36 @@ function inferDirection(item: RssItem): MarketNewsItem["fact_status"] {
   return "uncertain";
 }
 
+function categoryReadThrough(query: RssQuery, tickers: string[]) {
+  const tickerText = tickers.length ? `直接映射到 ${tickers.slice(0, 5).join(", ")}。` : "暂未锁定单一股票，先按板块信号处理。";
+  switch (query.category) {
+    case "macro":
+      return `这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。${tickerText}`;
+    case "ai":
+      return `这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。${tickerText}`;
+    case "semiconductor":
+      return `这是半导体风格切换信号，重点区分 GPU/ASIC/先进封装受益股和传统 MCU、汽车工业链。若资金继续追逐 AI 算力，SMH 内部会继续分化。${tickerText}`;
+    case "optical_communication":
+      return `这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。${tickerText}`;
+    case "software":
+    case "cloud":
+      return `这是企业 AI 变现信号，重点看 AI 功能能否变成 RPO、净留存、云消费和价格提升，而不是只停留在产品叙事。${tickerText}`;
+    case "energy":
+      return `这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。${tickerText}`;
+    case "defense":
+      return `这是国防科技和太空商业化信号，重点看政府预算、合同节奏、发射频率和订单积压，而不是单纯概念热度。${tickerText}`;
+    case "crypto":
+      return `这是风险偏好信号，重点看 BTC/ETH、稳定币监管、矿企转 AI hosting 的合同质量，以及高杠杆标的是否放大波动。${tickerText}`;
+    default:
+      return `这是单股或行业异动信号，重点看是否来自财报、评级、监管、融资或行业轮动。${tickerText}`;
+  }
+}
+
 function toNewsItem(query: RssQuery, item: RssItem, index: number): MarketNewsItem {
   const affectedTickers = inferTickers(item.title, query.tickers ?? []);
-  const publisher = item.source ? ` - ${item.source}` : "";
   return {
     title: item.title,
-    summary:
-      `公开新闻源${publisher}在该主题下出现该信号。系统将其归入 ${query.sectors.join(", ")}，需要结合盘前价格、成交量和后续正式公告确认影响强度。`,
+    summary: `${categoryReadThrough(query, affectedTickers)} 来源主题：${query.sectors.join(", ")}。`,
     category: query.category,
     fact_status: inferDirection(item),
     affected_tickers: affectedTickers,
@@ -309,13 +332,13 @@ export class PublicRssMarketDataProvider implements DataProvider {
             ticker: symbol,
             company_name: row.companyName,
             previous_day_change_percent: row.changePercent,
-            volume_note: `StockAnalysis 显示成交量为 ${row.volume}；是否异常仍需接入均量数据源复核。`,
+            volume_note: `StockAnalysis 显示成交量为 ${row.volume}。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。`,
             reason: leadNews
-              ? `行情筛选显示该股位列前一交易日跌幅榜，同时相关公开新闻包括：“${leadNews.title}”。原因归因仍需结合公司公告、财报、评级和盘前成交复核。`
-              : "行情筛选显示该股位列前一交易日跌幅榜；暂未抓到足够明确的单一新闻催化，原因标记为不确定。",
+              ? `该股进入跌幅榜，同时相关公开新闻指向：“${leadNews.title}”。优先判断为单股催化或主题退潮引发的风险重定价，重点看跌幅是否扩散到同板块。`
+              : "该股进入跌幅榜但未抓到明确单一新闻催化，优先按价格异动处理：若同板块多股同步下跌，更可能是行业或风险偏好问题；若孤立下跌，更可能是公司自身催化。",
             reason_type: leadNews ? ("company_specific" as const) : ("unknown" as const),
             catalysts: leadNews ? [leadNews.category, leadNews.fact_status] : ["price_action", "needs_news_confirmation"],
-            watch_points: "继续观察是否有财报、评级调整、增发/减持、监管、诉讼或行业性压力解释该跌幅。",
+            watch_points: "盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。",
             source_urls: leadNews?.source_urls?.length
               ? leadNews.source_urls
               : source("StockAnalysis top losers", "https://stockanalysis.com/markets/losers/")

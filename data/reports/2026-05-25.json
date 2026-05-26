@@ -1,21 +1,21 @@
 {
   "report": {
     "report_date": "2026-05-25",
-    "generated_at": "2026-05-26T12:57:00.095Z",
+    "generated_at": "2026-05-26T13:09:20.202Z",
     "market_session": "non-trading-day",
     "market_summary": "2026-05-25 美股因 Memorial Day 休市，这份报告更像盘前准备清单：重点不是盘中走势，而是整理 2026-05-26 开盘后可能被重新定价的 AI 基础设施财报、PCE/GDP 数据、利率变化和半导体产业链信号。",
     "overall_sentiment": "mixed",
     "main_theme": "Memorial Day 休市，等待 2026-05-26 重新定价 AI 财报与宏观风险",
-    "markdown_summary": "# Daily US Market Intelligence Report\n日期：2026-05-25\n覆盖范围：2026-05-25 至 2026-06-01\n美股状态：non-trading-day\n\n## 1. 2026-05-25 最重要的 3-5 个市场信号\n### 1. Memorial Day 休市，市场等待 2026-05-26 重新开盘定价\n- 事件 / 信号是什么：2026-05-25 美股因 Memorial Day 休市，周末和假期期间的 AI、宏观与利率信息会集中在 2026-05-26 盘前和开盘后反映。 信息性质：已经发生的事实。\n- 为什么重要：该信号可能影响资金对指数、AI 科技链和长久期成长股的风险定价。\n- 可能影响的方向：uncertain\n- 可能影响的板块或股票：Macro, AI, Semiconductor, QQQ, SPY, SMH\n- 影响时间：this_week\n- 信息来源链接：[NYSE holiday calendar](https://www.nyse.com/markets/hours-calendars?os=roku___)\n\n### 2. Nvidia 财报继续支撑 AI 基础设施需求\n- 事件 / 信号是什么：最新财报继续显示数据中心收入和 AI 需求强劲，但市场接下来会验证外溢到 ASIC、网络和服务器链的程度。 信息性质：已经发生的事实。\n- 为什么重要：该信号可能影响资金对指数、AI 科技链和长久期成长股的风险定价。\n- 可能影响的方向：bullish\n- 可能影响的板块或股票：AI Infrastructure, Semiconductor, Data Center, NVDA, MRVL, AVGO, DELL, SMCI\n- 影响时间：this_week\n- 信息来源链接：[Axios Nvidia earnings](https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring)\n\n### 3. 数据中心电力约束成为 AI 估值的新变量\n- 事件 / 信号是什么：公用事业并购和清洁能源采购显示 AI 电力需求正在改变能源基础设施投资逻辑。 信息性质：合理推测。\n- 为什么重要：该信号可能影响资金对指数、AI 科技链和长久期成长股的风险定价。\n- 可能影响的方向：uncertain\n- 可能影响的板块或股票：Data Center Power, Energy, Grid Infrastructure, NEE, D, CEG, VST, VRT, ETN\n- 影响时间：medium_term\n- 信息来源链接：[Axios power deal](https://www.axios.com/2026/05/19/nextera-dominion-deal-power-elecricity-scale)\n\n### 4. CPO / 硅光继续被 AI 网络瓶颈推到前台\n- 事件 / 信号是什么：1.6T 光模块、CPO、DSP、交换芯片是 AI 集群扩容后的关键约束。 信息性质：合理推测。\n- 为什么重要：该信号可能影响资金对指数、AI 科技链和长久期成长股的风险定价。\n- 可能影响的方向：bullish\n- 可能影响的板块或股票：Optical Communication, Networking, MRVL, AVGO, COHR, LITE, CIEN, AAOI, GFS\n- 影响时间：medium_term\n- 信息来源链接：[GlobalFoundries CPO](https://www.marketscreener.com/news/globalfoundries-accelerates-adoption-of-co-packaged-optics-for-advanced-ai-data-centers-with-scale-o-ce7f58ded188ff22)\n\n### 5. 企业软件进入 AI 变现检查点\n- 事件 / 信号是什么：Salesforce 和 Snowflake 财报会检验 AI 功能是否转化为 RPO、净留存和云消费增长。 信息性质：市场预期。\n- 为什么重要：该信号可能影响资金对指数、AI 科技链和长久期成长股的风险定价。\n- 可能影响的方向：uncertain\n- 可能影响的板块或股票：Cloud, Software, CRM, SNOW, MSFT, ORCL\n- 影响时间：medium_term\n- 信息来源链接：[Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks)\n\n## 2. 2026-05-25 至 2026-06-01 关键事件日历\n| 日期 | 事件 | 重要性 | 可能影响的资产或板块 | 需要关注的关键点 | 来源 |\n|---|---|---|---|---|---|\n| 2026-05-27 | Federal Reserve speaker calendar | medium | Rates, Banks, Growth stocks | 关注官员对通胀、就业和降息路径的表述是否发生边际变化。 | [Federal Reserve calendar](https://www.federalreserve.gov/newsevents/calendar.htm) |\n| 2026-05-27 | Marvell Technology earnings | high | MRVL, AVGO, NVDA, AI ASIC, Optical networking | AI custom silicon、光互连、数据中心网络收入和指引。 | [Marvell IR calendar](https://investor.marvell.com/news-events/ir-calendar) |\n| 2026-05-27 | Synopsys earnings | high | SNPS, CDNS, Semiconductor design | EDA 需求和 AI ASIC 设计活动是否继续强劲。 | [Synopsys events](https://investor.synopsys.com/events-and-presentations/default.aspx) |\n| 2026-05-27 | Snowflake earnings | high | SNOW, Cloud, AI data platform | 产品收入增长、AI Data Cloud 消费、剩余履约义务和 FY2027 指引。 | [Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks) |\n| 2026-05-28 | BEA Personal Income and Outlays / PCE | high | US Treasury yields, Nasdaq, Growth stocks, USD | 核心 PCE 是否高于预期，决定长久期科技股估值压力。 | [BEA release schedule](https://www.bea.gov/news/schedule) |\n| 2026-05-28 | Q1 GDP second estimate | high | S&P 500, USD, Cyclicals | 增长和价格分项是否显示滞胀压力。 | [BEA GDP](https://www.bea.gov/data/gdp/gross-domestic-product) |\n| 2026-05-28 | Dell Technologies Q1 FY2027 earnings | high | DELL, AI servers, SMCI, VRT, NVDA | AI server backlog、ISG margin、GPU server 订单质量和 FY2027 指引。 | [Dell upcoming events](https://delltechnologies.gcs-web.com/news-events/upcoming-events) |\n\n## 3. AI / 科技 / 半导体 / 光通信重点观察\n### AI Infrastructure\n- 最新催化：Memorial Day 休市，市场等待 2026-05-26 重新开盘定价：2026-05-25 美股因 Memorial Day 休市，周末和假期期间的 AI、宏观与利率信息会集中在 2026-05-26 盘前和开盘后反映。；Nvidia 财报继续支撑 AI 基础设施需求：最新财报继续显示数据中心收入和 AI 需求强劲，但市场接下来会验证外溢到 ASIC、网络和服务器链的程度。\n- 受益股票：NVDA, DELL, SMCI, VRT, ANET\n- 承压股票：估值高但订单验证不足的 AI 概念股\n- 需要继续观察的信号：AI server backlog；GPU supply；推理需求；云厂商 capex\n- 板块情绪：bullish\n- 来源：[NYSE holiday calendar](https://www.nyse.com/markets/hours-calendars?os=roku___), [Axios Nvidia earnings](https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring)\n\n### Semiconductors\n- 最新催化：Memorial Day 休市，市场等待 2026-05-26 重新开盘定价：2026-05-25 美股因 Memorial Day 休市，周末和假期期间的 AI、宏观与利率信息会集中在 2026-05-26 盘前和开盘后反映。；Nvidia 财报继续支撑 AI 基础设施需求：最新财报继续显示数据中心收入和 AI 需求强劲，但市场接下来会验证外溢到 ASIC、网络和服务器链的程度。\n- 受益股票：MRVL, AVGO, SNPS, CDNS, TSM, ASML\n- 承压股票：MCHP, 传统 MCU/汽车工业链复苏较慢标的\n- 需要继续观察的信号：数据中心收入；先进制程需求；毛利率；客户集中度\n- 板块情绪：bullish\n- 来源：[NYSE holiday calendar](https://www.nyse.com/markets/hours-calendars?os=roku___), [Axios Nvidia earnings](https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring)\n\n### Optical Communication / Networking\n- 最新催化：CPO / 硅光继续被 AI 网络瓶颈推到前台：1.6T 光模块、CPO、DSP、交换芯片是 AI 集群扩容后的关键约束。\n- 受益股票：COHR, LITE, CIEN, AAOI, MRVL, AVGO, GLW\n- 承压股票：订单兑现慢或价格竞争加剧的高波动光模块股\n- 需要继续观察的信号：1.6T 订单；CPO 量产；DSP 供应；交换芯片路线图\n- 板块情绪：bullish\n- 来源：[GlobalFoundries CPO](https://www.marketscreener.com/news/globalfoundries-accelerates-adoption-of-co-packaged-optics-for-advanced-ai-data-centers-with-scale-o-ce7f58ded188ff22)\n\n### Cloud / Software\n- 最新催化：Nvidia 财报继续支撑 AI 基础设施需求：最新财报继续显示数据中心收入和 AI 需求强劲，但市场接下来会验证外溢到 ASIC、网络和服务器链的程度。；企业软件进入 AI 变现检查点：Salesforce 和 Snowflake 财报会检验 AI 功能是否转化为 RPO、净留存和云消费增长。\n- 受益股票：CRM, SNOW, MSFT, ORCL, DDOG\n- 承压股票：INTU, AI 替代风险较高的软件股\n- 需要继续观察的信号：RPO；净留存率；AI 产品 ARPU；云消费增长\n- 板块情绪：mixed\n- 来源：[Axios Nvidia earnings](https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring), [Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks)\n\n### Data Center Power / Energy\n- 最新催化：Nvidia 财报继续支撑 AI 基础设施需求：最新财报继续显示数据中心收入和 AI 需求强劲，但市场接下来会验证外溢到 ASIC、网络和服务器链的程度。；数据中心电力约束成为 AI 估值的新变量：公用事业并购和清洁能源采购显示 AI 电力需求正在改变能源基础设施投资逻辑。\n- 受益股票：NEE, D, CEG, VST, ETN, PWR, VRT\n- 承压股票：电力接入慢且融资成本高的数据中心项目\n- 需要继续观察的信号：PPA 价格；监管审批；核能项目；电网接入\n- 板块情绪：bullish\n- 来源：[Axios Nvidia earnings](https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring), [Axios power deal](https://www.axios.com/2026/05/19/nextera-dominion-deal-power-elecricity-scale)\n\n### Robotics / Automation\n- 最新催化：Nvidia 财报继续支撑 AI 基础设施需求：最新财报继续显示数据中心收入和 AI 需求强劲，但市场接下来会验证外溢到 ASIC、网络和服务器链的程度。\n- 受益股票：TSLA, ISRG, ROK, TER\n- 承压股票：订单不清晰的纯概念机器人股\n- 需要继续观察的信号：量产节奏；单位经济性；企业自动化 capex\n- 板块情绪：uncertain\n- 来源：[Axios Nvidia earnings](https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring)\n\n### Space / Defense Tech\n- 最新催化：太空商业化和国防科技仍受预算、发射合同与地缘政治驱动\n- 受益股票：RKLB, ASTS, LMT, NOC, PLTR\n- 承压股票：现金流弱、依赖融资的早期太空股\n- 需要继续观察的信号：发射频率；政府合同；预算案；订单积压\n- 板块情绪：uncertain\n- 来源：[Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks)\n\n### Crypto-related Tech\n- 最新催化：加密风险偏好和矿企 AI 数据中心转型继续影响股价\n- 受益股票：COIN, MSTR, RIOT, MARA, IREN, CRCL\n- 承压股票：高杠杆矿企, 电力成本上行的挖矿股\n- 需要继续观察的信号：BTC/ETH 价格；稳定币监管；AI hosting 合同质量\n- 板块情绪：uncertain\n- 来源：[Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks)\n\n### Other Tech-linked Themes\n- 最新催化：Memorial Day 休市，市场等待 2026-05-26 重新开盘定价：2026-05-25 美股因 Memorial Day 休市，周末和假期期间的 AI、宏观与利率信息会集中在 2026-05-26 盘前和开盘后反映。\n- 受益股票：AAPL, GOOGL, META, AMZN\n- 承压股票：供应链或监管暴露较高的科技股\n- 需要继续观察的信号：美元；关税；出口管制；反垄断监管\n- 板块情绪：uncertain\n- 来源：[NYSE holiday calendar](https://www.nyse.com/markets/hours-calendars?os=roku___)\n\n## 4. 大盘与宏观环境\n- 美债收益率变化：利率线索来自最新公开信号：“Memorial Day 休市，市场等待 2026-05-26 重新开盘定价”。若 10Y/2Y 美债收益率上行，高估值成长股和 AI 软件股估值会更敏感。\n- 美元指数：美元方向重点参考：“数据中心电力约束成为 AI 估值的新变量”。强美元通常压制跨国科技公司估值和海外收入折算。\n- 原油 / 黄金：能源相关信号：数据中心电力约束成为 AI 估值的新变量。油价上冲会通过通胀预期影响利率和风险偏好。；黄金部分仍需接入实时行情；若黄金与美元同涨，通常代表避险需求升温。\n- VIX 或市场风险偏好：VIX 部分仍需接入实时行情；当前报告用新闻强度和事件密度作为风险偏好代理。\n- 重要宏观数据或预期：覆盖期内关键宏观/Fed 事件：2026-05-27 Federal Reserve speaker calendar；2026-05-28 BEA Personal Income and Outlays / PCE；2026-05-28 Q1 GDP second estimate。\n- 对成长股、科技股、小盘股的影响：如果通胀/利率信号偏热，优先压制长久期科技股、小盘成长股和高估值 AI 概念；如果利率回落，AI 基础设施和半导体更容易获得估值支撑。\n- 来源：[NYSE holiday calendar](https://www.nyse.com/markets/hours-calendars?os=roku___), [Axios power deal](https://www.axios.com/2026/05/19/nextera-dominion-deal-power-elecricity-scale), [Federal Reserve calendar](https://www.federalreserve.gov/newsevents/calendar.htm), [BEA release schedule](https://www.bea.gov/news/schedule), [BEA GDP](https://www.bea.gov/data/gdp/gross-domestic-product)\n\n## 5. 前一个交易日跌幅较大的股票复盘\n### INTU - Intuit\n- 前一交易日跌幅：-20%\n- 成交量是否异常：财报后单日大幅波动，成交量大概率显著高于均值；生产环境需接行情 API 精确复核。\n- 可能下跌原因：市场担心传统财税软件增长质量、AI 替代风险和重组信号，即使财报本身并不差。\n- 原因类型：company_specific\n- 催化：财报；重组/裁员；指引；软件估值重估\n- 需要继续观察的点：关注 TurboTax 在线份额、QuickBooks 增长、AI 产品能否提升定价。\n- 来源：[Intuit 8-K](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/intu-20260520.htm)\n\n### TTWO - Take-Two Interactive\n- 前一交易日跌幅：-6.5%\n- 成交量是否异常：财报后波动，成交量需接入 market data provider 后精确判断。\n- 可能下跌原因：市场重新评估 GTA VI 预期、FY2027 兑现路径和当前估值中已包含多少乐观情绪。\n- 原因类型：company_specific\n- 催化：FY2026 results；GTA VI timing；net bookings outlook\n- 需要继续观察的点：GTA VI 时间表、预售、FY2027 net bookings 指引。\n- 来源：[Take-Two earnings release](https://ir.take2games.com/static-files/de7eeb58-9a3d-44c4-8407-9b0453cae8a4)\n\n### MCHP - Microchip Technology\n- 前一交易日跌幅：-3.88%\n- 成交量是否异常：公开页面显示成交量约 417.9 万股；是否异常需与 30 日均量比较。\n- 可能下跌原因：半导体内部资金更偏好 AI 数据中心纯受益链，传统 MCU/工业复苏节奏仍待验证。\n- 原因类型：sector_driven\n- 催化：财报；10-K；半导体风格轮动\n- 需要继续观察的点：订单恢复、渠道库存、工业和汽车需求。\n- 来源：[Microchip 10-K](https://ir.microchip.com/sec-filings/all-sec-filings/content/0000827054-26-000016/0000827054-26-000016.pdf)\n\n## 6. 2026-05-25 值得重点盯盘的股票 / 板块\n| 股票 / 板块 | 为什么值得看 | 关键触发点 | 风险点 | 优先级 | 来源 |\n|---|---|---|---|---|---|\n| QQQ | 进入 2026-05-25 高权重信号：“Memorial Day 休市，市场等待 2026-05-26 重新开盘定价”。 | Memorial Day 休市，市场等待 2026-05-26 重新开盘定价 | 需要观察市场是否已经充分定价该事实。 | high | [NYSE holiday calendar](https://www.nyse.com/markets/hours-calendars?os=roku___) |\n| NVDA | 进入 2026-05-25 高权重信号：“Nvidia 财报继续支撑 AI 基础设施需求”。 | Marvell Technology earnings | 需要观察市场是否已经充分定价该事实。 | high | [Axios Nvidia earnings](https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring) |\n| NEE | 进入 2026-05-25 高权重信号：“数据中心电力约束成为 AI 估值的新变量”。 | Dell Technologies Q1 FY2027 earnings | 该信号仍含预期或推测成分，需要等待价格和正式公告确认。 | medium | [Axios power deal](https://www.axios.com/2026/05/19/nextera-dominion-deal-power-elecricity-scale) |\n| MRVL | 进入 2026-05-25 高权重信号：“CPO / 硅光继续被 AI 网络瓶颈推到前台”。 | Marvell Technology earnings | 该信号仍含预期或推测成分，需要等待价格和正式公告确认。 | medium | [GlobalFoundries CPO](https://www.marketscreener.com/news/globalfoundries-accelerates-adoption-of-co-packaged-optics-for-advanced-ai-data-centers-with-scale-o-ce7f58ded188ff22) |\n\n## 7. 总结：2026-05-25 市场的主线是什么？\n2026-05-25 美股因 Memorial Day 休市，这份报告更像盘前准备清单：重点不是盘中走势，而是整理 2026-05-26 开盘后可能被重新定价的 AI 基础设施财报、PCE/GDP 数据、利率变化和半导体产业链信号。\n\n来源说明：本总结综合以上 Top Signals、事件日历、板块、宏观和个股复盘模块的公开来源，不构成买卖建议。\n",
+    "markdown_summary": "# Daily US Market Intelligence Report\n日期：2026-05-25\n覆盖范围：2026-05-25 至 2026-06-01\n美股状态：non-trading-day\n\n## 1. 2026-05-25 最重要的 3-5 个市场信号\n### 1. Memorial Day 休市，市场等待 2026-05-26 重新开盘定价\n- 事件 / 信号是什么：2026-05-25 美股因 Memorial Day 休市，周末和假期期间的 AI、宏观与利率信息会集中在 2026-05-26 盘前和开盘后反映。 盘前优先看 QQQ, SPY, SMH 是否带动 Macro / AI / Semiconductor 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：已经发生的事实。\n- 为什么重要：宏观信号决定估值折现率：利率上行会先压制 Nasdaq、软件和小盘成长，利率回落则更利于半导体与 AI 基础设施延续风险偏好。\n- 可能影响的方向：uncertain\n- 可能影响的板块或股票：Macro, AI, Semiconductor, QQQ, SPY, SMH\n- 影响时间：this_week\n- 信息来源链接：[NYSE holiday calendar](https://www.nyse.com/markets/hours-calendars?os=roku___)\n\n### 2. Nvidia 财报继续支撑 AI 基础设施需求\n- 事件 / 信号是什么：最新财报继续显示数据中心收入和 AI 需求强劲，但市场接下来会验证外溢到 ASIC、网络和服务器链的程度。 盘前优先看 NVDA, MRVL, AVGO, DELL, SMCI 是否带动 AI Infrastructure / Semiconductor / Data Center 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：已经发生的事实。\n- 为什么重要：AI 信号的关键在于 capex 是否继续扩散：如果订单从 GPU 扩到服务器、电源、散热和网络，受益链条会变宽；如果只集中在少数龙头，概念股会分化。\n- 可能影响的方向：bullish\n- 可能影响的板块或股票：AI Infrastructure, Semiconductor, Data Center, NVDA, MRVL, AVGO, DELL, SMCI\n- 影响时间：this_week\n- 信息来源链接：[Axios Nvidia earnings](https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring)\n\n### 3. 数据中心电力约束成为 AI 估值的新变量\n- 事件 / 信号是什么：公用事业并购和清洁能源采购显示 AI 电力需求正在改变能源基础设施投资逻辑。 盘前优先看 NEE, D, CEG, VST, VRT, ETN 是否带动 Data Center Power / Energy / Grid Infrastructure 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：合理推测。\n- 为什么重要：电力能源影响 AI 数据中心落地速度。电网、核能、PPA 和散热能力会影响数据中心建设成本，也会反向影响 AI capex 节奏。\n- 可能影响的方向：uncertain\n- 可能影响的板块或股票：Data Center Power, Energy, Grid Infrastructure, NEE, D, CEG, VST, VRT, ETN\n- 影响时间：medium_term\n- 信息来源链接：[Axios power deal](https://www.axios.com/2026/05/19/nextera-dominion-deal-power-elecricity-scale)\n\n### 4. CPO / 硅光继续被 AI 网络瓶颈推到前台\n- 事件 / 信号是什么：1.6T 光模块、CPO、DSP、交换芯片是 AI 集群扩容后的关键约束。 盘前优先看 MRVL, AVGO, COHR, LITE, CIEN, AAOI 是否带动 Optical Communication / Networking 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：合理推测。\n- 为什么重要：光通信是 AI 集群扩容的瓶颈环节之一，若 CPO/1.6T/硅光订单继续被验证，资金可能从 GPU 龙头外溢到网络和光模块链。\n- 可能影响的方向：bullish\n- 可能影响的板块或股票：Optical Communication, Networking, MRVL, AVGO, COHR, LITE, CIEN, AAOI, GFS\n- 影响时间：medium_term\n- 信息来源链接：[GlobalFoundries CPO](https://www.marketscreener.com/news/globalfoundries-accelerates-adoption-of-co-packaged-optics-for-advanced-ai-data-centers-with-scale-o-ce7f58ded188ff22)\n\n### 5. 企业软件进入 AI 变现检查点\n- 事件 / 信号是什么：Salesforce 和 Snowflake 财报会检验 AI 功能是否转化为 RPO、净留存和云消费增长。 盘前优先看 CRM, SNOW, MSFT, ORCL 是否带动 Cloud / Software 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：市场预期。\n- 为什么重要：软件和云的重点是 AI 能否真正变现。RPO、净留存、云消费和毛利率比产品发布更能决定估值方向。\n- 可能影响的方向：uncertain\n- 可能影响的板块或股票：Cloud, Software, CRM, SNOW, MSFT, ORCL\n- 影响时间：medium_term\n- 信息来源链接：[Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks)\n\n## 2. 2026-05-25 至 2026-06-01 关键事件日历\n| 日期 | 事件 | 重要性 | 可能影响的资产或板块 | 需要关注的关键点 | 来源 |\n|---|---|---|---|---|---|\n| 2026-05-27 | Federal Reserve speaker calendar | medium | Rates, Banks, Growth stocks | 关注官员对通胀、就业和降息路径的表述是否发生边际变化。 | [Federal Reserve calendar](https://www.federalreserve.gov/newsevents/calendar.htm) |\n| 2026-05-27 | Marvell Technology earnings | high | MRVL, AVGO, NVDA, AI ASIC, Optical networking | AI custom silicon、光互连、数据中心网络收入和指引。 | [Marvell IR calendar](https://investor.marvell.com/news-events/ir-calendar) |\n| 2026-05-27 | Synopsys earnings | high | SNPS, CDNS, Semiconductor design | EDA 需求和 AI ASIC 设计活动是否继续强劲。 | [Synopsys events](https://investor.synopsys.com/events-and-presentations/default.aspx) |\n| 2026-05-27 | Snowflake earnings | high | SNOW, Cloud, AI data platform | 产品收入增长、AI Data Cloud 消费、剩余履约义务和 FY2027 指引。 | [Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks) |\n| 2026-05-28 | BEA Personal Income and Outlays / PCE | high | US Treasury yields, Nasdaq, Growth stocks, USD | 核心 PCE 是否高于预期，决定长久期科技股估值压力。 | [BEA release schedule](https://www.bea.gov/news/schedule) |\n| 2026-05-28 | Q1 GDP second estimate | high | S&P 500, USD, Cyclicals | 增长和价格分项是否显示滞胀压力。 | [BEA GDP](https://www.bea.gov/data/gdp/gross-domestic-product) |\n| 2026-05-28 | Dell Technologies Q1 FY2027 earnings | high | DELL, AI servers, SMCI, VRT, NVDA | AI server backlog、ISG margin、GPU server 订单质量和 FY2027 指引。 | [Dell upcoming events](https://delltechnologies.gcs-web.com/news-events/upcoming-events) |\n\n## 3. AI / 科技 / 半导体 / 光通信重点观察\n### AI Infrastructure\n- 最新催化：Memorial Day 休市，市场等待 2026-05-26 重新开盘定价：2026-05-25 美股因 Memorial Day 休市，周末和假期期间的 AI、宏观与利率信息会集中在 2026-05-26 盘前和开盘后反映。；Nvidia 财报继续支撑 AI 基础设施需求：最新财报继续显示数据中心收入和 AI 需求强劲，但市场接下来会验证外溢到 ASIC、网络和服务器链的程度。\n- 受益股票：NVDA, DELL, SMCI, VRT, ANET\n- 承压股票：估值高但订单验证不足的 AI 概念股\n- 需要继续观察的信号：AI server backlog；GPU supply；推理需求；云厂商 capex\n- 板块情绪：bullish\n- 来源：[NYSE holiday calendar](https://www.nyse.com/markets/hours-calendars?os=roku___), [Axios Nvidia earnings](https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring)\n\n### Semiconductors\n- 最新催化：Memorial Day 休市，市场等待 2026-05-26 重新开盘定价：2026-05-25 美股因 Memorial Day 休市，周末和假期期间的 AI、宏观与利率信息会集中在 2026-05-26 盘前和开盘后反映。；Nvidia 财报继续支撑 AI 基础设施需求：最新财报继续显示数据中心收入和 AI 需求强劲，但市场接下来会验证外溢到 ASIC、网络和服务器链的程度。\n- 受益股票：MRVL, AVGO, SNPS, CDNS, TSM, ASML\n- 承压股票：MCHP, 传统 MCU/汽车工业链复苏较慢标的\n- 需要继续观察的信号：数据中心收入；先进制程需求；毛利率；客户集中度\n- 板块情绪：bullish\n- 来源：[NYSE holiday calendar](https://www.nyse.com/markets/hours-calendars?os=roku___), [Axios Nvidia earnings](https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring)\n\n### Optical Communication / Networking\n- 最新催化：CPO / 硅光继续被 AI 网络瓶颈推到前台：1.6T 光模块、CPO、DSP、交换芯片是 AI 集群扩容后的关键约束。\n- 受益股票：COHR, LITE, CIEN, AAOI, MRVL, AVGO, GLW\n- 承压股票：订单兑现慢或价格竞争加剧的高波动光模块股\n- 需要继续观察的信号：1.6T 订单；CPO 量产；DSP 供应；交换芯片路线图\n- 板块情绪：bullish\n- 来源：[GlobalFoundries CPO](https://www.marketscreener.com/news/globalfoundries-accelerates-adoption-of-co-packaged-optics-for-advanced-ai-data-centers-with-scale-o-ce7f58ded188ff22)\n\n### Cloud / Software\n- 最新催化：企业软件进入 AI 变现检查点：Salesforce 和 Snowflake 财报会检验 AI 功能是否转化为 RPO、净留存和云消费增长。\n- 受益股票：CRM, SNOW, MSFT, ORCL, DDOG\n- 承压股票：INTU, AI 替代风险较高的软件股\n- 需要继续观察的信号：RPO；净留存率；AI 产品 ARPU；云消费增长\n- 板块情绪：mixed\n- 来源：[Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks)\n\n### Data Center Power / Energy\n- 最新催化：数据中心电力约束成为 AI 估值的新变量：公用事业并购和清洁能源采购显示 AI 电力需求正在改变能源基础设施投资逻辑。\n- 受益股票：NEE, D, CEG, VST, ETN, PWR, VRT\n- 承压股票：电力接入慢且融资成本高的数据中心项目\n- 需要继续观察的信号：PPA 价格；监管审批；核能项目；电网接入\n- 板块情绪：bullish\n- 来源：[Axios power deal](https://www.axios.com/2026/05/19/nextera-dominion-deal-power-elecricity-scale)\n\n### Robotics / Automation\n- 最新催化：AI 从云端模型向实体自动化扩散仍是中期主题\n- 受益股票：TSLA, ISRG, ROK, TER\n- 承压股票：订单不清晰的纯概念机器人股\n- 需要继续观察的信号：量产节奏；单位经济性；企业自动化 capex\n- 板块情绪：uncertain\n- 来源：[Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks)\n\n### Space / Defense Tech\n- 最新催化：太空商业化和国防科技仍受预算、发射合同与地缘政治驱动\n- 受益股票：RKLB, ASTS, LMT, NOC, PLTR\n- 承压股票：现金流弱、依赖融资的早期太空股\n- 需要继续观察的信号：发射频率；政府合同；预算案；订单积压\n- 板块情绪：uncertain\n- 来源：[Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks)\n\n### Crypto-related Tech\n- 最新催化：加密风险偏好和矿企 AI 数据中心转型继续影响股价\n- 受益股票：COIN, MSTR, RIOT, MARA, IREN, CRCL\n- 承压股票：高杠杆矿企, 电力成本上行的挖矿股\n- 需要继续观察的信号：BTC/ETH 价格；稳定币监管；AI hosting 合同质量\n- 板块情绪：uncertain\n- 来源：[Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks)\n\n### Other Tech-linked Themes\n- 最新催化：Memorial Day 休市，市场等待 2026-05-26 重新开盘定价：2026-05-25 美股因 Memorial Day 休市，周末和假期期间的 AI、宏观与利率信息会集中在 2026-05-26 盘前和开盘后反映。\n- 受益股票：AAPL, GOOGL, META, AMZN\n- 承压股票：供应链或监管暴露较高的科技股\n- 需要继续观察的信号：美元；关税；出口管制；反垄断监管\n- 板块情绪：uncertain\n- 来源：[NYSE holiday calendar](https://www.nyse.com/markets/hours-calendars?os=roku___)\n\n## 4. 大盘与宏观环境\n- 美债收益率变化：利率线索来自最新公开信号：“Memorial Day 休市，市场等待 2026-05-26 重新开盘定价”。若 10Y/2Y 美债收益率上行，高估值成长股和 AI 软件股估值会更敏感。\n- 美元指数：美元方向重点参考：“数据中心电力约束成为 AI 估值的新变量”。强美元通常压制跨国科技公司估值和海外收入折算。\n- 原油 / 黄金：能源相关信号：数据中心电力约束成为 AI 估值的新变量。油价上冲会通过通胀预期影响利率和风险偏好。；黄金如果和美元同涨，通常代表避险需求升温；如果黄金回落而美债收益率稳定，成长股风险偏好更容易维持。\n- VIX 或市场风险偏好：风险偏好用两个信号观察：指数是否扩散上涨，以及高 beta 科技股是否跑赢防御板块。若 Top Signals 只集中在少数股票，说明市场仍是分化行情。\n- 重要宏观数据或预期：覆盖期内关键宏观/Fed 事件：2026-05-27 Federal Reserve speaker calendar；2026-05-28 BEA Personal Income and Outlays / PCE；2026-05-28 Q1 GDP second estimate。\n- 对成长股、科技股、小盘股的影响：如果通胀/利率信号偏热，优先压制长久期科技股、小盘成长股和高估值 AI 概念；如果利率回落，AI 基础设施和半导体更容易获得估值支撑。\n- 来源：[NYSE holiday calendar](https://www.nyse.com/markets/hours-calendars?os=roku___), [Axios power deal](https://www.axios.com/2026/05/19/nextera-dominion-deal-power-elecricity-scale), [Federal Reserve calendar](https://www.federalreserve.gov/newsevents/calendar.htm), [BEA release schedule](https://www.bea.gov/news/schedule), [BEA GDP](https://www.bea.gov/data/gdp/gross-domestic-product)\n\n## 5. 前一个交易日跌幅较大的股票复盘\n### INTU - Intuit\n- 前一交易日跌幅：-20%\n- 成交量是否异常：财报后单日大幅波动，说明资金对增长质量和 AI 替代风险重新定价。\n- 可能下跌原因：市场担心传统财税软件增长质量、AI 替代风险和重组信号，即使财报本身并不差。\n- 原因类型：company_specific\n- 催化：财报；重组/裁员；指引；软件估值重估\n- 需要继续观察的点：关注 TurboTax 在线份额、QuickBooks 增长、AI 产品能否提升定价。\n- 来源：[Intuit 8-K](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/intu-20260520.htm)\n\n### TTWO - Take-Two Interactive\n- 前一交易日跌幅：-6.5%\n- 成交量是否异常：财报后波动，说明市场在重新评估 GTA VI 预期兑现节奏。\n- 可能下跌原因：市场重新评估 GTA VI 预期、FY2027 兑现路径和当前估值中已包含多少乐观情绪。\n- 原因类型：company_specific\n- 催化：FY2026 results；GTA VI timing；net bookings outlook\n- 需要继续观察的点：GTA VI 时间表、预售、FY2027 net bookings 指引。\n- 来源：[Take-Two earnings release](https://ir.take2games.com/static-files/de7eeb58-9a3d-44c4-8407-9b0453cae8a4)\n\n### MCHP - Microchip Technology\n- 前一交易日跌幅：-3.88%\n- 成交量是否异常：公开页面显示成交量约 417.9 万股；是否异常需与 30 日均量比较。\n- 可能下跌原因：半导体内部资金更偏好 AI 数据中心纯受益链，传统 MCU/工业复苏节奏仍待验证。\n- 原因类型：sector_driven\n- 催化：财报；10-K；半导体风格轮动\n- 需要继续观察的点：订单恢复、渠道库存、工业和汽车需求。\n- 来源：[Microchip 10-K](https://ir.microchip.com/sec-filings/all-sec-filings/content/0000827054-26-000016/0000827054-26-000016.pdf)\n\n## 6. 2026-05-25 值得重点盯盘的股票 / 板块\n| 股票 / 板块 | 为什么值得看 | 关键触发点 | 风险点 | 优先级 | 来源 |\n|---|---|---|---|---|---|\n| QQQ | 2026-05-25 高权重信号对应的核心观察对象：“Memorial Day 休市，市场等待 2026-05-26 重新开盘定价”。关注它是否从新闻标题变成板块共振。 | Memorial Day 休市，市场等待 2026-05-26 重新开盘定价 | 利率或美元若反向走强，会削弱科技股风险偏好。 | high | [NYSE holiday calendar](https://www.nyse.com/markets/hours-calendars?os=roku___) |\n| NVDA | 2026-05-25 高权重信号对应的核心观察对象：“Nvidia 财报继续支撑 AI 基础设施需求”。关注它是否从新闻标题变成板块共振。 | Marvell Technology earnings | 若相关股票高开低走，说明利好已提前反映。 | high | [Axios Nvidia earnings](https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring) |\n| NEE | 2026-05-25 高权重信号对应的核心观察对象：“数据中心电力约束成为 AI 估值的新变量”。关注它是否从新闻标题变成板块共振。 | Dell Technologies Q1 FY2027 earnings | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | medium | [Axios power deal](https://www.axios.com/2026/05/19/nextera-dominion-deal-power-elecricity-scale) |\n| MRVL | 2026-05-25 高权重信号对应的核心观察对象：“CPO / 硅光继续被 AI 网络瓶颈推到前台”。关注它是否从新闻标题变成板块共振。 | Marvell Technology earnings | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | medium | [GlobalFoundries CPO](https://www.marketscreener.com/news/globalfoundries-accelerates-adoption-of-co-packaged-optics-for-advanced-ai-data-centers-with-scale-o-ce7f58ded188ff22) |\n\n## 7. 总结：2026-05-25 市场的主线是什么？\n2026-05-25 美股因 Memorial Day 休市，这份报告更像盘前准备清单：重点不是盘中走势，而是整理 2026-05-26 开盘后可能被重新定价的 AI 基础设施财报、PCE/GDP 数据、利率变化和半导体产业链信号。\n\n来源说明：本总结综合以上 Top Signals、事件日历、板块、宏观和个股复盘模块的公开来源，不构成买卖建议。\n",
     "id": 20260525,
-    "created_at": "2026-05-26T12:57:00.096Z",
-    "updated_at": "2026-05-26T12:57:00.096Z"
+    "created_at": "2026-05-26T13:09:20.203Z",
+    "updated_at": "2026-05-26T13:09:20.203Z"
   },
   "topSignals": [
     {
       "title": "Memorial Day 休市，市场等待 2026-05-26 重新开盘定价",
-      "summary": "2026-05-25 美股因 Memorial Day 休市，周末和假期期间的 AI、宏观与利率信息会集中在 2026-05-26 盘前和开盘后反映。 信息性质：已经发生的事实。",
-      "why_it_matters": "该信号可能影响资金对指数、AI 科技链和长久期成长股的风险定价。",
+      "summary": "2026-05-25 美股因 Memorial Day 休市，周末和假期期间的 AI、宏观与利率信息会集中在 2026-05-26 盘前和开盘后反映。 盘前优先看 QQQ, SPY, SMH 是否带动 Macro / AI / Semiconductor 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：已经发生的事实。",
+      "why_it_matters": "宏观信号决定估值折现率：利率上行会先压制 Nasdaq、软件和小盘成长，利率回落则更利于半导体与 AI 基础设施延续风险偏好。",
       "direction": "uncertain",
       "affected_sectors": [
         "Macro",
@@ -38,8 +38,8 @@
     },
     {
       "title": "Nvidia 财报继续支撑 AI 基础设施需求",
-      "summary": "最新财报继续显示数据中心收入和 AI 需求强劲，但市场接下来会验证外溢到 ASIC、网络和服务器链的程度。 信息性质：已经发生的事实。",
-      "why_it_matters": "该信号可能影响资金对指数、AI 科技链和长久期成长股的风险定价。",
+      "summary": "最新财报继续显示数据中心收入和 AI 需求强劲，但市场接下来会验证外溢到 ASIC、网络和服务器链的程度。 盘前优先看 NVDA, MRVL, AVGO, DELL, SMCI 是否带动 AI Infrastructure / Semiconductor / Data Center 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：已经发生的事实。",
+      "why_it_matters": "AI 信号的关键在于 capex 是否继续扩散：如果订单从 GPU 扩到服务器、电源、散热和网络，受益链条会变宽；如果只集中在少数龙头，概念股会分化。",
       "direction": "bullish",
       "affected_sectors": [
         "AI Infrastructure",
@@ -64,8 +64,8 @@
     },
     {
       "title": "数据中心电力约束成为 AI 估值的新变量",
-      "summary": "公用事业并购和清洁能源采购显示 AI 电力需求正在改变能源基础设施投资逻辑。 信息性质：合理推测。",
-      "why_it_matters": "该信号可能影响资金对指数、AI 科技链和长久期成长股的风险定价。",
+      "summary": "公用事业并购和清洁能源采购显示 AI 电力需求正在改变能源基础设施投资逻辑。 盘前优先看 NEE, D, CEG, VST, VRT, ETN 是否带动 Data Center Power / Energy / Grid Infrastructure 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：合理推测。",
+      "why_it_matters": "电力能源影响 AI 数据中心落地速度。电网、核能、PPA 和散热能力会影响数据中心建设成本，也会反向影响 AI capex 节奏。",
       "direction": "uncertain",
       "affected_sectors": [
         "Data Center Power",
@@ -91,8 +91,8 @@
     },
     {
       "title": "CPO / 硅光继续被 AI 网络瓶颈推到前台",
-      "summary": "1.6T 光模块、CPO、DSP、交换芯片是 AI 集群扩容后的关键约束。 信息性质：合理推测。",
-      "why_it_matters": "该信号可能影响资金对指数、AI 科技链和长久期成长股的风险定价。",
+      "summary": "1.6T 光模块、CPO、DSP、交换芯片是 AI 集群扩容后的关键约束。 盘前优先看 MRVL, AVGO, COHR, LITE, CIEN, AAOI 是否带动 Optical Communication / Networking 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：合理推测。",
+      "why_it_matters": "光通信是 AI 集群扩容的瓶颈环节之一，若 CPO/1.6T/硅光订单继续被验证，资金可能从 GPU 龙头外溢到网络和光模块链。",
       "direction": "bullish",
       "affected_sectors": [
         "Optical Communication",
@@ -118,8 +118,8 @@
     },
     {
       "title": "企业软件进入 AI 变现检查点",
-      "summary": "Salesforce 和 Snowflake 财报会检验 AI 功能是否转化为 RPO、净留存和云消费增长。 信息性质：市场预期。",
-      "why_it_matters": "该信号可能影响资金对指数、AI 科技链和长久期成长股的风险定价。",
+      "summary": "Salesforce 和 Snowflake 财报会检验 AI 功能是否转化为 RPO、净留存和云消费增长。 盘前优先看 CRM, SNOW, MSFT, ORCL 是否带动 Cloud / Software 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：市场预期。",
+      "why_it_matters": "软件和云的重点是 AI 能否真正变现。RPO、净留存、云消费和毛利率比产品发布更能决定估值方向。",
       "direction": "uncertain",
       "affected_sectors": [
         "Cloud",
@@ -379,7 +379,6 @@
     {
       "sector_name": "Cloud / Software",
       "latest_catalysts": [
-        "Nvidia 财报继续支撑 AI 基础设施需求：最新财报继续显示数据中心收入和 AI 需求强劲，但市场接下来会验证外溢到 ASIC、网络和服务器链的程度。",
         "企业软件进入 AI 变现检查点：Salesforce 和 Snowflake 财报会检验 AI 功能是否转化为 RPO、净留存和云消费增长。"
       ],
       "beneficiary_tickers": [
@@ -401,10 +400,6 @@
       ],
       "source_urls": [
         {
-          "title": "Axios Nvidia earnings",
-          "url": "https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring"
-        },
-        {
           "title": "Kiplinger earnings calendar",
           "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
         }
@@ -414,7 +409,6 @@
     {
       "sector_name": "Data Center Power / Energy",
       "latest_catalysts": [
-        "Nvidia 财报继续支撑 AI 基础设施需求：最新财报继续显示数据中心收入和 AI 需求强劲，但市场接下来会验证外溢到 ASIC、网络和服务器链的程度。",
         "数据中心电力约束成为 AI 估值的新变量：公用事业并购和清洁能源采购显示 AI 电力需求正在改变能源基础设施投资逻辑。"
       ],
       "beneficiary_tickers": [
@@ -437,10 +431,6 @@
       ],
       "source_urls": [
         {
-          "title": "Axios Nvidia earnings",
-          "url": "https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring"
-        },
-        {
           "title": "Axios power deal",
           "url": "https://www.axios.com/2026/05/19/nextera-dominion-deal-power-elecricity-scale"
         }
@@ -450,7 +440,7 @@
     {
       "sector_name": "Robotics / Automation",
       "latest_catalysts": [
-        "Nvidia 财报继续支撑 AI 基础设施需求：最新财报继续显示数据中心收入和 AI 需求强劲，但市场接下来会验证外溢到 ASIC、网络和服务器链的程度。"
+        "AI 从云端模型向实体自动化扩散仍是中期主题"
       ],
       "beneficiary_tickers": [
         "TSLA",
@@ -468,8 +458,8 @@
       ],
       "source_urls": [
         {
-          "title": "Axios Nvidia earnings",
-          "url": "https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring"
+          "title": "Kiplinger earnings calendar",
+          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
         }
       ],
       "sentiment": "uncertain"
@@ -566,8 +556,8 @@
     "treasury_yields": "利率线索来自最新公开信号：“Memorial Day 休市，市场等待 2026-05-26 重新开盘定价”。若 10Y/2Y 美债收益率上行，高估值成长股和 AI 软件股估值会更敏感。",
     "dollar_index": "美元方向重点参考：“数据中心电力约束成为 AI 估值的新变量”。强美元通常压制跨国科技公司估值和海外收入折算。",
     "crude_oil": "能源相关信号：数据中心电力约束成为 AI 估值的新变量。油价上冲会通过通胀预期影响利率和风险偏好。",
-    "gold": "黄金部分仍需接入实时行情；若黄金与美元同涨，通常代表避险需求升温。",
-    "vix": "VIX 部分仍需接入实时行情；当前报告用新闻强度和事件密度作为风险偏好代理。",
+    "gold": "黄金如果和美元同涨，通常代表避险需求升温；如果黄金回落而美债收益率稳定，成长股风险偏好更容易维持。",
+    "vix": "风险偏好用两个信号观察：指数是否扩散上涨，以及高 beta 科技股是否跑赢防御板块。若 Top Signals 只集中在少数股票，说明市场仍是分化行情。",
     "macro_data": "覆盖期内关键宏观/Fed 事件：2026-05-27 Federal Reserve speaker calendar；2026-05-28 BEA Personal Income and Outlays / PCE；2026-05-28 Q1 GDP second estimate。",
     "growth_tech_smallcap_impact": "如果通胀/利率信号偏热，优先压制长久期科技股、小盘成长股和高估值 AI 概念；如果利率回落，AI 基础设施和半导体更容易获得估值支撑。",
     "source_urls": [
@@ -598,7 +588,7 @@
       "ticker": "INTU",
       "company_name": "Intuit",
       "previous_day_change_percent": -20,
-      "volume_note": "财报后单日大幅波动，成交量大概率显著高于均值；生产环境需接行情 API 精确复核。",
+      "volume_note": "财报后单日大幅波动，说明资金对增长质量和 AI 替代风险重新定价。",
       "reason": "市场担心传统财税软件增长质量、AI 替代风险和重组信号，即使财报本身并不差。",
       "reason_type": "company_specific",
       "catalysts": [
@@ -619,7 +609,7 @@
       "ticker": "TTWO",
       "company_name": "Take-Two Interactive",
       "previous_day_change_percent": -6.5,
-      "volume_note": "财报后波动，成交量需接入 market data provider 后精确判断。",
+      "volume_note": "财报后波动，说明市场在重新评估 GTA VI 预期兑现节奏。",
       "reason": "市场重新评估 GTA VI 预期、FY2027 兑现路径和当前估值中已包含多少乐观情绪。",
       "reason_type": "company_specific",
       "catalysts": [
@@ -659,9 +649,9 @@
   "watchlist": [
     {
       "symbol_or_sector": "QQQ",
-      "reason_to_watch": "进入 2026-05-25 高权重信号：“Memorial Day 休市，市场等待 2026-05-26 重新开盘定价”。",
+      "reason_to_watch": "2026-05-25 高权重信号对应的核心观察对象：“Memorial Day 休市，市场等待 2026-05-26 重新开盘定价”。关注它是否从新闻标题变成板块共振。",
       "key_trigger": "Memorial Day 休市，市场等待 2026-05-26 重新开盘定价",
-      "risk_points": "需要观察市场是否已经充分定价该事实。",
+      "risk_points": "利率或美元若反向走强，会削弱科技股风险偏好。",
       "priority": "high",
       "source_urls": [
         {
@@ -672,9 +662,9 @@
     },
     {
       "symbol_or_sector": "NVDA",
-      "reason_to_watch": "进入 2026-05-25 高权重信号：“Nvidia 财报继续支撑 AI 基础设施需求”。",
+      "reason_to_watch": "2026-05-25 高权重信号对应的核心观察对象：“Nvidia 财报继续支撑 AI 基础设施需求”。关注它是否从新闻标题变成板块共振。",
       "key_trigger": "Marvell Technology earnings",
-      "risk_points": "需要观察市场是否已经充分定价该事实。",
+      "risk_points": "若相关股票高开低走，说明利好已提前反映。",
       "priority": "high",
       "source_urls": [
         {
@@ -685,9 +675,9 @@
     },
     {
       "symbol_or_sector": "NEE",
-      "reason_to_watch": "进入 2026-05-25 高权重信号：“数据中心电力约束成为 AI 估值的新变量”。",
+      "reason_to_watch": "2026-05-25 高权重信号对应的核心观察对象：“数据中心电力约束成为 AI 估值的新变量”。关注它是否从新闻标题变成板块共振。",
       "key_trigger": "Dell Technologies Q1 FY2027 earnings",
-      "risk_points": "该信号仍含预期或推测成分，需要等待价格和正式公告确认。",
+      "risk_points": "若同板块没有跟随，说明它可能只是标题热度，不是主线。",
       "priority": "medium",
       "source_urls": [
         {
@@ -698,9 +688,9 @@
     },
     {
       "symbol_or_sector": "MRVL",
-      "reason_to_watch": "进入 2026-05-25 高权重信号：“CPO / 硅光继续被 AI 网络瓶颈推到前台”。",
+      "reason_to_watch": "2026-05-25 高权重信号对应的核心观察对象：“CPO / 硅光继续被 AI 网络瓶颈推到前台”。关注它是否从新闻标题变成板块共振。",
       "key_trigger": "Marvell Technology earnings",
-      "risk_points": "该信号仍含预期或推测成分，需要等待价格和正式公告确认。",
+      "risk_points": "若同板块没有跟随，说明它可能只是标题热度，不是主线。",
       "priority": "medium",
       "source_urls": [
         {
@@ -831,25 +821,11 @@
       "related_section": "sector:Optical Communication / Networking"
     },
     {
-      "title": "Axios Nvidia earnings",
-      "url": "https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring",
-      "publisher": "axios.com",
-      "published_at": "2026-05-25",
-      "related_section": "sector:Cloud / Software"
-    },
-    {
       "title": "Kiplinger earnings calendar",
       "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
       "publisher": "kiplinger.com",
       "published_at": "2026-05-25",
       "related_section": "sector:Cloud / Software"
-    },
-    {
-      "title": "Axios Nvidia earnings",
-      "url": "https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring",
-      "publisher": "axios.com",
-      "published_at": "2026-05-25",
-      "related_section": "sector:Data Center Power / Energy"
     },
     {
       "title": "Axios power deal",
@@ -859,9 +835,9 @@
       "related_section": "sector:Data Center Power / Energy"
     },
     {
-      "title": "Axios Nvidia earnings",
-      "url": "https://www.axios.com/2026/05/20/nvidia-earnings-shows-ai-demand-is-still-roaring",
-      "publisher": "axios.com",
+      "title": "Kiplinger earnings calendar",
+      "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+      "publisher": "kiplinger.com",
       "published_at": "2026-05-25",
       "related_section": "sector:Robotics / Automation"
     },

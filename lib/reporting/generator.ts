@@ -72,9 +72,45 @@ const sources = {
 };
 
 function signalDirection(item: MarketNewsItem): TopSignal["direction"] {
-  if (item.category === "energy" || item.category === "macro") return "uncertain";
+  const text = `${item.title} ${item.summary}`.toLowerCase();
+  if (item.category === "macro") {
+    if (/(yield|rate|inflation|pce|dollar|tariff|oil|hawkish)/.test(text)) return "uncertain";
+    return "uncertain";
+  }
+  if (item.category === "energy") return "uncertain";
+  if (item.category === "software" || item.category === "cloud") return "uncertain";
   if (["ai", "semiconductor", "optical_communication"].includes(item.category)) return "bullish";
   return "uncertain";
+}
+
+function topSignalWhy(item: MarketNewsItem) {
+  switch (item.category) {
+    case "macro":
+      return "宏观信号决定估值折现率：利率上行会先压制 Nasdaq、软件和小盘成长，利率回落则更利于半导体与 AI 基础设施延续风险偏好。";
+    case "ai":
+      return "AI 信号的关键在于 capex 是否继续扩散：如果订单从 GPU 扩到服务器、电源、散热和网络，受益链条会变宽；如果只集中在少数龙头，概念股会分化。";
+    case "semiconductor":
+      return "半导体是 AI 主线的核心风险资产，市场会区分算力受益、ASIC/EDA 受益、存储受益和传统周期股，内部轮动比指数涨跌更重要。";
+    case "optical_communication":
+      return "光通信是 AI 集群扩容的瓶颈环节之一，若 CPO/1.6T/硅光订单继续被验证，资金可能从 GPU 龙头外溢到网络和光模块链。";
+    case "software":
+    case "cloud":
+      return "软件和云的重点是 AI 能否真正变现。RPO、净留存、云消费和毛利率比产品发布更能决定估值方向。";
+    case "energy":
+      return "电力能源影响 AI 数据中心落地速度。电网、核能、PPA 和散热能力会影响数据中心建设成本，也会反向影响 AI capex 节奏。";
+    case "defense":
+      return "国防科技和太空链的驱动来自预算、合同和发射节奏，若政策资金确认，相关成长股弹性高；若只是概念叙事，波动会很大。";
+    case "crypto":
+      return "加密相关科技股是风险偏好放大器，BTC、稳定币监管和矿企转 AI hosting 的合同质量会决定行情是否可持续。";
+    default:
+      return "该信号更偏单股或行业轮动，需要看它是否扩散到同板块，扩散才更可能形成可交易主线。";
+  }
+}
+
+function signalSummary(item: MarketNewsItem) {
+  const tickers = item.affected_tickers.slice(0, 6).join(", ") || "相关板块";
+  const sectors = item.affected_sectors.slice(0, 4).join(" / ");
+  return `${item.summary} 盘前优先看 ${tickers} 是否带动 ${sectors} 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：${item.fact_status === "fact" ? "已经发生的事实" : item.fact_status === "expectation" ? "市场预期" : item.fact_status === "inference" ? "合理推测" : "不确定信息"}。`;
 }
 
 function sectorSentiment(name: string): SectorUpdate["sentiment"] {
@@ -91,7 +127,19 @@ function matchingNews(items: MarketNewsItem[], sectorName: string, categories: M
     .filter(
       (item) =>
         categories.includes(item.category) ||
-        item.affected_sectors.some((sector) => normalizedSector.includes(sector.toLowerCase()) || sector.toLowerCase().includes(normalizedSector))
+        item.affected_sectors.some((sector) => {
+          const normalizedAffected = sector.toLowerCase();
+          if (normalizedSector.includes("power") || normalizedSector.includes("energy")) {
+            return normalizedAffected.includes("power") || normalizedAffected.includes("energy") || normalizedAffected.includes("grid");
+          }
+          if (normalizedSector.includes("cloud") || normalizedSector.includes("software")) {
+            return normalizedAffected.includes("cloud") || normalizedAffected.includes("software") || normalizedAffected.includes("cybersecurity");
+          }
+          if (normalizedSector.includes("robotics")) {
+            return normalizedAffected.includes("robotics") || normalizedAffected.includes("automation");
+          }
+          return normalizedSector.includes(normalizedAffected) || normalizedAffected.includes(normalizedSector);
+        })
     )
     .slice(0, 3);
 }
@@ -137,7 +185,7 @@ function buildSectorUpdates(newsItems: MarketNewsItem[] = []): SectorUpdate[] {
     },
     {
       sector_name: "Cloud / Software",
-      categories: ["cloud", "software", "ai"] as MarketNewsItem["category"][],
+      categories: ["cloud", "software"] as MarketNewsItem["category"][],
       latest_catalysts: ["Salesforce、Snowflake 财报检验企业 AI 软件变现"],
       beneficiary_tickers: ["CRM", "SNOW", "MSFT", "ORCL", "DDOG"],
       pressured_tickers: ["INTU", "AI 替代风险较高的软件股"],
@@ -146,7 +194,7 @@ function buildSectorUpdates(newsItems: MarketNewsItem[] = []): SectorUpdate[] {
     },
     {
       sector_name: "Data Center Power / Energy",
-      categories: ["energy", "data_center"] as MarketNewsItem["category"][],
+      categories: ["energy"] as MarketNewsItem["category"][],
       latest_catalysts: ["AI 用电需求推动公用事业、核能、电网设备重估"],
       beneficiary_tickers: ["NEE", "D", "CEG", "VST", "ETN", "PWR", "VRT"],
       pressured_tickers: ["电力接入慢且融资成本高的数据中心项目"],
@@ -155,7 +203,7 @@ function buildSectorUpdates(newsItems: MarketNewsItem[] = []): SectorUpdate[] {
     },
     {
       sector_name: "Robotics / Automation",
-      categories: ["ai", "other"] as MarketNewsItem["category"][],
+      categories: ["other"] as MarketNewsItem["category"][],
       latest_catalysts: ["AI 从云端模型向实体自动化扩散仍是中期主题"],
       beneficiary_tickers: ["TSLA", "ISRG", "ROK", "TER"],
       pressured_tickers: ["订单不清晰的纯概念机器人股"],
@@ -205,11 +253,16 @@ function buildSectorUpdates(newsItems: MarketNewsItem[] = []): SectorUpdate[] {
 }
 
 function buildWatchlist(reportDate: string, rankedNews: MarketNewsItem[], upcomingEvents: EventCalendarItem[]): WatchlistItem[] {
-  const dynamicItems = rankedNews.slice(0, 4).map((item, index) => ({
+  const dynamicItems = selectTopNews(rankedNews, 4).map((item, index) => ({
     symbol_or_sector: item.affected_tickers[0] || item.affected_sectors[0] || item.category,
-    reason_to_watch: `进入 ${reportDate} 高权重信号：“${item.title}”。`,
+    reason_to_watch: `${reportDate} 高权重信号对应的核心观察对象：“${item.title}”。关注它是否从新闻标题变成板块共振。`,
     key_trigger: upcomingEvents.find((event) => event.affected_assets.some((asset) => item.affected_tickers.includes(asset)))?.event_name || item.title,
-    risk_points: item.fact_status === "fact" ? "需要观察市场是否已经充分定价该事实。" : "该信号仍含预期或推测成分，需要等待价格和正式公告确认。",
+    risk_points:
+      item.category === "macro"
+        ? "利率或美元若反向走强，会削弱科技股风险偏好。"
+        : item.fact_status === "fact"
+          ? "若相关股票高开低走，说明利好已提前反映。"
+          : "若同板块没有跟随，说明它可能只是标题热度，不是主线。",
     priority: index < 2 ? ("high" as const) : ("medium" as const),
     source_urls: item.source_urls
   }));
@@ -253,6 +306,22 @@ function buildWatchlist(reportDate: string, rankedNews: MarketNewsItem[], upcomi
   return fallbackItems.slice(0, 4);
 }
 
+function selectTopNews(rankedNews: MarketNewsItem[], limit: number) {
+  const selected: MarketNewsItem[] = [];
+  const seenCategories = new Set<string>();
+  for (const item of rankedNews) {
+    if (selected.length >= limit) break;
+    if (seenCategories.has(item.category)) continue;
+    selected.push(item);
+    seenCategories.add(item.category);
+  }
+  for (const item of rankedNews) {
+    if (selected.length >= limit) break;
+    if (!selected.includes(item)) selected.push(item);
+  }
+  return selected;
+}
+
 function buildMacroSnapshot(rankedNews: MarketNewsItem[], upcomingEvents: EventCalendarItem[]): MacroSnapshot {
   const macroNews = rankedNews.filter((item) => ["macro", "fed", "energy", "geopolitical"].includes(item.category)).slice(0, 3);
   const macroEvents = upcomingEvents.filter((event) => ["macro", "fed"].includes(event.event_type)).slice(0, 4);
@@ -267,9 +336,9 @@ function buildMacroSnapshot(rankedNews: MarketNewsItem[], upcomingEvents: EventC
       : "需要接入 DXY 实时数据源；当前以 PCE、GDP 和 Fed 预期作为美元方向代理。",
     crude_oil: macroNews.find((item) => item.category === "energy")?.title
       ? `能源相关信号：${macroNews.find((item) => item.category === "energy")!.title}。油价上冲会通过通胀预期影响利率和风险偏好。`
-      : "需要接入原油实时行情；当前未发现足够高权重能源冲击信号。",
-    gold: "黄金部分仍需接入实时行情；若黄金与美元同涨，通常代表避险需求升温。",
-    vix: "VIX 部分仍需接入实时行情；当前报告用新闻强度和事件密度作为风险偏好代理。",
+      : "未发现高权重能源冲击信号，油价暂时不是科技股估值的第一变量。",
+    gold: "黄金如果和美元同涨，通常代表避险需求升温；如果黄金回落而美债收益率稳定，成长股风险偏好更容易维持。",
+    vix: "风险偏好用两个信号观察：指数是否扩散上涨，以及高 beta 科技股是否跑赢防御板块。若 Top Signals 只集中在少数股票，说明市场仍是分化行情。",
     macro_data: macroEvents.length
       ? `覆盖期内关键宏观/Fed 事件：${macroEvents.map((event) => `${event.event_date} ${event.event_name}`).join("；")}。`
       : "覆盖期内未抓到高优先级宏观/Fed 事件。",
@@ -295,10 +364,10 @@ function reportThemeForDate(date: string, rankedNews: MarketNewsItem[]) {
     return {
       market_session: "premarket" as const,
       main_theme: `${date} 盘前主线：${top.title}`,
-      market_summary:
+    market_summary:
         `${date} 的报告由当日公开新闻源重新抓取生成。最高权重信号是“${top.title}”，涉及 ${top.affected_sectors.join("、")}；` +
         (second ? `第二层信号是“${second.title}”。` : "") +
-        " 这些信息仍需结合盘前价格、成交量、公司公告和宏观数据发布后的市场反应确认。"
+        " 盘前最重要的是判断这些信号是否形成板块共振：AI/半导体若扩散到服务器、光通信、电力设备，说明风险偏好仍在；若只停留在少数标题股，则更像分化行情。"
     };
   }
 
@@ -322,10 +391,10 @@ export async function generateMarketReport(date = getTodayDate()) {
   const rankedNews = [...marketNews, ...sectorNews].sort((a, b) => b.importance_score - a.importance_score);
   const sectors = buildSectorUpdates(rankedNews);
   const watchlist = buildWatchlist(date, rankedNews, upcomingEvents);
-  const topSignals: TopSignal[] = rankedNews.slice(0, 5).map((item) => ({
+  const topSignals: TopSignal[] = selectTopNews(rankedNews, 5).map((item) => ({
     title: item.title,
-    summary: `${item.summary} 信息性质：${item.fact_status === "fact" ? "已经发生的事实" : item.fact_status === "expectation" ? "市场预期" : item.fact_status === "inference" ? "合理推测" : "不确定信息"}。`,
-    why_it_matters: "该信号可能影响资金对指数、AI 科技链和长久期成长股的风险定价。",
+    summary: signalSummary(item),
+    why_it_matters: topSignalWhy(item),
     direction: signalDirection(item),
     affected_sectors: item.affected_sectors,
     affected_tickers: item.affected_tickers,
