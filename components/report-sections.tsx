@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ImportanceBadge, SentimentBadge, TagList } from "@/components/badges";
 import { FullReport } from "@/lib/types";
+import { getCoverageRange } from "@/lib/reporting/date-utils";
 
 function sourceLinks(urls: { title?: string; url: string }[]) {
   if (!urls.length) return <span className="tag">Source pending</span>;
@@ -51,7 +52,7 @@ export function TopSignals({ report }: { report: FullReport }) {
   return (
     <section className="section" id="signals">
       <div className="section-head">
-        <h2>今日最重要市场信号</h2>
+        <h2>{report.report.report_date} 最重要市场信号</h2>
       </div>
       <div className="grid three">
         {report.topSignals.map((signal) => (
@@ -76,10 +77,11 @@ export function TopSignals({ report }: { report: FullReport }) {
 }
 
 export function EventCalendar({ report }: { report: FullReport }) {
+  const coverage = getCoverageRange(report.report.report_date);
   return (
     <section className="section" id="events">
       <div className="section-head">
-        <h2>未来 7 天关键事件</h2>
+        <h2>{coverage.start} 至 {coverage.end} 关键事件</h2>
       </div>
       <div className="table-wrap">
         <table>
@@ -247,7 +249,7 @@ export function Watchlist({ report }: { report: FullReport }) {
   return (
     <section className="section" id="watchlist">
       <div className="section-head">
-        <h2>今日重点盯盘清单</h2>
+        <h2>{report.report.report_date} 重点盯盘清单</h2>
       </div>
       <div className="grid two">
         {report.watchlist.map((item) => (

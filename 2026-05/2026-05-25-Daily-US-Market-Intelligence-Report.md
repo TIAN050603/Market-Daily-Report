@@ -1,11 +1,11 @@
 # Daily US Market Intelligence Report
 日期：2026-05-25
-覆盖范围：今天 + 未来 7 天
+覆盖范围：2026-05-25 至 2026-06-01
 美股状态：non-trading-day
 
-## 1. 今日最重要的 3-5 个市场信号
-### 1. 假期后市场将重新定价 AI 财报和宏观数据
-- 事件 / 信号是什么：Memorial Day 休市使周末消息集中到下一交易日反映，PCE 和 AI 产业链财报是本周主轴。 信息性质：已经发生的事实。
+## 1. 2026-05-25 最重要的 3-5 个市场信号
+### 1. Memorial Day 休市，市场等待 2026-05-26 重新开盘定价
+- 事件 / 信号是什么：2026-05-25 美股因 Memorial Day 休市，周末和假期期间的 AI、宏观与利率信息会集中在 2026-05-26 盘前和开盘后反映。 信息性质：已经发生的事实。
 - 为什么重要：该信号可能影响资金对指数、AI 科技链和长久期成长股的风险定价。
 - 可能影响的方向：uncertain
 - 可能影响的板块或股票：Macro, AI, Semiconductor, QQQ, SPY, SMH
@@ -44,7 +44,7 @@
 - 影响时间：medium_term
 - 信息来源链接：[Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks)
 
-## 2. 未来 7 天关键事件日历
+## 2. 2026-05-25 至 2026-06-01 关键事件日历
 | 日期 | 事件 | 重要性 | 可能影响的资产或板块 | 需要关注的关键点 | 来源 |
 |---|---|---|---|---|---|
 | 2026-05-27 | Federal Reserve speaker calendar | medium | Rates, Banks, Growth stocks | 关注官员对通胀、就业和降息路径的表述是否发生边际变化。 | [Federal Reserve calendar](https://www.federalreserve.gov/newsevents/calendar.htm) |
@@ -164,7 +164,7 @@
 - 需要继续观察的点：订单恢复、渠道库存、工业和汽车需求。
 - 来源：[Microchip 10-K](https://ir.microchip.com/sec-filings/all-sec-filings/content/0000827054-26-000016/0000827054-26-000016.pdf)
 
-## 6. 今日值得重点盯盘的股票 / 板块
+## 6. 2026-05-25 值得重点盯盘的股票 / 板块
 | 股票 / 板块 | 为什么值得看 | 关键触发点 | 风险点 | 优先级 | 来源 |
 |---|---|---|---|---|---|
 | MRVL | AI ASIC、光互连和数据中心网络的本周核心验证点。 | 2026-05-25 所在周财报和电话会 | 预期过高、毛利率、客户集中度。 | high | [Marvell IR calendar](https://investor.marvell.com/news-events/ir-calendar) |
@@ -172,7 +172,7 @@
 | DELL / AI Server Chain | 检验 AI 服务器需求是否能转化为高质量利润。 | Dell 财报中的 AI backlog 和 server margin | 低毛利订单、供应链成本。 | high | [Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks) |
 | Optical Communication | 网络和光互连可能是 AI 集群扩容的新瓶颈。 | 1.6T 光模块订单、CPO 路线图、MRVL/AVGO commentary | 高波动、订单兑现慢。 | medium | [GlobalFoundries CPO announcement](https://www.marketscreener.com/news/globalfoundries-accelerates-adoption-of-co-packaged-optics-for-advanced-ai-data-centers-with-scale-o-ce7f58ded188ff22), [Marvell IR calendar](https://investor.marvell.com/news-events/ir-calendar) |
 
-## 7. 总结：今天市场的主线是什么？
-今天市场主线是 AI 基础设施财报验证与宏观通胀数据再定价并行。科技股不是单边行情，更可能继续分化：能证明订单、利润率和现金流的 AI 产业链公司偏强，缺乏兑现路径的软件和高估值概念股承压。
+## 7. 总结：2026-05-25 市场的主线是什么？
+2026-05-25 美股因 Memorial Day 休市，这份报告更像盘前准备清单：重点不是盘中走势，而是整理 2026-05-26 开盘后可能被重新定价的 AI 基础设施财报、PCE/GDP 数据、利率变化和半导体产业链信号。
 
 来源说明：本总结综合以上 Top Signals、事件日历、板块、宏观和个股复盘模块的公开来源，不构成买卖建议。

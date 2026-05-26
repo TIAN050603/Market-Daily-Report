@@ -1,16 +1,16 @@
 # Daily US Market Intelligence Report
 日期：2026-05-26
-覆盖范围：今天 + 未来 7 天
+覆盖范围：2026-05-26 至 2026-06-02
 美股状态：premarket
 
-## 1. 今日最重要的 3-5 个市场信号
-### 1. 假期后市场将重新定价 AI 财报和宏观数据
-- 事件 / 信号是什么：Memorial Day 休市使周末消息集中到下一交易日反映，PCE 和 AI 产业链财报是本周主轴。 信息性质：已经发生的事实。
+## 1. 2026-05-26 最重要的 3-5 个市场信号
+### 1. 2026-05-26 假期后首个交易日：AI 财报兑现与 PCE 利率风险同时定价
+- 事件 / 信号是什么：2026-05-26 盘前需要重点看 Nasdaq 和半导体能否消化假期期间累积的信息：AI 基础设施仍有业绩支撑，但 PCE、GDP 和美债收益率会影响高估值科技股折现率。 信息性质：合理推测。
 - 为什么重要：该信号可能影响资金对指数、AI 科技链和长久期成长股的风险定价。
 - 可能影响的方向：uncertain
-- 可能影响的板块或股票：Macro, AI, Semiconductor, QQQ, SPY, SMH
+- 可能影响的板块或股票：Macro, AI, Semiconductor, Rates, QQQ, SPY, SMH, NVDA, MRVL, DELL
 - 影响时间：this_week
-- 信息来源链接：[NYSE holiday calendar](https://www.nyse.com/markets/hours-calendars?os=roku___)
+- 信息来源链接：[BEA release schedule](https://www.bea.gov/news/schedule)
 
 ### 2. Nvidia 财报继续支撑 AI 基础设施需求
 - 事件 / 信号是什么：最新财报继续显示数据中心收入和 AI 需求强劲，但市场接下来会验证外溢到 ASIC、网络和服务器链的程度。 信息性质：已经发生的事实。
@@ -44,7 +44,7 @@
 - 影响时间：medium_term
 - 信息来源链接：[Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks)
 
-## 2. 未来 7 天关键事件日历
+## 2. 2026-05-26 至 2026-06-02 关键事件日历
 | 日期 | 事件 | 重要性 | 可能影响的资产或板块 | 需要关注的关键点 | 来源 |
 |---|---|---|---|---|---|
 | 2026-05-28 | Federal Reserve speaker calendar | medium | Rates, Banks, Growth stocks | 关注官员对通胀、就业和降息路径的表述是否发生边际变化。 | [Federal Reserve calendar](https://www.federalreserve.gov/newsevents/calendar.htm) |
@@ -164,7 +164,7 @@
 - 需要继续观察的点：订单恢复、渠道库存、工业和汽车需求。
 - 来源：[Microchip 10-K](https://ir.microchip.com/sec-filings/all-sec-filings/content/0000827054-26-000016/0000827054-26-000016.pdf)
 
-## 6. 今日值得重点盯盘的股票 / 板块
+## 6. 2026-05-26 值得重点盯盘的股票 / 板块
 | 股票 / 板块 | 为什么值得看 | 关键触发点 | 风险点 | 优先级 | 来源 |
 |---|---|---|---|---|---|
 | MRVL | AI ASIC、光互连和数据中心网络的本周核心验证点。 | 2026-05-26 所在周财报和电话会 | 预期过高、毛利率、客户集中度。 | high | [Marvell IR calendar](https://investor.marvell.com/news-events/ir-calendar) |
@@ -172,7 +172,7 @@
 | DELL / AI Server Chain | 检验 AI 服务器需求是否能转化为高质量利润。 | Dell 财报中的 AI backlog 和 server margin | 低毛利订单、供应链成本。 | high | [Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks) |
 | Optical Communication | 网络和光互连可能是 AI 集群扩容的新瓶颈。 | 1.6T 光模块订单、CPO 路线图、MRVL/AVGO commentary | 高波动、订单兑现慢。 | medium | [GlobalFoundries CPO announcement](https://www.marketscreener.com/news/globalfoundries-accelerates-adoption-of-co-packaged-optics-for-advanced-ai-data-centers-with-scale-o-ce7f58ded188ff22), [Marvell IR calendar](https://investor.marvell.com/news-events/ir-calendar) |
 
-## 7. 总结：今天市场的主线是什么？
-今天市场主线是 AI 基础设施财报验证与宏观通胀数据再定价并行。科技股不是单边行情，更可能继续分化：能证明订单、利润率和现金流的 AI 产业链公司偏强，缺乏兑现路径的软件和高估值概念股承压。
+## 7. 总结：2026-05-26 市场的主线是什么？
+2026-05-26 主页面应显示这份盘前报告：市场从 Memorial Day 休市后重新开盘，资金会同时评估 AI 基础设施财报兑现、半导体/光通信外溢机会，以及 PCE、GDP、美债收益率对高估值科技股的压力。科技股更可能分化，而不是单边上涨或下跌。
 
 来源说明：本总结综合以上 Top Signals、事件日历、板块、宏观和个股复盘模块的公开来源，不构成买卖建议。

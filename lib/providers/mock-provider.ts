@@ -75,18 +75,34 @@ export class MockMarketDataProvider implements DataProvider {
     ];
   }
 
-  async fetchMarketNews(_date: string): Promise<MarketNewsItem[]> {
+  async fetchMarketNews(date: string): Promise<MarketNewsItem[]> {
+    const isHolidayReport = date === "2026-05-25";
+    const headlineSignal: MarketNewsItem = isHolidayReport
+      ? {
+          title: "Memorial Day 休市，市场等待 2026-05-26 重新开盘定价",
+          summary:
+            "2026-05-25 美股因 Memorial Day 休市，周末和假期期间的 AI、宏观与利率信息会集中在 2026-05-26 盘前和开盘后反映。",
+          category: "macro",
+          fact_status: "fact",
+          affected_tickers: ["QQQ", "SPY", "SMH"],
+          affected_sectors: ["Macro", "AI", "Semiconductor"],
+          importance_score: 94,
+          source_urls: source("NYSE holiday calendar", "https://www.nyse.com/markets/hours-calendars?os=roku___")
+        }
+      : {
+          title: `${date} 假期后首个交易日：AI 财报兑现与 PCE 利率风险同时定价`,
+          summary:
+            `${date} 盘前需要重点看 Nasdaq 和半导体能否消化假期期间累积的信息：AI 基础设施仍有业绩支撑，但 PCE、GDP 和美债收益率会影响高估值科技股折现率。`,
+          category: "macro",
+          fact_status: "inference",
+          affected_tickers: ["QQQ", "SPY", "SMH", "NVDA", "MRVL", "DELL"],
+          affected_sectors: ["Macro", "AI", "Semiconductor", "Rates"],
+          importance_score: 94,
+          source_urls: source("BEA release schedule", "https://www.bea.gov/news/schedule")
+        };
+
     return [
-      {
-        title: "假期后市场将重新定价 AI 财报和宏观数据",
-        summary: "Memorial Day 休市使周末消息集中到下一交易日反映，PCE 和 AI 产业链财报是本周主轴。",
-        category: "macro",
-        fact_status: "fact",
-        affected_tickers: ["QQQ", "SPY", "SMH"],
-        affected_sectors: ["Macro", "AI", "Semiconductor"],
-        importance_score: 92,
-        source_urls: source("NYSE holiday calendar", "https://www.nyse.com/markets/hours-calendars?os=roku___")
-      },
+      headlineSignal,
       {
         title: "Nvidia 财报继续支撑 AI 基础设施需求",
         summary: "最新财报继续显示数据中心收入和 AI 需求强劲，但市场接下来会验证外溢到 ASIC、网络和服务器链的程度。",

@@ -20,3 +20,10 @@ export function getMonthlyReportPath(reportDate: string) {
     file: `${reportDate}-Daily-US-Market-Intelligence-Report.md`
   };
 }
+
+export function getCoverageRange(reportDate: string, days = 7) {
+  return {
+    start: reportDate,
+    end: formatDate(addDays(reportDate, days))
+  };
+}

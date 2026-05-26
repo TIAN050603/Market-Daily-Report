@@ -17,7 +17,7 @@ export const dynamic = "force-dynamic";
 export default async function DashboardPage() {
   let report = getLatestReport();
   if (!report) {
-    report = await generateMarketReport("2026-05-25");
+    report = await generateMarketReport();
   }
 
   return (

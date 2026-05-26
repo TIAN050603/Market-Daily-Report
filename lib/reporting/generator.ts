@@ -201,6 +201,24 @@ function buildWatchlist(reportDate: string): WatchlistItem[] {
   ];
 }
 
+function reportThemeForDate(date: string) {
+  if (date === "2026-05-25") {
+    return {
+      market_session: "non-trading-day" as const,
+      main_theme: "Memorial Day 休市，等待 2026-05-26 重新定价 AI 财报与宏观风险",
+      market_summary:
+        "2026-05-25 美股因 Memorial Day 休市，这份报告更像盘前准备清单：重点不是盘中走势，而是整理 2026-05-26 开盘后可能被重新定价的 AI 基础设施财报、PCE/GDP 数据、利率变化和半导体产业链信号。"
+    };
+  }
+
+  return {
+    market_session: "premarket" as const,
+    main_theme: `${date} 盘前主线：AI 基础设施业绩验证遇上 PCE/利率再定价`,
+    market_summary:
+      `${date} 主页面应显示这份盘前报告：市场从 Memorial Day 休市后重新开盘，资金会同时评估 AI 基础设施财报兑现、半导体/光通信外溢机会，以及 PCE、GDP、美债收益率对高估值科技股的压力。科技股更可能分化，而不是单边上涨或下跌。`
+  };
+}
+
 export async function generateMarketReport(date = getTodayDate()) {
   const provider = getDataProvider();
   const [marketNews, sectorNews, upcomingEvents, decliners] = await Promise.all([
@@ -224,16 +242,16 @@ export async function generateMarketReport(date = getTodayDate()) {
     importance_score: item.importance_score,
     source_urls: item.source_urls
   }));
+  const theme = reportThemeForDate(date);
 
   const generated: GeneratedReport = {
     report: {
       report_date: date,
       generated_at: new Date().toISOString(),
-      market_session: date === "2026-05-25" ? "non-trading-day" : "premarket",
-      market_summary:
-        "今天市场主线是 AI 基础设施财报验证与宏观通胀数据再定价并行。科技股不是单边行情，更可能继续分化：能证明订单、利润率和现金流的 AI 产业链公司偏强，缺乏兑现路径的软件和高估值概念股承压。",
+      market_session: theme.market_session,
+      market_summary: theme.market_summary,
       overall_sentiment: "mixed",
-      main_theme: "AI infrastructure earnings validation meets PCE/rates risk",
+      main_theme: theme.main_theme,
       markdown_summary: ""
     },
     topSignals,

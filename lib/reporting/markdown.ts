@@ -1,4 +1,5 @@
 import { FullReport, GeneratedReport } from "@/lib/types";
+import { getCoverageRange } from "./date-utils";
 
 type RenderableReport = FullReport | GeneratedReport;
 
@@ -8,12 +9,16 @@ function links(urls: { title?: string; url: string }[]) {
 
 export function renderMarkdown(full: RenderableReport) {
   const { report, topSignals, events, sectors, macro, decliners, watchlist } = full;
+  const coverage = getCoverageRange(report.report_date);
+  const summary = report.market_summary
+    .replaceAll("今天", report.report_date)
+    .replaceAll("今日", report.report_date);
   return `# Daily US Market Intelligence Report
 日期：${report.report_date}
-覆盖范围：今天 + 未来 7 天
+覆盖范围：${coverage.start} 至 ${coverage.end}
 美股状态：${report.market_session}
 
-## 1. 今日最重要的 3-5 个市场信号
+## 1. ${report.report_date} 最重要的 3-5 个市场信号
 ${topSignals
   .map(
     (item, index) => `### ${index + 1}. ${item.title}
@@ -26,7 +31,7 @@ ${topSignals
   )
   .join("\n\n")}
 
-## 2. 未来 7 天关键事件日历
+## 2. ${coverage.start} 至 ${coverage.end} 关键事件日历
 | 日期 | 事件 | 重要性 | 可能影响的资产或板块 | 需要关注的关键点 | 来源 |
 |---|---|---|---|---|---|
 ${events
@@ -72,15 +77,15 @@ ${decliners
   )
   .join("\n\n")}
 
-## 6. 今日值得重点盯盘的股票 / 板块
+## 6. ${report.report_date} 值得重点盯盘的股票 / 板块
 | 股票 / 板块 | 为什么值得看 | 关键触发点 | 风险点 | 优先级 | 来源 |
 |---|---|---|---|---|---|
 ${watchlist
   .map((item) => `| ${item.symbol_or_sector} | ${item.reason_to_watch} | ${item.key_trigger} | ${item.risk_points} | ${item.priority} | ${links(item.source_urls)} |`)
   .join("\n")}
 
-## 7. 总结：今天市场的主线是什么？
-${report.market_summary}
+## 7. 总结：${report.report_date} 市场的主线是什么？
+${summary}
 
 来源说明：本总结综合以上 Top Signals、事件日历、板块、宏观和个股复盘模块的公开来源，不构成买卖建议。
 `;
