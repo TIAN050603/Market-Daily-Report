@@ -18,6 +18,13 @@ type RssItem = {
   source?: string;
 };
 
+type LoserRow = {
+  symbol: string;
+  companyName: string;
+  changePercent: number;
+  volume: string;
+};
+
 const rssQueries: RssQuery[] = [
   {
     query: "US stock market Nasdaq S&P 500 premarket Fed inflation Treasury yields",
@@ -183,8 +190,37 @@ function toNewsItem(query: RssQuery, item: RssItem, index: number): MarketNewsIt
   };
 }
 
+function stripTags(value: string) {
+  return decodeEntities(value.replace(/<[^>]+>/g, "|").replace(/\|+/g, "|").replace(/^\||\|$/g, ""));
+}
+
+function parseStockAnalysisLosers(html: string): LoserRow[] {
+  const tableStart = html.indexOf('<table id="main-table"');
+  const tableEnd = html.indexOf("</table>", tableStart);
+  if (tableStart < 0 || tableEnd < 0) return [];
+  const table = html.slice(tableStart, tableEnd);
+  return (table.match(/<tr[\s\S]*?<\/tr>/g) ?? [])
+    .slice(1)
+    .map((row) => stripTags(row).split("|"))
+    .map((cells) => ({
+      symbol: cells[1],
+      companyName: cells[2],
+      changePercent: Number((cells[3] ?? "").replace("%", "")),
+      volume: cells[5] ?? "N/A"
+    }))
+    .filter((row) => row.symbol && row.companyName && Number.isFinite(row.changePercent));
+}
+
+function isRelevantDecliner(row: LoserRow) {
+  const text = `${row.symbol} ${row.companyName}`.toUpperCase();
+  const isWatched = tickerUniverse.has(row.symbol.toUpperCase());
+  const techWords = /(AI|SEMICONDUCTOR|TECH|CLOUD|DATA|ENERGY|ELECTRIC|AEROSPACE|ROCKET|SPACE|CRYPTO|SOFTWARE|OPTICAL|POWER)/.test(text);
+  return isWatched || techWords || row.changePercent <= -8;
+}
+
 export class PublicRssMarketDataProvider implements DataProvider {
   private fallback = new MockMarketDataProvider();
+  private allowMockFallback = process.env.ALLOW_MOCK_FALLBACK === "1" || process.env.DATA_PROVIDER !== "public_rss";
 
   private async fetchQuery(query: RssQuery): Promise<MarketNewsItem[]> {
     const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query.query)}&hl=en-US&gl=US&ceid=US:en`;
@@ -202,14 +238,18 @@ export class PublicRssMarketDataProvider implements DataProvider {
       .map((item, index) => toNewsItem(query, item, index));
   }
 
-  private async fetchNewsFor(queries: RssQuery[], fallback: () => Promise<MarketNewsItem[]>) {
+  private async fetchNewsFor(queries: RssQuery[], fallback: () => Promise<MarketNewsItem[]>, minItems = 3) {
     try {
       const settled = await Promise.allSettled(queries.map((query) => this.fetchQuery(query)));
       const items = settled.flatMap((result) => (result.status === "fulfilled" ? result.value : []));
       const unique = uniqueByUrl(items).sort((a, b) => b.importance_score - a.importance_score);
-      if (unique.length >= 3) return unique;
+      if (unique.length >= minItems) return unique;
+      if (!this.allowMockFallback) {
+        throw new Error(`Live RSS returned only ${unique.length} usable items`);
+      }
       return fallback();
-    } catch {
+    } catch (error) {
+      if (!this.allowMockFallback) throw error;
       return fallback();
     }
   }
@@ -235,7 +275,59 @@ export class PublicRssMarketDataProvider implements DataProvider {
   }
 
   async fetchBigDecliners(date: string): Promise<BigDecliner[]> {
-    return this.fallback.fetchBigDecliners(date);
+    try {
+      const response = await fetch("https://stockanalysis.com/markets/losers/", {
+        headers: { "User-Agent": "Mozilla/5.0 Market-Daily-Report/1.0" }
+      });
+      if (!response.ok) throw new Error(`StockAnalysis losers request failed: ${response.status}`);
+      const selected = parseStockAnalysisLosers(await response.text())
+        .filter(isRelevantDecliner)
+        .slice(0, 8);
+      if (!selected.length) {
+        if (!this.allowMockFallback) throw new Error("StockAnalysis returned no usable loser rows");
+        return this.fallback.fetchBigDecliners(date);
+      }
+
+      const withNews = await Promise.all(
+        selected.map(async (row) => {
+          const symbol = row.symbol;
+          const news = await this.fetchNewsFor(
+            [
+              {
+                query: `${symbol} stock shares earnings analyst downgrade market news`,
+                category: "other",
+                sectors: ["Single Stock"],
+                tickers: [symbol],
+                score: 82
+              }
+            ],
+            async () => [],
+            0
+          );
+          const leadNews = news[0];
+          return {
+            ticker: symbol,
+            company_name: row.companyName,
+            previous_day_change_percent: row.changePercent,
+            volume_note: `StockAnalysis 显示成交量为 ${row.volume}；是否异常仍需接入均量数据源复核。`,
+            reason: leadNews
+              ? `行情筛选显示该股位列前一交易日跌幅榜，同时相关公开新闻包括：“${leadNews.title}”。原因归因仍需结合公司公告、财报、评级和盘前成交复核。`
+              : "行情筛选显示该股位列前一交易日跌幅榜；暂未抓到足够明确的单一新闻催化，原因标记为不确定。",
+            reason_type: leadNews ? ("company_specific" as const) : ("unknown" as const),
+            catalysts: leadNews ? [leadNews.category, leadNews.fact_status] : ["price_action", "needs_news_confirmation"],
+            watch_points: "继续观察是否有财报、评级调整、增发/减持、监管、诉讼或行业性压力解释该跌幅。",
+            source_urls: leadNews?.source_urls?.length
+              ? leadNews.source_urls
+              : source("StockAnalysis top losers", "https://stockanalysis.com/markets/losers/")
+          };
+        })
+      );
+
+      return withNews;
+    } catch (error) {
+      if (!this.allowMockFallback) throw error;
+      return this.fallback.fetchBigDecliners(date);
+    }
   }
 
   async fetchTickerNews(ticker: string, date: string): Promise<MarketNewsItem[]> {

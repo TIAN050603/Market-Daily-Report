@@ -6,10 +6,10 @@ const source = (title: string, url: string) => [{ title, url }];
 
 export class MockMarketDataProvider implements DataProvider {
   async fetchMacroEvents(date: string): Promise<EventCalendarItem[]> {
-    const pceDate = formatDate(addDays(date, 3));
+    void date;
     return [
       {
-        event_date: pceDate,
+        event_date: "2026-05-28",
         event_name: "BEA Personal Income and Outlays / PCE",
         event_type: "macro",
         importance: "high",
@@ -18,7 +18,7 @@ export class MockMarketDataProvider implements DataProvider {
         source_urls: source("BEA release schedule", "https://www.bea.gov/news/schedule")
       },
       {
-        event_date: pceDate,
+        event_date: "2026-05-28",
         event_name: "Q1 GDP second estimate",
         event_type: "macro",
         importance: "high",
@@ -30,9 +30,10 @@ export class MockMarketDataProvider implements DataProvider {
   }
 
   async fetchFedEvents(date: string): Promise<EventCalendarItem[]> {
+    void date;
     return [
       {
-        event_date: formatDate(addDays(date, 2)),
+        event_date: "2026-05-27",
         event_name: "Federal Reserve speaker calendar",
         event_type: "fed",
         importance: "medium",
@@ -44,9 +45,10 @@ export class MockMarketDataProvider implements DataProvider {
   }
 
   async fetchEarningsEvents(date: string): Promise<EventCalendarItem[]> {
+    void date;
     return [
       {
-        event_date: formatDate(addDays(date, 2)),
+        event_date: "2026-05-27",
         event_name: "Marvell Technology earnings",
         event_type: "earnings",
         importance: "high",
@@ -55,7 +57,7 @@ export class MockMarketDataProvider implements DataProvider {
         source_urls: source("Marvell IR calendar", "https://investor.marvell.com/news-events/ir-calendar")
       },
       {
-        event_date: formatDate(addDays(date, 2)),
+        event_date: "2026-05-27",
         event_name: "Synopsys earnings",
         event_type: "earnings",
         importance: "high",
@@ -64,13 +66,22 @@ export class MockMarketDataProvider implements DataProvider {
         source_urls: source("Synopsys events", "https://investor.synopsys.com/events-and-presentations/default.aspx")
       },
       {
-        event_date: formatDate(addDays(date, 3)),
-        event_name: "Salesforce / Snowflake / Dell earnings cluster",
+        event_date: "2026-05-27",
+        event_name: "Snowflake earnings",
         event_type: "earnings",
         importance: "high",
-        affected_assets: ["CRM", "SNOW", "DELL", "Cloud", "AI servers"],
-        watch_points: "企业 AI 软件变现、云消费和 AI server backlog。",
+        affected_assets: ["SNOW", "Cloud", "AI data platform"],
+        watch_points: "产品收入增长、AI Data Cloud 消费、剩余履约义务和 FY2027 指引。",
         source_urls: source("Kiplinger earnings calendar", "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks")
+      },
+      {
+        event_date: "2026-05-28",
+        event_name: "Dell Technologies Q1 FY2027 earnings",
+        event_type: "earnings",
+        importance: "high",
+        affected_assets: ["DELL", "AI servers", "SMCI", "VRT", "NVDA"],
+        watch_points: "AI server backlog、ISG margin、GPU server 订单质量和 FY2027 指引。",
+        source_urls: source("Dell upcoming events", "https://delltechnologies.gcs-web.com/news-events/upcoming-events")
       }
     ];
   }
@@ -199,10 +210,13 @@ export class MockMarketDataProvider implements DataProvider {
   }
 
   async fetchUpcomingEvents(date: string, _days = 7): Promise<EventCalendarItem[]> {
+    const endDate = formatDate(addDays(date, _days));
     return [
       ...(await this.fetchMacroEvents(date)),
       ...(await this.fetchFedEvents(date)),
       ...(await this.fetchEarningsEvents(date))
-    ].sort((a, b) => a.event_date.localeCompare(b.event_date));
+    ]
+      .filter((event) => event.event_date >= date && event.event_date <= endDate)
+      .sort((a, b) => a.event_date.localeCompare(b.event_date));
   }
 }

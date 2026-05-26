@@ -171,6 +171,12 @@ The UI and APIs do not hardcode report content. Locally they can read SQLite; on
 
 Important: if `DATA_PROVIDER=mock` is used, different report dates will look highly similar because the mock provider is intentionally static. Daily independent reports require the default public RSS provider or a real API provider.
 
+When GitHub Actions runs with `DATA_PROVIDER=public_rss`, live news is required by default. If the public RSS source cannot return enough usable items, the job fails instead of silently committing a mock report. To intentionally allow fallback for local UI testing, set:
+
+```bash
+ALLOW_MOCK_FALLBACK=1
+```
+
 ## Connecting Real Data Sources
 
 Replace or extend:

@@ -5,7 +5,7 @@ import { getDataProvider } from "@/lib/providers";
 import { MarketNewsItem } from "@/lib/providers/types";
 import { upsertReport } from "@/lib/db/reports";
 import { writeReportSnapshot } from "@/lib/db/file-store";
-import { GeneratedReport, SectorUpdate, Source, TopSignal, WatchlistItem } from "@/lib/types";
+import { EventCalendarItem, GeneratedReport, MacroSnapshot, SectorUpdate, Source, TopSignal, WatchlistItem } from "@/lib/types";
 import { getMonthlyReportPath, getTodayDate } from "./date-utils";
 import { renderMarkdown } from "./markdown";
 
@@ -204,8 +204,19 @@ function buildSectorUpdates(newsItems: MarketNewsItem[] = []): SectorUpdate[] {
   });
 }
 
-function buildWatchlist(reportDate: string): WatchlistItem[] {
-  return [
+function buildWatchlist(reportDate: string, rankedNews: MarketNewsItem[], upcomingEvents: EventCalendarItem[]): WatchlistItem[] {
+  const dynamicItems = rankedNews.slice(0, 4).map((item, index) => ({
+    symbol_or_sector: item.affected_tickers[0] || item.affected_sectors[0] || item.category,
+    reason_to_watch: `进入 ${reportDate} 高权重信号：“${item.title}”。`,
+    key_trigger: upcomingEvents.find((event) => event.affected_assets.some((asset) => item.affected_tickers.includes(asset)))?.event_name || item.title,
+    risk_points: item.fact_status === "fact" ? "需要观察市场是否已经充分定价该事实。" : "该信号仍含预期或推测成分，需要等待价格和正式公告确认。",
+    priority: index < 2 ? ("high" as const) : ("medium" as const),
+    source_urls: item.source_urls
+  }));
+
+  if (dynamicItems.length >= 4) return dynamicItems;
+
+  const fallbackItems: WatchlistItem[] = [
     {
       symbol_or_sector: "MRVL",
       reason_to_watch: "AI ASIC、光互连和数据中心网络的本周核心验证点。",
@@ -239,6 +250,33 @@ function buildWatchlist(reportDate: string): WatchlistItem[] {
       source_urls: [sources.cpo, sources.marvell]
     }
   ];
+  return fallbackItems.slice(0, 4);
+}
+
+function buildMacroSnapshot(rankedNews: MarketNewsItem[], upcomingEvents: EventCalendarItem[]): MacroSnapshot {
+  const macroNews = rankedNews.filter((item) => ["macro", "fed", "energy", "geopolitical"].includes(item.category)).slice(0, 3);
+  const macroEvents = upcomingEvents.filter((event) => ["macro", "fed"].includes(event.event_type)).slice(0, 4);
+  const macroSources = [...macroNews.flatMap((item) => item.source_urls), ...macroEvents.flatMap((event) => event.source_urls)];
+
+  return {
+    treasury_yields: macroNews[0]
+      ? `利率线索来自最新公开信号：“${macroNews[0].title}”。若 10Y/2Y 美债收益率上行，高估值成长股和 AI 软件股估值会更敏感。`
+      : "需要接入实时利率数据源；当前仅根据宏观日历判断收益率风险。",
+    dollar_index: macroNews[1]
+      ? `美元方向重点参考：“${macroNews[1].title}”。强美元通常压制跨国科技公司估值和海外收入折算。`
+      : "需要接入 DXY 实时数据源；当前以 PCE、GDP 和 Fed 预期作为美元方向代理。",
+    crude_oil: macroNews.find((item) => item.category === "energy")?.title
+      ? `能源相关信号：${macroNews.find((item) => item.category === "energy")!.title}。油价上冲会通过通胀预期影响利率和风险偏好。`
+      : "需要接入原油实时行情；当前未发现足够高权重能源冲击信号。",
+    gold: "黄金部分仍需接入实时行情；若黄金与美元同涨，通常代表避险需求升温。",
+    vix: "VIX 部分仍需接入实时行情；当前报告用新闻强度和事件密度作为风险偏好代理。",
+    macro_data: macroEvents.length
+      ? `覆盖期内关键宏观/Fed 事件：${macroEvents.map((event) => `${event.event_date} ${event.event_name}`).join("；")}。`
+      : "覆盖期内未抓到高优先级宏观/Fed 事件。",
+    growth_tech_smallcap_impact:
+      "如果通胀/利率信号偏热，优先压制长久期科技股、小盘成长股和高估值 AI 概念；如果利率回落，AI 基础设施和半导体更容易获得估值支撑。",
+    source_urls: macroSources.length ? macroSources : [sources.beaSchedule, sources.fedCalendar]
+  };
 }
 
 function reportThemeForDate(date: string, rankedNews: MarketNewsItem[]) {
@@ -283,7 +321,7 @@ export async function generateMarketReport(date = getTodayDate()) {
 
   const rankedNews = [...marketNews, ...sectorNews].sort((a, b) => b.importance_score - a.importance_score);
   const sectors = buildSectorUpdates(rankedNews);
-  const watchlist = buildWatchlist(date);
+  const watchlist = buildWatchlist(date, rankedNews, upcomingEvents);
   const topSignals: TopSignal[] = rankedNews.slice(0, 5).map((item) => ({
     title: item.title,
     summary: `${item.summary} 信息性质：${item.fact_status === "fact" ? "已经发生的事实" : item.fact_status === "expectation" ? "市场预期" : item.fact_status === "inference" ? "合理推测" : "不确定信息"}。`,
@@ -310,16 +348,7 @@ export async function generateMarketReport(date = getTodayDate()) {
     topSignals,
     events: upcomingEvents,
     sectors,
-    macro: {
-      treasury_yields: "重点观察 10Y/2Y 美债在 PCE 前后的变化；收益率上行会压制成长股估值。",
-      dollar_index: "美元方向取决于 PCE、GDP 和 Fed 预期，偏强美元通常压制跨国科技公司估值。",
-      crude_oil: "油价若因地缘政治重新上冲，会通过通胀预期影响利率和风险偏好。",
-      gold: "黄金作为风险和实际利率敏感资产，若与美元同涨通常代表避险需求升温。",
-      vix: "指数强势但个股分化，VIX 低位不代表单股风险低。",
-      macro_data: "本周关键数据为 PCE、Q1 GDP 二次估算、耐用品订单、消费者信心。",
-      growth_tech_smallcap_impact: "通胀降温利好成长股和小盘；通胀偏热或油价上冲会优先压制高估值 AI/软件。",
-      source_urls: [sources.beaSchedule, sources.fedCalendar]
-    },
+    macro: buildMacroSnapshot(rankedNews, upcomingEvents),
     decliners,
     watchlist,
     sources: [
