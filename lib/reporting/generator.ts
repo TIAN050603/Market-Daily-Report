@@ -85,10 +85,32 @@ function sectorSentiment(name: string): SectorUpdate["sentiment"] {
   return "uncertain";
 }
 
-function buildSectorUpdates(): SectorUpdate[] {
+function matchingNews(items: MarketNewsItem[], sectorName: string, categories: MarketNewsItem["category"][]) {
+  const normalizedSector = sectorName.toLowerCase();
+  return items
+    .filter(
+      (item) =>
+        categories.includes(item.category) ||
+        item.affected_sectors.some((sector) => normalizedSector.includes(sector.toLowerCase()) || sector.toLowerCase().includes(normalizedSector))
+    )
+    .slice(0, 3);
+}
+
+function dynamicCatalysts(matches: MarketNewsItem[], fallback: string[]) {
+  if (!matches.length) return fallback;
+  return matches.map((item) => `${item.title}：${item.summary}`);
+}
+
+function dynamicSources(matches: MarketNewsItem[], fallback: { title: string; url: string }[]) {
+  const urls = matches.flatMap((item) => item.source_urls);
+  return urls.length ? urls : fallback;
+}
+
+function buildSectorUpdates(newsItems: MarketNewsItem[] = []): SectorUpdate[] {
   const sectors = [
     {
       sector_name: "AI Infrastructure",
+      categories: ["ai", "data_center"] as MarketNewsItem["category"][],
       latest_catalysts: ["Nvidia 财报继续支撑 AI 数据中心需求", "Dell/服务器链本周验证 backlog 和利润率"],
       beneficiary_tickers: ["NVDA", "DELL", "SMCI", "VRT", "ANET"],
       pressured_tickers: ["估值高但订单验证不足的 AI 概念股"],
@@ -97,6 +119,7 @@ function buildSectorUpdates(): SectorUpdate[] {
     },
     {
       sector_name: "Semiconductors",
+      categories: ["semiconductor", "ai"] as MarketNewsItem["category"][],
       latest_catalysts: ["Marvell 与 Synopsys 财报将验证 AI ASIC 和 EDA 活跃度"],
       beneficiary_tickers: ["MRVL", "AVGO", "SNPS", "CDNS", "TSM", "ASML"],
       pressured_tickers: ["MCHP", "传统 MCU/汽车工业链复苏较慢标的"],
@@ -105,6 +128,7 @@ function buildSectorUpdates(): SectorUpdate[] {
     },
     {
       sector_name: "Optical Communication / Networking",
+      categories: ["optical_communication", "data_center"] as MarketNewsItem["category"][],
       latest_catalysts: ["CPO、硅光、1.6T 光模块成为 AI 集群扩容瓶颈"],
       beneficiary_tickers: ["COHR", "LITE", "CIEN", "AAOI", "MRVL", "AVGO", "GLW"],
       pressured_tickers: ["订单兑现慢或价格竞争加剧的高波动光模块股"],
@@ -113,6 +137,7 @@ function buildSectorUpdates(): SectorUpdate[] {
     },
     {
       sector_name: "Cloud / Software",
+      categories: ["cloud", "software", "ai"] as MarketNewsItem["category"][],
       latest_catalysts: ["Salesforce、Snowflake 财报检验企业 AI 软件变现"],
       beneficiary_tickers: ["CRM", "SNOW", "MSFT", "ORCL", "DDOG"],
       pressured_tickers: ["INTU", "AI 替代风险较高的软件股"],
@@ -121,6 +146,7 @@ function buildSectorUpdates(): SectorUpdate[] {
     },
     {
       sector_name: "Data Center Power / Energy",
+      categories: ["energy", "data_center"] as MarketNewsItem["category"][],
       latest_catalysts: ["AI 用电需求推动公用事业、核能、电网设备重估"],
       beneficiary_tickers: ["NEE", "D", "CEG", "VST", "ETN", "PWR", "VRT"],
       pressured_tickers: ["电力接入慢且融资成本高的数据中心项目"],
@@ -129,6 +155,7 @@ function buildSectorUpdates(): SectorUpdate[] {
     },
     {
       sector_name: "Robotics / Automation",
+      categories: ["ai", "other"] as MarketNewsItem["category"][],
       latest_catalysts: ["AI 从云端模型向实体自动化扩散仍是中期主题"],
       beneficiary_tickers: ["TSLA", "ISRG", "ROK", "TER"],
       pressured_tickers: ["订单不清晰的纯概念机器人股"],
@@ -137,6 +164,7 @@ function buildSectorUpdates(): SectorUpdate[] {
     },
     {
       sector_name: "Space / Defense Tech",
+      categories: ["defense", "geopolitical"] as MarketNewsItem["category"][],
       latest_catalysts: ["太空商业化和国防科技仍受预算、发射合同与地缘政治驱动"],
       beneficiary_tickers: ["RKLB", "ASTS", "LMT", "NOC", "PLTR"],
       pressured_tickers: ["现金流弱、依赖融资的早期太空股"],
@@ -145,6 +173,7 @@ function buildSectorUpdates(): SectorUpdate[] {
     },
     {
       sector_name: "Crypto-related Tech",
+      categories: ["crypto"] as MarketNewsItem["category"][],
       latest_catalysts: ["加密风险偏好和矿企 AI 数据中心转型继续影响股价"],
       beneficiary_tickers: ["COIN", "MSTR", "RIOT", "MARA", "IREN", "CRCL"],
       pressured_tickers: ["高杠杆矿企", "电力成本上行的挖矿股"],
@@ -153,6 +182,7 @@ function buildSectorUpdates(): SectorUpdate[] {
     },
     {
       sector_name: "Other Tech-linked Themes",
+      categories: ["macro", "regulation", "geopolitical", "other"] as MarketNewsItem["category"][],
       latest_catalysts: ["宏观利率、关税、出口管制和地缘政治仍会穿透影响科技估值"],
       beneficiary_tickers: ["AAPL", "GOOGL", "META", "AMZN"],
       pressured_tickers: ["供应链或监管暴露较高的科技股"],
@@ -161,7 +191,17 @@ function buildSectorUpdates(): SectorUpdate[] {
     }
   ];
 
-  return sectors.map((sector) => ({ ...sector, sentiment: sectorSentiment(sector.sector_name) }));
+  return sectors.map((sector) => {
+    const matches = matchingNews(newsItems, sector.sector_name, sector.categories);
+    const { categories, ...sectorWithoutCategories } = sector;
+    void categories;
+    return {
+      ...sectorWithoutCategories,
+      latest_catalysts: dynamicCatalysts(matches, sector.latest_catalysts),
+      source_urls: dynamicSources(matches, sector.source_urls),
+      sentiment: sectorSentiment(sector.sector_name)
+    };
+  });
 }
 
 function buildWatchlist(reportDate: string): WatchlistItem[] {
@@ -201,13 +241,26 @@ function buildWatchlist(reportDate: string): WatchlistItem[] {
   ];
 }
 
-function reportThemeForDate(date: string) {
+function reportThemeForDate(date: string, rankedNews: MarketNewsItem[]) {
   if (date === "2026-05-25") {
     return {
       market_session: "non-trading-day" as const,
       main_theme: "Memorial Day 休市，等待 2026-05-26 重新定价 AI 财报与宏观风险",
       market_summary:
         "2026-05-25 美股因 Memorial Day 休市，这份报告更像盘前准备清单：重点不是盘中走势，而是整理 2026-05-26 开盘后可能被重新定价的 AI 基础设施财报、PCE/GDP 数据、利率变化和半导体产业链信号。"
+    };
+  }
+
+  const top = rankedNews[0];
+  const second = rankedNews[1];
+  if (top) {
+    return {
+      market_session: "premarket" as const,
+      main_theme: `${date} 盘前主线：${top.title}`,
+      market_summary:
+        `${date} 的报告由当日公开新闻源重新抓取生成。最高权重信号是“${top.title}”，涉及 ${top.affected_sectors.join("、")}；` +
+        (second ? `第二层信号是“${second.title}”。` : "") +
+        " 这些信息仍需结合盘前价格、成交量、公司公告和宏观数据发布后的市场反应确认。"
     };
   }
 
@@ -229,7 +282,7 @@ export async function generateMarketReport(date = getTodayDate()) {
   ]);
 
   const rankedNews = [...marketNews, ...sectorNews].sort((a, b) => b.importance_score - a.importance_score);
-  const sectors = buildSectorUpdates();
+  const sectors = buildSectorUpdates(rankedNews);
   const watchlist = buildWatchlist(date);
   const topSignals: TopSignal[] = rankedNews.slice(0, 5).map((item) => ({
     title: item.title,
@@ -242,7 +295,7 @@ export async function generateMarketReport(date = getTodayDate()) {
     importance_score: item.importance_score,
     source_urls: item.source_urls
   }));
-  const theme = reportThemeForDate(date);
+  const theme = reportThemeForDate(date, rankedNews);
 
   const generated: GeneratedReport = {
     report: {

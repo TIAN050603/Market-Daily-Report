@@ -9,7 +9,7 @@ A full-stack dashboard for daily U.S. market intelligence reports, focused on AI
 - Local storage: SQLite via Node 24 built-in `node:sqlite`
 - Public free storage: committed JSON report snapshots for Vercel read-only hosting
 - Scheduler: GitHub Actions cron, with local command support
-- Data generation: provider interface + mock provider, ready for real APIs
+- Data generation: provider interface + public RSS provider with mock fallback, ready for paid market data / LLM APIs
 
 ## Project Structure
 
@@ -133,18 +133,34 @@ YYYY-MM/YYYY-MM-DD-Daily-US-Market-Intelligence-Report.md
 
 When this repository is connected to Vercel, every commit triggers a fresh deployment, so the public website updates after GitHub Actions commits the new report.
 
-## Current Mock Data
+## Data Providers
 
-The MVP uses mock data in:
+The default generator uses a public RSS provider:
+
+```text
+lib/providers/public-rss-provider.ts
+```
+
+It queries public Google News RSS topics each run, classifies the items with deterministic rules, and uses those fresh items to build:
+
+- top market signals
+- report main theme and summary
+- sector catalysts and source links
+
+If RSS fetching fails, the system falls back to:
 
 ```text
 lib/providers/mock-provider.ts
 ```
 
-Mocked areas:
+You can force mock mode for UI testing:
 
-- market news
-- sector news
+```bash
+DATA_PROVIDER=mock npm run reports:generate -- 2026-05-26
+```
+
+Still mocked until a dedicated market data API is connected:
+
 - earnings calendar
 - macro calendar
 - Fed calendar
@@ -152,6 +168,8 @@ Mocked areas:
 - market prices and volume notes
 
 The UI and APIs do not hardcode report content. Locally they can read SQLite; on Vercel they read committed JSON snapshots from `data/reports/`.
+
+Important: if `DATA_PROVIDER=mock` is used, different report dates will look highly similar because the mock provider is intentionally static. Daily independent reports require the default public RSS provider or a real API provider.
 
 ## Connecting Real Data Sources
 

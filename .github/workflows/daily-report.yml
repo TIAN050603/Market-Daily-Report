@@ -27,6 +27,7 @@ jobs:
         run: npm run reports:generate -- ${{ github.event.inputs.report_date }}
         env:
           STORAGE_MODE: files
+          DATA_PROVIDER: public_rss
       - name: Commit generated report
         run: |
           git config user.name "github-actions[bot]"
