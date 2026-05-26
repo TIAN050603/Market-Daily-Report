@@ -59,7 +59,8 @@ function rowToSector(row: Record<string, unknown>): SectorUpdate {
     latest_catalysts: parseJson<string[]>(row.latest_catalysts, []),
     beneficiary_tickers: parseJson<string[]>(row.beneficiary_tickers, []),
     pressured_tickers: parseJson<string[]>(row.pressured_tickers, []),
-    watch_signals: parseJson<string[]>(row.watch_signals, [])
+    watch_signals: parseJson<string[]>(row.watch_signals, []),
+    source_urls: parseJson(row.source_urls, [])
   };
 }
 
@@ -74,6 +75,13 @@ function rowToDecliner(row: Record<string, unknown>): BigDecliner {
   return {
     ...(row as unknown as BigDecliner),
     catalysts: parseJson<string[]>(row.catalysts, []),
+    source_urls: parseJson(row.source_urls, [])
+  };
+}
+
+function rowToWatchlist(row: Record<string, unknown>): WatchlistItem {
+  return {
+    ...(row as unknown as WatchlistItem),
     source_urls: parseJson(row.source_urls, [])
   };
 }
@@ -193,8 +201,8 @@ export function upsertReport(input: GeneratedReport): FullReport {
 
   const insertSector = db.prepare(
     `INSERT INTO sector_updates
-     (report_id, sector_name, latest_catalysts, beneficiary_tickers, pressured_tickers, watch_signals, sentiment)
-     VALUES (?, ?, ?, ?, ?, ?, ?)`
+     (report_id, sector_name, latest_catalysts, beneficiary_tickers, pressured_tickers, watch_signals, sentiment, source_urls)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?)`
   );
   input.sectors.forEach((item) =>
     insertSector.run(
@@ -204,7 +212,8 @@ export function upsertReport(input: GeneratedReport): FullReport {
       json(item.beneficiary_tickers),
       json(item.pressured_tickers),
       json(item.watch_signals),
-      item.sentiment
+      item.sentiment,
+      json(item.source_urls)
     )
   );
 
@@ -250,11 +259,19 @@ export function upsertReport(input: GeneratedReport): FullReport {
 
   const insertWatch = db.prepare(
     `INSERT INTO watchlist_items
-     (report_id, symbol_or_sector, reason_to_watch, key_trigger, risk_points, priority)
-     VALUES (?, ?, ?, ?, ?, ?)`
+     (report_id, symbol_or_sector, reason_to_watch, key_trigger, risk_points, priority, source_urls)
+     VALUES (?, ?, ?, ?, ?, ?, ?)`
   );
   input.watchlist.forEach((item) =>
-    insertWatch.run(reportId, item.symbol_or_sector, item.reason_to_watch, item.key_trigger, item.risk_points, item.priority)
+    insertWatch.run(
+      reportId,
+      item.symbol_or_sector,
+      item.reason_to_watch,
+      item.key_trigger,
+      item.risk_points,
+      item.priority,
+      json(item.source_urls)
+    )
   );
 
   const insertSource = db.prepare(
@@ -289,7 +306,7 @@ export function getReportById(id: number): FullReport | null {
       return row ? rowToMacro(row) : null;
     })(),
     decliners: db.prepare("SELECT * FROM big_decliners WHERE report_id = ? ORDER BY previous_day_change_percent ASC").all(id).map(rowToDecliner),
-    watchlist: db.prepare("SELECT * FROM watchlist_items WHERE report_id = ? ORDER BY priority ASC, id ASC").all(id) as unknown as WatchlistItem[],
+    watchlist: db.prepare("SELECT * FROM watchlist_items WHERE report_id = ? ORDER BY priority ASC, id ASC").all(id).map(rowToWatchlist),
     sources: db.prepare("SELECT * FROM sources WHERE report_id = ? ORDER BY id ASC").all(id).map(rowToSource)
   } satisfies FullReport;
 }

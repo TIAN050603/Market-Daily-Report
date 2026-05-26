@@ -21,10 +21,18 @@ export function shouldUseFileStore() {
 
 function readReportFile(filePath: string): FullReport | null {
   try {
-    return JSON.parse(readFileSync(filePath, "utf8")) as FullReport;
+    return normalizeReport(JSON.parse(readFileSync(filePath, "utf8")) as FullReport);
   } catch {
     return null;
   }
+}
+
+function normalizeReport(report: FullReport): FullReport {
+  return {
+    ...report,
+    sectors: report.sectors.map((sector) => ({ ...sector, source_urls: sector.source_urls ?? [] })),
+    watchlist: report.watchlist.map((item) => ({ ...item, source_urls: item.source_urls ?? [] }))
+  };
 }
 
 export function writeReportSnapshot(report: FullReport) {

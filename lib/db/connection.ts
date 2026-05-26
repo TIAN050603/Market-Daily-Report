@@ -29,7 +29,18 @@ export function getDatabase() {
 }
 
 export function migrate() {
-  getDatabase().exec(schema);
+  const db = getDatabase();
+  db.exec(schema);
+  for (const statement of [
+    "ALTER TABLE sector_updates ADD COLUMN source_urls TEXT NOT NULL DEFAULT '[]';",
+    "ALTER TABLE watchlist_items ADD COLUMN source_urls TEXT NOT NULL DEFAULT '[]';"
+  ]) {
+    try {
+      db.exec(statement);
+    } catch {
+      // Column already exists in databases created after the schema update.
+    }
+  }
 }
 
 export function json<T>(value: T): string {

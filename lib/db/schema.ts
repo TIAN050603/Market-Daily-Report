@@ -46,7 +46,8 @@ CREATE TABLE IF NOT EXISTS sector_updates (
   beneficiary_tickers TEXT NOT NULL,
   pressured_tickers TEXT NOT NULL,
   watch_signals TEXT NOT NULL,
-  sentiment TEXT NOT NULL CHECK (sentiment IN ('bullish','bearish','mixed','uncertain'))
+  sentiment TEXT NOT NULL CHECK (sentiment IN ('bullish','bearish','mixed','uncertain')),
+  source_urls TEXT NOT NULL DEFAULT '[]'
 );
 
 CREATE TABLE IF NOT EXISTS macro_snapshots (
@@ -83,7 +84,8 @@ CREATE TABLE IF NOT EXISTS watchlist_items (
   reason_to_watch TEXT NOT NULL,
   key_trigger TEXT NOT NULL,
   risk_points TEXT NOT NULL,
-  priority TEXT NOT NULL CHECK (priority IN ('high','medium','low'))
+  priority TEXT NOT NULL CHECK (priority IN ('high','medium','low')),
+  source_urls TEXT NOT NULL DEFAULT '[]'
 );
 
 CREATE TABLE IF NOT EXISTS sources (

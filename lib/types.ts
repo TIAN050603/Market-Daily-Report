@@ -59,6 +59,7 @@ export type SectorUpdate = {
   pressured_tickers: string[];
   watch_signals: string[];
   sentiment: Sentiment;
+  source_urls: SourceUrl[];
 };
 
 export type MacroSnapshot = {
@@ -96,6 +97,7 @@ export type WatchlistItem = {
   key_trigger: string;
   risk_points: string;
   priority: Priority;
+  source_urls: SourceUrl[];
 };
 
 export type Source = {

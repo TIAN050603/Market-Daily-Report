@@ -3,6 +3,7 @@ import { ImportanceBadge, SentimentBadge, TagList } from "@/components/badges";
 import { FullReport } from "@/lib/types";
 
 function sourceLinks(urls: { title?: string; url: string }[]) {
+  if (!urls.length) return <span className="tag">Source pending</span>;
   return urls.map((source) => (
     <a className="source-link" href={source.url} key={source.url} target="_blank" rel="noreferrer">
       {source.title || "Source"}
@@ -12,12 +13,17 @@ function sourceLinks(urls: { title?: string; url: string }[]) {
 
 export function Overview({ report }: { report: FullReport }) {
   const sectors = report.sectors.slice(0, 5).map((item) => item.sector_name);
+  const overviewSources = [
+    ...report.topSignals.flatMap((signal) => signal.source_urls),
+    ...(report.macro?.source_urls ?? [])
+  ].slice(0, 4);
   return (
     <section className="overview">
       <div>
         <h1>{report.report.main_theme}</h1>
         <p>{report.report.market_summary}</p>
         <TagList items={sectors} />
+        <div className="tags">{sourceLinks(overviewSources)}</div>
       </div>
       <div className="meta-grid">
         <div className="meta-box">
@@ -85,6 +91,7 @@ export function EventCalendar({ report }: { report: FullReport }) {
               <th>重要性</th>
               <th>影响资产 / 板块</th>
               <th>关注点</th>
+              <th>来源</th>
             </tr>
           </thead>
           <tbody>
@@ -98,6 +105,9 @@ export function EventCalendar({ report }: { report: FullReport }) {
                 </td>
                 <td>{event.affected_assets.join(", ")}</td>
                 <td>{event.watch_points}</td>
+                <td>
+                  <div className="tags">{sourceLinks(event.source_urls)}</div>
+                </td>
               </tr>
             ))}
           </tbody>
@@ -123,6 +133,7 @@ export function SectorGrid({ report, collapsible = false }: { report: FullReport
         {sector.watch_signals.join("；")}
       </p>
       <TagList items={[...sector.beneficiary_tickers.map((ticker) => `+ ${ticker}`), ...sector.pressured_tickers.map((ticker) => `- ${ticker}`)]} />
+      <div className="tags">{sourceLinks(sector.source_urls)}</div>
     </article>
   );
 
@@ -148,6 +159,7 @@ export function SectorGrid({ report, collapsible = false }: { report: FullReport
                 {sector.watch_signals.join("；")}
               </p>
               <TagList items={[...sector.beneficiary_tickers.map((ticker) => `+ ${ticker}`), ...sector.pressured_tickers.map((ticker) => `- ${ticker}`)]} />
+              <div className="tags">{sourceLinks(sector.source_urls)}</div>
             </details>
           ))}
         </div>
@@ -181,6 +193,10 @@ export function MacroSection({ report }: { report: FullReport }) {
           </div>
         ))}
       </div>
+      <div className="card" style={{ marginTop: 14 }}>
+        <h3>宏观来源</h3>
+        <div className="tags">{sourceLinks(macro.source_urls)}</div>
+      </div>
     </section>
   );
 }
@@ -202,6 +218,7 @@ export function Decliners({ report }: { report: FullReport }) {
               <th>原因</th>
               <th>类型</th>
               <th>后续观察</th>
+              <th>来源</th>
             </tr>
           </thead>
           <tbody>
@@ -214,6 +231,9 @@ export function Decliners({ report }: { report: FullReport }) {
                 <td>{item.reason}</td>
                 <td>{item.reason_type}</td>
                 <td>{item.watch_points}</td>
+                <td>
+                  <div className="tags">{sourceLinks(item.source_urls)}</div>
+                </td>
               </tr>
             ))}
           </tbody>
@@ -239,6 +259,7 @@ export function Watchlist({ report }: { report: FullReport }) {
             <p>{item.reason_to_watch}</p>
             <p><strong>触发点：</strong>{item.key_trigger}</p>
             <p><strong>风险：</strong>{item.risk_points}</p>
+            <div className="tags">{sourceLinks(item.source_urls)}</div>
           </article>
         ))}
       </div>

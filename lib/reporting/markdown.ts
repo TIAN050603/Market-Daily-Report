@@ -27,10 +27,13 @@ ${topSignals
   .join("\n\n")}
 
 ## 2. 未来 7 天关键事件日历
-| 日期 | 事件 | 重要性 | 可能影响的资产或板块 | 需要关注的关键点 |
-|---|---|---|---|---|
+| 日期 | 事件 | 重要性 | 可能影响的资产或板块 | 需要关注的关键点 | 来源 |
+|---|---|---|---|---|---|
 ${events
-  .map((item) => `| ${item.event_date} | ${item.event_name} | ${item.importance} | ${item.affected_assets.join(", ")} | ${item.watch_points} |`)
+  .map(
+    (item) =>
+      `| ${item.event_date} | ${item.event_name} | ${item.importance} | ${item.affected_assets.join(", ")} | ${item.watch_points} | ${links(item.source_urls)} |`
+  )
   .join("\n")}
 
 ## 3. AI / 科技 / 半导体 / 光通信重点观察
@@ -41,7 +44,8 @@ ${sectors
 - 受益股票：${item.beneficiary_tickers.join(", ") || "暂无明确"}
 - 承压股票：${item.pressured_tickers.join(", ") || "暂无明确"}
 - 需要继续观察的信号：${item.watch_signals.join("；")}
-- 板块情绪：${item.sentiment}`
+- 板块情绪：${item.sentiment}
+- 来源：${links(item.source_urls)}`
   )
   .join("\n\n")}
 
@@ -52,6 +56,7 @@ ${sectors
 - VIX 或市场风险偏好：${macro?.vix ?? "待更新"}
 - 重要宏观数据或预期：${macro?.macro_data ?? "待更新"}
 - 对成长股、科技股、小盘股的影响：${macro?.growth_tech_smallcap_impact ?? "待更新"}
+- 来源：${macro ? links(macro.source_urls) : "待更新"}
 
 ## 5. 前一个交易日跌幅较大的股票复盘
 ${decliners
@@ -68,13 +73,15 @@ ${decliners
   .join("\n\n")}
 
 ## 6. 今日值得重点盯盘的股票 / 板块
-| 股票 / 板块 | 为什么值得看 | 关键触发点 | 风险点 | 优先级 |
-|---|---|---|---|---|
+| 股票 / 板块 | 为什么值得看 | 关键触发点 | 风险点 | 优先级 | 来源 |
+|---|---|---|---|---|---|
 ${watchlist
-  .map((item) => `| ${item.symbol_or_sector} | ${item.reason_to_watch} | ${item.key_trigger} | ${item.risk_points} | ${item.priority} |`)
+  .map((item) => `| ${item.symbol_or_sector} | ${item.reason_to_watch} | ${item.key_trigger} | ${item.risk_points} | ${item.priority} | ${links(item.source_urls)} |`)
   .join("\n")}
 
 ## 7. 总结：今天市场的主线是什么？
 ${report.market_summary}
+
+来源说明：本总结综合以上 Top Signals、事件日历、板块、宏观和个股复盘模块的公开来源，不构成买卖建议。
 `;
 }
