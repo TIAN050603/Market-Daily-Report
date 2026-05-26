@@ -20,14 +20,13 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: "24"
+          node-version: "22"
           cache: "npm"
       - run: npm ci
-      - run: npm run db:migrate
       - name: Generate report
         run: npm run reports:generate -- ${{ github.event.inputs.report_date }}
         env:
-          REPORT_GENERATION_TOKEN: ${{ secrets.REPORT_GENERATION_TOKEN }}
+          STORAGE_MODE: files
       - name: Commit generated report
         run: |
           git config user.name "github-actions[bot]"
