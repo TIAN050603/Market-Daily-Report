@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: "22"
           cache: "npm"
-      - run: npm ci
+      - run: npm install --no-audit --no-fund
       - name: Generate report
         run: npm run reports:generate -- ${{ github.event.inputs.report_date }}
         env:

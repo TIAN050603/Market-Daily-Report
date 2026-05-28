@@ -1,0 +1,486 @@
+{
+  "report": {
+    "id": 20260527,
+    "report_date": "2026-05-27",
+    "generated_at": "2026-05-27T06:47:22.2052813Z",
+    "market_session": "premarket",
+    "market_summary": "2026-05-27 的市场主线仍然是 AI 龙头业绩确认之后，涨势是否能够扩散到 ASIC、EDA、光通信、服务器整机和企业 AI 软件。已发生的事实对 AI 主线仍偏正面，但 2026-05-27 至 2026-05-28 的 Marvell、Synopsys、Snowflake、Dell 财报以及核心 PCE / GDP 数据，会决定市场是继续扩散还是重新回到龙头独涨的分化状态。",
+    "overall_sentiment": "mixed",
+    "main_theme": "2026-05-27 盘前主线：AI 业绩验证遇上 PCE 定价窗口",
+    "markdown_summary": "# Daily US Market Intelligence Report\n日期：2026-05-27\n覆盖范围：2026-05-27 至 2026-06-03\n美股状态：盘前\n\n详见仓库内 Markdown 正文：2026-05/2026-05-27-Daily-US-Market-Intelligence-Report.md\n",
+    "created_at": "2026-05-27T06:47:22.2052813Z",
+    "updated_at": "2026-05-27T06:47:22.2052813Z"
+  },
+  "topSignals": [
+    {
+      "title": "英伟达在 2026-05-20 交出超预期季度业绩，AI 资本开支主线尚未被证伪",
+      "summary": "英伟达在截至 2026-04-26 的 2027 财年第一季度实现营收 816 亿美元、数据中心营收 752 亿美元，并上调季度股息与回购授权；公司同时强调 Blackwell、推理和主权 AI 需求继续扩张。这是已经发生的事实。",
+      "why_it_matters": "这仍然是当前美股 AI 主线最关键的需求锚。只要龙头业绩与指引没有明显失速，服务器、HBM、光模块、电力散热和 ASIC 链条就仍有估值支撑。",
+      "direction": "bullish",
+      "affected_sectors": ["AI Infrastructure", "Semiconductors", "Data Center"],
+      "affected_tickers": ["NVDA", "SMCI", "DELL", "VRT", "MRVL", "AVGO", "LITE", "MU"],
+      "impact_horizon": "medium_term",
+      "importance_score": 96,
+      "source_urls": [
+        {
+          "title": "NVIDIA Q1 FY2027 Results",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx"
+        },
+        {
+          "title": "NVIDIA CFO at TD Cowen 2026-05-28",
+          "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/TD-Cowen-53rd-Annual-Technology-Media--Telecom-Conference/default.aspx"
+        }
+      ]
+    },
+    {
+      "title": "2026-05-26 美股继续把资金集中到 AI 内核资产，Micron 的急涨说明市场仍在追逐 HBM / 存储受益链",
+      "summary": "路透 2026-05-26 报道 Micron 因 UBS 大幅上调目标价而一度涨 19.3%，并短暂触及 1 万亿美元市值，市场再度把 AI 受益的存储 / 带宽瓶颈作为高弹性方向定价。这是已经发生的事实。",
+      "why_it_matters": "这说明资金没有全面撤离 AI，而是在 AI 主线内部继续向盈利兑现更快的细分环节集中。对半导体内部风格而言，HBM、存储、先进封装仍强于传统模拟 / MCU 的概率更高。",
+      "direction": "bullish",
+      "affected_sectors": ["Semiconductors", "AI Infrastructure"],
+      "affected_tickers": ["MU", "NVDA", "AVGO", "MRVL", "AMD", "SOXX", "SMH"],
+      "impact_horizon": "this_week",
+      "importance_score": 88,
+      "source_urls": [
+        {
+          "title": "Reuters: Micron joins $1 trillion club",
+          "url": "https://whtc.com/2026/05/26/micron-joins-1-trillion-club-as-ai-race-powers-memory-chip-boom/"
+        },
+        {
+          "title": "Reuters Breakingviews on AI spending and markets",
+          "url": "https://www.reuters.com/breakingviews/ai-spending-may-give-stocks-one-more-boost-2026-05-22/"
+        }
+      ]
+    },
+    {
+      "title": "2026-05-27 盘后是 AI / 半导体 / 云软件的财报密集窗口，Marvell、Synopsys、Snowflake 会直接决定下一棒是否扩散",
+      "summary": "Marvell、Synopsys、Snowflake 都已把 2026-05-27 盘后财报列入各自 IR 日历；其中 Marvell 关系到 AI 定制芯片与光互连，Synopsys 关系到 EDA 与 ASIC 设计活跃度，Snowflake 关系到企业 AI 数据平台消费。这是已知事件，结果尚未发生，属于市场预期。",
+      "why_it_matters": "如果三家公司同时给出稳健或上修指引，AI 主线更可能从 GPU 龙头扩散到 ASIC、EDA、数据平台和网络链；如果只有个别公司好，其它分支可能继续分化。",
+      "direction": "uncertain",
+      "affected_sectors": ["AI Infrastructure", "Semiconductors", "Cloud", "Software", "Optical Communication"],
+      "affected_tickers": ["MRVL", "SNPS", "CDNS", "SNOW", "NVDA", "AVGO", "ANET", "DDOG"],
+      "impact_horizon": "this_week",
+      "importance_score": 92,
+      "source_urls": [
+        {
+          "title": "Marvell IR Calendar",
+          "url": "https://investor.marvell.com/news-events/ir-calendar"
+        },
+        {
+          "title": "Synopsys Q2 FY2026 Earnings Event",
+          "url": "https://investor.synopsys.com/events-and-presentations/events/event-details/2026/Q2-Fiscal-Year-2026-Earnings/default.aspx"
+        },
+        {
+          "title": "Snowflake Q1 FY2027 Earnings Event",
+          "url": "https://investors.snowflake.com/events-and-presentations/event-details/2026/Snowflake-Q1-FY27-Earnings/default.aspx"
+        }
+      ]
+    },
+    {
+      "title": "2026-05-28 的核心 PCE 与 GDP 二读是本周最重要的宏观定价点，若通胀偏热会直接压缩高估值科技股",
+      "summary": "BEA 日程显示 2026-05-28 将公布 2026-04 个人收入和支出数据，其中包含核心 PCE，同时发布 2026Q1 GDP 第二次估值。这是已知事件，结果尚未发生，属于市场预期。",
+      "why_it_matters": "英伟达等 AI 龙头维持高估值的前提之一是长端利率不要失控。如果核心 PCE 偏热、GDP 价格分项偏强，10 年期美债收益率再上行会先压制软件和高估值半导体。",
+      "direction": "uncertain",
+      "affected_sectors": ["Macro", "Rates", "Growth Tech"],
+      "affected_tickers": ["QQQ", "ARKK", "NVDA", "MSFT", "SNOW", "CRWD", "TLT", "DXY"],
+      "impact_horizon": "this_week",
+      "importance_score": 94,
+      "source_urls": [
+        {
+          "title": "BEA Release Schedule",
+          "url": "https://www.bea.gov/news/schedule"
+        },
+        {
+          "title": "BEA Gross Domestic Product",
+          "url": "https://www.bea.gov/data/gdp/gross-domestic-product"
+        }
+      ]
+    },
+    {
+      "title": "中国监管收紧跨境券商开户，2026-05-26 的中概互联网券商暴跌提醒监管变量仍可压过基本面",
+      "summary": "香港证监会 2026-05-23 点名富途、老虎、Long Bridge 等机构在跨境获客上存在合规问题；2026-05-26 前一交易日，FUTU 与 TIGR 在美股显著下挫。这里监管点名是已经发生的事实，后续整改影响多大仍有不确定性。",
+      "why_it_matters": "这不是 AI 主线本身，但会影响中概互联网券商、跨境财富管理、香港互联网金融情绪，也提醒市场对监管冲击的容忍度并不高。",
+      "direction": "bearish",
+      "affected_sectors": ["China ADR Brokers", "Internet Finance", "Regulation"],
+      "affected_tickers": ["FUTU", "TIGR"],
+      "impact_horizon": "this_week",
+      "importance_score": 83,
+      "source_urls": [
+        {
+          "title": "SFC statement on unlicensed cross-boundary solicitation",
+          "url": "https://www.sfc.hk/en/News-and-announcements/Policy-statements-and-announcements/Unlicensed-solicitation-of-Hong-Kong-investors-by-unlicensed-entities"
+        },
+        {
+          "title": "Reuters on offshore broker scrutiny",
+          "url": "https://www.reuters.com/world/china/hong-kong-regulator-flags-futu-tiger-brokers-over-mainland-client-solicitation-2026-05-23/"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "event_date": "2026-05-27",
+      "event_name": "Marvell 2026Q1 财报",
+      "event_type": "earnings",
+      "importance": "high",
+      "affected_assets": ["MRVL", "AVGO", "NVDA", "光通信", "ASIC"],
+      "watch_points": "数据中心收入占比、定制芯片订单、800G/1.6T 光互连评论、FY2027 指引",
+      "source_urls": [{ "title": "Marvell IR Calendar", "url": "https://investor.marvell.com/news-events/ir-calendar" }]
+    },
+    {
+      "event_date": "2026-05-27",
+      "event_name": "Synopsys 2026Q2 财报",
+      "event_type": "earnings",
+      "importance": "high",
+      "affected_assets": ["SNPS", "CDNS", "半导体设计链"],
+      "watch_points": "EDA 需求、AI ASIC 设计活跃度、China 限制与订单可见性",
+      "source_urls": [{ "title": "Synopsys Earnings Event", "url": "https://investor.synopsys.com/events-and-presentations/events/event-details/2026/Q2-Fiscal-Year-2026-Earnings/default.aspx" }]
+    },
+    {
+      "event_date": "2026-05-27",
+      "event_name": "Snowflake 2027 财年 Q1 财报",
+      "event_type": "earnings",
+      "importance": "high",
+      "affected_assets": ["SNOW", "云计算", "数据平台"],
+      "watch_points": "产品收入增速、RPO、AI 功能变现、全年指引",
+      "source_urls": [{ "title": "Snowflake Earnings Event", "url": "https://investors.snowflake.com/events-and-presentations/event-details/2026/Snowflake-Q1-FY27-Earnings/default.aspx" }]
+    },
+    {
+      "event_date": "2026-05-28",
+      "event_name": "美国 2026-04 Personal Income and Outlays / Core PCE",
+      "event_type": "macro",
+      "importance": "high",
+      "affected_assets": ["美债收益率", "美元", "Nasdaq", "成长股"],
+      "watch_points": "核心 PCE 是否高于预期，工资与消费是否继续支撑高利率更久",
+      "source_urls": [{ "title": "BEA Release Schedule", "url": "https://www.bea.gov/news/schedule" }]
+    },
+    {
+      "event_date": "2026-05-28",
+      "event_name": "美国 2026Q1 GDP 第二次估值",
+      "event_type": "macro",
+      "importance": "high",
+      "affected_assets": ["标普 500", "周期股", "美元"],
+      "watch_points": "实际增长、PCE 价格指数、库存与净出口对增速的拖累或支撑",
+      "source_urls": [{ "title": "BEA GDP", "url": "https://www.bea.gov/data/gdp/gross-domestic-product" }]
+    },
+    {
+      "event_date": "2026-05-28",
+      "event_name": "Dell Technologies 2027 财年 Q1 财报电话会",
+      "event_type": "earnings",
+      "importance": "high",
+      "affected_assets": ["DELL", "SMCI", "VRT", "NVDA", "企业 IT"],
+      "watch_points": "AI 服务器 backlog、利润率、企业 PC 和传统服务器恢复情况",
+      "source_urls": [{ "title": "Dell upcoming events", "url": "https://delltechnologies.gcs-web.com/news-events/upcoming-events" }]
+    },
+    {
+      "event_date": "2026-05-28",
+      "event_name": "美国周度初请失业金",
+      "event_type": "macro",
+      "importance": "medium",
+      "affected_assets": ["利率", "消费", "银行股", "小盘股"],
+      "watch_points": "劳动力市场是否继续放缓，是否强化 2026 年降息预期",
+      "source_urls": [{ "title": "DOL unemployment insurance release schedule", "url": "https://oui.doleta.gov/unemploy/claims.asp" }]
+    },
+    {
+      "event_date": "2026-05-28",
+      "event_name": "EIA Weekly Petroleum Status Report",
+      "event_type": "energy",
+      "importance": "medium",
+      "affected_assets": ["原油", "能源股", "通胀预期"],
+      "watch_points": "原油库存与炼厂开工率是否推升短期油价与通胀预期",
+      "source_urls": [{ "title": "EIA Weekly Petroleum Status Report", "url": "https://www.eia.gov/petroleum/supply/weekly/" }]
+    },
+    {
+      "event_date": "2026-05-29",
+      "event_name": "Census Advance Economic Indicators",
+      "event_type": "macro",
+      "importance": "medium",
+      "affected_assets": ["零售", "批发", "物流", "GDP Nowcast"],
+      "watch_points": "商品贸易逆差、批发库存、零售库存是否修正 2026Q2 增长预期",
+      "source_urls": [{ "title": "Census Economic Indicators Calendar", "url": "https://www.census.gov/economic-indicators/calendar-listview.html" }]
+    },
+    {
+      "event_date": "2026-06-01",
+      "event_name": "ISM Manufacturing PMI",
+      "event_type": "macro",
+      "importance": "high",
+      "affected_assets": ["工业", "原材料", "利率", "美元"],
+      "watch_points": "新订单、价格分项、就业分项，判断制造业修复与通胀再加速风险",
+      "source_urls": [{ "title": "ISM Report Calendar", "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/" }]
+    },
+    {
+      "event_date": "2026-06-01",
+      "event_name": "Construction Spending",
+      "event_type": "macro",
+      "importance": "medium",
+      "affected_assets": ["工业", "建筑", "材料", "电力基础设施"],
+      "watch_points": "数据中心、电网和制造业建设是否延续高景气",
+      "source_urls": [{ "title": "Census Construction Spending Release Schedule", "url": "https://www.census.gov/construction/c30/schedule.html" }]
+    },
+    {
+      "event_date": "2026-06-02",
+      "event_name": "JOLTS 职位空缺",
+      "event_type": "macro",
+      "importance": "medium",
+      "affected_assets": ["利率", "消费", "小盘股"],
+      "watch_points": "招聘需求是否继续降温，缓解长端利率压力",
+      "source_urls": [{ "title": "BLS Release Calendar", "url": "https://www.bls.gov/schedule/news_release/jolts.htm" }]
+    },
+    {
+      "event_date": "2026-06-03",
+      "event_name": "ISM Services PMI",
+      "event_type": "macro",
+      "importance": "high",
+      "affected_assets": ["软件", "消费", "利率", "美元"],
+      "watch_points": "服务业价格分项与就业分项是否继续偏热",
+      "source_urls": [{ "title": "ISM Report Calendar", "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/" }]
+    }
+  ],
+  "sectors": [
+    {
+      "sector_name": "AI 基础设施",
+      "latest_catalysts": ["英伟达 2027 财年 Q1 业绩继续确认 AI 训练与推理需求强劲", "Dell 2027 财年 Q1 与 Marvell 2026Q1 财报将验证需求是否向服务器整机、定制芯片和网络外溢"],
+      "beneficiary_tickers": ["NVDA", "DELL", "SMCI", "VRT", "ANET", "MRVL"],
+      "pressured_tickers": ["订单兑现弱、仅靠概念估值支撑的 AI 基建二三线标的"],
+      "watch_signals": ["GPU 供给", "服务器 backlog", "企业/云厂商资本开支", "推理算力需求"],
+      "sentiment": "bullish",
+      "source_urls": [
+        { "title": "NVIDIA Q1 FY2027 Results", "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx" },
+        { "title": "Dell upcoming events", "url": "https://delltechnologies.gcs-web.com/news-events/upcoming-events" },
+        { "title": "Marvell IR Calendar", "url": "https://investor.marvell.com/news-events/ir-calendar" }
+      ]
+    },
+    {
+      "sector_name": "半导体",
+      "latest_catalysts": ["Micron 的急涨说明 HBM/存储仍是 AI 主线中最强的弹性环节之一", "Synopsys 财报则用于验证 EDA 与 ASIC 设计活动是否继续升温"],
+      "beneficiary_tickers": ["MU", "NVDA", "AVGO", "MRVL", "SNPS", "CDNS", "TSM"],
+      "pressured_tickers": ["传统 MCU / 模拟 / 汽车链中基本面恢复慢且估值已不低的标的"],
+      "watch_signals": ["HBM 供需", "先进封装", "EDA 订单可见性", "AI ASIC tape-out 活跃度"],
+      "sentiment": "bullish",
+      "source_urls": [
+        { "title": "Reuters: Micron joins $1 trillion club", "url": "https://whtc.com/2026/05/26/micron-joins-1-trillion-club-as-ai-race-powers-memory-chip-boom/" },
+        { "title": "Synopsys Earnings Event", "url": "https://investor.synopsys.com/events-and-presentations/events/event-details/2026/Q2-Fiscal-Year-2026-Earnings/default.aspx" },
+        { "title": "Marvell custom silicon / NVLink Fusion release", "url": "https://investor.marvell.com/news/news-details/2026/Marvell-Extends-Custom-AI-XPU-Strategy-with-NVLink-Fusion/default.aspx" }
+      ]
+    },
+    {
+      "sector_name": "光通信 / 网络",
+      "latest_catalysts": ["Marvell 在 2026-04 发布与 NVIDIA NVLink Fusion 相关的定制 AI XPU 战略延展", "2026-05-27 财报将给出网络、DSP 与互连是否成为 AI 集群扩容瓶颈的更直接验证"],
+      "beneficiary_tickers": ["MRVL", "LITE", "COHR", "AAOI", "CIEN", "AVGO", "ANET"],
+      "pressured_tickers": ["订单兑现慢、价格竞争激烈、对单一客户依赖过高的高波动光模块股"],
+      "watch_signals": ["800G/1.6T 出货", "DSP 供给", "交换芯片节奏", "CPO 路线图"],
+      "sentiment": "bullish",
+      "source_urls": [
+        { "title": "Marvell custom silicon / NVLink Fusion release", "url": "https://investor.marvell.com/news/news-details/2026/Marvell-Extends-Custom-AI-XPU-Strategy-with-NVLink-Fusion/default.aspx" },
+        { "title": "Marvell IR Calendar", "url": "https://investor.marvell.com/news-events/ir-calendar" },
+        { "title": "NVIDIA TD Cowen 2026-05-28", "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/TD-Cowen-53rd-Annual-Technology-Media--Telecom-Conference/default.aspx" }
+      ]
+    },
+    {
+      "sector_name": "云计算 / 软件",
+      "latest_catalysts": ["Snowflake 2027 财年 Q1 与 Intuit 2026-05-22 的业绩 / 指引更新，都是企业软件 AI 变现是否真实发生的直接验证点", "目前结论仍是部分兑现，并非全面扩散"],
+      "beneficiary_tickers": ["SNOW", "CRM", "MSFT", "ORCL", "DDOG", "INTU"],
+      "pressured_tickers": ["AI 叙事很强但 ARR、RPO、利润率兑现仍弱的软件股"],
+      "watch_signals": ["RPO", "净留存率", "AI 功能 ARPU", "云消费与推理工作负载"],
+      "sentiment": "mixed",
+      "source_urls": [
+        { "title": "Snowflake Earnings Event", "url": "https://investors.snowflake.com/events-and-presentations/event-details/2026/Snowflake-Q1-FY27-Earnings/default.aspx" },
+        { "title": "Intuit Q3 FY2026 release", "url": "https://investors.intuit.com/news-events/press-releases/detail/1312/intuit-reports-strong-third-quarter-results-and-raises-full-year-revenue-guidance" },
+        { "title": "Salesforce FY2027 Q1 earnings date", "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-First-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx" }
+      ]
+    },
+    {
+      "sector_name": "数据中心电力 / 能源",
+      "latest_catalysts": ["AI 电力需求仍是二级市场愿意反复交易的外溢主题", "若 2026-05-28 PCE 偏热导致利率走高，公用事业与电力设备链也会受估值压制"],
+      "beneficiary_tickers": ["VRT", "ETN", "PWR", "CEG", "VST", "TLN"],
+      "pressured_tickers": ["高杠杆、融资敏感、项目交付慢的数据中心配套公司"],
+      "watch_signals": ["PPA 价格", "电网接入进度", "核电与燃气项目审批", "AI 用电负荷预测"],
+      "sentiment": "uncertain",
+      "source_urls": [
+        { "title": "Reuters Breakingviews on AI spending and markets", "url": "https://www.reuters.com/breakingviews/ai-spending-may-give-stocks-one-more-boost-2026-05-22/" },
+        { "title": "EIA Weekly Petroleum Status Report", "url": "https://www.eia.gov/petroleum/supply/weekly/" },
+        { "title": "Construction Spending Release Schedule", "url": "https://www.census.gov/construction/c30/schedule.html" }
+      ]
+    }
+  ],
+  "macro": {
+    "treasury_yields": "2026-05-28 的核心 PCE 与 GDP 二读是本周美股最关键的利率变量。如果核心通胀和价格分项偏热，长端利率上行会先压估值最高的软件和 AI 概念股；如果数据温和，AI 龙头更容易维持高估值。",
+    "dollar_index": "若 PCE 和增长数据共同偏强，美元更容易走强，并对全球风险资产和跨国科技公司的海外收入折算形成压力；若数据温和，美元压力可能缓解。",
+    "crude_oil": "EIA 2026-05-28 库存数据值得关注。若库存下降并推升油价，市场可能重新提高通胀预期，间接压制久期较长的成长股。",
+    "gold": "若长端利率和美元同时走高而黄金回落，通常意味着实际利率约束增强；若黄金与美元同涨，则更偏向避险升温。",
+    "vix": "2026-05-26 的市场更像是 AI 主线内部风格切换而非全面风险回避。若接下来财报和 PCE 同时偏利多，VIX 更可能维持低位；若通胀偏热或财报转弱，波动率容易快速回升。",
+    "macro_data": "覆盖期内最关键的宏观数据是 2026-05-28 核心 PCE 与 2026Q1 GDP 二读、2026-05-28 周度初请、2026-05-29 Advance Economic Indicators、2026-06-01 ISM Manufacturing、2026-06-02 JOLTS、2026-06-03 ISM Services。",
+    "growth_tech_smallcap_impact": "若通胀与利率数据偏热，高估值软件、AI 概念股和小盘成长股更容易先被压缩估值；若通胀温和且财报口径稳健，AI 基础设施、半导体和部分云软件更可能获得资金延续。",
+    "source_urls": [
+      { "title": "BEA Release Schedule", "url": "https://www.bea.gov/news/schedule" },
+      { "title": "BEA GDP", "url": "https://www.bea.gov/data/gdp/gross-domestic-product" },
+      { "title": "Reuters: Micron joins $1 trillion club", "url": "https://whtc.com/2026/05/26/micron-joins-1-trillion-club-as-ai-race-powers-memory-chip-boom/" },
+      { "title": "DOL unemployment insurance release schedule", "url": "https://oui.doleta.gov/unemploy/claims.asp" },
+      { "title": "BLS JOLTS release calendar", "url": "https://www.bls.gov/schedule/news_release/jolts.htm" },
+      { "title": "ISM Report Calendar", "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/" }
+    ]
+  },
+  "decliners": [
+    {
+      "ticker": "ADTX",
+      "company_name": "Aditxt, Inc.",
+      "previous_day_change_percent": -50.57,
+      "volume_note": "低价高波动个股，跌幅放大更多反映流动性与摊薄预期叠加，而不是单一基本面事件。",
+      "reason": "公司在 2026-05-16 披露 1 比 250 反向拆股，并在 2026-05-19 生效；此前还存在已登记转售股份的摊薄压力。2026-05-26 的暴跌更像是反向拆股后流动性恶化与融资 / 转售预期共同触发。",
+      "reason_type": "company_specific",
+      "catalysts": ["反向拆股已发生", "潜在摊薄与转售压力", "低流通盘放大波动"],
+      "watch_points": "是否继续出现大额摊薄、是否有新的融资或 8-K、盘前量能是否快速衰减",
+      "source_urls": [
+        { "title": "StockAnalysis losers", "url": "https://stockanalysis.com/markets/losers/" },
+        { "title": "Aditxt reverse split announcement / SEC filing index", "url": "https://www.sec.gov/Archives/edgar/data/1726711/000121390026045298/ea0243793-8k_aditxt.htm" }
+      ]
+    },
+    {
+      "ticker": "GMM",
+      "company_name": "Global Mofy AI Limited",
+      "previous_day_change_percent": -32.5,
+      "volume_note": "低市值 AI 概念股，消息驱动下单日价格弹性极高。",
+      "reason": "公司在 2026-05-26 宣布约 800 万美元 registered direct offering，发行价 2.00 美元，并附带认股权证；对小市值公司而言，这种直接融资通常意味着即时摊薄和风险偏好下降。",
+      "reason_type": "company_specific",
+      "catalysts": ["registered direct offering", "摊薄", "认股权证"],
+      "watch_points": "融资完成后的流通盘变化、认股权证执行价、是否出现二次融资",
+      "source_urls": [
+        { "title": "StockAnalysis losers", "url": "https://stockanalysis.com/markets/losers/" },
+        { "title": "StockTitan / company offering recap", "url": "https://www.stocktitan.net/news/GMM/global-mofy-ai-limited-announces-pricing-of-8-million-registered-k08efqa2e8ny.html" }
+      ]
+    },
+    {
+      "ticker": "CRBP",
+      "company_name": "Corbus Pharmaceuticals Holdings, Inc.",
+      "previous_day_change_percent": -30.31,
+      "volume_note": "高弹性生物科技股，ASCO 前后对临床数据的预期差常导致利好兑现后下跌。",
+      "reason": "公司在 2026-05-23 公布 CRB-701 更新临床数据并给出管理层评论，但 2026-05-26 市场选择大幅下修，说明资金对疗效 / 安全性 / 商业化空间的解读仍存在明显分歧。单日暴跌更可能是 sell the news，但这一点属于推测。",
+      "reason_type": "company_specific",
+      "catalysts": ["临床数据更新", "ASCO 预期差", "高波动 biotech 风险偏好回落"],
+      "watch_points": "ASCO 会议后的更多细节、分析师解读、后续融资需求与现金跑道",
+      "source_urls": [
+        { "title": "StockAnalysis losers", "url": "https://stockanalysis.com/markets/losers/" },
+        { "title": "Corbus updated CRB-701 data", "url": "https://ir.corbuspharma.com/news-releases/news-release-details/corbus-pharmaceuticals-announces-updated-clinical-data-crb-701" }
+      ]
+    },
+    {
+      "ticker": "AMST",
+      "company_name": "Amesite Inc.",
+      "previous_day_change_percent": -24.76,
+      "volume_note": "低价软件小票，股本扩张与融资消息对股价影响通常大于业务进展。",
+      "reason": "Amesite 在 2026-05-22 向 SEC 提交 S-1，涉及潜在股票发行与转售安排；2026-05-26 的下跌大概率反映市场对未来摊薄和融资需求的提前定价。",
+      "reason_type": "company_specific",
+      "catalysts": ["S-1 filing", "潜在摊薄", "低流通盘波动"],
+      "watch_points": "S-1 生效进度、发行规模、管理层是否披露新的商业合同",
+      "source_urls": [
+        { "title": "StockAnalysis losers", "url": "https://stockanalysis.com/markets/losers/" },
+        { "title": "SEC S-1 filing for Amesite", "url": "https://www.sec.gov/Archives/edgar/data/1807166/000149315226020993/forms-1.htm" }
+      ]
+    },
+    {
+      "ticker": "NAKA",
+      "company_name": "Nakamoto Holdings Inc.",
+      "previous_day_change_percent": -24.07,
+      "volume_note": "加密相关高波动标的，结构性调整和股本变化对股价影响很大。",
+      "reason": "2026-05-22 OCC 发布关于该股 1 比 20 反向拆股的备忘录；对这类高波动小盘股而言，反向拆股后通常更容易出现流动性恶化与交易拥挤后的回撤。",
+      "reason_type": "company_specific",
+      "catalysts": ["反向拆股", "高波动加密小盘股", "流动性恶化"],
+      "watch_points": "成交量是否快速收缩、是否伴随新的融资安排、与比特币价格是否重新脱钩",
+      "source_urls": [
+        { "title": "StockAnalysis losers", "url": "https://stockanalysis.com/markets/losers/" },
+        { "title": "OCC reverse split memo for NAKA", "url": "https://infomemo.theocc.com/infomemos?number=56297" }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol_or_sector": "MRVL",
+      "reason_to_watch": "2026-05-27 盘后财报是 AI ASIC、光互连、网络链条最重要的分支验证点之一。",
+      "key_trigger": "数据中心收入、定制芯片订单、FY2027 指引",
+      "risk_points": "若增速未达高预期，整条光通信 / ASIC 链可能回撤。",
+      "priority": "high",
+      "source_urls": [
+        { "title": "Marvell IR Calendar", "url": "https://investor.marvell.com/news-events/ir-calendar" },
+        { "title": "Marvell NVLink Fusion release", "url": "https://investor.marvell.com/news/news-details/2026/Marvell-Extends-Custom-AI-XPU-Strategy-with-NVLink-Fusion/default.aspx" }
+      ]
+    },
+    {
+      "symbol_or_sector": "SNPS / CDNS",
+      "reason_to_watch": "EDA 是 AI ASIC 扩张的上游，如果 Synopsys 口径强，设计链估值更容易维持。",
+      "key_trigger": "订单可见性、AI 设计活跃度、China 限制影响",
+      "risk_points": "EDA 估值本就不低，任何保守措辞都可能触发压缩。",
+      "priority": "high",
+      "source_urls": [{ "title": "Synopsys Earnings Event", "url": "https://investor.synopsys.com/events-and-presentations/events/event-details/2026/Q2-Fiscal-Year-2026-Earnings/default.aspx" }]
+    },
+    {
+      "symbol_or_sector": "SNOW",
+      "reason_to_watch": "企业 AI 变现是否真实发生，需要看 Snowflake 的产品收入、RPO 和全年指引。",
+      "key_trigger": "Q1 FY2027 财报、AI Data Cloud 评论",
+      "risk_points": "如果 AI 叙事仍强但变现不明显，软件股会再次分化。",
+      "priority": "high",
+      "source_urls": [{ "title": "Snowflake Earnings Event", "url": "https://investors.snowflake.com/events-and-presentations/event-details/2026/Snowflake-Q1-FY27-Earnings/default.aspx" }]
+    },
+    {
+      "symbol_or_sector": "PCE / 美债收益率 / QQQ",
+      "reason_to_watch": "2026-05-28 的 PCE 与 GDP 二读是本周最重要的宏观估值开关。",
+      "key_trigger": "核心 PCE、GDP 价格分项、10Y 美债收益率反应",
+      "risk_points": "通胀偏热会先杀高估值科技。",
+      "priority": "high",
+      "source_urls": [
+        { "title": "BEA Release Schedule", "url": "https://www.bea.gov/news/schedule" },
+        { "title": "BEA GDP", "url": "https://www.bea.gov/data/gdp/gross-domestic-product" }
+      ]
+    },
+    {
+      "symbol_or_sector": "DELL / VRT / SMCI",
+      "reason_to_watch": "服务器整机与配套链条能否跟上 NVDA 的需求叙事，需要 Dell 财报和后续电话会验证。",
+      "key_trigger": "AI server backlog、利润率、电力散热需求",
+      "risk_points": "若 AI 订单毛利率不佳，硬件链可能只剩收入故事。",
+      "priority": "medium",
+      "source_urls": [
+        { "title": "Dell upcoming events", "url": "https://delltechnologies.gcs-web.com/news-events/upcoming-events" },
+        { "title": "NVIDIA Q1 FY2027 Results", "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx" }
+      ]
+    },
+    {
+      "symbol_or_sector": "FUTU / TIGR",
+      "reason_to_watch": "监管消息对高弹性中概互联网金融股的杀伤仍在，适合观察监管冲击是否一次性出清。",
+      "key_trigger": "公司回应、整改口径、盘前成交量",
+      "risk_points": "若事件持续发酵，仍可能拖累整个板块风险偏好。",
+      "priority": "medium",
+      "source_urls": [
+        { "title": "SFC statement", "url": "https://www.sfc.hk/en/News-and-announcements/Policy-statements-and-announcements/Unlicensed-solicitation-of-Hong-Kong-investors-by-unlicensed-entities" },
+        { "title": "Reuters on offshore broker scrutiny", "url": "https://www.reuters.com/world/china/hong-kong-regulator-flags-futu-tiger-brokers-over-mainland-client-solicitation-2026-05-23/" }
+      ]
+    }
+  ],
+  "sources": [
+    { "title": "NVIDIA Q1 FY2027 Results", "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx", "publisher": "investor.nvidia.com", "published_at": "2026-05-27", "related_section": "top_signal:nvda" },
+    { "title": "NVIDIA CFO at TD Cowen 2026-05-28", "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/TD-Cowen-53rd-Annual-Technology-Media--Telecom-Conference/default.aspx", "publisher": "investor.nvidia.com", "published_at": "2026-05-27", "related_section": "top_signal:nvda" },
+    { "title": "Reuters: Micron joins $1 trillion club", "url": "https://whtc.com/2026/05/26/micron-joins-1-trillion-club-as-ai-race-powers-memory-chip-boom/", "publisher": "whtc.com", "published_at": "2026-05-27", "related_section": "top_signal:micron" },
+    { "title": "Reuters Breakingviews on AI spending and markets", "url": "https://www.reuters.com/breakingviews/ai-spending-may-give-stocks-one-more-boost-2026-05-22/", "publisher": "reuters.com", "published_at": "2026-05-27", "related_section": "top_signal:micron" },
+    { "title": "Marvell IR Calendar", "url": "https://investor.marvell.com/news-events/ir-calendar", "publisher": "investor.marvell.com", "published_at": "2026-05-27", "related_section": "event:Marvell 2026Q1 财报" },
+    { "title": "Synopsys Earnings Event", "url": "https://investor.synopsys.com/events-and-presentations/events/event-details/2026/Q2-Fiscal-Year-2026-Earnings/default.aspx", "publisher": "investor.synopsys.com", "published_at": "2026-05-27", "related_section": "event:Synopsys 2026Q2 财报" },
+    { "title": "Snowflake Earnings Event", "url": "https://investors.snowflake.com/events-and-presentations/event-details/2026/Snowflake-Q1-FY27-Earnings/default.aspx", "publisher": "investors.snowflake.com", "published_at": "2026-05-27", "related_section": "event:Snowflake 2027 财年 Q1 财报" },
+    { "title": "BEA Release Schedule", "url": "https://www.bea.gov/news/schedule", "publisher": "bea.gov", "published_at": "2026-05-27", "related_section": "macro" },
+    { "title": "BEA GDP", "url": "https://www.bea.gov/data/gdp/gross-domestic-product", "publisher": "bea.gov", "published_at": "2026-05-27", "related_section": "macro" },
+    { "title": "Dell upcoming events", "url": "https://delltechnologies.gcs-web.com/news-events/upcoming-events", "publisher": "delltechnologies.gcs-web.com", "published_at": "2026-05-27", "related_section": "event:Dell Technologies 2027 财年 Q1 财报电话会" },
+    { "title": "DOL unemployment insurance release schedule", "url": "https://oui.doleta.gov/unemploy/claims.asp", "publisher": "oui.doleta.gov", "published_at": "2026-05-27", "related_section": "macro" },
+    { "title": "EIA Weekly Petroleum Status Report", "url": "https://www.eia.gov/petroleum/supply/weekly/", "publisher": "eia.gov", "published_at": "2026-05-27", "related_section": "event:EIA Weekly Petroleum Status Report" },
+    { "title": "Census Economic Indicators Calendar", "url": "https://www.census.gov/economic-indicators/calendar-listview.html", "publisher": "census.gov", "published_at": "2026-05-27", "related_section": "event:Census Advance Economic Indicators" },
+    { "title": "ISM Report Calendar", "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/", "publisher": "ismworld.org", "published_at": "2026-05-27", "related_section": "macro" },
+    { "title": "Census Construction Spending Release Schedule", "url": "https://www.census.gov/construction/c30/schedule.html", "publisher": "census.gov", "published_at": "2026-05-27", "related_section": "event:Construction Spending" },
+    { "title": "BLS Release Calendar", "url": "https://www.bls.gov/schedule/news_release/jolts.htm", "publisher": "bls.gov", "published_at": "2026-05-27", "related_section": "event:JOLTS 职位空缺" },
+    { "title": "SFC statement on unlicensed cross-boundary solicitation", "url": "https://www.sfc.hk/en/News-and-announcements/Policy-statements-and-announcements/Unlicensed-solicitation-of-Hong-Kong-investors-by-unlicensed-entities", "publisher": "sfc.hk", "published_at": "2026-05-27", "related_section": "top_signal:china_brokers" },
+    { "title": "Reuters on offshore broker scrutiny", "url": "https://www.reuters.com/world/china/hong-kong-regulator-flags-futu-tiger-brokers-over-mainland-client-solicitation-2026-05-23/", "publisher": "reuters.com", "published_at": "2026-05-27", "related_section": "top_signal:china_brokers" },
+    { "title": "Marvell custom silicon / NVLink Fusion release", "url": "https://investor.marvell.com/news/news-details/2026/Marvell-Extends-Custom-AI-XPU-Strategy-with-NVLink-Fusion/default.aspx", "publisher": "investor.marvell.com", "published_at": "2026-05-27", "related_section": "sector:光通信 / 网络" },
+    { "title": "Intuit Q3 FY2026 release", "url": "https://investors.intuit.com/news-events/press-releases/detail/1312/intuit-reports-strong-third-quarter-results-and-raises-full-year-revenue-guidance", "publisher": "investors.intuit.com", "published_at": "2026-05-27", "related_section": "sector:云计算 / 软件" },
+    { "title": "Salesforce FY2027 Q1 earnings date", "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-First-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx", "publisher": "investor.salesforce.com", "published_at": "2026-05-27", "related_section": "sector:云计算 / 软件" },
+    { "title": "StockAnalysis losers", "url": "https://stockanalysis.com/markets/losers/", "publisher": "stockanalysis.com", "published_at": "2026-05-27", "related_section": "decliners" },
+    { "title": "Aditxt reverse split announcement / SEC filing index", "url": "https://www.sec.gov/Archives/edgar/data/1726711/000121390026045298/ea0243793-8k_aditxt.htm", "publisher": "sec.gov", "published_at": "2026-05-27", "related_section": "decliner:ADTX" },
+    { "title": "StockTitan / company offering recap", "url": "https://www.stocktitan.net/news/GMM/global-mofy-ai-limited-announces-pricing-of-8-million-registered-k08efqa2e8ny.html", "publisher": "stocktitan.net", "published_at": "2026-05-27", "related_section": "decliner:GMM" },
+    { "title": "Corbus updated CRB-701 data", "url": "https://ir.corbuspharma.com/news-releases/news-release-details/corbus-pharmaceuticals-announces-updated-clinical-data-crb-701", "publisher": "ir.corbuspharma.com", "published_at": "2026-05-27", "related_section": "decliner:CRBP" },
+    { "title": "SEC S-1 filing for Amesite", "url": "https://www.sec.gov/Archives/edgar/data/1807166/000149315226020993/forms-1.htm", "publisher": "sec.gov", "published_at": "2026-05-27", "related_section": "decliner:AMST" },
+    { "title": "OCC reverse split memo for NAKA", "url": "https://infomemo.theocc.com/infomemos?number=56297", "publisher": "theocc.com", "published_at": "2026-05-27", "related_section": "decliner:NAKA" }
+  ]
+}
