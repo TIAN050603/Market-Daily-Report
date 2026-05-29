@@ -1,4 +1,5 @@
 import watchlistConfig from "@/config/watchlist.json";
+import { addDays, formatDate } from "@/lib/reporting/date-utils";
 import { BigDecliner, EventCalendarItem, SourceUrl } from "@/lib/types";
 import { DataProvider, MarketNewsItem } from "./types";
 import { MockMarketDataProvider } from "./mock-provider";
@@ -245,8 +246,15 @@ export class PublicRssMarketDataProvider implements DataProvider {
   private fallback = new MockMarketDataProvider();
   private allowMockFallback = process.env.ALLOW_MOCK_FALLBACK === "1" || process.env.DATA_PROVIDER !== "public_rss";
 
-  private async fetchQuery(query: RssQuery): Promise<MarketNewsItem[]> {
-    const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query.query)}&hl=en-US&gl=US&ceid=US:en`;
+  private dateScopedQuery(query: string, date?: string) {
+    if (!date) return query;
+    const after = formatDate(addDays(date, -1));
+    const before = formatDate(addDays(date, 1));
+    return `${query} after:${after} before:${before}`;
+  }
+
+  private async fetchQuery(query: RssQuery, date?: string): Promise<MarketNewsItem[]> {
+    const url = `https://news.google.com/rss/search?q=${encodeURIComponent(this.dateScopedQuery(query.query, date))}&hl=en-US&gl=US&ceid=US:en`;
     const response = await fetch(url, {
       headers: {
         "User-Agent": "Market-Daily-Report/1.0"
@@ -261,9 +269,9 @@ export class PublicRssMarketDataProvider implements DataProvider {
       .map((item, index) => toNewsItem(query, item, index));
   }
 
-  private async fetchNewsFor(queries: RssQuery[], fallback: () => Promise<MarketNewsItem[]>, minItems = 3) {
+  private async fetchNewsFor(queries: RssQuery[], fallback: () => Promise<MarketNewsItem[]>, minItems = 3, date?: string) {
     try {
-      const settled = await Promise.allSettled(queries.map((query) => this.fetchQuery(query)));
+      const settled = await Promise.allSettled(queries.map((query) => this.fetchQuery(query, date)));
       const items = settled.flatMap((result) => (result.status === "fulfilled" ? result.value : []));
       const unique = uniqueByUrl(items).sort((a, b) => b.importance_score - a.importance_score);
       if (unique.length >= minItems) return unique;
@@ -290,11 +298,11 @@ export class PublicRssMarketDataProvider implements DataProvider {
   }
 
   async fetchMarketNews(date: string): Promise<MarketNewsItem[]> {
-    return this.fetchNewsFor(rssQueries.slice(0, 3), () => this.fallback.fetchMarketNews(date));
+    return this.fetchNewsFor(rssQueries.slice(0, 3), () => this.fallback.fetchMarketNews(date), 3, date);
   }
 
   async fetchSectorNews(date: string): Promise<MarketNewsItem[]> {
-    return this.fetchNewsFor(rssQueries.slice(3, 8), () => this.fallback.fetchSectorNews(date));
+    return this.fetchNewsFor(rssQueries.slice(3, 8), () => this.fallback.fetchSectorNews(date), 3, date);
   }
 
   async fetchBigDecliners(date: string): Promise<BigDecliner[]> {
@@ -325,7 +333,8 @@ export class PublicRssMarketDataProvider implements DataProvider {
               }
             ],
             async () => [],
-            0
+            0,
+            date
           );
           const leadNews = news[0];
           return {
@@ -361,7 +370,7 @@ export class PublicRssMarketDataProvider implements DataProvider {
       tickers: [ticker],
       score: 82
     };
-    return this.fetchNewsFor([query], () => this.fallback.fetchTickerNews(ticker, date));
+    return this.fetchNewsFor([query], () => this.fallback.fetchTickerNews(ticker, date), 3, date);
   }
 
   async fetchEconomicCalendar(date: string): Promise<EventCalendarItem[]> {
