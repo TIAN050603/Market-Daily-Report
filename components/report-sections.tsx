@@ -172,6 +172,36 @@ export function SectorGrid({ report, collapsible = false }: { report: FullReport
   );
 }
 
+export function NarrativeOpportunities({ report }: { report: FullReport }) {
+  if (!report.narratives.length) return null;
+  return (
+    <section className="section" id="narratives">
+      <div className="section-head">
+        <h2>最近几天值得期待的财报 / 叙事</h2>
+      </div>
+      <div className="grid two">
+        {report.narratives.map((item) => (
+          <article className="card" key={`${item.event_date}-${item.title}`}>
+            <div className="section-head">
+              <div>
+                <h3>{item.title}</h3>
+                <p>{item.event_date} · {item.narrative_type}</p>
+              </div>
+              <ImportanceBadge value={item.conviction} />
+            </div>
+            <p><strong>我看好的原因：</strong>{item.why_i_like_it}</p>
+            <p><strong>核心逻辑：</strong>{item.thesis}</p>
+            <p><strong>验证点：</strong>{item.what_to_watch}</p>
+            <p><strong>风险：</strong>{item.risk_points}</p>
+            <TagList items={item.beneficiary_tickers} />
+            <div className="tags">{sourceLinks(item.source_urls)}</div>
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 export function MacroSection({ report }: { report: FullReport }) {
   const macro = report.macro;
   if (!macro) return null;

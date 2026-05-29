@@ -100,6 +100,21 @@ export type WatchlistItem = {
   source_urls: SourceUrl[];
 };
 
+export type NarrativeOpportunity = {
+  id?: number;
+  report_id?: number;
+  title: string;
+  event_date: string;
+  narrative_type: string;
+  thesis: string;
+  why_i_like_it: string;
+  beneficiary_tickers: string[];
+  risk_points: string;
+  what_to_watch: string;
+  conviction: Importance;
+  source_urls: SourceUrl[];
+};
+
 export type Source = {
   id?: number;
   report_id?: number;
@@ -118,6 +133,7 @@ export type FullReport = {
   macro: MacroSnapshot | null;
   decliners: BigDecliner[];
   watchlist: WatchlistItem[];
+  narratives: NarrativeOpportunity[];
   sources: Source[];
 };
 

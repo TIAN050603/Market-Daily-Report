@@ -5,6 +5,7 @@ import {
   Decliners,
   EventCalendar,
   MacroSection,
+  NarrativeOpportunities,
   Overview,
   SectorGrid,
   TopSignals,
@@ -25,6 +26,7 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
       <div className="side-nav">
         <a href="#signals">Signals</a>
         <a href="#events">Events</a>
+        <a href="#narratives">Narratives</a>
         <a href="#sectors">Sectors</a>
         <a href="#macro">Macro</a>
         <a href="#decliners">Decliners</a>
@@ -34,6 +36,7 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
       </div>
       <TopSignals report={report} />
       <EventCalendar report={report} />
+      <NarrativeOpportunities report={report} />
       <SectorGrid report={report} collapsible />
       <MacroSection report={report} />
       <Decliners report={report} />

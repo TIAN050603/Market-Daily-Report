@@ -88,6 +88,21 @@ CREATE TABLE IF NOT EXISTS watchlist_items (
   source_urls TEXT NOT NULL DEFAULT '[]'
 );
 
+CREATE TABLE IF NOT EXISTS narrative_opportunities (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  report_id INTEGER NOT NULL REFERENCES reports(id) ON DELETE CASCADE,
+  title TEXT NOT NULL,
+  event_date TEXT NOT NULL,
+  narrative_type TEXT NOT NULL,
+  thesis TEXT NOT NULL,
+  why_i_like_it TEXT NOT NULL,
+  beneficiary_tickers TEXT NOT NULL,
+  risk_points TEXT NOT NULL,
+  what_to_watch TEXT NOT NULL,
+  conviction TEXT NOT NULL CHECK (conviction IN ('high','medium','low')),
+  source_urls TEXT NOT NULL DEFAULT '[]'
+);
+
 CREATE TABLE IF NOT EXISTS sources (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   report_id INTEGER NOT NULL REFERENCES reports(id) ON DELETE CASCADE,
@@ -112,5 +127,6 @@ CREATE INDEX IF NOT EXISTS idx_reports_sentiment ON reports(overall_sentiment);
 CREATE INDEX IF NOT EXISTS idx_top_signals_report ON top_signals(report_id);
 CREATE INDEX IF NOT EXISTS idx_events_date ON event_calendar(event_date);
 CREATE INDEX IF NOT EXISTS idx_decliners_ticker ON big_decliners(ticker);
+CREATE INDEX IF NOT EXISTS idx_narratives_report ON narrative_opportunities(report_id);
 CREATE INDEX IF NOT EXISTS idx_sources_report ON sources(report_id);
 `;

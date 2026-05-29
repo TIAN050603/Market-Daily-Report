@@ -8,7 +8,7 @@ function links(urls: { title?: string; url: string }[]) {
 }
 
 export function renderMarkdown(full: RenderableReport) {
-  const { report, topSignals, events, sectors, macro, decliners, watchlist } = full;
+  const { report, topSignals, events, sectors, macro, decliners, watchlist, narratives } = full;
   const coverage = getCoverageRange(report.report_date);
   const summary = report.market_summary
     .replaceAll("今天", report.report_date)
@@ -41,7 +41,23 @@ ${events
   )
   .join("\n")}
 
-## 3. AI / 科技 / 半导体 / 光通信重点观察
+## 3. 最近几天值得期待的财报 / 叙事
+${narratives
+  .map(
+    (item) => `### ${item.title}
+- 日期：${item.event_date}
+- 类型：${item.narrative_type}
+- 我看好的原因：${item.why_i_like_it}
+- 核心逻辑：${item.thesis}
+- 受益股票 / 板块：${item.beneficiary_tickers.join(", ")}
+- 需要盯的验证点：${item.what_to_watch}
+- 风险点：${item.risk_points}
+- 信心等级：${item.conviction}
+- 来源：${links(item.source_urls)}`
+  )
+  .join("\n\n")}
+
+## 4. AI / 科技 / 半导体 / 光通信重点观察
 ${sectors
   .map(
     (item) => `### ${item.sector_name}
@@ -54,7 +70,7 @@ ${sectors
   )
   .join("\n\n")}
 
-## 4. 大盘与宏观环境
+## 5. 大盘与宏观环境
 - 美债收益率变化：${macro?.treasury_yields ?? "待更新"}
 - 美元指数：${macro?.dollar_index ?? "待更新"}
 - 原油 / 黄金：${macro?.crude_oil ?? "待更新"}；${macro?.gold ?? "待更新"}
@@ -63,7 +79,7 @@ ${sectors
 - 对成长股、科技股、小盘股的影响：${macro?.growth_tech_smallcap_impact ?? "待更新"}
 - 来源：${macro ? links(macro.source_urls) : "待更新"}
 
-## 5. 前一个交易日跌幅较大的股票复盘
+## 6. 前一个交易日跌幅较大的股票复盘
 ${decliners
   .map(
     (item) => `### ${item.ticker} - ${item.company_name}
@@ -77,14 +93,14 @@ ${decliners
   )
   .join("\n\n")}
 
-## 6. ${report.report_date} 值得重点盯盘的股票 / 板块
+## 7. ${report.report_date} 值得重点盯盘的股票 / 板块
 | 股票 / 板块 | 为什么值得看 | 关键触发点 | 风险点 | 优先级 | 来源 |
 |---|---|---|---|---|---|
 ${watchlist
   .map((item) => `| ${item.symbol_or_sector} | ${item.reason_to_watch} | ${item.key_trigger} | ${item.risk_points} | ${item.priority} | ${links(item.source_urls)} |`)
   .join("\n")}
 
-## 7. 总结：${report.report_date} 市场的主线是什么？
+## 8. 总结：${report.report_date} 市场的主线是什么？
 ${summary}
 
 来源说明：本总结综合以上 Top Signals、事件日历、板块、宏观和个股复盘模块的公开来源，不构成买卖建议。

@@ -1,9 +1,9 @@
 # Daily US Market Intelligence Report
-日期：2026-05-28
-覆盖范围：2026-05-28 至 2026-06-04
+日期：2026-05-29
+覆盖范围：2026-05-29 至 2026-06-05
 美股状态：premarket
 
-## 1. 2026-05-28 最重要的 3-5 个市场信号
+## 1. 2026-05-29 最重要的 3-5 个市场信号
 ### 1. 5 Things to Know Before the Stock Market Opens - Investopedia
 - 事件 / 信号是什么：这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。 盘前优先看 QQQ, SPY 是否带动 Macro / Rates / Nasdaq 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。
 - 为什么重要：宏观信号决定估值折现率：利率上行会先压制 Nasdaq、软件和小盘成长，利率回落则更利于半导体与 AI 基础设施延续风险偏好。
@@ -44,25 +44,12 @@
 - 影响时间：medium_term
 - 信息来源链接：[CNBC](https://news.google.com/rss/articles/CBMiggFBVV95cUxOak1CSXVoZ0gtVWVGZnBKYXJkTjljYTIwWEFPUXoxVEZEaVdBcFVsSWRPaEFlcEZxSHdpX29sTWRGVGU5emVELW92MUl5c09CWUROQzZaQ18wWHduZHYtYTlWNjN4T0x6ZnE2R05OMkdJVnN4OFUza1o5bHRJNWYzS1hn0gGCAUFVX3lxTE5qTUJJdWhnSC1VZUZmcEphcmROOWNhMjBYQU9RejFURkRpV0FwVWxJZE9oQWVwRnFId2lfb2xNZEZUZTl6ZUQtb3YxSXlzT0JZRE5DNlpDXzBYd25kdi1hOVY2M3hPTHpmcTZHTk4yR0lWc3g4VTNrWjlsdEk1ZjNLWGc?oc=5)
 
-## 2. 2026-05-28 至 2026-06-04 关键事件日历
+## 2. 2026-05-29 至 2026-06-05 关键事件日历
 | 日期 | 事件 | 重要性 | 可能影响的资产或板块 | 需要关注的关键点 | 来源 |
 |---|---|---|---|---|---|
-| 2026-05-28 | BEA Personal Income and Outlays / PCE | high | US Treasury yields, Nasdaq, Growth stocks, USD | 核心 PCE 是否高于预期，决定长久期科技股估值压力。 | [BEA release schedule](https://www.bea.gov/news/schedule) |
-| 2026-05-28 | Q1 GDP second estimate | high | S&P 500, USD, Cyclicals | 增长和价格分项是否显示滞胀压力。 | [BEA GDP](https://www.bea.gov/data/gdp/gross-domestic-product) |
-| 2026-05-28 | Dell Technologies Q1 FY2027 earnings | high | DELL, AI servers, SMCI, VRT, NVDA | AI server backlog、ISG margin、GPU server 订单质量和 FY2027 指引。 | [Dell upcoming events](https://delltechnologies.gcs-web.com/news-events/upcoming-events) |
+
 
 ## 3. 最近几天值得期待的财报 / 叙事
-### Dell 财报：AI server 订单能否从收入变成利润
-- 日期：2026-05-28
-- 类型：earnings
-- 我看好的原因：我看好这个叙事，因为它能直接回答 AI 交易最重要的问题之一：NVDA 之外，服务器、电源、散热和数据中心硬件链能不能共同受益。
-- 核心逻辑：Dell 是验证 AI 基础设施外溢的关键财报。市场不只看 AI server backlog 是否继续增长，更看 ISG margin、GPU server 订单质量和供应链成本能否证明 AI 服务器不是低毛利苦生意。
-- 受益股票 / 板块：DELL, SMCI, VRT, NVDA, ANET
-- 需要盯的验证点：AI server backlog、ISG operating margin、FY 指引、管理层对供应链和客户集中度的表述。
-- 风险点：如果 backlog 强但利润率弱，市场可能把它解读为 AI server 需求很强但价值被 GPU/上游吃掉。
-- 信心等级：high
-- 来源：[Dell upcoming events](https://delltechnologies.gcs-web.com/news-events/upcoming-events)
-
 ### 光通信 / CPO：AI 网络瓶颈的下一段外溢叙事
 - 日期：near-term
 - 类型：narrative
@@ -130,12 +117,12 @@
 - 来源：[CNBC](https://news.google.com/rss/articles/CBMiggFBVV95cUxOak1CSXVoZ0gtVWVGZnBKYXJkTjljYTIwWEFPUXoxVEZEaVdBcFVsSWRPaEFlcEZxSHdpX29sTWRGVGU5emVELW92MUl5c09CWUROQzZaQ18wWHduZHYtYTlWNjN4T0x6ZnE2R05OMkdJVnN4OFUza1o5bHRJNWYzS1hn0gGCAUFVX3lxTE5qTUJJdWhnSC1VZUZmcEphcmROOWNhMjBYQU9RejFURkRpV0FwVWxJZE9oQWVwRnFId2lfb2xNZEZUZTl6ZUQtb3YxSXlzT0JZRE5DNlpDXzBYd25kdi1hOVY2M3hPTHpmcTZHTk4yR0lWc3g4VTNrWjlsdEk1ZjNLWGc?oc=5), [Financial Sense](https://news.google.com/rss/articles/CBMisAFBVV95cUxOb0dwTENLRGFlcWZQbmNXNE1nRTBXWG43R19UaDZqV0R6ZHUyNDA3alg4RkhhdjkyMVN0cUZmMkZVYVMzVTJVVUt6UXd6WXdqQmpKcmt3akxOR0xzcUxuZlJ4QXd6bmc1OWJlZEJESzllc3Y0MHF2TE1GRWlieDBiLUlkMzFrZDg3Rlp0UlJidkw5SnJxMWswVXkyMmlkN1BRWmZ0V2FuMjlDVzRRVFhoRg?oc=5), [Investor's Business Daily](https://news.google.com/rss/articles/CBMiswFBVV95cUxQclNWRnExcFVvT1RfQW5fZ0swTDZjQlU0U3ZFeE81QU5GdUtHTWJQc3ZDeEljM2hnYl9naGxFLW9NQnQtaUdUalpQNXpxTE1jel95elMtY2t4Nk1DUUNjS3VHM05fUGJ6SkpwbWR6WmpHWkpYOUVVN2JuSm5DUGhkMjdkNTc2ZENXRkJLaTIxbklGUEVXeXpEZDZ4c0N1X1ZEVU92MVF0QXBBS21PX0dIT3pLbw?oc=5)
 
 ### Data Center Power / Energy
-- 最新催化：Wall Street Thinks AI Data Centers Could Trigger the Biggest Power Boom Since the Internet Era. 1 No-Brainer Stock to Buy Now. - The Motley Fool：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。；Oklo leads nuclear stocks as AI-driven power demand grows - MSN：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。；The Best 3 Industrial Energy Stocks to Buy and Hold for Decades - The Globe and Mail：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。
+- 最新催化：Wall Street Thinks AI Data Centers Could Trigger the Biggest Power Boom Since the Internet Era. 1 No-Brainer Stock to Buy Now. - The Motley Fool：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。；The Best 3 Industrial Energy Stocks to Buy and Hold for Decades - The Globe and Mail：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。；Oklo leads nuclear stocks as AI-driven power demand grows - MSN：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。
 - 受益股票：NEE, D, CEG, VST, ETN, PWR, VRT
 - 承压股票：电力接入慢且融资成本高的数据中心项目
 - 需要继续观察的信号：PPA 价格；监管审批；核能项目；电网接入
 - 板块情绪：bullish
-- 来源：[The Motley Fool](https://news.google.com/rss/articles/CBMimAFBVV95cUxQTTQwaWFMSEEyTC1aeFR3RkQySkN1Sm1XT3JhVmNsNm5lM2FXeGp1OWNjRFFHQjJwc3JQNG5PS290N295QU1BTlNkYkNYRnpxYmdBZzFkbkgyNkdQYlJOdXZWYzBfMDNFNzhLaWhORnFpR1NFLUxtUm1lZzJ4RG15WV8tTE9Ra2pDLXBCT0pzNld3cTd0cU1fTw?oc=5), [MSN](https://news.google.com/rss/articles/CBMirwFBVV95cUxPeVp5MGo5TkZpWFR1cUN3MDVQZmRNWFdTbWxJamJDdHZlWHpOYmtrTmdydDY5QWk1akZiWVEtOTYxMzFRNEs2eExlWXltMHpzZlowYXFBMmxtdGp2ZXdtNC1fZVVwbi0talVuYzc4ekYwS3hqbUZfaTgxZlYtSDhLa0pjU3piazJ5M2RSV0xGT1hmekJ6NmM5a0w0WGdxUnI4UlVpblBucUlPWDBwN0pj?oc=5), [The Globe and Mail](https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZW53YkpVSjdJVDlpX3F2Rnd4Zk1XYng0SWV3NWFmODViY1RRWThOb3BPeldJMDNfdnZZVXAxY2Jib0pKbnBsN29Fcjl6SDA1aThBZkloelduVkVKMWl4V1ZxZ0xHbUdJS0FnMjkyX01mV2pGZzBaUWFXMUkwVTJHeEJJQ2pIYXZmTFlJOW1GalNtYXJVSXdOTUUyUmtlMU5WM001cnlBbDktOVd3aDFnMUJBNVI2Y3JZMENldXVnLUM5OU04Vi1pTGZpYkVybE5BTjRiRXhWYzZxSGVRYThza3ZB?oc=5)
+- 来源：[The Motley Fool](https://news.google.com/rss/articles/CBMimAFBVV95cUxQTTQwaWFMSEEyTC1aeFR3RkQySkN1Sm1XT3JhVmNsNm5lM2FXeGp1OWNjRFFHQjJwc3JQNG5PS290N295QU1BTlNkYkNYRnpxYmdBZzFkbkgyNkdQYlJOdXZWYzBfMDNFNzhLaWhORnFpR1NFLUxtUm1lZzJ4RG15WV8tTE9Ra2pDLXBCT0pzNld3cTd0cU1fTw?oc=5), [The Globe and Mail](https://news.google.com/rss/articles/CBMi4gFBVV95cUxNakYzYUF5dFpURUlpdFpuVGRwSFJwcUdjN2U5cTdHYVQzSjFLWWY2aTQ2SVdSai1WVTJ4eEZFNVF3NVlnS2JxTmt4M1pVWEpNM0N6SUtia1VJVjRkaWswb1BDQlBqai1VaXAtUy03Y096dm5ubUhxMGRrdVlHLTc3WUpUR2xOOWJWUFREcnFOcVVyZGI3WVdoYjVYbnloaFlHZnNUNFF6dk52SmY5bC1KSFB5MzdQZUNQemJKaVhUd3FuSWF1Uk42bkwwQnE0aHNnOVhVODhNNFhjdklET3I1d2lR?oc=5), [MSN](https://news.google.com/rss/articles/CBMirwFBVV95cUxPeVp5MGo5TkZpWFR1cUN3MDVQZmRNWFdTbWxJamJDdHZlWHpOYmtrTmdydDY5QWk1akZiWVEtOTYxMzFRNEs2eExlWXltMHpzZlowYXFBMmxtdGp2ZXdtNC1fZVVwbi0talVuYzc4ekYwS3hqbUZfaTgxZlYtSDhLa0pjU3piazJ5M2RSV0xGT1hmekJ6NmM5a0w0WGdxUnI4UlVpblBucUlPWDBwN0pj?oc=5)
 
 ### Robotics / Automation
 - 最新催化：AI 从云端模型向实体自动化扩散仍是中期主题
@@ -174,9 +161,9 @@
 - 美元指数：美元方向重点参考：“US stock futures rising today: 5 reasons why Dow, S&P 500 and Nasdaq are gaining — here’s top pre-market m - The Economic Times”。强美元通常压制跨国科技公司估值和海外收入折算。
 - 原油 / 黄金：未发现高权重能源冲击信号，油价暂时不是科技股估值的第一变量。；黄金如果和美元同涨，通常代表避险需求升温；如果黄金回落而美债收益率稳定，成长股风险偏好更容易维持。
 - VIX 或市场风险偏好：风险偏好用两个信号观察：指数是否扩散上涨，以及高 beta 科技股是否跑赢防御板块。若 Top Signals 只集中在少数股票，说明市场仍是分化行情。
-- 重要宏观数据或预期：覆盖期内关键宏观/Fed 事件：2026-05-28 BEA Personal Income and Outlays / PCE；2026-05-28 Q1 GDP second estimate。
+- 重要宏观数据或预期：覆盖期内未抓到高优先级宏观/Fed 事件。
 - 对成长股、科技股、小盘股的影响：如果通胀/利率信号偏热，优先压制长久期科技股、小盘成长股和高估值 AI 概念；如果利率回落，AI 基础设施和半导体更容易获得估值支撑。
-- 来源：[Investopedia](https://news.google.com/rss/articles/CBMioAFBVV95cUxObkpyOFU2RldnZEVTZXEzTEtUeV85WmxoLTBHZmlHVk1Ca1dkdnNlSXdwdHJ2RVlaMmVvbU9nV1pYZ2tFNDBCdWUxYXRleEV4TWsyYWN3OTBXd2lPbXp2cXFtbnBJX1JPOGI1QVhNeHFsQjV6a3JLZlRvRUZPbHNBd1dUNWdfM1l3RWZNaENYbjkxeUdnOTFPLTQ5TmVBc2hO?oc=5), [The Economic Times](https://news.google.com/rss/articles/CBMijgJBVV95cUxNTDVzYllfM1lBdEJBNHdudUZOdU56TVVPY3NDWmMwZDlBOWtYd0hZcG56YWlDVHNraHVXaENhTFg5a2NrN0dWQW4xTGUzQi1uOXd3YjcwMG9HN1phMEQzZ1p0MmptVmxsSFFHa0lyU3JxTldzTjVRbnEzVWVLS1NYUTVvaWdRc0ZlM1dpSVAwRUNrSEdnOU5BdGJvQWxmNm1XTF8xTTZybmNFR2cwUVFzNzNTbExDZlM3VGJhcXVGckd1bXlRNTRsQ1FUV1l5bGxwX09HSUNYcC1IVTIyU2ZFMWRLa0VwVlhMYnBaWHVwemlYRktiZEJmcmJCWUZJd01KczJHdU8tei1GMEM0b1HSAZMCQVVfeXFMTnI4d1B5eWhsLWxUTGZWQ21WUm1xQm9OVWtZdHB0M0pLY2x1MkQtWUNoWkktZTA4elF1QkNwTUVKRXoycnJBb3JBVFotWVJENVhCa2xRb3I3SjF0ZzNXcVhpM1BfTElQQ1MtM0ttR1NBR1I5X2NaNGdPOUJuY0xYZE1DTXZITE9NcGlDN3NoSEo2WXVqUmlnUDNyS2JIOVMtTzBVYVR5SFBhV0RCOGRwbHEyT1BDeEczSVNmanUyUzI4eHFna0NLSlE3T3R0U2dfSGVVUWhoZ2ppbFFwMUZCNzU2bHl0TjJiYV9vNkpKdzdlN3EzeUFCaVJQbHdienR2NnBjSTlhNTJSLVBxcDFPSncwTE0?oc=5), [FXEmpire](https://news.google.com/rss/articles/CBMivAFBVV95cUxOY2VJckZzWnZBcmZIOEsxOU1FSWRpcnpGYWFWb2VFR2VyRU9CWWtDWTBxcjNIWGVtdHZweTZ2Y0lYMmZjX2xZRHRXQW5vcDhpWkRTNi1nLTRnWmNacE1fS2JtWE92bHpnaTdmMGdkRTU3d0VfYWdSQWJZR1I2aE9Fck44VEVvWkdXTkhfTDkzcGlkMDM0WTFqQkhCMVJab3FWakQzSmJsNDkwcjAyRUtOb09QV2dXR1MwTnFuVw?oc=5), [BEA release schedule](https://www.bea.gov/news/schedule), [BEA GDP](https://www.bea.gov/data/gdp/gross-domestic-product)
+- 来源：[Investopedia](https://news.google.com/rss/articles/CBMioAFBVV95cUxObkpyOFU2RldnZEVTZXEzTEtUeV85WmxoLTBHZmlHVk1Ca1dkdnNlSXdwdHJ2RVlaMmVvbU9nV1pYZ2tFNDBCdWUxYXRleEV4TWsyYWN3OTBXd2lPbXp2cXFtbnBJX1JPOGI1QVhNeHFsQjV6a3JLZlRvRUZPbHNBd1dUNWdfM1l3RWZNaENYbjkxeUdnOTFPLTQ5TmVBc2hO?oc=5), [The Economic Times](https://news.google.com/rss/articles/CBMijgJBVV95cUxNTDVzYllfM1lBdEJBNHdudUZOdU56TVVPY3NDWmMwZDlBOWtYd0hZcG56YWlDVHNraHVXaENhTFg5a2NrN0dWQW4xTGUzQi1uOXd3YjcwMG9HN1phMEQzZ1p0MmptVmxsSFFHa0lyU3JxTldzTjVRbnEzVWVLS1NYUTVvaWdRc0ZlM1dpSVAwRUNrSEdnOU5BdGJvQWxmNm1XTF8xTTZybmNFR2cwUVFzNzNTbExDZlM3VGJhcXVGckd1bXlRNTRsQ1FUV1l5bGxwX09HSUNYcC1IVTIyU2ZFMWRLa0VwVlhMYnBaWHVwemlYRktiZEJmcmJCWUZJd01KczJHdU8tei1GMEM0b1HSAZMCQVVfeXFMTnI4d1B5eWhsLWxUTGZWQ21WUm1xQm9OVWtZdHB0M0pLY2x1MkQtWUNoWkktZTA4elF1QkNwTUVKRXoycnJBb3JBVFotWVJENVhCa2xRb3I3SjF0ZzNXcVhpM1BfTElQQ1MtM0ttR1NBR1I5X2NaNGdPOUJuY0xYZE1DTXZITE9NcGlDN3NoSEo2WXVqUmlnUDNyS2JIOVMtTzBVYVR5SFBhV0RCOGRwbHEyT1BDeEczSVNmanUyUzI4eHFna0NLSlE3T3R0U2dfSGVVUWhoZ2ppbFFwMUZCNzU2bHl0TjJiYV9vNkpKdzdlN3EzeUFCaVJQbHdienR2NnBjSTlhNTJSLVBxcDFPSncwTE0?oc=5), [FXEmpire](https://news.google.com/rss/articles/CBMivAFBVV95cUxOY2VJckZzWnZBcmZIOEsxOU1FSWRpcnpGYWFWb2VFR2VyRU9CWWtDWTBxcjNIWGVtdHZweTZ2Y0lYMmZjX2xZRHRXQW5vcDhpWkRTNi1nLTRnWmNacE1fS2JtWE92bHpnaTdmMGdkRTU3d0VfYWdSQWJZR1I2aE9Fck44VEVvWkdXTkhfTDkzcGlkMDM0WTFqQkhCMVJab3FWakQzSmJsNDkwcjAyRUtOb09QV2dXR1MwTnFuVw?oc=5)
 
 ## 6. 前一个交易日跌幅较大的股票复盘
 ### ZCMD - Zhongchao Inc.
@@ -251,15 +238,15 @@
 - 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。
 - 来源：[StockAnalysis top losers](https://stockanalysis.com/markets/losers/)
 
-## 7. 2026-05-28 值得重点盯盘的股票 / 板块
+## 7. 2026-05-29 值得重点盯盘的股票 / 板块
 | 股票 / 板块 | 为什么值得看 | 关键触发点 | 风险点 | 优先级 | 来源 |
 |---|---|---|---|---|---|
-| QQQ | 2026-05-28 高权重信号对应的核心观察对象：“5 Things to Know Before the Stock Market Opens - Investopedia”。关注它是否从新闻标题变成板块共振。 | 5 Things to Know Before the Stock Market Opens - Investopedia | 利率或美元若反向走强，会削弱科技股风险偏好。 | high | [Investopedia](https://news.google.com/rss/articles/CBMioAFBVV95cUxObkpyOFU2RldnZEVTZXEzTEtUeV85WmxoLTBHZmlHVk1Ca1dkdnNlSXdwdHJ2RVlaMmVvbU9nV1pYZ2tFNDBCdWUxYXRleEV4TWsyYWN3OTBXd2lPbXp2cXFtbnBJX1JPOGI1QVhNeHFsQjV6a3JLZlRvRUZPbHNBd1dUNWdfM1l3RWZNaENYbjkxeUdnOTFPLTQ5TmVBc2hO?oc=5) |
-| SMCI | 2026-05-28 高权重信号对应的核心观察对象：“SMCI vs. GOOGL: Which Stock is a Safer Bet in the AI Ecosystem? - TradingView”。关注它是否从新闻标题变成板块共振。 | Dell Technologies Q1 FY2027 earnings | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | high | [TradingView](https://news.google.com/rss/articles/CBMitwFBVV95cUxQVEpveVZRcWhFZ2V3M2dXaFIzTTlua3FhUTUzMFROUjgwMVJneDdpeDZ5ZjVNanZwdWJfUlFOREpwalhXd2N0TVJGeXhDTXA5VVF6clN4Qk5UXzhORzVJazF2TU10YjlVYWloQU9qc1kwTV9CcTE0TVBpaXR5TkE2QjZUVWY1T2JHc3hVVWxSa3FVZkNqOVE3M1k0RnRDY3NwZXpLVTN2LV9jaHN4NW56OHRYLTNEUXM?oc=5) |
-| AMD | 2026-05-28 高权重信号对应的核心观察对象：“Forget AMD: 4 AI Stocks That Could Beat the Crowd - 24/7 Wall St.”。关注它是否从新闻标题变成板块共振。 | Dell Technologies Q1 FY2027 earnings | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | medium | [24/7 Wall St.](https://news.google.com/rss/articles/CBMilwFBVV95cUxNNlh2eXc5alhvYmM3R1hlNUdUczducjJxN0Z6czUyU3RvTjhtSDRyWC1XSDNSRUZaeTEtbktRT20xWVlyU2ZJS1JPX3dwQnhEaFNpa0dnQkZ2OXdyRUhhV2RLZTQtX3k1T2x4X2o3YUlHNEFYN2dIVDlxUnlnd0FFaEQ2c2hFRWJndmVsWTdpRkVUeHNmRHRn?oc=5) |
-| COHR | 2026-05-28 高权重信号对应的核心观察对象：“Inside Nvidia’s $4B Optical Strategy—and Why CPO Changes Everything - IO Fund”。关注它是否从新闻标题变成板块共振。 | Inside Nvidia’s $4B Optical Strategy—and Why CPO Changes Everything - IO Fund | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | medium | [IO Fund](https://news.google.com/rss/articles/CBMiggFBVV95cUxQYUl1cGVPV1dVNW41cEVyc1lpcTM1ZGRRVHh6eTBsLUdqSnBpOF9jaExQdFpsNmFsN1A0RGpUcmVtcXVjanE4OHdZNWtQek1iX2pGbzE2Z3hNWU1OM0xJbFp5SFVxR3dwZXVIOWMySjFuYTdkSmt4YVBuMkZiZGgwQmtB?oc=5) |
+| QQQ | 2026-05-29 高权重信号对应的核心观察对象：“5 Things to Know Before the Stock Market Opens - Investopedia”。关注它是否从新闻标题变成板块共振。 | 5 Things to Know Before the Stock Market Opens - Investopedia | 利率或美元若反向走强，会削弱科技股风险偏好。 | high | [Investopedia](https://news.google.com/rss/articles/CBMioAFBVV95cUxObkpyOFU2RldnZEVTZXEzTEtUeV85WmxoLTBHZmlHVk1Ca1dkdnNlSXdwdHJ2RVlaMmVvbU9nV1pYZ2tFNDBCdWUxYXRleEV4TWsyYWN3OTBXd2lPbXp2cXFtbnBJX1JPOGI1QVhNeHFsQjV6a3JLZlRvRUZPbHNBd1dUNWdfM1l3RWZNaENYbjkxeUdnOTFPLTQ5TmVBc2hO?oc=5) |
+| SMCI | 2026-05-29 高权重信号对应的核心观察对象：“SMCI vs. GOOGL: Which Stock is a Safer Bet in the AI Ecosystem? - TradingView”。关注它是否从新闻标题变成板块共振。 | SMCI vs. GOOGL: Which Stock is a Safer Bet in the AI Ecosystem? - TradingView | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | high | [TradingView](https://news.google.com/rss/articles/CBMitwFBVV95cUxQVEpveVZRcWhFZ2V3M2dXaFIzTTlua3FhUTUzMFROUjgwMVJneDdpeDZ5ZjVNanZwdWJfUlFOREpwalhXd2N0TVJGeXhDTXA5VVF6clN4Qk5UXzhORzVJazF2TU10YjlVYWloQU9qc1kwTV9CcTE0TVBpaXR5TkE2QjZUVWY1T2JHc3hVVWxSa3FVZkNqOVE3M1k0RnRDY3NwZXpLVTN2LV9jaHN4NW56OHRYLTNEUXM?oc=5) |
+| AMD | 2026-05-29 高权重信号对应的核心观察对象：“Forget AMD: 4 AI Stocks That Could Beat the Crowd - 24/7 Wall St.”。关注它是否从新闻标题变成板块共振。 | Forget AMD: 4 AI Stocks That Could Beat the Crowd - 24/7 Wall St. | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | medium | [24/7 Wall St.](https://news.google.com/rss/articles/CBMilwFBVV95cUxNNlh2eXc5alhvYmM3R1hlNUdUczducjJxN0Z6czUyU3RvTjhtSDRyWC1XSDNSRUZaeTEtbktRT20xWVlyU2ZJS1JPX3dwQnhEaFNpa0dnQkZ2OXdyRUhhV2RLZTQtX3k1T2x4X2o3YUlHNEFYN2dIVDlxUnlnd0FFaEQ2c2hFRWJndmVsWTdpRkVUeHNmRHRn?oc=5) |
+| COHR | 2026-05-29 高权重信号对应的核心观察对象：“Inside Nvidia’s $4B Optical Strategy—and Why CPO Changes Everything - IO Fund”。关注它是否从新闻标题变成板块共振。 | Inside Nvidia’s $4B Optical Strategy—and Why CPO Changes Everything - IO Fund | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | medium | [IO Fund](https://news.google.com/rss/articles/CBMiggFBVV95cUxQYUl1cGVPV1dVNW41cEVyc1lpcTM1ZGRRVHh6eTBsLUdqSnBpOF9jaExQdFpsNmFsN1A0RGpUcmVtcXVjanE4OHdZNWtQek1iX2pGbzE2Z3hNWU1OM0xJbFp5SFVxR3dwZXVIOWMySjFuYTdkSmt4YVBuMkZiZGgwQmtB?oc=5) |
 
-## 8. 总结：2026-05-28 市场的主线是什么？
-2026-05-28 的报告由当日公开新闻源重新抓取生成。最高权重信号是“5 Things to Know Before the Stock Market Opens - Investopedia”，涉及 Macro、Rates、Nasdaq；第二层信号是“SMCI vs. GOOGL: Which Stock is a Safer Bet in the AI Ecosystem? - TradingView”。 盘前最重要的是判断这些信号是否形成板块共振：AI/半导体若扩散到服务器、光通信、电力设备，说明风险偏好仍在；若只停留在少数标题股，则更像分化行情。
+## 8. 总结：2026-05-29 市场的主线是什么？
+2026-05-29 的报告由当日公开新闻源重新抓取生成。最高权重信号是“5 Things to Know Before the Stock Market Opens - Investopedia”，涉及 Macro、Rates、Nasdaq；第二层信号是“SMCI vs. GOOGL: Which Stock is a Safer Bet in the AI Ecosystem? - TradingView”。 盘前最重要的是判断这些信号是否形成板块共振：AI/半导体若扩散到服务器、光通信、电力设备，说明风险偏好仍在；若只停留在少数标题股，则更像分化行情。
 
 来源说明：本总结综合以上 Top Signals、事件日历、板块、宏观和个股复盘模块的公开来源，不构成买卖建议。

@@ -31,7 +31,8 @@ function normalizeReport(report: FullReport): FullReport {
   return {
     ...report,
     sectors: report.sectors.map((sector) => ({ ...sector, source_urls: sector.source_urls ?? [] })),
-    watchlist: report.watchlist.map((item) => ({ ...item, source_urls: item.source_urls ?? [] }))
+    watchlist: report.watchlist.map((item) => ({ ...item, source_urls: item.source_urls ?? [] })),
+    narratives: (report.narratives ?? []).map((item) => ({ ...item, source_urls: item.source_urls ?? [] }))
   };
 }
 
@@ -72,7 +73,8 @@ function matchesQuery(report: FullReport, options: QueryOptions) {
       ...report.topSignals.flatMap((item) => [item.title, item.summary, item.affected_tickers.join(" "), item.affected_sectors.join(" ")]),
       ...report.events.flatMap((item) => [item.event_name, item.event_type, item.affected_assets.join(" ")]),
       ...report.sectors.flatMap((item) => [item.sector_name, item.beneficiary_tickers.join(" "), item.pressured_tickers.join(" ")]),
-      ...report.decliners.flatMap((item) => [item.ticker, item.company_name, item.reason])
+      ...report.decliners.flatMap((item) => [item.ticker, item.company_name, item.reason]),
+      ...(report.narratives ?? []).flatMap((item) => [item.title, item.thesis, item.why_i_like_it, item.beneficiary_tickers.join(" ")])
     ]
       .join(" ")
       .toLowerCase();

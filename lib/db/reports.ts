@@ -4,6 +4,7 @@ import {
   FullReport,
   GeneratedReport,
   MacroSnapshot,
+  NarrativeOpportunity,
   Report,
   ReportListItem,
   SectorUpdate,
@@ -86,6 +87,14 @@ function rowToWatchlist(row: Record<string, unknown>): WatchlistItem {
   };
 }
 
+function rowToNarrative(row: Record<string, unknown>): NarrativeOpportunity {
+  return {
+    ...(row as unknown as NarrativeOpportunity),
+    beneficiary_tickers: parseJson<string[]>(row.beneficiary_tickers, []),
+    source_urls: parseJson(row.source_urls, [])
+  };
+}
+
 function rowToSource(row: Record<string, unknown>): Source {
   return row as unknown as Source;
 }
@@ -106,6 +115,7 @@ export function upsertReport(input: GeneratedReport): FullReport {
       macro: input.macro,
       decliners: input.decliners,
       watchlist: input.watchlist,
+      narratives: input.narratives,
       sources: input.sources
     };
   }
@@ -139,6 +149,7 @@ export function upsertReport(input: GeneratedReport): FullReport {
       "macro_snapshots",
       "big_decliners",
       "watchlist_items",
+      "narrative_opportunities",
       "sources"
     ]) {
       db.prepare(`DELETE FROM ${table} WHERE report_id = ?`).run(reportId);
@@ -274,6 +285,28 @@ export function upsertReport(input: GeneratedReport): FullReport {
     )
   );
 
+  const insertNarrative = db.prepare(
+    `INSERT INTO narrative_opportunities
+     (report_id, title, event_date, narrative_type, thesis, why_i_like_it, beneficiary_tickers,
+      risk_points, what_to_watch, conviction, source_urls)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+  );
+  input.narratives.forEach((item) =>
+    insertNarrative.run(
+      reportId,
+      item.title,
+      item.event_date,
+      item.narrative_type,
+      item.thesis,
+      item.why_i_like_it,
+      json(item.beneficiary_tickers),
+      item.risk_points,
+      item.what_to_watch,
+      item.conviction,
+      json(item.source_urls)
+    )
+  );
+
   const insertSource = db.prepare(
     `INSERT INTO sources (report_id, title, url, publisher, published_at, related_section)
      VALUES (?, ?, ?, ?, ?, ?)`
@@ -307,6 +340,7 @@ export function getReportById(id: number): FullReport | null {
     })(),
     decliners: db.prepare("SELECT * FROM big_decliners WHERE report_id = ? ORDER BY previous_day_change_percent ASC").all(id).map(rowToDecliner),
     watchlist: db.prepare("SELECT * FROM watchlist_items WHERE report_id = ? ORDER BY priority ASC, id ASC").all(id).map(rowToWatchlist),
+    narratives: db.prepare("SELECT * FROM narrative_opportunities WHERE report_id = ? ORDER BY conviction ASC, event_date ASC, id ASC").all(id).map(rowToNarrative),
     sources: db.prepare("SELECT * FROM sources WHERE report_id = ? ORDER BY id ASC").all(id).map(rowToSource)
   } satisfies FullReport;
 }

@@ -5,7 +5,7 @@ import { getDataProvider } from "@/lib/providers";
 import { MarketNewsItem } from "@/lib/providers/types";
 import { upsertReport } from "@/lib/db/reports";
 import { writeReportSnapshot } from "@/lib/db/file-store";
-import { EventCalendarItem, GeneratedReport, MacroSnapshot, SectorUpdate, Source, TopSignal, WatchlistItem } from "@/lib/types";
+import { EventCalendarItem, GeneratedReport, MacroSnapshot, NarrativeOpportunity, SectorUpdate, Source, TopSignal, WatchlistItem } from "@/lib/types";
 import { getMonthlyReportPath, getTodayDate } from "./date-utils";
 import { renderMarkdown } from "./markdown";
 
@@ -348,6 +348,129 @@ function buildMacroSnapshot(rankedNews: MarketNewsItem[], upcomingEvents: EventC
   };
 }
 
+function earningsNarrative(event: EventCalendarItem): NarrativeOpportunity | null {
+  const name = event.event_name.toLowerCase();
+  if (name.includes("dell")) {
+    return {
+      title: "Dell 财报：AI server 订单能否从收入变成利润",
+      event_date: event.event_date,
+      narrative_type: "earnings",
+      thesis: "Dell 是验证 AI 基础设施外溢的关键财报。市场不只看 AI server backlog 是否继续增长，更看 ISG margin、GPU server 订单质量和供应链成本能否证明 AI 服务器不是低毛利苦生意。",
+      why_i_like_it: "我看好这个叙事，因为它能直接回答 AI 交易最重要的问题之一：NVDA 之外，服务器、电源、散热和数据中心硬件链能不能共同受益。",
+      beneficiary_tickers: ["DELL", "SMCI", "VRT", "NVDA", "ANET"],
+      risk_points: "如果 backlog 强但利润率弱，市场可能把它解读为 AI server 需求很强但价值被 GPU/上游吃掉。",
+      what_to_watch: "AI server backlog、ISG operating margin、FY 指引、管理层对供应链和客户集中度的表述。",
+      conviction: "high",
+      source_urls: event.source_urls
+    };
+  }
+  if (name.includes("marvell")) {
+    return {
+      title: "Marvell 财报：ASIC + 光互连能否接棒 GPU 主线",
+      event_date: event.event_date,
+      narrative_type: "earnings",
+      thesis: "Marvell 同时连接 AI ASIC、DSP、光互连和数据中心网络，是观察 AI capex 是否从 GPU 扩散到定制芯片与光通信链条的重要窗口。",
+      why_i_like_it: "我看好这个叙事，因为它能把 AI 主线从单一 GPU 龙头扩展到 ASIC、CPO、硅光、交换芯片和光模块，弹性链条更长。",
+      beneficiary_tickers: ["MRVL", "AVGO", "COHR", "LITE", "CIEN", "AAOI"],
+      risk_points: "如果 AI 收入指引不够强，或者传统业务拖累明显，光通信和 ASIC 外溢交易会降温。",
+      what_to_watch: "AI custom silicon 收入、data center networking 指引、光互连/DSP 订单、客户集中度。",
+      conviction: "high",
+      source_urls: event.source_urls
+    };
+  }
+  if (name.includes("synopsys")) {
+    return {
+      title: "Synopsys 财报：EDA 需求验证 AI ASIC 设计周期",
+      event_date: event.event_date,
+      narrative_type: "earnings",
+      thesis: "如果 AI ASIC 和先进制程设计活动继续活跃，EDA 是较早受益的工具层。Synopsys 的订单和指引能验证芯片设计需求是否仍在扩张。",
+      why_i_like_it: "我看好这个叙事，因为 EDA 是 AI 芯片军备竞赛的上游铲子，波动通常低于纯硬件，但能反映长期设计活动。",
+      beneficiary_tickers: ["SNPS", "CDNS", "ARM", "TSM", "ASML"],
+      risk_points: "估值不便宜，如果指引只是稳健而非加速，市场可能不买单。",
+      what_to_watch: "backlog、license 续约、AI/先进制程客户需求、管理层对设计活动的描述。",
+      conviction: "medium",
+      source_urls: event.source_urls
+    };
+  }
+  if (name.includes("snowflake")) {
+    return {
+      title: "Snowflake 财报：企业 AI 是否转化为真实云消费",
+      event_date: event.event_date,
+      narrative_type: "earnings",
+      thesis: "Snowflake 是检验 AI 软件变现的好样本。市场会看企业 AI 项目是否带来产品收入、RPO 和净留存改善，而不是只停留在功能发布。",
+      why_i_like_it: "我看好这个叙事，因为如果数据平台消费重新加速，AI 软件链条会从基础设施行情扩散到应用和数据层。",
+      beneficiary_tickers: ["SNOW", "DDOG", "MSFT", "GOOGL", "CRM"],
+      risk_points: "如果消费恢复慢或 FY 指引保守，软件 AI 叙事会继续落后于硬件 AI。",
+      what_to_watch: "product revenue growth、RPO、net revenue retention、AI Data Cloud 客户采用。",
+      conviction: "medium",
+      source_urls: event.source_urls
+    };
+  }
+  return null;
+}
+
+function newsNarrative(item: MarketNewsItem): NarrativeOpportunity | null {
+  if (item.category === "optical_communication") {
+    return {
+      title: "光通信 / CPO：AI 网络瓶颈的下一段外溢叙事",
+      event_date: "near-term",
+      narrative_type: "narrative",
+      thesis: "AI 集群扩容会把瓶颈从 GPU 推向网络、光模块、DSP、CPO 和硅光。如果 1.6T 与 CPO 订单继续出现，资金可能继续寻找 GPU 之外的硬件弹性。",
+      why_i_like_it: "我看好这个叙事，因为它和 AI capex 强相关，又不像 GPU 龙头那样拥挤，弹性更偏二线和供应链扩散。",
+      beneficiary_tickers: ["COHR", "LITE", "CIEN", "AAOI", "MRVL", "AVGO"],
+      risk_points: "订单兑现慢、价格竞争或客户集中度过高，会让高波动光模块股快速回撤。",
+      what_to_watch: "1.6T 光模块订单、CPO 量产路线、DSP 供应、云厂商网络 capex 表述。",
+      conviction: "high",
+      source_urls: item.source_urls
+    };
+  }
+  if (item.category === "energy") {
+    return {
+      title: "数据中心电力：AI 扩张最硬的供给约束",
+      event_date: "near-term",
+      narrative_type: "narrative",
+      thesis: "AI 数据中心不是只缺 GPU，也缺电力、变压器、并网、冷却和长期 PPA。电力约束越明确，电网设备、核能、公用事业和数据中心配套越容易获得估值重估。",
+      why_i_like_it: "我看好这个叙事，因为它把 AI 交易从芯片扩展到真实基础设施，且受订单、政策和电网瓶颈共同驱动。",
+      beneficiary_tickers: ["CEG", "VST", "ETN", "PWR", "VRT", "NEE"],
+      risk_points: "监管审批慢、融资成本高或电价政治压力上升，会压制项目落地速度。",
+      what_to_watch: "PPA 合同、核能/电网审批、数据中心并网新闻、电力设备 backlog。",
+      conviction: "medium",
+      source_urls: item.source_urls
+    };
+  }
+  if (item.category === "defense") {
+    return {
+      title: "国防科技 / 太空商业化：预算与合同驱动的成长叙事",
+      event_date: "near-term",
+      narrative_type: "narrative",
+      thesis: "国防科技和太空股的核心不是概念，而是预算、政府合同、发射频率和订单积压。若政策资金继续落地，相关成长股会有较强弹性。",
+      why_i_like_it: "我看好这个叙事，因为它和传统经济周期相关性较低，同时 AI、卫星通信和国防现代化有交集。",
+      beneficiary_tickers: ["RKLB", "ASTS", "PLTR", "LMT", "NOC"],
+      risk_points: "早期太空股现金流弱、融资敏感，任何发射延迟或合同落空都会放大波动。",
+      what_to_watch: "政府合同、发射节奏、预算案、订单积压和现金消耗。",
+      conviction: "medium",
+      source_urls: item.source_urls
+    };
+  }
+  return null;
+}
+
+function buildNarratives(events: EventCalendarItem[], rankedNews: MarketNewsItem[]): NarrativeOpportunity[] {
+  const earnings = events
+    .filter((event) => event.event_type === "earnings")
+    .map(earningsNarrative)
+    .filter((item): item is NarrativeOpportunity => Boolean(item));
+  const news = rankedNews
+    .map(newsNarrative)
+    .filter((item): item is NarrativeOpportunity => Boolean(item));
+  const seen = new Set<string>();
+  return [...earnings, ...news].filter((item) => {
+    if (seen.has(item.title)) return false;
+    seen.add(item.title);
+    return true;
+  }).slice(0, 6);
+}
+
 function reportThemeForDate(date: string, rankedNews: MarketNewsItem[]) {
   if (date === "2026-05-25") {
     return {
@@ -391,6 +514,7 @@ export async function generateMarketReport(date = getTodayDate()) {
   const rankedNews = [...marketNews, ...sectorNews].sort((a, b) => b.importance_score - a.importance_score);
   const sectors = buildSectorUpdates(rankedNews);
   const watchlist = buildWatchlist(date, rankedNews, upcomingEvents);
+  const narratives = buildNarratives(upcomingEvents, rankedNews);
   const topSignals: TopSignal[] = selectTopNews(rankedNews, 5).map((item) => ({
     title: item.title,
     summary: signalSummary(item),
@@ -420,6 +544,7 @@ export async function generateMarketReport(date = getTodayDate()) {
     macro: buildMacroSnapshot(rankedNews, upcomingEvents),
     decliners,
     watchlist,
+    narratives,
     sources: [
       ...sourceRows(rankedNews, date),
       ...moduleSourceRows(date, [
@@ -427,6 +552,7 @@ export async function generateMarketReport(date = getTodayDate()) {
         ...sectors.map((sector) => ({ section: `sector:${sector.sector_name}`, urls: sector.source_urls })),
         ...decliners.map((decliner) => ({ section: `decliner:${decliner.ticker}`, urls: decliner.source_urls })),
         ...watchlist.map((item) => ({ section: `watchlist:${item.symbol_or_sector}`, urls: item.source_urls })),
+        ...narratives.map((item) => ({ section: `narrative:${item.title}`, urls: item.source_urls })),
         { section: "macro", urls: [sources.beaSchedule, sources.fedCalendar] }
       ])
     ]
