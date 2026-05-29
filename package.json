@@ -12,7 +12,8 @@
     "lint": "eslint .",
     "db:migrate": "tsx scripts/migrate.ts",
     "db:seed": "tsx scripts/seed.ts",
-    "reports:generate": "tsx scripts/generate-report.ts"
+    "reports:generate": "tsx scripts/generate-report.ts",
+    "reports:audit": "tsx scripts/audit-report-duplicates.ts"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

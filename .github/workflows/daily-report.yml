@@ -28,6 +28,8 @@ jobs:
         env:
           STORAGE_MODE: files
           DATA_PROVIDER: public_rss
+      - name: Audit duplicate report content
+        run: npm run reports:audit
       - name: Commit generated report
         run: |
           git config user.name "github-actions[bot]"

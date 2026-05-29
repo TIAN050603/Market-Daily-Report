@@ -1,5 +1,5 @@
 import watchlistConfig from "@/config/watchlist.json";
-import { addDays, formatDate } from "@/lib/reporting/date-utils";
+import { addDays, formatDate, getTodayDate } from "@/lib/reporting/date-utils";
 import { BigDecliner, EventCalendarItem, SourceUrl } from "@/lib/types";
 import { DataProvider, MarketNewsItem } from "./types";
 import { MockMarketDataProvider } from "./mock-provider";
@@ -306,6 +306,10 @@ export class PublicRssMarketDataProvider implements DataProvider {
   }
 
   async fetchBigDecliners(date: string): Promise<BigDecliner[]> {
+    if (date !== getTodayDate()) {
+      return this.fallback.fetchBigDecliners(date);
+    }
+
     try {
       const response = await fetch("https://stockanalysis.com/markets/losers/", {
         headers: { "User-Agent": "Mozilla/5.0 Market-Daily-Report/1.0" }

@@ -162,8 +162,8 @@ export class MockMarketDataProvider implements DataProvider {
     ];
   }
 
-  async fetchBigDecliners(_date: string): Promise<BigDecliner[]> {
-    return [
+  async fetchBigDecliners(date: string): Promise<BigDecliner[]> {
+    const baseDecliners: BigDecliner[] = [
       {
         ticker: "INTU",
         company_name: "Intuit",
@@ -198,6 +198,43 @@ export class MockMarketDataProvider implements DataProvider {
         source_urls: source("Microchip 10-K", "https://ir.microchip.com/sec-filings/all-sec-filings/content/0000827054-26-000016/0000827054-26-000016.pdf")
       }
     ];
+
+    const historicalVariants: Record<string, { ticker: string; company: string; change: number; theme: string }[]> = {
+      "2026-05-25": [
+        { ticker: "INTU", company: "Intuit", change: -20, theme: "财税软件财报后的增长质量和 AI 替代风险重估" },
+        { ticker: "TTWO", company: "Take-Two Interactive", change: -6.5, theme: "GTA VI 兑现节奏和游戏股估值回吐" },
+        { ticker: "MCHP", company: "Microchip Technology", change: -3.88, theme: "传统 MCU/工业半导体复苏节奏弱于 AI 数据中心链" }
+      ],
+      "2026-05-26": [
+        { ticker: "ADTX", company: "Aditxt", change: -28.4, theme: "小盘医疗科技股流动性和融资风险" },
+        { ticker: "GMM", company: "Global Mofy AI", change: -18.7, theme: "小盘 AI 概念股在成交放大后回吐" },
+        { ticker: "SMCI", company: "Super Micro Computer", change: -7.9, theme: "AI server 供应链对毛利率和订单质量重新定价" }
+      ],
+      "2026-05-27": [
+        { ticker: "SNOW", company: "Snowflake", change: -5.6, theme: "云软件财报前资金降低风险敞口" },
+        { ticker: "AAOI", company: "Applied Optoelectronics", change: -6.8, theme: "光通信高 beta 标的在 CPO 预期交易后波动放大" },
+        { ticker: "RKLB", company: "Rocket Lab", change: -4.9, theme: "太空商业化成长股随风险偏好降温回撤" }
+      ],
+      "2026-05-28": [
+        { ticker: "PLAB", company: "Photronics", change: -11.2, theme: "半导体材料/光掩模需求和指引被重新评估" },
+        { ticker: "ZCMD", company: "Zhongchao", change: -16.5, theme: "低流动性中概小盘股价格异动" },
+        { ticker: "SUGP", company: "SU Group", change: -10.4, theme: "小盘股成交驱动下跌，需要警惕流动性噪音" }
+      ]
+    };
+
+    const variant = historicalVariants[date];
+    if (!variant) return baseDecliners;
+
+    return variant.map((item, index) => ({
+      ...baseDecliners[index % baseDecliners.length],
+      ticker: item.ticker,
+      company_name: item.company,
+      previous_day_change_percent: item.change,
+      volume_note: `${date} 历史回填样例：当前 MVP 未接入历史逐日涨跌幅数据库，不能把实时跌幅榜直接套用到过去日期。`,
+      reason: `${date} 大跌复盘重点：${item.theme}。这条用于区分历史日报，后续接入 Polygon/IEX/Nasdaq historical movers 后应替换为真实逐日数据。`,
+      catalysts: [...baseDecliners[index % baseDecliners.length].catalysts, `historical_backfill_${date}`],
+      watch_points: `${date} 后续观察：确认是否有对应财报、评级、融资、监管或板块同步下跌；不要用今天的实时跌幅榜解释这一天。`
+    }));
   }
 
   async fetchTickerNews(ticker: string, date: string): Promise<MarketNewsItem[]> {
@@ -211,7 +248,31 @@ export class MockMarketDataProvider implements DataProvider {
 
   async fetchUpcomingEvents(date: string, _days = 7): Promise<EventCalendarItem[]> {
     const endDate = formatDate(addDays(date, _days));
+    const dailyContext: EventCalendarItem[] = date === "2026-05-25"
+      ? [
+          {
+            event_date: "2026-05-25",
+            event_name: "Memorial Day: US stock market closed",
+            event_type: "market_holiday",
+            importance: "high",
+            affected_assets: ["NYSE", "Nasdaq", "US equities", "Liquidity"],
+            watch_points: "假期报告应被视为 2026-05-26 开盘前准备清单，不应和下一个交易日的日内报告完全相同。",
+            source_urls: source("NYSE holiday calendar", "https://www.nyse.com/markets/hours-calendars")
+          }
+        ]
+      : [
+          {
+            event_date: date,
+            event_name: `${date} US equity market session / premarket setup`,
+            event_type: "market_session",
+            importance: "medium",
+            affected_assets: ["Nasdaq", "S&P 500", "QQQ", "SPY", "SMH"],
+            watch_points: "把当天盘前新闻、收益率、期货和热门成长股开盘反应作为事件日历的第一项，避免把前一交易日的未来日历原样复制。",
+            source_urls: source("Nasdaq market activity", "https://www.nasdaq.com/market-activity")
+          }
+        ];
     return [
+      ...dailyContext,
       ...(await this.fetchMacroEvents(date)),
       ...(await this.fetchFedEvents(date)),
       ...(await this.fetchEarningsEvents(date))

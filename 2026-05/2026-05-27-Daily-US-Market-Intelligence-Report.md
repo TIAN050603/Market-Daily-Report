@@ -1,165 +1,247 @@
 # Daily US Market Intelligence Report
 日期：2026-05-27
 覆盖范围：2026-05-27 至 2026-06-03
-美股状态：盘前
+美股状态：premarket
 
-## 1. 2026-05-27 最重要的 5 个市场信号
-### 1. 英伟达在 2026-05-20 交出超预期季度业绩，AI 资本开支主线尚未被证伪
-- 事件 / 信号是什么：英伟达在截至 2026-04-26 的 2027 财年第一季度实现营收 816 亿美元、数据中心营收 752 亿美元，并上调季度股息与回购授权；公司同时强调 Blackwell、推理和主权 AI 需求继续扩张。这是已经发生的事实。
-- 为什么重要：这仍然是当前美股 AI 主线最关键的“需求锚”。只要龙头业绩与指引没有明显失速，服务器、HBM、光模块、电力散热和 ASIC 链条就仍有估值支撑。
-- 可能影响的方向：利好
-- 可能影响的板块或股票：NVDA、SMCI、DELL、VRT、MRVL、AVGO、LITE、MU
-- 影响时间：中期
-- 信息来源链接：[NVIDIA Q1 FY2027 Results](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx), [NVIDIA CFO at TD Cowen 2026-05-28](https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/TD-Cowen-53rd-Annual-Technology-Media--Telecom-Conference/default.aspx)
+## 1. 2026-05-27 最重要的 3-5 个市场信号
+### 1. Wall Street indexes end at records after U.S.-Iran deal said to be reached - Investing.com
+- 事件 / 信号是什么：这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。 盘前优先看 QQQ, SPY 是否带动 Macro / Rates / Nasdaq 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。
+- 为什么重要：宏观信号决定估值折现率：利率上行会先压制 Nasdaq、软件和小盘成长，利率回落则更利于半导体与 AI 基础设施延续风险偏好。
+- 可能影响的方向：uncertain
+- 可能影响的板块或股票：Macro, Rates, Nasdaq, QQQ, SPY
+- 影响时间：this_week
+- 信息来源链接：[Investing.com](https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWDZLY01hQl8yUXFnTnFUVGhrcWhGNTMxb2F3LUdVWm9lSGJJa01tNGFyTEVNemhNaUhqMDlFN244RUdEcEZsNHduR2toWTJQNXFtYmEtLWlJSTlKenBwVTVoRDV5cXAwRXdyYWFaOUFSUGsyX2FvRldzY1l3aEVmSDZtcmY2V0F4cHJCT3E0QkcxVFNPb054eWgxaWYydHotc2RyeXd1Z2phQk9PWXhsNm9TVTdFTEpCUndKMFo0S2RfTVgxUWQ1RWJ2Z0NiQkx5VzJR?oc=5)
 
-### 2. 2026-05-26 美股继续把资金集中到 AI 内核资产，Micron 的急涨说明市场仍在追逐 HBM / 存储受益链
-- 事件 / 信号是什么：路透 2026-05-26 报道 Micron 因 UBS 大幅上调目标价而一度涨 19.3%，并短暂触及 1 万亿美元市值，市场再度把“AI 受益的存储/带宽瓶颈”作为高弹性方向定价。这是已经发生的事实。
-- 为什么重要：这说明资金没有全面撤离 AI，而是在 AI 主线内部继续向“盈利兑现更快”的细分环节集中。对半导体内部风格而言，HBM、存储、先进封装仍强于传统模拟/MCU 的概率更高。
-- 可能影响的方向：利好
-- 可能影响的板块或股票：MU、NVDA、AVGO、MRVL、AMD、SOXX、SMH
-- 影响时间：本周
-- 信息来源链接：[Reuters: Micron joins $1 trillion club](https://whtc.com/2026/05/26/micron-joins-1-trillion-club-as-ai-race-powers-memory-chip-boom/), [Reuters Breakingviews on AI spending and markets](https://www.reuters.com/breakingviews/ai-spending-may-give-stocks-one-more-boost-2026-05-22/)
+### 2. AMD Stock Pops as AI Powers Strong Data-Center Demand - AOL.com
+- 事件 / 信号是什么：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 AMD, NVDA, DELL, SMCI, VRT。 来源主题：AI Infrastructure, Data Center, Semiconductor。 盘前优先看 AMD, NVDA, DELL, SMCI, VRT, ANET 是否带动 AI Infrastructure / Data Center / Semiconductor 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。
+- 为什么重要：AI 信号的关键在于 capex 是否继续扩散：如果订单从 GPU 扩到服务器、电源、散热和网络，受益链条会变宽；如果只集中在少数龙头，概念股会分化。
+- 可能影响的方向：bullish
+- 可能影响的板块或股票：AI Infrastructure, Data Center, Semiconductor, AMD, NVDA, DELL, SMCI, VRT, ANET
+- 影响时间：this_week
+- 信息来源链接：[AOL.com](https://news.google.com/rss/articles/CBMic0FVX3lxTFB2a3E2T1Q5VndTbTVUXzZuOHBWbTJ2cEN3b0w4TmxrS0RHMGt6S3duZS1BM25Ia3VXeFJiYWEwWXMtbDNoMXZHWmtTb2F4RDdaZG9TTUF0Qnlmak1vRlJPRHhlRHpNSWF6MVNJbExLQnhXUDA?oc=5)
 
-### 3. 2026-05-27 盘后是 AI / 半导体 / 云软件的财报密集窗口，Marvell、Synopsys、Snowflake 会直接决定下一棒是否扩散
-- 事件 / 信号是什么：Marvell、Synopsys、Snowflake 都已把 2026-05-27 盘后财报列入各自 IR 日历；其中 Marvell 关系到 AI 定制芯片与光互连，Synopsys 关系到 EDA 与 ASIC 设计活跃度，Snowflake 关系到企业 AI 数据平台消费。这是已知事件，结果尚未发生，属于市场预期。
-- 为什么重要：如果三家公司同时给出稳健或上修指引，AI 主线更可能从 GPU 龙头扩散到 ASIC、EDA、数据平台和网络链；如果只有个别公司好，其它分支可能继续分化。
-- 可能影响的方向：不确定
-- 可能影响的板块或股票：MRVL、SNPS、CDNS、SNOW、NVDA、AVGO、ANET、DDOG
-- 影响时间：本周
-- 信息来源链接：[Marvell IR Calendar](https://investor.marvell.com/news-events/ir-calendar), [Synopsys Q2 FY2026 Earnings Event](https://investor.synopsys.com/events-and-presentations/events/event-details/2026/Q2-Fiscal-Year-2026-Earnings/default.aspx), [Snowflake Q1 FY2027 Earnings Event](https://investors.snowflake.com/events-and-presentations/event-details/2026/Snowflake-Q1-FY27-Earnings/default.aspx)
+### 3. These Super Stocks Could Be the Biggest Winners in the AI Inference and Agentic AI Economy - AOL.com
+- 事件 / 信号是什么：这是半导体风格切换信号，重点区分 GPU/ASIC/先进封装受益股和传统 MCU、汽车工业链。若资金继续追逐 AI 算力，SMH 内部会继续分化。直接映射到 NVDA, AMD, AVGO, MRVL, TSM。 来源主题：Semiconductor, AI ASIC, GPU。 盘前优先看 NVDA, AMD, AVGO, MRVL, TSM, ASML 是否带动 Semiconductor / AI ASIC / GPU 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：市场预期。
+- 为什么重要：半导体是 AI 主线的核心风险资产，市场会区分算力受益、ASIC/EDA 受益、存储受益和传统周期股，内部轮动比指数涨跌更重要。
+- 可能影响的方向：bullish
+- 可能影响的板块或股票：Semiconductor, AI ASIC, GPU, NVDA, AMD, AVGO, MRVL, TSM, ASML, ARM
+- 影响时间：this_week
+- 信息来源链接：[AOL.com](https://news.google.com/rss/articles/CBMigwFBVV95cUxPdHprVFQ5UW40UkUwb1BFWENIMVItNHUtUVhwd2wzSk13U2ZmNWRkZndNWDdPcFVtd2NYWGdLVVFPbzRNdV95WFR2ZjJneXNpWHYzZFFtWjZDQm4yTTdmdTZ6NHBlc0ZYNExGeWNGSTdXQi03SVJNampjcF9WbFAyQUVoYw?oc=5)
 
-### 4. 2026-05-28 的核心 PCE 与 GDP 二读是本周最重要的宏观定价点，若通胀偏热会直接压缩高估值科技股
-- 事件 / 信号是什么：BEA 日程显示 2026-05-28 将公布 2026-04 个人收入和支出数据，其中包含核心 PCE，同时发布 2026Q1 GDP 第二次估值。这是已知事件，结果尚未发生，属于市场预期。
-- 为什么重要：英伟达等 AI 龙头维持高估值的前提之一是长端利率不要失控。如果核心 PCE 偏热、GDP 价格分项偏强，10 年期美债收益率再上行会先压制软件和高估值半导体。
-- 可能影响的方向：不确定
-- 可能影响的板块或股票：QQQ、ARKK、NVDA、MSFT、SNOW、CRWD、TLT、DXY
-- 影响时间：本周
-- 信息来源链接：[BEA Release Schedule](https://www.bea.gov/news/schedule), [BEA Gross Domestic Product](https://www.bea.gov/data/gdp/gross-domestic-product)
+### 4. Options Performance Strategy | Optical Interconnect Rides the AI Wave—Can Marvell’s Earnings Justify a New Valuation? - Moomoo
+- 事件 / 信号是什么：这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。直接映射到 COHR, LITE, CIEN, AAOI, MRVL。 来源主题：Optical Communication, Networking, Data Center。 盘前优先看 COHR, LITE, CIEN, AAOI, MRVL, AVGO 是否带动 Optical Communication / Networking / Data Center 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。
+- 为什么重要：光通信是 AI 集群扩容的瓶颈环节之一，若 CPO/1.6T/硅光订单继续被验证，资金可能从 GPU 龙头外溢到网络和光模块链。
+- 可能影响的方向：bullish
+- 可能影响的板块或股票：Optical Communication, Networking, Data Center, COHR, LITE, CIEN, AAOI, MRVL, AVGO
+- 影响时间：medium_term
+- 信息来源链接：[Moomoo](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVUJXQ09xM0JBR1dJdGFTd0tydEdLODFJelFYQVlQZGVNc0ZUQnBMMTlfQmUzTmdlLTlMTFd2N0JUaDNfa3kzbk9yVkt2d3U5Tnh3MVVad01PRjVoTW9faVVBN1dUUTZKN05YU3RrZzVNb0hWZzh0OVJVbDFzbEsyaVE1OTV6dUU0eTZTYXVQZjcyM0xmWXQtTURfd1E2dXRaaXJGcWoydEczdFVfMWt1VFpBNXQtTGJrX3E4cG9kdzBpNWs?oc=5)
 
-### 5. 中国监管收紧跨境券商开户，2026-05-26 的中概互联网券商暴跌提醒“监管变量”仍可压过基本面
-- 事件 / 信号是什么：香港证监会 2026-05-23 点名富途、老虎、Long Bridge 等机构在跨境获客上存在合规问题；2026-05-26 前一交易日，FUTU 与 TIGR 在美股显著下挫。这里“监管点名”是已经发生的事实，“后续整改影响多大”仍有不确定性。
-- 为什么重要：这不是 AI 主线本身，但会影响中概互联网券商、跨境财富管理、香港互联网金融情绪，也提醒市场对监管冲击的容忍度并不高。
-- 可能影响的方向：利空
-- 可能影响的板块或股票：FUTU、TIGR、中概互联网金融、港股券商链
-- 影响时间：本周
-- 信息来源链接：[SFC statement on unlicensed cross-boundary solicitation](https://www.sfc.hk/en/News-and-announcements/Policy-statements-and-announcements/Unlicensed-solicitation-of-Hong-Kong-investors-by-unlicensed-entities), [Reuters on offshore broker scrutiny](https://www.reuters.com/world/china/hong-kong-regulator-flags-futu-tiger-brokers-over-mainland-client-solicitation-2026-05-23/)
+### 5. Nasdaq: Composite Edges to Record 26,674 as Chip Pullback Meets Marvell Beat and Snowflake Surge - BBN Times
+- 事件 / 信号是什么：这是企业 AI 变现信号，重点看 AI 功能能否变成 RPO、净留存、云消费和价格提升，而不是只停留在产品叙事。直接映射到 MSFT, GOOGL, AMZN, CRM, SNOW。 来源主题：Cloud, Software, Cybersecurity。 盘前优先看 MSFT, GOOGL, AMZN, CRM, SNOW, DDOG 是否带动 Cloud / Software / Cybersecurity 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。
+- 为什么重要：软件和云的重点是 AI 能否真正变现。RPO、净留存、云消费和毛利率比产品发布更能决定估值方向。
+- 可能影响的方向：uncertain
+- 可能影响的板块或股票：Cloud, Software, Cybersecurity, MSFT, GOOGL, AMZN, CRM, SNOW, DDOG, CRWD
+- 影响时间：medium_term
+- 信息来源链接：[BBN Times](https://news.google.com/rss/articles/CBMiywFBVV95cUxQdklidW9TdFoxTXd2bVlrLUhUcC12RUEwa281dXFZVTd0SWNSclkyVFQ3WGxXZGJZMUxSMnhzVjBrX3hHaGVSZlE4ZkItaUluNkhhdzFpTTN2bEFwandyWE1NOC15VFViSjhtN09KcWN0SUJVRnZpUkpPOC1LckdHZkdYMEplS2RXeXI3Z28wSV8wLXZjU2RkX1dXeWtUcmw3VGxmYkZqTFpXblE3dmppSEgwM3FkX1k0SEFHRHJCNjBYTUdOd3RabGxYbw?oc=5)
 
 ## 2. 2026-05-27 至 2026-06-03 关键事件日历
 | 日期 | 事件 | 重要性 | 可能影响的资产或板块 | 需要关注的关键点 | 来源 |
 |---|---|---|---|---|---|
-| 2026-05-27 | Marvell 2026Q1 财报 | 高 | MRVL、AVGO、NVDA、光通信、ASIC | 数据中心收入占比、定制芯片订单、800G/1.6T 光互连评论、FY2027 指引 | [Marvell IR Calendar](https://investor.marvell.com/news-events/ir-calendar) |
-| 2026-05-27 | Synopsys 2026Q2 财报 | 高 | SNPS、CDNS、半导体设计链 | EDA 需求、AI ASIC 设计活跃度、China 限制与订单可见性 | [Synopsys Earnings Event](https://investor.synopsys.com/events-and-presentations/events/event-details/2026/Q2-Fiscal-Year-2026-Earnings/default.aspx) |
-| 2026-05-27 | Snowflake 2027 财年 Q1 财报 | 高 | SNOW、云计算、数据平台 | 产品收入增速、RPO、AI 功能变现、全年指引 | [Snowflake Earnings Event](https://investors.snowflake.com/events-and-presentations/event-details/2026/Snowflake-Q1-FY27-Earnings/default.aspx) |
-| 2026-05-28 | 美国 2026-04 Personal Income and Outlays / Core PCE | 高 | 美债收益率、美元、Nasdaq、成长股 | 核心 PCE 是否高于预期，工资与消费是否继续支撑“高利率更久” | [BEA Release Schedule](https://www.bea.gov/news/schedule) |
-| 2026-05-28 | 美国 2026Q1 GDP 第二次估值 | 高 | 标普 500、周期股、美元 | 实际增长、PCE 价格指数、库存与净出口对增速的拖累/支撑 | [BEA GDP](https://www.bea.gov/data/gdp/gross-domestic-product) |
-| 2026-05-28 | Dell Technologies 2027 财年 Q1 财报电话会 | 高 | DELL、SMCI、VRT、NVDA、企业 IT | AI 服务器 backlog、利润率、企业 PC 和传统服务器恢复情况 | [Dell upcoming events](https://delltechnologies.gcs-web.com/news-events/upcoming-events) |
-| 2026-05-28 | 美国周度初请失业金 | 中 | 利率、消费、银行股、小盘股 | 劳动力市场是否继续放缓，是否强化 2026 年降息预期 | [DOL unemployment insurance release schedule](https://oui.doleta.gov/unemploy/claims.asp) |
-| 2026-05-28 | EIA Weekly Petroleum Status Report | 中 | 原油、能源股、通胀预期 | 原油库存与炼厂开工率是否推升短期油价与通胀预期 | [EIA Weekly Petroleum Status Report](https://www.eia.gov/petroleum/supply/weekly/) |
-| 2026-05-29 | Census Advance Economic Indicators | 中 | 零售、批发、物流、GDP Nowcast | 商品贸易逆差、批发库存、零售库存是否修正 2026Q2 增长预期 | [Census Economic Indicators Calendar](https://www.census.gov/economic-indicators/calendar-listview.html) |
-| 2026-06-01 | ISM Manufacturing PMI | 高 | 工业、原材料、利率、美元 | 新订单、价格分项、就业分项，判断制造业修复与通胀再加速风险 | [ISM Report Calendar](https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/) |
-| 2026-06-01 | Construction Spending | 中 | 工业、建筑、材料、电力基础设施 | 数据中心、电网和制造业建设是否延续高景气 | [Census Construction Spending Release Schedule](https://www.census.gov/construction/c30/schedule.html) |
-| 2026-06-02 | JOLTS 职位空缺 | 中 | 利率、消费、小盘股 | 招聘需求是否继续降温，缓解长端利率压力 | [BLS Release Calendar](https://www.bls.gov/schedule/news_release/jolts.htm) |
-| 2026-06-03 | ISM Services PMI | 高 | 软件、消费、利率、美元 | 服务业价格分项与就业分项是否继续偏热 | [ISM Report Calendar](https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/) |
+| 2026-05-27 | 2026-05-27 US equity market session / premarket setup | medium | Nasdaq, S&P 500, QQQ, SPY, SMH | 2026-05-27 视角：当日事件。当天重点看实际结果、盘前预期差和盘中板块扩散。把当天盘前新闻、收益率、期货和热门成长股开盘反应作为事件日历的第一项，避免把前一交易日的未来日历原样复制。 | [Nasdaq market activity](https://www.nasdaq.com/market-activity) |
+| 2026-05-27 | Federal Reserve speaker calendar | medium | Rates, Banks, Growth stocks | 2026-05-27 视角：当日事件。当天重点看实际结果、盘前预期差和盘中板块扩散。关注官员对通胀、就业和降息路径的表述是否发生边际变化。 | [Federal Reserve calendar](https://www.federalreserve.gov/newsevents/calendar.htm) |
+| 2026-05-27 | Marvell Technology earnings | high | MRVL, AVGO, NVDA, AI ASIC, Optical networking | 2026-05-27 视角：当日事件。当天重点看实际结果、盘前预期差和盘中板块扩散。AI custom silicon、光互连、数据中心网络收入和指引。 | [Marvell IR calendar](https://investor.marvell.com/news-events/ir-calendar) |
+| 2026-05-27 | Synopsys earnings | high | SNPS, CDNS, Semiconductor design | 2026-05-27 视角：当日事件。当天重点看实际结果、盘前预期差和盘中板块扩散。EDA 需求和 AI ASIC 设计活动是否继续强劲。 | [Synopsys events](https://investor.synopsys.com/events-and-presentations/default.aspx) |
+| 2026-05-27 | Snowflake earnings | high | SNOW, Cloud, AI data platform | 2026-05-27 视角：当日事件。当天重点看实际结果、盘前预期差和盘中板块扩散。产品收入增长、AI Data Cloud 消费、剩余履约义务和 FY2027 指引。 | [Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks) |
+| 2026-05-28 | BEA Personal Income and Outlays / PCE | high | US Treasury yields, Nasdaq, Growth stocks, USD | 2026-05-27 视角：1 天后事件。临近阶段重点看资金是否提前抢跑，以及期权/同行股是否已经反映预期。核心 PCE 是否高于预期，决定长久期科技股估值压力。 | [BEA release schedule](https://www.bea.gov/news/schedule) |
+| 2026-05-28 | Q1 GDP second estimate | high | S&P 500, USD, Cyclicals | 2026-05-27 视角：1 天后事件。临近阶段重点看资金是否提前抢跑，以及期权/同行股是否已经反映预期。增长和价格分项是否显示滞胀压力。 | [BEA GDP](https://www.bea.gov/data/gdp/gross-domestic-product) |
+| 2026-05-28 | Dell Technologies Q1 FY2027 earnings | high | DELL, AI servers, SMCI, VRT, NVDA | 2026-05-27 视角：1 天后事件。临近阶段重点看资金是否提前抢跑，以及期权/同行股是否已经反映预期。AI server backlog、ISG margin、GPU server 订单质量和 FY2027 指引。 | [Dell upcoming events](https://delltechnologies.gcs-web.com/news-events/upcoming-events) |
 
-## 3. AI / 科技 / 半导体 / 光通信重点观察
-### AI 基础设施
-- 最新催化：英伟达 2027 财年 Q1 业绩继续确认 AI 训练与推理需求强劲；Dell 2027 财年 Q1 与 Marvell 2026Q1 财报将验证需求是否向服务器整机、定制芯片和网络外溢。
-- 受益股票：NVDA、DELL、SMCI、VRT、ANET、MRVL
-- 承压股票：订单兑现弱、仅靠概念估值支撑的 AI 基建二三线标的
-- 需要继续观察的信号：GPU 供给、服务器 backlog、企业/云厂商资本开支、推理算力需求
-- 板块情绪：偏多
-- 来源：[NVIDIA Q1 FY2027 Results](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx), [Dell upcoming events](https://delltechnologies.gcs-web.com/news-events/upcoming-events), [Marvell IR Calendar](https://investor.marvell.com/news-events/ir-calendar)
+## 3. 最近几天值得期待的财报 / 叙事
+### Marvell 财报：ASIC + 光互连能否接棒 GPU 主线（2026-05-27，当日事件）
+- 日期：2026-05-27
+- 类型：earnings
+- 我看好的原因：我看好这个叙事，因为它能把 AI 主线从单一 GPU 龙头扩展到 ASIC、CPO、硅光、交换芯片和光模块，弹性链条更长。
+- 核心逻辑：截至 2026-05-27，当日事件。今天不是再讲叙事本身，而是验证市场是否愿意用订单、指引和同行联动给它重新定价。相关股票：MRVL, AVGO, COHR, LITE, CIEN。
+- 受益股票 / 板块：MRVL, AVGO, COHR, LITE, CIEN, AAOI
+- 需要盯的验证点：当日事件重点看：AI custom silicon 收入、data center networking 指引、光互连/DSP 订单、客户集中度。
+- 风险点：如果 AI 收入指引不够强，或者传统业务拖累明显，光通信和 ASIC 外溢交易会降温。
+- 信心等级：high
+- 来源：[Marvell IR calendar](https://investor.marvell.com/news-events/ir-calendar)
 
-### 半导体
-- 最新催化：Micron 的急涨说明 HBM/存储仍是 AI 主线中最强的弹性环节之一；Synopsys 财报则用于验证 EDA 与 ASIC 设计活动是否继续升温。
-- 受益股票：MU、NVDA、AVGO、MRVL、SNPS、CDNS、TSM
-- 承压股票：传统 MCU / 模拟 / 汽车链中基本面恢复慢且估值已不低的标的
-- 需要继续观察的信号：HBM 供需、先进封装、EDA 订单可见性、AI ASIC tape-out 活跃度
-- 板块情绪：偏多
-- 来源：[Reuters: Micron joins $1 trillion club](https://whtc.com/2026/05/26/micron-joins-1-trillion-club-as-ai-race-powers-memory-chip-boom/), [Synopsys Earnings Event](https://investor.synopsys.com/events-and-presentations/events/event-details/2026/Q2-Fiscal-Year-2026-Earnings/default.aspx), [Marvell custom silicon / NVLink Fusion release](https://investor.marvell.com/news/news-details/2026/Marvell-Extends-Custom-AI-XPU-Strategy-with-NVLink-Fusion/default.aspx)
+### Synopsys 财报：EDA 需求验证 AI ASIC 设计周期（2026-05-27，当日事件）
+- 日期：2026-05-27
+- 类型：earnings
+- 我看好的原因：我看好这个叙事，因为 EDA 是 AI 芯片军备竞赛的上游铲子，波动通常低于纯硬件，但能反映长期设计活动。
+- 核心逻辑：截至 2026-05-27，当日事件。今天不是再讲叙事本身，而是验证市场是否愿意用订单、指引和同行联动给它重新定价。相关股票：SNPS, CDNS, ARM, TSM, ASML。
+- 受益股票 / 板块：SNPS, CDNS, ARM, TSM, ASML
+- 需要盯的验证点：当日事件重点看：backlog、license 续约、AI/先进制程客户需求、管理层对设计活动的描述。
+- 风险点：估值不便宜，如果指引只是稳健而非加速，市场可能不买单。
+- 信心等级：medium
+- 来源：[Synopsys events](https://investor.synopsys.com/events-and-presentations/default.aspx)
 
-### 光通信 / 网络
-- 最新催化：Marvell 在 2026-04 发布与 NVIDIA NVLink Fusion 相关的定制 AI XPU 战略延展，显示网络、DSP 与互连正在从“配角”转为 AI 集群扩容瓶颈；2026-05-27 财报将给出更直接的验证。
-- 受益股票：MRVL、LITE、COHR、AAOI、CIEN、AVGO、ANET
-- 承压股票：订单兑现慢、价格竞争激烈、对单一客户依赖过高的高波动光模块股
-- 需要继续观察的信号：800G/1.6T 出货、DSP 供给、交换芯片节奏、CPO 路线图
-- 板块情绪：偏多但波动高
-- 来源：[Marvell custom silicon / NVLink Fusion release](https://investor.marvell.com/news/news-details/2026/Marvell-Extends-Custom-AI-XPU-Strategy-with-NVLink-Fusion/default.aspx), [Marvell IR Calendar](https://investor.marvell.com/news-events/ir-calendar), [NVIDIA TD Cowen 2026-05-28](https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/TD-Cowen-53rd-Annual-Technology-Media--Telecom-Conference/default.aspx)
+### Snowflake 财报：企业 AI 是否转化为真实云消费（2026-05-27，当日事件）
+- 日期：2026-05-27
+- 类型：earnings
+- 我看好的原因：我看好这个叙事，因为如果数据平台消费重新加速，AI 软件链条会从基础设施行情扩散到应用和数据层。
+- 核心逻辑：截至 2026-05-27，当日事件。今天不是再讲叙事本身，而是验证市场是否愿意用订单、指引和同行联动给它重新定价。相关股票：SNOW, DDOG, MSFT, GOOGL, CRM。
+- 受益股票 / 板块：SNOW, DDOG, MSFT, GOOGL, CRM
+- 需要盯的验证点：当日事件重点看：product revenue growth、RPO、net revenue retention、AI Data Cloud 客户采用。
+- 风险点：如果消费恢复慢或 FY 指引保守，软件 AI 叙事会继续落后于硬件 AI。
+- 信心等级：medium
+- 来源：[Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks)
 
-### 云计算 / 软件
-- 最新催化：Snowflake 2027 财年 Q1 与 Intuit 2026-05-22 的业绩/指引更新，都是“企业软件 AI 变现是否真实发生”的直接验证点；目前结论仍是部分兑现、并非全面扩散。
-- 受益股票：SNOW、CRM、MSFT、ORCL、DDOG、INTU
-- 承压股票：AI 叙事很强但 ARR、RPO、利润率兑现仍弱的软件股
-- 需要继续观察的信号：RPO、净留存率、AI 功能 ARPU、云消费与推理工作负载
-- 板块情绪：中性偏多
-- 来源：[Snowflake Earnings Event](https://investors.snowflake.com/events-and-presentations/event-details/2026/Snowflake-Q1-FY27-Earnings/default.aspx), [Intuit Q3 FY2026 release](https://investors.intuit.com/news-events/press-releases/detail/1312/intuit-reports-strong-third-quarter-results-and-raises-full-year-revenue-guidance), [Salesforce FY2027 Q1 earnings date](https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-First-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx)
+### Dell 财报：AI server 订单能否从收入变成利润（2026-05-28，1 天后事件）
+- 日期：2026-05-28
+- 类型：earnings
+- 我看好的原因：我看好这个叙事，因为它能直接回答 AI 交易最重要的问题之一：NVDA 之外，服务器、电源、散热和数据中心硬件链能不能共同受益。
+- 核心逻辑：截至 2026-05-27，1 天后事件。现在进入临近验证阶段，重点是提前布局资金是否已经透支，以及同板块是否出现预期抢跑。相关股票：DELL, SMCI, VRT, NVDA, ANET。
+- 受益股票 / 板块：DELL, SMCI, VRT, NVDA, ANET
+- 需要盯的验证点：1 天后事件重点看：AI server backlog、ISG operating margin、FY 指引、管理层对供应链和客户集中度的表述。
+- 风险点：如果 backlog 强但利润率弱，市场可能把它解读为 AI server 需求很强但价值被 GPU/上游吃掉。
+- 信心等级：high
+- 来源：[Dell upcoming events](https://delltechnologies.gcs-web.com/news-events/upcoming-events)
 
-### 数据中心电力 / 能源
-- 最新催化：AI 电力需求仍是二级市场愿意反复交易的外溢主题，但这个方向更依赖项目审批、电网接入与长期 PPA，而不是短期情绪。若 2026-05-28 PCE 偏热导致利率走高，公用事业与电力设备链也会受估值压制。
-- 受益股票：VRT、ETN、PWR、CEG、VST、TLN
-- 承压股票：高杠杆、融资敏感、项目交付慢的数据中心配套公司
-- 需要继续观察的信号：PPA 价格、电网接入进度、核电与燃气项目审批、AI 用电负荷预测
-- 板块情绪：不确定
-- 来源：[Reuters Breakingviews on AI spending and markets](https://www.reuters.com/breakingviews/ai-spending-may-give-stocks-one-more-boost-2026-05-22/), [EIA Weekly Petroleum Status Report](https://www.eia.gov/petroleum/supply/weekly/), [Construction Spending Release Schedule](https://www.census.gov/construction/c30/schedule.html)
+### 光通信 / CPO：AI 网络瓶颈的下一段外溢叙事（near-term，2026-05-27 近端跟踪）
+- 日期：near-term
+- 类型：narrative
+- 我看好的原因：我看好这个叙事，因为它和 AI capex 强相关，又不像 GPU 龙头那样拥挤，弹性更偏二线和供应链扩散。
+- 核心逻辑：截至 2026-05-27，2026-05-27 近端跟踪。仍处在预期酝酿阶段，重点是确认这条线是否被新闻、订单和分析师预期持续强化。相关股票：COHR, LITE, CIEN, AAOI, MRVL。
+- 受益股票 / 板块：COHR, LITE, CIEN, AAOI, MRVL, AVGO
+- 需要盯的验证点：2026-05-27 近端跟踪重点看：1.6T 光模块订单、CPO 量产路线、DSP 供应、云厂商网络 capex 表述。
+- 风险点：订单兑现慢、价格竞争或客户集中度过高，会让高波动光模块股快速回撤。
+- 信心等级：high
+- 来源：[Moomoo](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVUJXQ09xM0JBR1dJdGFTd0tydEdLODFJelFYQVlQZGVNc0ZUQnBMMTlfQmUzTmdlLTlMTFd2N0JUaDNfa3kzbk9yVkt2d3U5Tnh3MVVad01PRjVoTW9faVVBN1dUUTZKN05YU3RrZzVNb0hWZzh0OVJVbDFzbEsyaVE1OTV6dUU0eTZTYXVQZjcyM0xmWXQtTURfd1E2dXRaaXJGcWoydEczdFVfMWt1VFpBNXQtTGJrX3E4cG9kdzBpNWs?oc=5)
 
-## 4. 大盘与宏观环境
-- 利率：2026-05-28 的核心 PCE 与 GDP 二读是本周美股最关键的利率变量。如果核心通胀和价格分项偏热，长端利率上行会先压估值最高的软件和 AI 概念股；如果数据温和，AI 龙头更容易维持高估值。影响方向：不确定。来源：[BEA Release Schedule](https://www.bea.gov/news/schedule), [BEA GDP](https://www.bea.gov/data/gdp/gross-domestic-product), [Reuters Breakingviews on AI spending and markets](https://www.reuters.com/breakingviews/ai-spending-may-give-stocks-one-more-boost-2026-05-22/)
-- 指数与风格：2026-05-26 市场并非普涨，而是继续奖励 AI 主线中的“盈利兑现者”，Micron 的暴涨是典型信号。这对 SOXX/SMH 明显更友好，但对纯概念软件或高估值小票并不自动利好。影响方向：科技主线偏多、风格分化加剧。来源：[Reuters: Micron joins $1 trillion club](https://whtc.com/2026/05/26/micron-joins-1-trillion-club-as-ai-race-powers-memory-chip-boom/), [NVIDIA Q1 FY2027 Results](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx)
-- 就业与增长：2026-05-28 周度初请、2026-06-02 JOLTS、2026-06-01 ISM 制造业、2026-06-03 ISM 服务业，会决定“增长放缓但未衰退”还是“通胀顽固、利率更久”的市场叙事。影响方向：不确定。来源：[DOL unemployment insurance release schedule](https://oui.doleta.gov/unemploy/claims.asp), [BLS JOLTS release calendar](https://www.bls.gov/schedule/news_release/jolts.htm), [ISM Report Calendar](https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/)
-- 监管与地缘：香港监管对跨境券商的点名说明，监管消息仍可在单日内压过成长叙事；这类风险更可能体现在中概券商、互联网金融与跨境财富管理上，而不是直接冲击美股 AI 龙头。影响方向：局部利空。来源：[SFC statement on unlicensed cross-boundary solicitation](https://www.sfc.hk/en/News-and-announcements/Policy-statements-and-announcements/Unlicensed-solicitation-of-Hong-Kong-investors-by-unlicensed-entities), [Reuters on offshore broker scrutiny](https://www.reuters.com/world/china/hong-kong-regulator-flags-futu-tiger-brokers-over-mainland-client-solicitation-2026-05-23/)
+### 数据中心电力：AI 扩张最硬的供给约束（near-term，2026-05-27 近端跟踪）
+- 日期：near-term
+- 类型：narrative
+- 我看好的原因：我看好这个叙事，因为它把 AI 交易从芯片扩展到真实基础设施，且受订单、政策和电网瓶颈共同驱动。
+- 核心逻辑：截至 2026-05-27，2026-05-27 近端跟踪。仍处在预期酝酿阶段，重点是确认这条线是否被新闻、订单和分析师预期持续强化。相关股票：CEG, VST, ETN, PWR, VRT。
+- 受益股票 / 板块：CEG, VST, ETN, PWR, VRT, NEE
+- 需要盯的验证点：2026-05-27 近端跟踪重点看：PPA 合同、核能/电网审批、数据中心并网新闻、电力设备 backlog。
+- 风险点：监管审批慢、融资成本高或电价政治压力上升，会压制项目落地速度。
+- 信心等级：medium
+- 来源：[AOL.com](https://news.google.com/rss/articles/CBMigAFBVV95cUxOWWhFYmlub2ZIb0tOc0dQcDVlOUMwcnZDdFlUM3kyb192OUxGME1WcjlzZlVzTFNPc2txenA0X1Z3QnB1V1pHNEJPNXpwR0RyM3R5UlRzOHlQT192OWxxeUQ3N2xNY1JIamp5VHpMTXBEM2NDMExzbTEwam1PSFR1Vg?oc=5)
 
-## 5. 前一个交易日跌幅较大的股票复盘
-### ADTX - Aditxt, Inc.
-- 前一个交易日跌幅：-50.57%
-- 成交与结构：属于低价高波动个股，跌幅放大更多反映流动性与摊薄预期叠加，而不是单一基本面事件。
-- 可能下跌原因：公司在 2026-05-16 披露 1 比 250 反向拆股，并在 2026-05-19 生效；此前还存在已登记转售股份的摊薄压力。2026-05-26 的暴跌更像是反向拆股后流动性恶化与融资/转售预期共同触发。这里“反向拆股”是事实，“单日抛压的主因”仍有不确定性。
-- 原因类型：公司个体
-- 需要继续观察：是否继续出现大额摊薄、是否有新的融资或 8-K、盘前量能是否快速衰减
-- 来源：[StockAnalysis losers](https://stockanalysis.com/markets/losers/), [Aditxt reverse split announcement / SEC filing index](https://www.sec.gov/Archives/edgar/data/1726711/000121390026045298/ea0243793-8k_aditxt.htm)
+## 4. AI / 科技 / 半导体 / 光通信重点观察
+### AI Infrastructure
+- 最新催化：AMD Stock Pops as AI Powers Strong Data-Center Demand - AOL.com：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 AMD, NVDA, DELL, SMCI, VRT。 来源主题：AI Infrastructure, Data Center, Semiconductor。；AMD's Data Center Growth Rides on EPYC Demand: More Upside Ahead? - TradingView：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 AMD, NVDA, DELL, SMCI, VRT。 来源主题：AI Infrastructure, Data Center, Semiconductor。；Selling off Nvidia shares and buying fuel cells: The "physics arbitrage" logic of a 24-year-old genius investor. - PANews：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 NVDA, DELL, SMCI, VRT, ANET。 来源主题：AI Infrastructure, Data Center, Semiconductor。
+- 受益股票：NVDA, DELL, SMCI, VRT, ANET
+- 承压股票：估值高但订单验证不足的 AI 概念股
+- 需要继续观察的信号：AI server backlog；GPU supply；推理需求；云厂商 capex
+- 板块情绪：bullish
+- 来源：[AOL.com](https://news.google.com/rss/articles/CBMic0FVX3lxTFB2a3E2T1Q5VndTbTVUXzZuOHBWbTJ2cEN3b0w4TmxrS0RHMGt6S3duZS1BM25Ia3VXeFJiYWEwWXMtbDNoMXZHWmtTb2F4RDdaZG9TTUF0Qnlmak1vRlJPRHhlRHpNSWF6MVNJbExLQnhXUDA?oc=5), [TradingView](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLTFuOFRyTHlNVm5VaGhsQ0hhdDhuNVRzczlGeDMtaGY2bFdyRF82OTNvY1lPNHJyekt0THVvREFGbkxxVnNMV3dFM0dPSjlwQWRYdWlhUS1hMlFIX3VobVZpZERzOU9TczlPVWNON3Jxd3BBcXVoYV9qdlZBa0ZwN0pKRzhNZ1l0N3lJY3J0SXZoR2JYVTJ6T0NtUWxEMVk1dHlGUGZRS29SamIxUzJ6eENJamNhVjJzZFR3?oc=5), [PANews](https://news.google.com/rss/articles/CBMif0FVX3lxTE1oNEU3bFN6UWpwQVM0WndXQ1hVMTQxUWNfMUlQbXQyV0thUzVQVFNFeUE5WFA3ZU02X2JtNjdPX0pEdDR2YURtZURaaFl0TjRQSUgxRkxmd2cydm9nQjFDZC1EOGZWQmFVMlNjYmJhbXRTVVVZeFk2bDFndU1PNE0?oc=5)
 
-### GMM - Global Mofy AI Limited
-- 前一个交易日跌幅：-32.50%
-- 成交与结构：低市值 AI 概念股，消息驱动下单日价格弹性极高。
-- 可能下跌原因：公司在 2026-05-26 宣布约 800 万美元 registered direct offering，发行价 2.00 美元，并附带认股权证；对小市值公司而言，这种直接融资通常意味着即时摊薄和风险偏好下降。这是已经发生的事实。
-- 原因类型：公司个体
-- 需要继续观察：融资完成后的流通盘变化、认股权证执行价、是否出现二次融资
-- 来源：[StockAnalysis losers](https://stockanalysis.com/markets/losers/), [StockTitan / company offering recap](https://www.stocktitan.net/news/GMM/global-mofy-ai-limited-announces-pricing-of-8-million-registered-k08efqa2e8ny.html)
+### Semiconductors
+- 最新催化：AMD Stock Pops as AI Powers Strong Data-Center Demand - AOL.com：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 AMD, NVDA, DELL, SMCI, VRT。 来源主题：AI Infrastructure, Data Center, Semiconductor。；These Super Stocks Could Be the Biggest Winners in the AI Inference and Agentic AI Economy - AOL.com：这是半导体风格切换信号，重点区分 GPU/ASIC/先进封装受益股和传统 MCU、汽车工业链。若资金继续追逐 AI 算力，SMH 内部会继续分化。直接映射到 NVDA, AMD, AVGO, MRVL, TSM。 来源主题：Semiconductor, AI ASIC, GPU。；AMD's Data Center Growth Rides on EPYC Demand: More Upside Ahead? - TradingView：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 AMD, NVDA, DELL, SMCI, VRT。 来源主题：AI Infrastructure, Data Center, Semiconductor。
+- 受益股票：MRVL, AVGO, SNPS, CDNS, TSM, ASML
+- 承压股票：MCHP, 传统 MCU/汽车工业链复苏较慢标的
+- 需要继续观察的信号：数据中心收入；先进制程需求；毛利率；客户集中度
+- 板块情绪：bullish
+- 来源：[AOL.com](https://news.google.com/rss/articles/CBMic0FVX3lxTFB2a3E2T1Q5VndTbTVUXzZuOHBWbTJ2cEN3b0w4TmxrS0RHMGt6S3duZS1BM25Ia3VXeFJiYWEwWXMtbDNoMXZHWmtTb2F4RDdaZG9TTUF0Qnlmak1vRlJPRHhlRHpNSWF6MVNJbExLQnhXUDA?oc=5), [AOL.com](https://news.google.com/rss/articles/CBMigwFBVV95cUxPdHprVFQ5UW40UkUwb1BFWENIMVItNHUtUVhwd2wzSk13U2ZmNWRkZndNWDdPcFVtd2NYWGdLVVFPbzRNdV95WFR2ZjJneXNpWHYzZFFtWjZDQm4yTTdmdTZ6NHBlc0ZYNExGeWNGSTdXQi03SVJNampjcF9WbFAyQUVoYw?oc=5), [TradingView](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLTFuOFRyTHlNVm5VaGhsQ0hhdDhuNVRzczlGeDMtaGY2bFdyRF82OTNvY1lPNHJyekt0THVvREFGbkxxVnNMV3dFM0dPSjlwQWRYdWlhUS1hMlFIX3VobVZpZERzOU9TczlPVWNON3Jxd3BBcXVoYV9qdlZBa0ZwN0pKRzhNZ1l0N3lJY3J0SXZoR2JYVTJ6T0NtUWxEMVk1dHlGUGZRS29SamIxUzJ6eENJamNhVjJzZFR3?oc=5)
 
-### CRBP - Corbus Pharmaceuticals Holdings, Inc.
-- 前一个交易日跌幅：-30.31%
-- 成交与结构：属于高弹性生物科技股，ASCO 前后对临床数据的预期差常导致“利好兑现后下跌”。
-- 可能下跌原因：公司在 2026-05-23 公布 CRB-701 更新临床数据并给出管理层评论，但 2026-05-26 市场选择大幅下修，说明资金对疗效/安全性/商业化空间的解读仍存在明显分歧。已发生的事实是“公司发布了数据”；单日暴跌更可能是“sell the news”，但这一点属于推测。
-- 原因类型：公司个体
-- 需要继续观察：ASCO 会议后的更多细节、分析师解读、后续融资需求与现金跑道
-- 来源：[StockAnalysis losers](https://stockanalysis.com/markets/losers/), [Corbus updated CRB-701 data](https://ir.corbuspharma.com/news-releases/news-release-details/corbus-pharmaceuticals-announces-updated-clinical-data-crb-701)
+### Optical Communication / Networking
+- 最新催化：Options Performance Strategy | Optical Interconnect Rides the AI Wave—Can Marvell’s Earnings Justify a New Valuation? - Moomoo：这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。直接映射到 COHR, LITE, CIEN, AAOI, MRVL。 来源主题：Optical Communication, Networking, Data Center。；Marvell (MRVL) Q1 2027 Earnings Transcript - The Globe and Mail：这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。直接映射到 COHR, LITE, CIEN, AAOI, MRVL。 来源主题：Optical Communication, Networking, Data Center。；Ciena vs. Coherent: Which Optical Networking Stock is the Better Bet? - Yahoo Finance Singapore：这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。直接映射到 COHR, LITE, CIEN, AAOI, MRVL。 来源主题：Optical Communication, Networking, Data Center。
+- 受益股票：COHR, LITE, CIEN, AAOI, MRVL, AVGO, GLW
+- 承压股票：订单兑现慢或价格竞争加剧的高波动光模块股
+- 需要继续观察的信号：1.6T 订单；CPO 量产；DSP 供应；交换芯片路线图
+- 板块情绪：bullish
+- 来源：[Moomoo](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVUJXQ09xM0JBR1dJdGFTd0tydEdLODFJelFYQVlQZGVNc0ZUQnBMMTlfQmUzTmdlLTlMTFd2N0JUaDNfa3kzbk9yVkt2d3U5Tnh3MVVad01PRjVoTW9faVVBN1dUUTZKN05YU3RrZzVNb0hWZzh0OVJVbDFzbEsyaVE1OTV6dUU0eTZTYXVQZjcyM0xmWXQtTURfd1E2dXRaaXJGcWoydEczdFVfMWt1VFpBNXQtTGJrX3E4cG9kdzBpNWs?oc=5), [The Globe and Mail](https://news.google.com/rss/articles/CBMiwwFBVV95cUxOODFULXNfQ1E1djR4Rko4SHNudVRnZ3RMVEtGM0I4MFBMQ0NqRVlWQmpLV3ZaV0s0WW5vRWFTOXl0eXZQSzEyaVIwb0JWNWJtTVAxU3JLRmh2SENuQkxSaDhQSlJYT2htODB1NzlZZXB1ZHNqcmRzejg0cXRaSFpySEZtN2hKSHFfX0Q5c1YwekFrLXh5VWM3VEg3TEE1ZzdyaW1UY2dOMFRubG5KaW43TWZKTHFNRGFqS0JHaWxlRHh2Wlk?oc=5), [Yahoo Finance Singapore](https://news.google.com/rss/articles/CBMijgFBVV95cUxPRWkycU1hQlNnMnloTWt6c2YybHMtV0h2MEo2T2NFZVByN2ZKRUY0TEFxNzhvTk1rZ3RxZjF2S0tNekhuR0IydHhHeGo4ZW0wbjl2Z04wY1FsNjY1MlplZ1hvRGlpeHU5bTlJNE84QUJFempRdXRVVnFBX1YwMmVXcGgyOFNmLVdvQjdaVFJR?oc=5)
 
-### AMST - Amesite Inc.
-- 前一个交易日跌幅：-24.76%
-- 成交与结构：低价软件小票，股本扩张与融资消息对股价影响通常大于业务进展。
-- 可能下跌原因：Amesite 在 2026-05-22 向 SEC 提交 S-1，涉及潜在股票发行与转售安排；2026-05-26 的下跌大概率反映市场对未来摊薄和融资需求的提前定价。这一推断与文件时点相符，但单日卖压仍有不确定性。
-- 原因类型：公司个体
-- 需要继续观察：S-1 生效进度、发行规模、管理层是否披露新的商业合同
-- 来源：[StockAnalysis losers](https://stockanalysis.com/markets/losers/), [SEC S-1 filing for Amesite](https://www.sec.gov/Archives/edgar/data/1807166/000149315226020993/forms-1.htm)
+### Cloud / Software
+- 最新催化：Nasdaq: Composite Edges to Record 26,674 as Chip Pullback Meets Marvell Beat and Snowflake Surge - BBN Times：这是企业 AI 变现信号，重点看 AI 功能能否变成 RPO、净留存、云消费和价格提升，而不是只停留在产品叙事。直接映射到 MSFT, GOOGL, AMZN, CRM, SNOW。 来源主题：Cloud, Software, Cybersecurity。
+- 受益股票：CRM, SNOW, MSFT, ORCL, DDOG
+- 承压股票：INTU, AI 替代风险较高的软件股
+- 需要继续观察的信号：RPO；净留存率；AI 产品 ARPU；云消费增长
+- 板块情绪：mixed
+- 来源：[BBN Times](https://news.google.com/rss/articles/CBMiywFBVV95cUxQdklidW9TdFoxTXd2bVlrLUhUcC12RUEwa281dXFZVTd0SWNSclkyVFQ3WGxXZGJZMUxSMnhzVjBrX3hHaGVSZlE4ZkItaUluNkhhdzFpTTN2bEFwandyWE1NOC15VFViSjhtN09KcWN0SUJVRnZpUkpPOC1LckdHZkdYMEplS2RXeXI3Z28wSV8wLXZjU2RkX1dXeWtUcmw3VGxmYkZqTFpXblE3dmppSEgwM3FkX1k0SEFHRHJCNjBYTUdOd3RabGxYbw?oc=5)
 
-### NAKA - Nakamoto Holdings Inc.
-- 前一个交易日跌幅：-24.07%
-- 成交与结构：加密相关高波动标的，结构性调整和股本变化对股价影响很大。
-- 可能下跌原因：2026-05-22 OCC 发布关于该股 1 比 20 反向拆股的备忘录；对这类高波动小盘股而言，反向拆股后通常更容易出现流动性恶化与交易拥挤后的回撤。反向拆股是事实，2026-05-26 暴跌与其关联度较高。
-- 原因类型：公司个体
-- 需要继续观察：成交量是否快速收缩、是否伴随新的融资安排、与比特币价格是否重新脱钩
-- 来源：[StockAnalysis losers](https://stockanalysis.com/markets/losers/), [OCC reverse split memo for NAKA](https://infomemo.theocc.com/infomemos?number=56297)
+### Data Center Power / Energy
+- 最新催化：How AI Data Centers Are Reshaping the Power Market (And the 4 Plays Investors Are Making) - AOL.com：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。；The Best 3 Industrial Energy Stocks to Buy and Hold for Decades - The Globe and Mail：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。；Why Vistra Energy Momentum Is Turning Heads? - Kalkine Media：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。
+- 受益股票：NEE, D, CEG, VST, ETN, PWR, VRT
+- 承压股票：电力接入慢且融资成本高的数据中心项目
+- 需要继续观察的信号：PPA 价格；监管审批；核能项目；电网接入
+- 板块情绪：bullish
+- 来源：[AOL.com](https://news.google.com/rss/articles/CBMigAFBVV95cUxOWWhFYmlub2ZIb0tOc0dQcDVlOUMwcnZDdFlUM3kyb192OUxGME1WcjlzZlVzTFNPc2txenA0X1Z3QnB1V1pHNEJPNXpwR0RyM3R5UlRzOHlQT192OWxxeUQ3N2xNY1JIamp5VHpMTXBEM2NDMExzbTEwam1PSFR1Vg?oc=5), [The Globe and Mail](https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMnYya3lXUHNQZUFvZXFwX3V2LUV4X0RtMFdRdloxV2Z5WG81a2puam1qbzVnenlLUE13NjlIa0VZdnAzZUl0RlE2dF94UFFlR1ZDRjhsWndFcFUtXy1KOThMZHhnQ1ZtSHlnelpsZ041bnBIdTdIUU9INUZtdmx5enh2Uk0xR1duT1d2aWVYbUFwMTdfeUlXNXhHV2M5U2tmOWhRZmtSZTdOOFhNT1dsQTJiY082V1NyQUhkRlJmZGJvYV9OMEx5MC1JbllfdG9POWVfYmhoQk13S1p6UThuZg?oc=5), [Kalkine Media](https://news.google.com/rss/articles/CBMijwFBVV95cUxONGRtOHZPXzZ0amRNRUZmVkN1UnJPOEJBYnRTUFdYRktucUU2ZVJRa3M1VXJzVmVYVGxUM0VMTnRFeG1CQTJVRkRRV2N3M1ZhekwzOUkzUmFLLTRIZWxaT3dKYzFzMWdaaHg1VFFGYjd3dzZqaVdkb0RlTmdleEFrM1RzLVdWRFQwQUh3ejZZNA?oc=5)
 
-## 6. 2026-05-27 值得重点盯盘的股票 / 板块
+### Robotics / Automation
+- 最新催化：AI 从云端模型向实体自动化扩散仍是中期主题
+- 受益股票：TSLA, ISRG, ROK, TER
+- 承压股票：订单不清晰的纯概念机器人股
+- 需要继续观察的信号：量产节奏；单位经济性；企业自动化 capex
+- 板块情绪：uncertain
+- 来源：[Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks)
+
+### Space / Defense Tech
+- 最新催化：After Pentagon Inks Deal With AI Firms, Buy These Under $20 Stocks - AOL.com：这是国防科技和太空商业化信号，重点看政府预算、合同节奏、发射频率和订单积压，而不是单纯概念热度。直接映射到 RKLB, ASTS, LMT, NOC, PLTR。 来源主题：Space Tech, Defense Tech。；Tiny AI chips built for space: Rocket One shifts focus to orbital computing - Stock Titan：这是国防科技和太空商业化信号，重点看政府预算、合同节奏、发射频率和订单积压，而不是单纯概念热度。直接映射到 RKLB, ASTS, LMT, NOC, PLTR。 来源主题：Space Tech, Defense Tech。；RKLB stock heads for best month of 2026: Retail bulls energized by hints of 'central role' in America's space defense push - MSN：这是国防科技和太空商业化信号，重点看政府预算、合同节奏、发射频率和订单积压，而不是单纯概念热度。直接映射到 RKLB, ASTS, LMT, NOC, PLTR。 来源主题：Space Tech, Defense Tech。
+- 受益股票：RKLB, ASTS, LMT, NOC, PLTR
+- 承压股票：现金流弱、依赖融资的早期太空股
+- 需要继续观察的信号：发射频率；政府合同；预算案；订单积压
+- 板块情绪：uncertain
+- 来源：[AOL.com](https://news.google.com/rss/articles/CBMie0FVX3lxTFBnSU1RSUk1eUlPQV9ya0Z5QkpMeGdrU3J1UERmQmZaclQ5Zjl6dmNkTHZHcUJOdzlaeEdDRTJjU0pZT1c4dUFnWnB5SHp1VUNmR015TDNpc1lYTjdUTzZOSlR0anJWZWJ4WjhaVVdqRG82THhTcDNlRFhHbw?oc=5), [Stock Titan](https://news.google.com/rss/articles/CBMivgFBVV95cUxPTDZ6QmpPc2ZmVVhEbHFJSE5UMVFrdFVUemY2TXQyVUJwNHlaTGdfTGZBcHdEd2RDeFpSVm5zeUl3ZkhTdWpHRTl2LVFsczFLd3ZsakgzeHhqSUdtYkdRMENLNlQ2eHM1YUxpLTVUSzJ5RDZpUWdQRlJNNVAzWTRKLXoyNktiRWE1NGI3dUZmRExIU2RPZ0pyZEVhWHkxaXB4NGZJbWI4MG1ISHhNOFpSeGtlWERXVl9xVlkwQk93?oc=5), [MSN](https://news.google.com/rss/articles/CBMimgNBVV95cUxNcHlOVEd3ZWRtSEJUVDNiUFdfdU1RM1RSaHBOdzdRYi1MVGhUUy1ybUtqNHBpTVltMGxmUnktOTgtRVRjTE5jSFp1S3JYWjBPNGk5QW5HYjg1ZGZkM1dJQXUtMHpFSHRRS3lUaHpLS0dUdXlYMm5pZGlXd2podmNxNXpqR1hVTHJ4WnI3QkJNelpaNFg1aFRwdXZfRDRYcDQ2blpRNDN1d2c3VUdIeDI1YXZrZ3dfdmdramZPQkQyYmMwYjl0SWp4VlI0RUtCTnk5SnozTEtCTzFTRzVnV2xtWTFXeTBJdmJtNTVJdWluUU5xTHJFaHJ5TjNzVTVKUW1oSE1JalVLTUR4NV9HbklLVjBoRk5nWS1NaEU1REJma0lhOG9zcEV1OWwxby1Yc2FYUXA3d3R0Q0ZrV0FTQllnb215bG16QzFQczNlX1QzaXRLQy11bFhlMTlHTFVsT0NLUlg3RkhRY19BaHItQVdOcEhUYWY2ajdXZWh1Nm8xbUxtakpWeFVkNzRuRVBwZGNQNEFSTS1XRHZKQQ?oc=5)
+
+### Crypto-related Tech
+- 最新催化：Billionaire hedge fund manager dumps MicroStrategy stock entirely - thestreet.com：这是风险偏好信号，重点看 BTC/ETH、稳定币监管、矿企转 AI hosting 的合同质量，以及高杠杆标的是否放大波动。直接映射到 COIN, MSTR, MARA, RIOT, IREN。 来源主题：Crypto Infrastructure。；Bitcoin Inflation Hedge 2026: Is BTC Ready to Beat Stocks and Gold? - Intellectia AI：这是风险偏好信号，重点看 BTC/ETH、稳定币监管、矿企转 AI hosting 的合同质量，以及高杠杆标的是否放大波动。直接映射到 COIN, MSTR, MARA, RIOT, IREN。 来源主题：Crypto Infrastructure。；Bitmine Immersion Technologies (BMNR) Announces ETH Holdings Reach 5.39 Million Tokens, and Total Crypto and Total Cash Holdings of $12.3 Billion - TradingView：这是风险偏好信号，重点看 BTC/ETH、稳定币监管、矿企转 AI hosting 的合同质量，以及高杠杆标的是否放大波动。直接映射到 COIN, MSTR, MARA, RIOT, IREN。 来源主题：Crypto Infrastructure。
+- 受益股票：COIN, MSTR, RIOT, MARA, IREN, CRCL
+- 承压股票：高杠杆矿企, 电力成本上行的挖矿股
+- 需要继续观察的信号：BTC/ETH 价格；稳定币监管；AI hosting 合同质量
+- 板块情绪：uncertain
+- 来源：[thestreet.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcFh3c01ZaXpQLTJuMEhZTG9QMVc5SzdESkpXelhWZUNOaWRoU004dTdITkdBMTFtcXYzNk5WZVZNbzFlR19FUDBCWUNqNkhSR1RSbHRkTmVKSVFSaGx4dDM4OUtXX056b3VCbmswS1MxTFgyamFKZ05sMjEyVmdrcHNOemtsX3ZlNGp0bU9FUmlzX3ZBYlJ3ZXlKdWI2Sm9DQ3VTTkNQT2dXUQ?oc=5), [Intellectia AI](https://news.google.com/rss/articles/CBMicEFVX3lxTE1sRXpqYzRoc05XcXhDTDJhdndJTHZYODdJYktYUFVadzFYMjZYTmhzLVowLVlhdGVfQU41WjhlbTdZRUNpQ1NuY3BOTENJZjdBekJqVVFMaWlKS1JFRlFPaDNYUXFaYlR2cmk5R0c5ZF8?oc=5), [TradingView](https://news.google.com/rss/articles/CBMiqgJBVV95cUxPcVZGR0RXYjBzd0RDbHlINGg4dDRFTFNyWlhyUnludjY4T0RsUXNjalFNQzQ2eU43RHRHVlpCVjAxanU5ckdPZ3ZSMnYydDAwdHRZemhxaVNyWUJuRFd0MTR1c3NCamZDVzRSdmJZSWh6Ykk3NXFVUERmVjJPaVk3NVJYU2g3R2s1dndMNUduNE1KVlNLSHJmRlJ3MTJKc2R1QkhXOUJFWGhpeWhyOHYybWZQaTNvYVRySUZHZ21TaVlFNnNHY0J3RlJETUZTVm9YRDNUUGVfZUFFU1FsTkNOeHE5cEZZdXhDSXdsRUhZdUQxSkVYZk91SzJFeHh5b0c4dG94eEt6cVV4Y0JGVXlfbDRENHRHdWJ2NEk0SmdLQndiQjhYT0QxdU1B?oc=5)
+
+### Other Tech-linked Themes
+- 最新催化：Wall Street indexes end at records after U.S.-Iran deal said to be reached - Investing.com：这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。；5 Things to Know Before the Stock Market Opens - Investopedia：这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。；Stock market news today: S&P 500, Nasdaq hit records as Micron surges 19% - eciks.org：这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。
+- 受益股票：AAPL, GOOGL, META, AMZN
+- 承压股票：供应链或监管暴露较高的科技股
+- 需要继续观察的信号：美元；关税；出口管制；反垄断监管
+- 板块情绪：uncertain
+- 来源：[Investing.com](https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWDZLY01hQl8yUXFnTnFUVGhrcWhGNTMxb2F3LUdVWm9lSGJJa01tNGFyTEVNemhNaUhqMDlFN244RUdEcEZsNHduR2toWTJQNXFtYmEtLWlJSTlKenBwVTVoRDV5cXAwRXdyYWFaOUFSUGsyX2FvRldzY1l3aEVmSDZtcmY2V0F4cHJCT3E0QkcxVFNPb054eWgxaWYydHotc2RyeXd1Z2phQk9PWXhsNm9TVTdFTEpCUndKMFo0S2RfTVgxUWQ1RWJ2Z0NiQkx5VzJR?oc=5), [Investopedia](https://news.google.com/rss/articles/CBMinAFBVV95cUxPTTZOZ1ZnTWFPUFBCdEsxYmo3NXVjemNMMDVELUZQR0hfc0FVcmZHaVZfZHdnenlQNEgxSHNQRWhHQ1R2MGtnWDhWRGtxSlB0UkhsWVpqeUhiT01KdnJVaU9tTlVWNTZ6SmtOR2JvcGcyQUNGOXRwT25LeWZqbkFvVVBvMGwyTmNCRmYxQm1IZTFPVHFxbVA3c09sdDY?oc=5), [eciks.org](https://news.google.com/rss/articles/CBMioAFBVV95cUxOV3BfY2oxWkpQYUJvS0RXYzYwLXprSnpDWUJnQU9tVDh4REp1bmw1TFh5T0RsaHN6MVQzZVh2Nm9jRDlMSGF5R0ctSTU4aEZ1dWxHR1dSZlJkOG1sdVBWOVJaTVVmcjh3em1DcWthN0hzaGpQRDdObFE2TmJhTjc5dlNiMm5Wc0gyWDA1YUNDNnhaOTJ1THRhd2NJdk5DdWVT?oc=5)
+
+## 5. 大盘与宏观环境
+- 美债收益率变化：利率线索来自最新公开信号：“Wall Street indexes end at records after U.S.-Iran deal said to be reached - Investing.com”。若 10Y/2Y 美债收益率上行，高估值成长股和 AI 软件股估值会更敏感。
+- 美元指数：美元方向重点参考：“5 Things to Know Before the Stock Market Opens - Investopedia”。强美元通常压制跨国科技公司估值和海外收入折算。
+- 原油 / 黄金：未发现高权重能源冲击信号，油价暂时不是科技股估值的第一变量。；黄金如果和美元同涨，通常代表避险需求升温；如果黄金回落而美债收益率稳定，成长股风险偏好更容易维持。
+- VIX 或市场风险偏好：风险偏好用两个信号观察：指数是否扩散上涨，以及高 beta 科技股是否跑赢防御板块。若 Top Signals 只集中在少数股票，说明市场仍是分化行情。
+- 重要宏观数据或预期：覆盖期内关键宏观/Fed 事件：2026-05-27 Federal Reserve speaker calendar；2026-05-28 BEA Personal Income and Outlays / PCE；2026-05-28 Q1 GDP second estimate。
+- 对成长股、科技股、小盘股的影响：如果通胀/利率信号偏热，优先压制长久期科技股、小盘成长股和高估值 AI 概念；如果利率回落，AI 基础设施和半导体更容易获得估值支撑。
+- 来源：[Investing.com](https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWDZLY01hQl8yUXFnTnFUVGhrcWhGNTMxb2F3LUdVWm9lSGJJa01tNGFyTEVNemhNaUhqMDlFN244RUdEcEZsNHduR2toWTJQNXFtYmEtLWlJSTlKenBwVTVoRDV5cXAwRXdyYWFaOUFSUGsyX2FvRldzY1l3aEVmSDZtcmY2V0F4cHJCT3E0QkcxVFNPb054eWgxaWYydHotc2RyeXd1Z2phQk9PWXhsNm9TVTdFTEpCUndKMFo0S2RfTVgxUWQ1RWJ2Z0NiQkx5VzJR?oc=5), [Investopedia](https://news.google.com/rss/articles/CBMinAFBVV95cUxPTTZOZ1ZnTWFPUFBCdEsxYmo3NXVjemNMMDVELUZQR0hfc0FVcmZHaVZfZHdnenlQNEgxSHNQRWhHQ1R2MGtnWDhWRGtxSlB0UkhsWVpqeUhiT01KdnJVaU9tTlVWNTZ6SmtOR2JvcGcyQUNGOXRwT25LeWZqbkFvVVBvMGwyTmNCRmYxQm1IZTFPVHFxbVA3c09sdDY?oc=5), [eciks.org](https://news.google.com/rss/articles/CBMioAFBVV95cUxOV3BfY2oxWkpQYUJvS0RXYzYwLXprSnpDWUJnQU9tVDh4REp1bmw1TFh5T0RsaHN6MVQzZVh2Nm9jRDlMSGF5R0ctSTU4aEZ1dWxHR1dSZlJkOG1sdVBWOVJaTVVmcjh3em1DcWthN0hzaGpQRDdObFE2TmJhTjc5dlNiMm5Wc0gyWDA1YUNDNnhaOTJ1THRhd2NJdk5DdWVT?oc=5), [Federal Reserve calendar](https://www.federalreserve.gov/newsevents/calendar.htm), [BEA release schedule](https://www.bea.gov/news/schedule), [BEA GDP](https://www.bea.gov/data/gdp/gross-domestic-product)
+
+## 6. 前一个交易日跌幅较大的股票复盘
+### SNOW - Snowflake
+- 前一交易日跌幅：-5.6%
+- 成交量是否异常：2026-05-27 历史回填样例：当前 MVP 未接入历史逐日涨跌幅数据库，不能把实时跌幅榜直接套用到过去日期。
+- 可能下跌原因：2026-05-27 大跌复盘重点：云软件财报前资金降低风险敞口。这条用于区分历史日报，后续接入 Polygon/IEX/Nasdaq historical movers 后应替换为真实逐日数据。
+- 原因类型：company_specific
+- 催化：财报；重组/裁员；指引；软件估值重估；historical_backfill_2026-05-27
+- 需要继续观察的点：2026-05-27 后续观察：确认是否有对应财报、评级、融资、监管或板块同步下跌；不要用今天的实时跌幅榜解释这一天。
+- 来源：[Intuit 8-K](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/intu-20260520.htm)
+
+### AAOI - Applied Optoelectronics
+- 前一交易日跌幅：-6.8%
+- 成交量是否异常：2026-05-27 历史回填样例：当前 MVP 未接入历史逐日涨跌幅数据库，不能把实时跌幅榜直接套用到过去日期。
+- 可能下跌原因：2026-05-27 大跌复盘重点：光通信高 beta 标的在 CPO 预期交易后波动放大。这条用于区分历史日报，后续接入 Polygon/IEX/Nasdaq historical movers 后应替换为真实逐日数据。
+- 原因类型：company_specific
+- 催化：FY2026 results；GTA VI timing；net bookings outlook；historical_backfill_2026-05-27
+- 需要继续观察的点：2026-05-27 后续观察：确认是否有对应财报、评级、融资、监管或板块同步下跌；不要用今天的实时跌幅榜解释这一天。
+- 来源：[Take-Two earnings release](https://ir.take2games.com/static-files/de7eeb58-9a3d-44c4-8407-9b0453cae8a4)
+
+### RKLB - Rocket Lab
+- 前一交易日跌幅：-4.9%
+- 成交量是否异常：2026-05-27 历史回填样例：当前 MVP 未接入历史逐日涨跌幅数据库，不能把实时跌幅榜直接套用到过去日期。
+- 可能下跌原因：2026-05-27 大跌复盘重点：太空商业化成长股随风险偏好降温回撤。这条用于区分历史日报，后续接入 Polygon/IEX/Nasdaq historical movers 后应替换为真实逐日数据。
+- 原因类型：sector_driven
+- 催化：财报；10-K；半导体风格轮动；historical_backfill_2026-05-27
+- 需要继续观察的点：2026-05-27 后续观察：确认是否有对应财报、评级、融资、监管或板块同步下跌；不要用今天的实时跌幅榜解释这一天。
+- 来源：[Microchip 10-K](https://ir.microchip.com/sec-filings/all-sec-filings/content/0000827054-26-000016/0000827054-26-000016.pdf)
+
+## 7. 2026-05-27 值得重点盯盘的股票 / 板块
 | 股票 / 板块 | 为什么值得看 | 关键触发点 | 风险点 | 优先级 | 来源 |
 |---|---|---|---|---|---|
-| MRVL | 2026-05-27 盘后财报是 AI ASIC、光互连、网络链条最重要的分支验证点之一 | 数据中心收入、定制芯片订单、FY2027 指引 | 若增速未达高预期，整条光通信 / ASIC 链可能回撤 | 高 | [Marvell IR Calendar](https://investor.marvell.com/news-events/ir-calendar), [Marvell NVLink Fusion release](https://investor.marvell.com/news/news-details/2026/Marvell-Extends-Custom-AI-XPU-Strategy-with-NVLink-Fusion/default.aspx) |
-| SNPS / CDNS | EDA 是 AI ASIC 扩张的上游，如果 Synopsys 口径强，设计链估值更容易维持 | 订单可见性、AI 设计活跃度、China 限制影响 | EDA 估值本就不低，任何保守措辞都可能触发压缩 | 高 | [Synopsys Earnings Event](https://investor.synopsys.com/events-and-presentations/events/event-details/2026/Q2-Fiscal-Year-2026-Earnings/default.aspx) |
-| SNOW | 企业 AI 变现是否真实发生，需要看 Snowflake 的产品收入、RPO 和全年指引 | Q1 FY2027 财报、AI Data Cloud 评论 | 如果 AI 叙事仍强但变现不明显，软件股会再次分化 | 高 | [Snowflake Earnings Event](https://investors.snowflake.com/events-and-presentations/event-details/2026/Snowflake-Q1-FY27-Earnings/default.aspx) |
-| PCE / 美债收益率 / QQQ | 2026-05-28 的 PCE 与 GDP 二读是本周最重要的宏观估值开关 | 核心 PCE、GDP 价格分项、10Y 美债收益率反应 | 通胀偏热会先杀高估值科技 | 高 | [BEA Release Schedule](https://www.bea.gov/news/schedule), [BEA GDP](https://www.bea.gov/data/gdp/gross-domestic-product) |
-| DELL / VRT / SMCI | 服务器整机与配套链条能否跟上 NVDA 的需求叙事，需要 Dell 财报和后续电话会验证 | AI server backlog、利润率、电力散热需求 | 若 AI 订单毛利率不佳，硬件链可能只剩收入故事 | 中 | [Dell upcoming events](https://delltechnologies.gcs-web.com/news-events/upcoming-events), [NVIDIA Q1 FY2027 Results](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx) |
-| FUTU / TIGR | 监管消息对高弹性中概互联网金融股的杀伤仍在，适合观察“监管冲击是否一次性出清” | 公司回应、整改口径、盘前成交量 | 若事件持续发酵，仍可能拖累整个板块风险偏好 | 中 | [SFC statement](https://www.sfc.hk/en/News-and-announcements/Policy-statements-and-announcements/Unlicensed-solicitation-of-Hong-Kong-investors-by-unlicensed-entities), [Reuters on offshore broker scrutiny](https://www.reuters.com/world/china/hong-kong-regulator-flags-futu-tiger-brokers-over-mainland-client-solicitation-2026-05-23/) |
+| QQQ | 2026-05-27 高权重信号对应的核心观察对象：“Wall Street indexes end at records after U.S.-Iran deal said to be reached - Investing.com”。关注它是否从新闻标题变成板块共振。 | 2026-05-27 US equity market session / premarket setup | 利率或美元若反向走强，会削弱科技股风险偏好。 | high | [Investing.com](https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWDZLY01hQl8yUXFnTnFUVGhrcWhGNTMxb2F3LUdVWm9lSGJJa01tNGFyTEVNemhNaUhqMDlFN244RUdEcEZsNHduR2toWTJQNXFtYmEtLWlJSTlKenBwVTVoRDV5cXAwRXdyYWFaOUFSUGsyX2FvRldzY1l3aEVmSDZtcmY2V0F4cHJCT3E0QkcxVFNPb054eWgxaWYydHotc2RyeXd1Z2phQk9PWXhsNm9TVTdFTEpCUndKMFo0S2RfTVgxUWQ1RWJ2Z0NiQkx5VzJR?oc=5) |
+| AMD | 2026-05-27 高权重信号对应的核心观察对象：“AMD Stock Pops as AI Powers Strong Data-Center Demand - AOL.com”。关注它是否从新闻标题变成板块共振。 | Marvell Technology earnings | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | high | [AOL.com](https://news.google.com/rss/articles/CBMic0FVX3lxTFB2a3E2T1Q5VndTbTVUXzZuOHBWbTJ2cEN3b0w4TmxrS0RHMGt6S3duZS1BM25Ia3VXeFJiYWEwWXMtbDNoMXZHWmtTb2F4RDdaZG9TTUF0Qnlmak1vRlJPRHhlRHpNSWF6MVNJbExLQnhXUDA?oc=5) |
+| NVDA | 2026-05-27 高权重信号对应的核心观察对象：“These Super Stocks Could Be the Biggest Winners in the AI Inference and Agentic AI Economy - AOL.com”。关注它是否从新闻标题变成板块共振。 | Marvell Technology earnings | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | medium | [AOL.com](https://news.google.com/rss/articles/CBMigwFBVV95cUxPdHprVFQ5UW40UkUwb1BFWENIMVItNHUtUVhwd2wzSk13U2ZmNWRkZndNWDdPcFVtd2NYWGdLVVFPbzRNdV95WFR2ZjJneXNpWHYzZFFtWjZDQm4yTTdmdTZ6NHBlc0ZYNExGeWNGSTdXQi03SVJNampjcF9WbFAyQUVoYw?oc=5) |
+| COHR | 2026-05-27 高权重信号对应的核心观察对象：“Options Performance Strategy | Optical Interconnect Rides the AI Wave—Can Marvell’s Earnings Justify a New Valuation? - Moomoo”。关注它是否从新闻标题变成板块共振。 | Marvell Technology earnings | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | medium | [Moomoo](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVUJXQ09xM0JBR1dJdGFTd0tydEdLODFJelFYQVlQZGVNc0ZUQnBMMTlfQmUzTmdlLTlMTFd2N0JUaDNfa3kzbk9yVkt2d3U5Tnh3MVVad01PRjVoTW9faVVBN1dUUTZKN05YU3RrZzVNb0hWZzh0OVJVbDFzbEsyaVE1OTV6dUU0eTZTYXVQZjcyM0xmWXQtTURfd1E2dXRaaXJGcWoydEczdFVfMWt1VFpBNXQtTGJrX3E4cG9kdzBpNWs?oc=5) |
 
-## 7. 总结：2026-05-27 市场的主线是什么？
-2026-05-27 的主线仍然是“AI 龙头业绩确认之后，市场是否愿意把上涨进一步扩散到 ASIC、EDA、光通信、服务器和企业 AI 软件”。已发生的事实对 AI 主线仍偏正面，尤其是英伟达业绩与 Micron 的强势表现；但 2026-05-27 至 2026-05-28 紧接着出现的 Marvell、Synopsys、Snowflake、Dell 财报和核心 PCE / GDP 数据，会决定这条主线是继续扩散，还是重新回到“只有少数龙头能涨”的分化状态。
+## 8. 总结：2026-05-27 市场的主线是什么？
+2026-05-27 的报告由当日公开新闻源重新抓取生成。最高权重信号是“Wall Street indexes end at records after U.S.-Iran deal said to be reached - Investing.com”，涉及 Macro、Rates、Nasdaq；第二层信号是“AMD Stock Pops as AI Powers Strong Data-Center Demand - AOL.com”。 盘前最重要的是判断这些信号是否形成板块共振：AI/半导体若扩散到服务器、光通信、电力设备，说明风险偏好仍在；若只停留在少数标题股，则更像分化行情。
 
-综合以上 Top Signals、事件日历、板块观察、宏观环境与个股复盘公开来源来看，2026-05-27 更像是“高位验证日”，不是“方向已经完全确定的一天”。如果财报口径稳健且通胀不超预期，利好 AI 基础设施、半导体和部分云软件；如果通胀偏热或财报指引转保守，则高估值科技股短线更容易承压。以上内容基于公开来源整理，不构成买卖建议。
+来源说明：本总结综合以上 Top Signals、事件日历、板块、宏观和个股复盘模块的公开来源，不构成买卖建议。

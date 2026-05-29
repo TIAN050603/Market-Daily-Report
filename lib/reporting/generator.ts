@@ -1,4 +1,4 @@
-import { mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import watchlistConfig from "@/config/watchlist.json";
 import { getDataProvider } from "@/lib/providers";
@@ -6,7 +6,7 @@ import { MarketNewsItem } from "@/lib/providers/types";
 import { upsertReport } from "@/lib/db/reports";
 import { writeReportSnapshot } from "@/lib/db/file-store";
 import { EventCalendarItem, GeneratedReport, MacroSnapshot, NarrativeOpportunity, SectorUpdate, Source, TopSignal, WatchlistItem } from "@/lib/types";
-import { getMonthlyReportPath, getTodayDate } from "./date-utils";
+import { addDays, formatDate, getMonthlyReportPath, getTodayDate } from "./date-utils";
 import { renderMarkdown } from "./markdown";
 
 function sourceRows(items: MarketNewsItem[], reportDate: string): Source[] {
@@ -322,6 +322,56 @@ function selectTopNews(rankedNews: MarketNewsItem[], limit: number) {
   return selected;
 }
 
+function normalizeTitle(value: string) {
+  return value.toLowerCase().replace(/\s+/g, " ").trim();
+}
+
+function previousReportPath(reportDate: string) {
+  const previousDate = formatDate(addDays(reportDate, -1));
+  return path.join(process.cwd(), "data", "reports", `${previousDate}.json`);
+}
+
+function previousTopSignalTitles(reportDate: string) {
+  const filePath = previousReportPath(reportDate);
+  if (!existsSync(filePath)) return new Set<string>();
+
+  try {
+    const parsed = JSON.parse(readFileSync(filePath, "utf8")) as { topSignals?: { title?: string }[] };
+    return new Set((parsed.topSignals || []).map((item) => normalizeTitle(item.title || "")).filter(Boolean));
+  } catch {
+    return new Set<string>();
+  }
+}
+
+function stripNarrativeTiming(title: string) {
+  return title.replace(/（.*?）$/, "").trim();
+}
+
+function previousNarrativeTitles(reportDate: string) {
+  const filePath = previousReportPath(reportDate);
+  if (!existsSync(filePath)) return new Set<string>();
+
+  try {
+    const parsed = JSON.parse(readFileSync(filePath, "utf8")) as { narratives?: { title?: string }[] };
+    return new Set(
+      (parsed.narratives || [])
+        .map((item) => normalizeTitle(stripNarrativeTiming(item.title || "")))
+        .filter(Boolean)
+    );
+  } catch {
+    return new Set<string>();
+  }
+}
+
+function prioritizeFreshDailyNews(reportDate: string, rankedNews: MarketNewsItem[]) {
+  const previousTitles = previousTopSignalTitles(reportDate);
+  if (!previousTitles.size) return rankedNews;
+
+  const fresh = rankedNews.filter((item) => !previousTitles.has(normalizeTitle(item.title)));
+  const repeated = rankedNews.filter((item) => previousTitles.has(normalizeTitle(item.title)));
+  return [...fresh, ...repeated.map((item) => ({ ...item, importance_score: Math.max(1, item.importance_score - 15) }))];
+}
+
 function buildMacroSnapshot(rankedNews: MarketNewsItem[], upcomingEvents: EventCalendarItem[]): MacroSnapshot {
   const macroNews = rankedNews.filter((item) => ["macro", "fed", "energy", "geopolitical"].includes(item.category)).slice(0, 3);
   const macroEvents = upcomingEvents.filter((event) => ["macro", "fed"].includes(event.event_type)).slice(0, 4);
@@ -455,7 +505,51 @@ function newsNarrative(item: MarketNewsItem): NarrativeOpportunity | null {
   return null;
 }
 
-function buildNarratives(events: EventCalendarItem[], rankedNews: MarketNewsItem[]): NarrativeOpportunity[] {
+function narrativeTiming(reportDate: string, eventDate: string) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(eventDate)) return `${reportDate} 近端跟踪`;
+  const reportTime = new Date(`${reportDate}T12:00:00Z`).getTime();
+  const eventTime = new Date(`${eventDate}T12:00:00Z`).getTime();
+  const days = Math.round((eventTime - reportTime) / 86_400_000);
+  if (days < 0) return `已过去 ${Math.abs(days)} 天`;
+  if (days === 0) return "当日事件";
+  if (days === 1) return "1 天后事件";
+  return `${days} 天后事件`;
+}
+
+function contextualizeEvent(event: EventCalendarItem, reportDate: string): EventCalendarItem {
+  const timing = narrativeTiming(reportDate, event.event_date);
+  const stage = timing.includes("当日")
+    ? "当天重点看实际结果、盘前预期差和盘中板块扩散。"
+    : timing.includes("1 天后")
+      ? "临近阶段重点看资金是否提前抢跑，以及期权/同行股是否已经反映预期。"
+      : timing.includes("已过去")
+        ? "该事件已经过去，应转为复盘实际结果和市场解释。"
+        : "预期阶段重点看市场是否开始把该事件定价进相关板块。";
+  return {
+    ...event,
+    watch_points: `${reportDate} 视角：${timing}。${stage}${event.watch_points}`
+  };
+}
+
+function contextualizeNarrative(item: NarrativeOpportunity, reportDate: string): NarrativeOpportunity {
+  const timing = narrativeTiming(reportDate, item.event_date);
+  const tickers = item.beneficiary_tickers.slice(0, 5).join(", ");
+  const stageFocus = timing.includes("当日")
+    ? "今天不是再讲叙事本身，而是验证市场是否愿意用订单、指引和同行联动给它重新定价。"
+    : timing.includes("1 天后")
+      ? "现在进入临近验证阶段，重点是提前布局资金是否已经透支，以及同板块是否出现预期抢跑。"
+      : timing.includes("已过去")
+        ? "事件已经过去，重点转为复盘管理层口径、盘后反应和同产业链是否扩散。"
+        : "仍处在预期酝酿阶段，重点是确认这条线是否被新闻、订单和分析师预期持续强化。";
+  return {
+    ...item,
+    title: `${item.title}（${item.event_date}，${timing}）`,
+    thesis: `截至 ${reportDate}，${timing}。${stageFocus}相关股票：${tickers || "相关产业链"}。`,
+    what_to_watch: `${timing}重点看：${item.what_to_watch}`
+  };
+}
+
+function buildNarratives(events: EventCalendarItem[], rankedNews: MarketNewsItem[], reportDate: string): NarrativeOpportunity[] {
   const earnings = events
     .filter((event) => event.event_type === "earnings")
     .map(earningsNarrative)
@@ -464,11 +558,16 @@ function buildNarratives(events: EventCalendarItem[], rankedNews: MarketNewsItem
     .map(newsNarrative)
     .filter((item): item is NarrativeOpportunity => Boolean(item));
   const seen = new Set<string>();
-  return [...earnings, ...news].filter((item) => {
-    if (seen.has(item.title)) return false;
-    seen.add(item.title);
+  const previousNarratives = previousNarrativeTitles(reportDate);
+  const contextualized = [...earnings, ...news].map((item) => contextualizeNarrative(item, reportDate)).filter((item) => {
+    const key = item.title.replace(/（.*?）$/, "");
+    if (seen.has(key)) return false;
+    seen.add(key);
     return true;
-  }).slice(0, 6);
+  });
+  const fresh = contextualized.filter((item) => !previousNarratives.has(normalizeTitle(stripNarrativeTiming(item.title))));
+  if (fresh.length) return fresh.slice(0, 6);
+  return contextualized.slice(0, 2);
 }
 
 function reportThemeForDate(date: string, rankedNews: MarketNewsItem[]) {
@@ -504,18 +603,20 @@ function reportThemeForDate(date: string, rankedNews: MarketNewsItem[]) {
 
 export async function generateMarketReport(date = getTodayDate()) {
   const provider = getDataProvider();
-  const [marketNews, sectorNews, upcomingEvents, decliners] = await Promise.all([
+  const [marketNews, sectorNews, rawUpcomingEvents, decliners] = await Promise.all([
     provider.fetchMarketNews(date),
     provider.fetchSectorNews(date),
     provider.fetchUpcomingEvents(date, 7),
     provider.fetchBigDecliners(date)
   ]);
+  const upcomingEvents = rawUpcomingEvents.map((event) => contextualizeEvent(event, date));
 
   const rankedNews = [...marketNews, ...sectorNews].sort((a, b) => b.importance_score - a.importance_score);
-  const sectors = buildSectorUpdates(rankedNews);
-  const watchlist = buildWatchlist(date, rankedNews, upcomingEvents);
-  const narratives = buildNarratives(upcomingEvents, rankedNews);
-  const topSignals: TopSignal[] = selectTopNews(rankedNews, 5).map((item) => ({
+  const dailyRankedNews = prioritizeFreshDailyNews(date, rankedNews);
+  const sectors = buildSectorUpdates(dailyRankedNews);
+  const watchlist = buildWatchlist(date, dailyRankedNews, upcomingEvents);
+  const narratives = buildNarratives(upcomingEvents, dailyRankedNews, date);
+  const topSignals: TopSignal[] = selectTopNews(dailyRankedNews, 5).map((item) => ({
     title: item.title,
     summary: signalSummary(item),
     why_it_matters: topSignalWhy(item),
@@ -526,7 +627,7 @@ export async function generateMarketReport(date = getTodayDate()) {
     importance_score: item.importance_score,
     source_urls: item.source_urls
   }));
-  const theme = reportThemeForDate(date, rankedNews);
+  const theme = reportThemeForDate(date, dailyRankedNews);
 
   const generated: GeneratedReport = {
     report: {
@@ -541,7 +642,7 @@ export async function generateMarketReport(date = getTodayDate()) {
     topSignals,
     events: upcomingEvents,
     sectors,
-    macro: buildMacroSnapshot(rankedNews, upcomingEvents),
+    macro: buildMacroSnapshot(dailyRankedNews, upcomingEvents),
     decliners,
     watchlist,
     narratives,
