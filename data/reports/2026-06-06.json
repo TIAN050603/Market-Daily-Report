@@ -1,0 +1,713 @@
+{
+  "report": {
+    "id": 20260606,
+    "report_date": "2026-06-06",
+    "generated_at": "2026-06-06T07:02:47Z",
+    "market_session": "non-trading-day",
+    "market_summary": "2026-06-05 强于预期的非农就业数据把市场主线重新拉回到“更久更高”的利率路径：纳指单日下跌 4.2%，芯片板块蒸发逾 1 万亿美元市值，但 Ciena 在 2026-06-04 上修全年指引又说明 AI 基础设施需求并未被公开信息证伪。2026-06-08 至 2026-06-13 的关键是 CPI、WWDC、Oracle 与 Adobe 财报能否把交易从硬件挤仓切回到更广的 AI 扩散逻辑。",
+    "overall_sentiment": "mixed",
+    "main_theme": "强非农触发利率与 AI 估值双杀，但 AI 基础设施需求并未被证伪",
+    "markdown_summary": "详见同日 Markdown 报告，包含 2026-06-06 至 2026-06-13 的 Top Signals、事件日历、AI/科技观察、宏观环境、大跌股复盘和盯盘清单。",
+    "created_at": "2026-06-06T07:02:47Z",
+    "updated_at": "2026-06-06T07:02:47Z"
+  },
+  "topSignals": [
+    {
+      "title": "2026-06-05 非农明显强于预期，市场重新交易“更久更高”的利率路径",
+      "summary": "美国 2026-05 非农新增就业 172,000，失业率维持 4.3%。强就业并未提振成长股，反而推动市场削减年内降息预期并压缩科技估值。",
+      "why_it_matters": "对高久期科技股而言，利率路径比单一公司新闻更重要；若 2026-06-10 CPI 不转弱，折现率压力仍会覆盖 AI 概念股。",
+      "direction": "bearish",
+      "affected_sectors": ["大型科技", "半导体", "软件", "小盘成长"],
+      "affected_tickers": ["QQQ", "NVDA", "AVGO", "AMD", "IWM"],
+      "impact_horizon": "this_week",
+      "importance_score": 98,
+      "source_urls": [
+        {
+          "title": "BLS Employment Situation",
+          "url": "https://www.bls.gov/news.release/archives/empsit_06052026.htm"
+        },
+        {
+          "title": "Reuters via Investing jobs report",
+          "url": "https://www.investing.com/news/economy-news/us-posts-another-month-of-strong-job-gains-in-may-unemployment-rate-steady-at-43-4728562"
+        },
+        {
+          "title": "Axios jobs summary",
+          "url": "https://www.axios.com/2026/06/05/jobs-may-unemployment-trump"
+        }
+      ]
+    },
+    {
+      "title": "2026-06-05 纳指重挫 4.2%，AI / 半导体链条出现集中去拥挤",
+      "summary": "AP 与 Reuters 的收盘复盘显示，纳指单日大跌 4.2%，费城半导体指数创 2020-03 以来最大单日跌幅，芯片板块蒸发逾 1 万亿美元市值。",
+      "why_it_matters": "这说明短线主导变量是估值和仓位，而不是基本面再上修；在下一次业绩或宏观验证前，AI 高 Beta 链条会更脆弱。",
+      "direction": "bearish",
+      "affected_sectors": ["AI 芯片", "半导体", "存储", "服务器"],
+      "affected_tickers": ["NVDA", "AVGO", "MRVL", "MU", "AMD"],
+      "impact_horizon": "this_week",
+      "importance_score": 97,
+      "source_urls": [
+        {
+          "title": "AP market close",
+          "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-b9d2661cbba6cc326c618c06769d8291"
+        },
+        {
+          "title": "Reuters via MarketScreener close recap",
+          "url": "https://uk.marketscreener.com/news/wall-street-ends-sharply-lower-as-chips-slide-jobs-data-fuels-rate-hike-fears-ce7f5dd2d98cf524"
+        },
+        {
+          "title": "Reuters via Investing chip selloff",
+          "url": "https://www.investing.com/news/stock-market-news/chip-selloff-erases-over-1-trillion-in-stock-market-value-4729116"
+        }
+      ]
+    },
+    {
+      "title": "Ciena 上修全年指引，AI 支出继续向光通信与网络互联扩散",
+      "summary": "Ciena 2026-06-04 公布 FY2026 Q2 营收同比增长 40%，并上修 FY2026 全年营收指引，成为截至 2026-06-06 最硬的 AI 扩散基本面证据之一。",
+      "why_it_matters": "如果 AI 交易没有结束，下一批更容易承接资金的方向可能不是更拥挤的 GPU 龙头，而是光模块、交换机和互联链条。",
+      "direction": "bullish",
+      "affected_sectors": ["光通信", "网络设备", "数据中心互联"],
+      "affected_tickers": ["CIEN", "LITE", "COHR", "AAOI", "ANET"],
+      "impact_horizon": "this_week",
+      "importance_score": 92,
+      "source_urls": [
+        {
+          "title": "Ciena IR",
+          "url": "https://investor.ciena.com/news/news-details/2026/Ciena-Reports-Fiscal-Second-Quarter-2026-Financial-Results/default.aspx"
+        }
+      ]
+    },
+    {
+      "title": "2026-06-08 至 2026-06-12 进入“宏观数据 + AI 软件/终端验证”密集周",
+      "summary": "WWDC26、2026-05 CPI、Oracle FY2026 Q4 与 Adobe FY2026 Q2 财报密集落地，市场将同时验证端侧 AI、企业云和软件 AI 商业化。",
+      "why_it_matters": "如果这些事件只带来产品叙事而没有收入或用户验证，AI 交易仍会集中在基础设施；反之则可能出现风格扩散。",
+      "direction": "uncertain",
+      "affected_sectors": ["消费电子", "云计算", "企业软件", "SaaS"],
+      "affected_tickers": ["AAPL", "ORCL", "ADBE", "MSFT", "AMZN"],
+      "impact_horizon": "this_week",
+      "importance_score": 90,
+      "source_urls": [
+        {
+          "title": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/"
+        },
+        {
+          "title": "Oracle IR",
+          "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Sets-the-Date-for-its-Fourth-Quarter-Fiscal-Year-2026-Earnings-Announcement/default.aspx"
+        },
+        {
+          "title": "Adobe BusinessWire",
+          "url": "https://www.businesswire.com/news/home/20260601840348/en/Adobe-to-Announce-Q2-FY2026-Earnings-Results-on-June-11-2026"
+        },
+        {
+          "title": "BLS Schedule 2026",
+          "url": "https://www.bls.gov/schedule/2026/home.htm"
+        }
+      ]
+    },
+    {
+      "title": "2026-06-08 关税生效与 2026-06-09 EIA 展望，为数据中心基建成本增加新的外生变量",
+      "summary": "白宫新的部分金属关税安排将于 2026-06-08 生效，EIA 将于 2026-06-09 更新短期能源展望，AI 数据中心扩建成本面临新的政策和能源扰动。",
+      "why_it_matters": "AI 基建链不只受 GPU 和服务器驱动，电力、制冷、配电和工业设备成本也会决定估值上限。",
+      "direction": "uncertain",
+      "affected_sectors": ["数据中心电力", "工业设备", "能源", "基础设施"],
+      "affected_tickers": ["VRT", "ETN", "PWR", "CEG", "VST"],
+      "impact_horizon": "this_week",
+      "importance_score": 85,
+      "source_urls": [
+        {
+          "title": "White House tariff proclamation",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/"
+        },
+        {
+          "title": "EIA STEO schedule",
+          "url": "https://www.eia.gov/outlooks/steo/release_schedule.php"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "event_date": "2026-06-08",
+      "event_name": "Apple WWDC26 主题演讲与 Platforms State of the Union",
+      "event_type": "conference",
+      "importance": "high",
+      "affected_assets": ["AAPL", "苹果生态链", "端侧 AI", "开发者工具"],
+      "watch_points": "关注 Apple Intelligence、新系统功能、开发者工具与端侧 AI 叙事能否改善 AAPL 预期。",
+      "source_urls": [
+        {
+          "title": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/"
+        }
+      ]
+    },
+    {
+      "event_date": "2026-06-08",
+      "event_name": "美国部分金属关税新安排生效",
+      "event_type": "policy",
+      "importance": "medium",
+      "affected_assets": ["工业设备", "电力设备", "数据中心基建"],
+      "watch_points": "关注钢、铝、铜相关成本是否传导至电力、配电、制冷和基础设施扩建预期。",
+      "source_urls": [
+        {
+          "title": "White House tariff proclamation",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/"
+        }
+      ]
+    },
+    {
+      "event_date": "2026-06-09",
+      "event_name": "EIA 发布 2026-06 Short-Term Energy Outlook",
+      "event_type": "macro",
+      "importance": "medium",
+      "affected_assets": ["原油", "天然气", "电力链", "成长股估值"],
+      "watch_points": "关注能源价格路径是否继续抬高 AI 数据中心扩建成本与通胀预期。",
+      "source_urls": [
+        {
+          "title": "EIA STEO schedule",
+          "url": "https://www.eia.gov/outlooks/steo/release_schedule.php"
+        }
+      ]
+    },
+    {
+      "event_date": "2026-06-10",
+      "event_name": "美国 2026-05 CPI 与 Real Earnings",
+      "event_type": "macro",
+      "importance": "high",
+      "affected_assets": ["QQQ", "SPY", "UST10Y", "DXY", "Gold"],
+      "watch_points": "这是 2026-06-05 强非农之后最关键的再定价节点；若 CPI 偏热，高估值科技仍承压。",
+      "source_urls": [
+        {
+          "title": "BLS Schedule 2026",
+          "url": "https://www.bls.gov/schedule/2026/home.htm"
+        }
+      ]
+    },
+    {
+      "event_date": "2026-06-10",
+      "event_name": "Oracle FY2026 Q4 财报",
+      "event_type": "earnings",
+      "importance": "high",
+      "affected_assets": ["ORCL", "OCI", "企业云", "数据库"],
+      "watch_points": "重点看 OCI 增速、企业 AI 工作负载、capex 和订单积压。",
+      "source_urls": [
+        {
+          "title": "Oracle IR",
+          "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Sets-the-Date-for-its-Fourth-Quarter-Fiscal-Year-2026-Earnings-Announcement/default.aspx"
+        }
+      ]
+    },
+    {
+      "event_date": "2026-06-11",
+      "event_name": "美国 2026-05 PPI",
+      "event_type": "macro",
+      "importance": "medium",
+      "affected_assets": ["利率", "工业", "科技"],
+      "watch_points": "验证 CPI 后的上游价格压力是否延续，并观察对成长股折现率的二次影响。",
+      "source_urls": [
+        {
+          "title": "BLS Schedule 2026",
+          "url": "https://www.bls.gov/schedule/2026/home.htm"
+        }
+      ]
+    },
+    {
+      "event_date": "2026-06-11",
+      "event_name": "Adobe FY2026 Q2 财报",
+      "event_type": "earnings",
+      "importance": "high",
+      "affected_assets": ["ADBE", "SaaS", "创意软件", "生成式 AI"],
+      "watch_points": "重点看订阅增长、AI 商业化和业绩后股价反应。",
+      "source_urls": [
+        {
+          "title": "Adobe BusinessWire",
+          "url": "https://www.businesswire.com/news/home/20260601840348/en/Adobe-to-Announce-Q2-FY2026-Earnings-Results-on-June-11-2026"
+        }
+      ]
+    },
+    {
+      "event_date": "2026-06-12",
+      "event_name": "密歇根大学 2026-06 初值消费者信心",
+      "event_type": "macro",
+      "importance": "medium",
+      "affected_assets": ["消费", "零售", "利率预期"],
+      "watch_points": "关注高油价和高生活成本是否继续压制消费者信心与未来消费意愿。",
+      "source_urls": [
+        {
+          "title": "University of Michigan Surveys of Consumers",
+          "url": "https://www.sca.isr.umich.edu/"
+        }
+      ]
+    }
+  ],
+  "sectors": [
+    {
+      "sector_name": "AI / ASIC / 数据中心主链",
+      "latest_catalysts": [
+        "2026-06-05 强非农抬升折现率",
+        "Broadcom 财报后引发 AI 芯片链去拥挤",
+        "Ciena 证明 AI 基建需求仍在扩散"
+      ],
+      "beneficiary_tickers": ["NVDA", "AVGO", "VRT", "ANET"],
+      "pressured_tickers": ["MRVL", "SMCI", "高 Beta AI 概念股"],
+      "watch_signals": ["龙头能否止跌", "订单是否继续上修", "利率是否回落"],
+      "sentiment": "mixed",
+      "source_urls": [
+        {
+          "title": "Broadcom PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial-results-and-quarterly-dividend-302790698.html"
+        },
+        {
+          "title": "Reuters via MarketScreener close recap",
+          "url": "https://uk.marketscreener.com/news/wall-street-ends-sharply-lower-as-chips-slide-jobs-data-fuels-rate-hike-fears-ce7f5dd2d98cf524"
+        }
+      ]
+    },
+    {
+      "sector_name": "半导体 / 存储",
+      "latest_catalysts": [
+        "半导体板块 2026-06-05 蒸发逾 1 万亿美元市值",
+        "Nvidia、Micron、AMD、Marvell 同步大跌",
+        "市场先处理估值和仓位，再处理公司差异"
+      ],
+      "beneficiary_tickers": ["龙头修复时更可能先回流的标的"],
+      "pressured_tickers": ["MRVL", "MU", "AMD", "AVGO", "NVDA"],
+      "watch_signals": ["板块修复强度", "利率方向", "CPI 后的资金回流路径"],
+      "sentiment": "bearish",
+      "source_urls": [
+        {
+          "title": "Reuters via Investing chip selloff",
+          "url": "https://www.investing.com/news/stock-market-news/chip-selloff-erases-over-1-trillion-in-stock-market-value-4729116"
+        },
+        {
+          "title": "Axios tech selloff",
+          "url": "https://www.axios.com/2026/06/05/stocks-nasdaq-tech-stocks"
+        }
+      ]
+    },
+    {
+      "sector_name": "光通信 / 网络互联",
+      "latest_catalysts": [
+        "Ciena FY2026 Q2 营收同比增长 40%",
+        "Ciena 上修 FY2026 全年营收指引",
+        "AI 需求从 GPU 向互联和网络扩散"
+      ],
+      "beneficiary_tickers": ["CIEN", "LITE", "COHR", "AAOI", "ANET"],
+      "pressured_tickers": ["若板块无法走出相对强势的高波动光模块股"],
+      "watch_signals": ["相对半导体强弱", "订单兑现", "AI 互联叙事扩散"],
+      "sentiment": "bullish",
+      "source_urls": [
+        {
+          "title": "Ciena IR",
+          "url": "https://investor.ciena.com/news/news-details/2026/Ciena-Reports-Fiscal-Second-Quarter-2026-Financial-Results/default.aspx"
+        }
+      ]
+    },
+    {
+      "sector_name": "云计算 / 企业软件",
+      "latest_catalysts": [
+        "Oracle FY2026 Q4 财报临近",
+        "Adobe FY2026 Q2 财报临近",
+        "市场需要收入和订阅验证，而不只是 AI 产品演示"
+      ],
+      "beneficiary_tickers": ["ORCL", "ADBE", "MSFT"],
+      "pressured_tickers": ["高估值 SaaS", "缺乏明确 AI 变现路径的软件股"],
+      "watch_signals": ["OCI 增速", "订阅趋势", "管理层对 AI 商业化的表述"],
+      "sentiment": "uncertain",
+      "source_urls": [
+        {
+          "title": "Oracle IR",
+          "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Sets-the-Date-for-its-Fourth-Quarter-Fiscal-Year-2026-Earnings-Announcement/default.aspx"
+        },
+        {
+          "title": "Adobe BusinessWire",
+          "url": "https://www.businesswire.com/news/home/20260601840348/en/Adobe-to-Announce-Q2-FY2026-Earnings-Results-on-June-11-2026"
+        }
+      ]
+    },
+    {
+      "sector_name": "数据中心电力 / 能源 / 工业配套",
+      "latest_catalysts": [
+        "2026-06-08 金属关税安排生效",
+        "2026-06-09 EIA 将更新短期能源展望",
+        "AI 数据中心扩建成本预期面临政策与能源双扰动"
+      ],
+      "beneficiary_tickers": ["VRT", "ETN", "PWR", "CEG", "VST"],
+      "pressured_tickers": ["资本密集型扩建项目", "对金属与能源成本敏感的设备链"],
+      "watch_signals": ["油气价格", "电力成本", "设备成本传导"],
+      "sentiment": "uncertain",
+      "source_urls": [
+        {
+          "title": "White House tariff proclamation",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/"
+        },
+        {
+          "title": "EIA STEO schedule",
+          "url": "https://www.eia.gov/outlooks/steo/release_schedule.php"
+        }
+      ]
+    }
+  ],
+  "macro": {
+    "treasury_yields": "Reuters 2026-06-05 报道，美国 10 年期国债收益率上升 7 个基点至 4.54%，2 年期国债收益率上升 11 个基点至 4.16%，显示强非农重新推高了更鹰派的利率预期。",
+    "dollar_index": "Reuters 2026-06-05 报道，美元指数上涨 0.7% 至 100.06，创 2026-04 初以来高点，说明市场把强就业解读为更高的美债收益率和更强美元。",
+    "crude_oil": "AP 2026-06-05 收盘复盘提到油价回落，但 2026-06-09 EIA 仍将更新能源展望；能源风险虽未主导 2026-06-05 的科技股暴跌，但仍会影响 AI 基建链成本预期。",
+    "gold": "Reuters 2026-06-05 报道金价下跌 3.6%，说明真实利率上行预期压过了避险需求。",
+    "vix": "截至 2026-06-06，更关键的并非单一波动率指标，而是风险偏好是否重新回到 AI 主线；2026-06-05 的迹象是资金显著从高估值科技撤出。",
+    "macro_data": "已发生的关键数据包括：2026-06-05 美国 2026-05 非农新增就业 172,000，失业率 4.3%。接下来覆盖期内最关键的数据为 2026-06-10 CPI 和 2026-06-11 PPI。",
+    "growth_tech_smallcap_impact": "截至 2026-06-06，成长股、小盘股和高估值科技股都更容易受到折现率上升冲击；若 2026-06-10 CPI 不降温，这一压力可能延续。",
+    "source_urls": [
+      {
+        "title": "BLS Employment Situation",
+        "url": "https://www.bls.gov/news.release/archives/empsit_06052026.htm"
+      },
+      {
+        "title": "Reuters via Investing market wrap",
+        "url": "https://www.investing.com/news/stock-market-news/hot-jobs-report-rising-rates-send-wall-streets-tech-favorites-sprawling-4729227"
+      },
+      {
+        "title": "Reuters via Investing dollar report",
+        "url": "https://in.investing.com/news/forex-news/dollar-steadies-with-usiran-tensions-nonfarm-payrolls-in-focus-5441983"
+      },
+      {
+        "title": "AP market close",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-b9d2661cbba6cc326c618c06769d8291"
+      },
+      {
+        "title": "BLS Schedule 2026",
+        "url": "https://www.bls.gov/schedule/2026/home.htm"
+      },
+      {
+        "title": "EIA STEO schedule",
+        "url": "https://www.eia.gov/outlooks/steo/release_schedule.php"
+      }
+    ]
+  },
+  "decliners": [
+    {
+      "ticker": "MRVL",
+      "company_name": "Marvell Technology",
+      "previous_day_change_percent": -16.74,
+      "volume_note": "属于 2026-06-05 AI 芯片 / 互联链集体去拥挤中的高 Beta 标的。",
+      "reason": "更像板块性估值与仓位挤兑，而不是公开信息出现新的公司级利空。",
+      "reason_type": "sector_driven",
+      "catalysts": ["ai_de_risking", "valuation_reset", "chip_selloff"],
+      "watch_points": "关注 2026-06-09 至 2026-06-13 是否能跟随光通信链修复；若不能，说明市场仍在处理估值。",
+      "source_urls": [
+        {
+          "title": "Reuters via Investing chip selloff",
+          "url": "https://www.investing.com/news/stock-market-news/chip-selloff-erases-over-1-trillion-in-stock-market-value-4729116"
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "company_name": "Micron Technology",
+      "previous_day_change_percent": -13.25,
+      "volume_note": "存储链跟随 AI 半导体板块同步杀跌。",
+      "reason": "更偏 Broadcom 财报后情绪外溢与强非农推高利率的双重冲击，而非 Micron 自身新增利空。",
+      "reason_type": "sector_driven",
+      "catalysts": ["sympathy_move", "higher_rates", "semiconductor_de_risking"],
+      "watch_points": "若 2026-06-10 CPI 转弱后仍无明显修复，说明市场开始担心存储链估值透支。",
+      "source_urls": [
+        {
+          "title": "Reuters via Investing chip selloff",
+          "url": "https://www.investing.com/news/stock-market-news/chip-selloff-erases-over-1-trillion-in-stock-market-value-4729116"
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "company_name": "Advanced Micro Devices",
+      "previous_day_change_percent": -10.86,
+      "volume_note": "AI 芯片链风格逆转中的主要受压标的之一。",
+      "reason": "更偏风险偏好和估值压缩，不是公司基本面单独恶化。",
+      "reason_type": "sector_driven",
+      "catalysts": ["higher_rates", "ai_de_risking", "high_beta_selloff"],
+      "watch_points": "若利率回落时弹性仍弱于龙头，说明资金偏好继续向更确定的大市值 AI 龙头集中。",
+      "source_urls": [
+        {
+          "title": "Reuters via Investing chip selloff",
+          "url": "https://www.investing.com/news/stock-market-news/chip-selloff-erases-over-1-trillion-in-stock-market-value-4729116"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "company_name": "Broadcom",
+      "previous_day_change_percent": -7.92,
+      "volume_note": "财报后第二天继续承压，是 2026-06-05 半导体去拥挤的直接触发源。",
+      "reason": "公司业绩仍强，但市场认为 AI 指引提升幅度不足以继续支撑更高估值倍数。",
+      "reason_type": "company_specific",
+      "catalysts": ["earnings_reaction", "valuation_reset", "ai_expectations"],
+      "watch_points": "若 2026-06-09 至 2026-06-13 仍不能企稳，AI 芯片链可能继续向二线标的扩散下跌。",
+      "source_urls": [
+        {
+          "title": "Broadcom PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial-results-and-quarterly-dividend-302790698.html"
+        },
+        {
+          "title": "Reuters via Investing chip selloff",
+          "url": "https://www.investing.com/news/stock-market-news/chip-selloff-erases-over-1-trillion-in-stock-market-value-4729116"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA",
+      "previous_day_change_percent": -6.2,
+      "volume_note": "龙头股补跌，说明 2026-06-05 并非只打击二线概念股。",
+      "reason": "利率上升与半导体板块去拥挤共振，压制了 AI 龙头估值。",
+      "reason_type": "sector_driven",
+      "catalysts": ["higher_rates", "chip_selloff", "ai_positioning"],
+      "watch_points": "NVDA 是否能在 2026-06-10 CPI 前后重新成为领涨锚，是判断 AI 主线是否延续的关键。",
+      "source_urls": [
+        {
+          "title": "Reuters via Investing chip selloff",
+          "url": "https://www.investing.com/news/stock-market-news/chip-selloff-erases-over-1-trillion-in-stock-market-value-4729116"
+        },
+        {
+          "title": "Axios tech selloff",
+          "url": "https://www.axios.com/2026/06/05/stocks-nasdaq-tech-stocks"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol_or_sector": "QQQ / UST10Y / DXY",
+      "reason_to_watch": "2026-06-05 强非农之后，利率和美元仍是科技股最重要的上层变量。",
+      "key_trigger": "2026-06-10 CPI",
+      "risk_points": "若 CPI 再度偏热，高估值科技和小盘成长股可能再次承压。",
+      "priority": "high",
+      "source_urls": [
+        {
+          "title": "BLS Schedule 2026",
+          "url": "https://www.bls.gov/schedule/2026/home.htm"
+        },
+        {
+          "title": "Reuters via Investing market wrap",
+          "url": "https://www.investing.com/news/stock-market-news/hot-jobs-report-rising-rates-send-wall-streets-tech-favorites-sprawling-4729227"
+        },
+        {
+          "title": "Reuters via Investing dollar report",
+          "url": "https://in.investing.com/news/forex-news/dollar-steadies-with-usiran-tensions-nonfarm-payrolls-in-focus-5441983"
+        }
+      ]
+    },
+    {
+      "symbol_or_sector": "AAPL / 苹果生态链 / 端侧 AI",
+      "reason_to_watch": "WWDC26 是覆盖期内最重要的终端 AI 事件。",
+      "key_trigger": "2026-06-08 Apple WWDC26",
+      "risk_points": "若发布会偏保守，市场会继续把 AI 机会集中在基础设施而非终端设备。",
+      "priority": "high",
+      "source_urls": [
+        {
+          "title": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/"
+        }
+      ]
+    },
+    {
+      "symbol_or_sector": "ORCL / 企业云",
+      "reason_to_watch": "Oracle 财报是企业 AI 工作负载是否持续上云的关键验证点。",
+      "key_trigger": "2026-06-10 Oracle FY2026 Q4 财报",
+      "risk_points": "若业绩不差但股价不涨，说明软件和云板块仍受制于利率和估值。",
+      "priority": "high",
+      "source_urls": [
+        {
+          "title": "Oracle IR",
+          "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Sets-the-Date-for-its-Fourth-Quarter-Fiscal-Year-2026-Earnings-Announcement/default.aspx"
+        }
+      ]
+    },
+    {
+      "symbol_or_sector": "ADBE / SaaS / 创意软件",
+      "reason_to_watch": "Adobe 财报是生成式 AI 商业化能否落到收入端的直接样本。",
+      "key_trigger": "2026-06-11 Adobe FY2026 Q2 财报",
+      "risk_points": "若继续出现“业绩不差但股价不买账”，SaaS 板块折价范围会扩大。",
+      "priority": "medium",
+      "source_urls": [
+        {
+          "title": "Adobe BusinessWire",
+          "url": "https://www.businesswire.com/news/home/20260601840348/en/Adobe-to-Announce-Q2-FY2026-Earnings-Results-on-June-11-2026"
+        }
+      ]
+    },
+    {
+      "symbol_or_sector": "CIEN / LITE / COHR / AAOI / ANET",
+      "reason_to_watch": "这是观察 AI 资金是否从 GPU 继续扩散至互联与光通信的核心组。",
+      "key_trigger": "Ciena 指引上修后的相对强弱表现",
+      "risk_points": "若板块走不出相对强势，说明当前市场暂时不愿交易 AI 扩散逻辑。",
+      "priority": "medium",
+      "source_urls": [
+        {
+          "title": "Ciena IR",
+          "url": "https://investor.ciena.com/news/news-details/2026/Ciena-Reports-Fiscal-Second-Quarter-2026-Financial-Results/default.aspx"
+        }
+      ]
+    },
+    {
+      "symbol_or_sector": "AVGO / NVDA / MRVL / MU / AMD",
+      "reason_to_watch": "这是 2026-06-05 暴跌后最需要确认是否止跌的核心 AI / 半导体链。",
+      "key_trigger": "2026-06-09 至 2026-06-13 的板块修复力度与 CPI 前后的相对强弱",
+      "risk_points": "若龙头不能稳住，二线高 Beta 标的通常会更弱。",
+      "priority": "high",
+      "source_urls": [
+        {
+          "title": "Reuters via Investing chip selloff",
+          "url": "https://www.investing.com/news/stock-market-news/chip-selloff-erases-over-1-trillion-in-stock-market-value-4729116"
+        },
+        {
+          "title": "Axios tech selloff",
+          "url": "https://www.axios.com/2026/06/05/stocks-nasdaq-tech-stocks"
+        }
+      ]
+    },
+    {
+      "symbol_or_sector": "VRT / ETN / PWR / CEG / 数据中心电力链",
+      "reason_to_watch": "AI 基建长期逻辑仍在，但关税与能源展望将影响成本预期。",
+      "key_trigger": "2026-06-08 关税生效与 2026-06-09 EIA 展望",
+      "risk_points": "若成本端上修快于订单端，上游配套链估值会先受压。",
+      "priority": "medium",
+      "source_urls": [
+        {
+          "title": "White House tariff proclamation",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/"
+        },
+        {
+          "title": "EIA STEO schedule",
+          "url": "https://www.eia.gov/outlooks/steo/release_schedule.php"
+        }
+      ]
+    }
+  ],
+  "narratives": [],
+  "sources": [
+    {
+      "title": "BLS Employment Situation",
+      "url": "https://www.bls.gov/news.release/archives/empsit_06052026.htm",
+      "publisher": "BLS",
+      "published_at": "2026-06-05",
+      "related_section": "topSignals"
+    },
+    {
+      "title": "Reuters via Investing jobs report",
+      "url": "https://www.investing.com/news/economy-news/us-posts-another-month-of-strong-job-gains-in-may-unemployment-rate-steady-at-43-4728562",
+      "publisher": "Reuters via Investing.com",
+      "published_at": "2026-06-05",
+      "related_section": "topSignals"
+    },
+    {
+      "title": "Axios jobs summary",
+      "url": "https://www.axios.com/2026/06/05/jobs-may-unemployment-trump",
+      "publisher": "Axios",
+      "published_at": "2026-06-05",
+      "related_section": "topSignals"
+    },
+    {
+      "title": "AP market close",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-b9d2661cbba6cc326c618c06769d8291",
+      "publisher": "Associated Press",
+      "published_at": "2026-06-05",
+      "related_section": "topSignals"
+    },
+    {
+      "title": "Reuters via MarketScreener close recap",
+      "url": "https://uk.marketscreener.com/news/wall-street-ends-sharply-lower-as-chips-slide-jobs-data-fuels-rate-hike-fears-ce7f5dd2d98cf524",
+      "publisher": "Reuters via MarketScreener",
+      "published_at": "2026-06-05",
+      "related_section": "topSignals"
+    },
+    {
+      "title": "Reuters via Investing chip selloff",
+      "url": "https://www.investing.com/news/stock-market-news/chip-selloff-erases-over-1-trillion-in-stock-market-value-4729116",
+      "publisher": "Reuters via Investing.com",
+      "published_at": "2026-06-05",
+      "related_section": "decliners"
+    },
+    {
+      "title": "Axios tech selloff",
+      "url": "https://www.axios.com/2026/06/05/stocks-nasdaq-tech-stocks",
+      "publisher": "Axios",
+      "published_at": "2026-06-05",
+      "related_section": "decliners"
+    },
+    {
+      "title": "Ciena IR",
+      "url": "https://investor.ciena.com/news/news-details/2026/Ciena-Reports-Fiscal-Second-Quarter-2026-Financial-Results/default.aspx",
+      "publisher": "Ciena",
+      "published_at": "2026-06-04",
+      "related_section": "sectors"
+    },
+    {
+      "title": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/",
+      "publisher": "Apple",
+      "published_at": "2026-05-18",
+      "related_section": "events"
+    },
+    {
+      "title": "Oracle IR",
+      "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Sets-the-Date-for-its-Fourth-Quarter-Fiscal-Year-2026-Earnings-Announcement/default.aspx",
+      "publisher": "Oracle",
+      "published_at": "2026-06-01",
+      "related_section": "events"
+    },
+    {
+      "title": "Adobe BusinessWire",
+      "url": "https://www.businesswire.com/news/home/20260601840348/en/Adobe-to-Announce-Q2-FY2026-Earnings-Results-on-June-11-2026",
+      "publisher": "BusinessWire / Adobe",
+      "published_at": "2026-06-01",
+      "related_section": "events"
+    },
+    {
+      "title": "BLS Schedule 2026",
+      "url": "https://www.bls.gov/schedule/2026/home.htm",
+      "publisher": "BLS",
+      "published_at": "2026-02-18",
+      "related_section": "events"
+    },
+    {
+      "title": "White House tariff proclamation",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/",
+      "publisher": "The White House",
+      "published_at": "2026-06-01",
+      "related_section": "events"
+    },
+    {
+      "title": "EIA STEO schedule",
+      "url": "https://www.eia.gov/outlooks/steo/release_schedule.php",
+      "publisher": "EIA",
+      "published_at": "2026-05-12",
+      "related_section": "events"
+    },
+    {
+      "title": "University of Michigan Surveys of Consumers",
+      "url": "https://www.sca.isr.umich.edu/",
+      "publisher": "University of Michigan",
+      "published_at": "2026-06-06",
+      "related_section": "events"
+    },
+    {
+      "title": "Reuters via Investing market wrap",
+      "url": "https://www.investing.com/news/stock-market-news/hot-jobs-report-rising-rates-send-wall-streets-tech-favorites-sprawling-4729227",
+      "publisher": "Reuters via Investing.com",
+      "published_at": "2026-06-05",
+      "related_section": "macro"
+    },
+    {
+      "title": "Reuters via Investing dollar report",
+      "url": "https://in.investing.com/news/forex-news/dollar-steadies-with-usiran-tensions-nonfarm-payrolls-in-focus-5441983",
+      "publisher": "Reuters via Investing.com",
+      "published_at": "2026-06-05",
+      "related_section": "macro"
+    },
+    {
+      "title": "Broadcom PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial-results-and-quarterly-dividend-302790698.html",
+      "publisher": "PR Newswire / Broadcom",
+      "published_at": "2026-06-03",
+      "related_section": "sectors"
+    }
+  ]
+}
