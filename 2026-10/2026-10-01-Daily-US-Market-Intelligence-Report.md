@@ -1,0 +1,230 @@
+# Daily US Market Intelligence Report
+日期：2026-10-01
+覆盖范围：2026-10-01 至 2026-10-08
+美股状态：premarket
+
+## 1. 2026-10-01 最重要的 3-5 个市场信号
+### 1. Nasdaq, S&P 500, Dow Futures Mixed Even As Micron Fuels AI Rally: ORCL, NKE, TSLA, RKLB, ASTS, PSKY In Focus - TradingView
+- 事件 / 信号是什么：这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 RKLB, ASTS, TSLA, QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。 盘前优先看 RKLB, ASTS, TSLA, QQQ, SPY 是否带动 Macro / Rates / Nasdaq 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。
+- 为什么重要：宏观信号决定估值折现率：利率上行会先压制 Nasdaq、软件和小盘成长，利率回落则更利于半导体与 AI 基础设施延续风险偏好。
+- 可能影响的方向：uncertain
+- 可能影响的板块或股票：Macro, Rates, Nasdaq, RKLB, ASTS, TSLA, QQQ, SPY
+- 影响时间：this_week
+- 信息来源链接：[TradingView](https://news.google.com/rss/articles/CBMi8gFBVV95cUxNTUxsLWpYck1IRkg2VG9EbVRvT01LOVlZbUYzcjcwVlhiZm02NmZYZVYxdS16SmZtS1ljT3NyMHYtN0FqVnNGTFRpZE1KNlUyR0FpZnVZa3VyQnR0OVhCeFo5MHk1UEpIZDFSSXlzeDkzWW9YdW5uUEhmczlFRnhNelZpWXdPZ3BaM19xS2gyQWpPSUZQdjhKX1FtbS03eXFfM1VvaVVmMXZVQ2o4RXpyV0JRUHRPLURCSGg1VjRwRDZQRmNNTHNBaWN5dUxCUW9QeFZUc01ablhKMDU2Ukg4RnlVdkRNMGoweFZpQ3ZjdlBYUQ?oc=5)
+
+### 2. 3 AI Infrastructure Stocks as Rising Bond Yields Test Data Center Spending - Simply Wall Street
+- 事件 / 信号是什么：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 NVDA, DELL, SMCI, VRT, ANET。 来源主题：AI Infrastructure, Data Center, Semiconductor。 盘前优先看 NVDA, DELL, SMCI, VRT, ANET 是否带动 AI Infrastructure / Data Center / Semiconductor 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。
+- 为什么重要：AI 信号的关键在于 capex 是否继续扩散：如果订单从 GPU 扩到服务器、电源、散热和网络，受益链条会变宽；如果只集中在少数龙头，概念股会分化。
+- 可能影响的方向：bullish
+- 可能影响的板块或股票：AI Infrastructure, Data Center, Semiconductor, NVDA, DELL, SMCI, VRT, ANET
+- 影响时间：this_week
+- 信息来源链接：[Simply Wall Street](https://news.google.com/rss/articles/CBMizwFBVV95cUxNZ3JTZmVTUUVPMVRFY0VBQXhfd0JlWEVrYUJxTm9FTTlLNU84MGNzZjI5ckVNRjBkWlJzdmVRTjhDcS1GNFE5TWFvRE9ORFhERC1FY0lXaFA4U2RndWVqOUo5UGJ3RUFqaGlhNHpweVAyNXJ6Nm9nQ0VaMFhMY2V1RnREV3cyVjBLQ3ViY1JXOU1VX1g0dkotU2Q3eW91V0xPeGZWRHlVZWVaMUdwQVpOeEZtcFd5ZW1HanlsSl9Sb19mVUhxdl9aTzdWNWhrUDTSAdQBQVVfeXFMT2JwRFVqdmcySl9rUk5BUmxLbU5BWmt6dGsxbGl0Q2FNTWFnUm5qMmlvZmNSSXdrUVMzLVh0NXpLVUM4YWlzUTZocTZsMlZjcXVXMGxaMEpzLUFGUjJZMEpKWktIOHJMekhYQnNVSmI1dTFZYVJvV2RTV3V3TkJSNFdnQWk4OTIzcWlfT253enlrcGVnV2w5eXJ6dHRHNXB4Q284TnRHVnl6YWc5dUVqblBvZVhGaTdHemcwT3Q0Tzg5cGlPRklnbmZEU2R2US1ETFI2Qmc?oc=5)
+
+### 3. CHPY: A 39% Yielding Semiconductor Bet I'm Adding To My 21%+ Income Portfolio - Seeking Alpha
+- 事件 / 信号是什么：这是半导体风格切换信号，重点区分 GPU/ASIC/先进封装受益股和传统 MCU、汽车工业链。若资金继续追逐 AI 算力，SMH 内部会继续分化。直接映射到 NVDA, AMD, AVGO, MRVL, TSM。 来源主题：Semiconductor, AI ASIC, GPU。 盘前优先看 NVDA, AMD, AVGO, MRVL, TSM, ASML 是否带动 Semiconductor / AI ASIC / GPU 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。
+- 为什么重要：半导体是 AI 主线的核心风险资产，市场会区分算力受益、ASIC/EDA 受益、存储受益和传统周期股，内部轮动比指数涨跌更重要。
+- 可能影响的方向：bullish
+- 可能影响的板块或股票：Semiconductor, AI ASIC, GPU, NVDA, AMD, AVGO, MRVL, TSM, ASML, ARM
+- 影响时间：this_week
+- 信息来源链接：[Seeking Alpha](https://news.google.com/rss/articles/CBMizwFBVV95cUxNTHFXTERqMU5ESkZqWTNvWXBHT2p3UWItTnVadGxGQUliSGlqS2pJQ2J4cDhNaTA1ZUlEenJmeWQ4cTdGMVdwUjlzNWN4SXN1QjRpcGJIWmd1anFDQ2tzdEN6dnJTNFlld25wNXNVamRwWnpoV25tdnN2b1hhRGVlZjlBeUp4RXpYdjFLUHFVS2k5UGg5SUZ4b29YUjBXcS1LQy1OV1oweUpRR2F6N1V3amFSY0xsMU40MU51eTI5VnRRTmVFaGpUV1RIWlVBbTQ?oc=5)
+
+### 4. Integrated Photonic Modules Market To 2035: AI Data Center Demand Accelerates Growth - News and Statistics - IndexBox
+- 事件 / 信号是什么：这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。直接映射到 COHR, LITE, CIEN, AAOI, MRVL。 来源主题：Optical Communication, Networking, Data Center。 盘前优先看 COHR, LITE, CIEN, AAOI, MRVL, AVGO 是否带动 Optical Communication / Networking / Data Center 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。
+- 为什么重要：光通信是 AI 集群扩容的瓶颈环节之一，若 CPO/1.6T/硅光订单继续被验证，资金可能从 GPU 龙头外溢到网络和光模块链。
+- 可能影响的方向：bullish
+- 可能影响的板块或股票：Optical Communication, Networking, Data Center, COHR, LITE, CIEN, AAOI, MRVL, AVGO
+- 影响时间：medium_term
+- 信息来源链接：[IndexBox](https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSkF3VFhYcWdYNDU4ZHBMSDJOZHd5eGJXeFp2VzBXVnh2OGczVHhvQkpDbnVnRlNpMDlJQXJWY1RnRWRwaFVVMVBQeHdwVG5EVE9ROUxpN211aWIzWTZwZmRMNTMycFl1dFJuMWYtZWVWVEpqVGpqU1pEZ1o2SWNCTDR0SEVMbnY1YUdlM1YxOWxDTl9NM1pqZTJXV3hZWHRPcExKUEp5V0JSMDJadXRFR1lzZ2VNM2xUbVUyWlV3UEI?oc=5)
+
+### 5. 3 Nuclear Power Stocks Worth Owning as the AI Power Crunch Builds - 24/7 Wall St.
+- 事件 / 信号是什么：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。 盘前优先看 CEG, VST, NEE, ETN, PWR, VRT 是否带动 Data Center Power / Energy / Grid Infrastructure 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。
+- 为什么重要：电力能源影响 AI 数据中心落地速度。电网、核能、PPA 和散热能力会影响数据中心建设成本，也会反向影响 AI capex 节奏。
+- 可能影响的方向：uncertain
+- 可能影响的板块或股票：Data Center Power, Energy, Grid Infrastructure, CEG, VST, NEE, ETN, PWR, VRT
+- 影响时间：medium_term
+- 信息来源链接：[24/7 Wall St.](https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHpzUEJROS16OWFJY2xBRlV2UWJmVHpuTlo2c09BUVlGT2dScU5fZ0R0NTVkQXZkU0drNlhFY3VVaV9YMlB2U1Z6VW9ia0RkMzljaFZqRzE4VnhDdEFJaEFIdENmREEyY1B1MU5ZYkR5cXRBUG9yREt5UnZfN1M5VU1mSHRQUk94ZURCS1lVUFhHLWRyZF9kT0ZRTDR2WG94VWp0RHBieEJCX1BkMVE?oc=5)
+
+## 2. 2026-10-01 至 2026-10-08 关键事件日历
+| 日期 | 事件 | 重要性 | 可能影响的资产或板块 | 需要关注的关键点 | 来源 |
+|---|---|---|---|---|---|
+| 2026-10-01 | 2026-10-01 US equity market session / premarket setup | medium | Nasdaq, S&P 500, QQQ, SPY, SMH | 2026-10-01 视角：当日事件。当天重点看实际结果、盘前预期差和盘中板块扩散。把当天盘前新闻、收益率、期货和热门成长股开盘反应作为事件日历的第一项，避免把前一交易日的未来日历原样复制。 | [Nasdaq market activity](https://www.nasdaq.com/market-activity) |
+
+## 3. 最近几天值得期待的财报 / 叙事
+### 光通信 / CPO：AI 网络瓶颈的下一段外溢叙事（near-term，2026-10-01 近端跟踪）
+- 日期：near-term
+- 类型：narrative
+- 我看好的原因：我看好这个叙事，因为它和 AI capex 强相关，又不像 GPU 龙头那样拥挤，弹性更偏二线和供应链扩散。
+- 核心逻辑：截至 2026-10-01，2026-10-01 近端跟踪。仍处在预期酝酿阶段，重点是确认这条线是否被新闻、订单和分析师预期持续强化。相关股票：COHR, LITE, CIEN, AAOI, MRVL。
+- 受益股票 / 板块：COHR, LITE, CIEN, AAOI, MRVL, AVGO
+- 需要盯的验证点：2026-10-01 近端跟踪重点看：1.6T 光模块订单、CPO 量产路线、DSP 供应、云厂商网络 capex 表述。
+- 风险点：订单兑现慢、价格竞争或客户集中度过高，会让高波动光模块股快速回撤。
+- 信心等级：high
+- 来源：[IndexBox](https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSkF3VFhYcWdYNDU4ZHBMSDJOZHd5eGJXeFp2VzBXVnh2OGczVHhvQkpDbnVnRlNpMDlJQXJWY1RnRWRwaFVVMVBQeHdwVG5EVE9ROUxpN211aWIzWTZwZmRMNTMycFl1dFJuMWYtZWVWVEpqVGpqU1pEZ1o2SWNCTDR0SEVMbnY1YUdlM1YxOWxDTl9NM1pqZTJXV3hZWHRPcExKUEp5V0JSMDJadXRFR1lzZ2VNM2xUbVUyWlV3UEI?oc=5)
+
+## 4. AI / 科技 / 半导体 / 光通信重点观察
+### AI Infrastructure
+- 最新催化：3 AI Infrastructure Stocks as Rising Bond Yields Test Data Center Spending - Simply Wall Street：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 NVDA, DELL, SMCI, VRT, ANET。 来源主题：AI Infrastructure, Data Center, Semiconductor。；NVIDIA Corporation (NVDA) Stock Price, News, Quote & History - Yahoo! Finance Canada：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 NVDA, DELL, SMCI, VRT, ANET。 来源主题：AI Infrastructure, Data Center, Semiconductor。；Top 10 AI Stocks To Buy On The Seasonal Dip - Seeking Alpha：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 NVDA, DELL, SMCI, VRT, ANET。 来源主题：AI Infrastructure, Data Center, Semiconductor。
+- 受益股票：NVDA, DELL, SMCI, VRT, ANET
+- 承压股票：估值高但订单验证不足的 AI 概念股
+- 需要继续观察的信号：AI server backlog；GPU supply；推理需求；云厂商 capex
+- 板块情绪：bullish
+- 来源：[Simply Wall Street](https://news.google.com/rss/articles/CBMizwFBVV95cUxNZ3JTZmVTUUVPMVRFY0VBQXhfd0JlWEVrYUJxTm9FTTlLNU84MGNzZjI5ckVNRjBkWlJzdmVRTjhDcS1GNFE5TWFvRE9ORFhERC1FY0lXaFA4U2RndWVqOUo5UGJ3RUFqaGlhNHpweVAyNXJ6Nm9nQ0VaMFhMY2V1RnREV3cyVjBLQ3ViY1JXOU1VX1g0dkotU2Q3eW91V0xPeGZWRHlVZWVaMUdwQVpOeEZtcFd5ZW1HanlsSl9Sb19mVUhxdl9aTzdWNWhrUDTSAdQBQVVfeXFMT2JwRFVqdmcySl9rUk5BUmxLbU5BWmt6dGsxbGl0Q2FNTWFnUm5qMmlvZmNSSXdrUVMzLVh0NXpLVUM4YWlzUTZocTZsMlZjcXVXMGxaMEpzLUFGUjJZMEpKWktIOHJMekhYQnNVSmI1dTFZYVJvV2RTV3V3TkJSNFdnQWk4OTIzcWlfT253enlrcGVnV2w5eXJ6dHRHNXB4Q284TnRHVnl6YWc5dUVqblBvZVhGaTdHemcwT3Q0Tzg5cGlPRklnbmZEU2R2US1ETFI2Qmc?oc=5), [Yahoo! Finance Canada](https://news.google.com/rss/articles/CBMiUkFVX3lxTE51M3YyYUhDNzU1Y2Rjb1RZakJNc2s1NWlnbHBYS1RWTTJyNnpzNUFiUEVJQmRoSElldkd0Z3Bva0s1UURoUFpJcDVxZnRJZXdDcGc?oc=5), [Seeking Alpha](https://news.google.com/rss/articles/CBMijAFBVV95cUxQME5xU1UwTzIyRlFfUW1VMW5zMzE1b0VCOXRtNUt1eDBjVkItRXNsMEMyZmloQkZPaW9aWWJjSG9vVzdOM0xDaThxNkJORVJtLTBzRFZjNTVoSzZianFwVHBLY01mWTRNTHV0WkVzOVRtRDFGd3QxNHVVV1dYZG52RVljSUFGaFZkTEJBUw?oc=5)
+
+### Semiconductors
+- 最新催化：3 AI Infrastructure Stocks as Rising Bond Yields Test Data Center Spending - Simply Wall Street：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 NVDA, DELL, SMCI, VRT, ANET。 来源主题：AI Infrastructure, Data Center, Semiconductor。；CHPY: A 39% Yielding Semiconductor Bet I'm Adding To My 21%+ Income Portfolio - Seeking Alpha：这是半导体风格切换信号，重点区分 GPU/ASIC/先进封装受益股和传统 MCU、汽车工业链。若资金继续追逐 AI 算力，SMH 内部会继续分化。直接映射到 NVDA, AMD, AVGO, MRVL, TSM。 来源主题：Semiconductor, AI ASIC, GPU。；NVIDIA Corporation (NVDA) Stock Price, News, Quote & History - Yahoo! Finance Canada：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 NVDA, DELL, SMCI, VRT, ANET。 来源主题：AI Infrastructure, Data Center, Semiconductor。
+- 受益股票：MRVL, AVGO, SNPS, CDNS, TSM, ASML
+- 承压股票：MCHP, 传统 MCU/汽车工业链复苏较慢标的
+- 需要继续观察的信号：数据中心收入；先进制程需求；毛利率；客户集中度
+- 板块情绪：bullish
+- 来源：[Simply Wall Street](https://news.google.com/rss/articles/CBMizwFBVV95cUxNZ3JTZmVTUUVPMVRFY0VBQXhfd0JlWEVrYUJxTm9FTTlLNU84MGNzZjI5ckVNRjBkWlJzdmVRTjhDcS1GNFE5TWFvRE9ORFhERC1FY0lXaFA4U2RndWVqOUo5UGJ3RUFqaGlhNHpweVAyNXJ6Nm9nQ0VaMFhMY2V1RnREV3cyVjBLQ3ViY1JXOU1VX1g0dkotU2Q3eW91V0xPeGZWRHlVZWVaMUdwQVpOeEZtcFd5ZW1HanlsSl9Sb19mVUhxdl9aTzdWNWhrUDTSAdQBQVVfeXFMT2JwRFVqdmcySl9rUk5BUmxLbU5BWmt6dGsxbGl0Q2FNTWFnUm5qMmlvZmNSSXdrUVMzLVh0NXpLVUM4YWlzUTZocTZsMlZjcXVXMGxaMEpzLUFGUjJZMEpKWktIOHJMekhYQnNVSmI1dTFZYVJvV2RTV3V3TkJSNFdnQWk4OTIzcWlfT253enlrcGVnV2w5eXJ6dHRHNXB4Q284TnRHVnl6YWc5dUVqblBvZVhGaTdHemcwT3Q0Tzg5cGlPRklnbmZEU2R2US1ETFI2Qmc?oc=5), [Seeking Alpha](https://news.google.com/rss/articles/CBMizwFBVV95cUxNTHFXTERqMU5ESkZqWTNvWXBHT2p3UWItTnVadGxGQUliSGlqS2pJQ2J4cDhNaTA1ZUlEenJmeWQ4cTdGMVdwUjlzNWN4SXN1QjRpcGJIWmd1anFDQ2tzdEN6dnJTNFlld25wNXNVamRwWnpoV25tdnN2b1hhRGVlZjlBeUp4RXpYdjFLUHFVS2k5UGg5SUZ4b29YUjBXcS1LQy1OV1oweUpRR2F6N1V3amFSY0xsMU40MU51eTI5VnRRTmVFaGpUV1RIWlVBbTQ?oc=5), [Yahoo! Finance Canada](https://news.google.com/rss/articles/CBMiUkFVX3lxTE51M3YyYUhDNzU1Y2Rjb1RZakJNc2s1NWlnbHBYS1RWTTJyNnpzNUFiUEVJQmRoSElldkd0Z3Bva0s1UURoUFpJcDVxZnRJZXdDcGc?oc=5)
+
+### Optical Communication / Networking
+- 最新催化：Integrated Photonic Modules Market To 2035: AI Data Center Demand Accelerates Growth - News and Statistics - IndexBox：这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。直接映射到 COHR, LITE, CIEN, AAOI, MRVL。 来源主题：Optical Communication, Networking, Data Center。；Coherent’s Next AI Growth Engine Is Emerging (NYSE:COHR) - Seeking Alpha：这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。直接映射到 COHR, LITE, CIEN, AAOI, MRVL。 来源主题：Optical Communication, Networking, Data Center。；Walking The Floor At ECOC (European Conference On Optical Communications) - Seeking Alpha：这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。直接映射到 COHR, LITE, CIEN, AAOI, MRVL。 来源主题：Optical Communication, Networking, Data Center。
+- 受益股票：COHR, LITE, CIEN, AAOI, MRVL, AVGO, GLW
+- 承压股票：订单兑现慢或价格竞争加剧的高波动光模块股
+- 需要继续观察的信号：1.6T 订单；CPO 量产；DSP 供应；交换芯片路线图
+- 板块情绪：bullish
+- 来源：[IndexBox](https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSkF3VFhYcWdYNDU4ZHBMSDJOZHd5eGJXeFp2VzBXVnh2OGczVHhvQkpDbnVnRlNpMDlJQXJWY1RnRWRwaFVVMVBQeHdwVG5EVE9ROUxpN211aWIzWTZwZmRMNTMycFl1dFJuMWYtZWVWVEpqVGpqU1pEZ1o2SWNCTDR0SEVMbnY1YUdlM1YxOWxDTl9NM1pqZTJXV3hZWHRPcExKUEp5V0JSMDJadXRFR1lzZ2VNM2xUbVUyWlV3UEI?oc=5), [Seeking Alpha](https://news.google.com/rss/articles/CBMijAFBVV95cUxNTTc0OC1zY1hqSE56ZTZlNWx1VEdEN2FTV2lTMlRueEwwc1ktdURDcWJER09zQU4xRXIzeFRHb01XSFZxdkcyaW8wZ1pZOVZSSzkzMHFUZDRVU3BvX2pIcjI1XzdKVHpob3ExNkRpTlh3Vk96TU5uMGxVTklYZGllT2RBMmhwQmxqLWtGbQ?oc=5), [Seeking Alpha](https://news.google.com/rss/articles/CBMisgFBVV95cUxOLWtRVXltM1ZONTlFT0pVQkdHR1ZWU3JCY0xmcDlzcG9DQnh1Rm1EQWdWRV9MdlYxUWM2T3BJcTh6dl9tVWtHZEpiSjZibWNvSXVmUkhJM185dDc5R0d1bzhvZll5Z3l5ZFhzYXlYSW1mcXgyMXlORHBiSnlVejhyZmJUNW1kSDBmR1FBSVhUb3B1QlFFNThNT3A5OFNTbnlQa2xMYWpLQWhRTzJjTjJ4SVl3?oc=5)
+
+### Cloud / Software
+- 最新催化：Salesforce、Snowflake 财报检验企业 AI 软件变现
+- 受益股票：CRM, SNOW, MSFT, ORCL, DDOG
+- 承压股票：INTU, AI 替代风险较高的软件股
+- 需要继续观察的信号：RPO；净留存率；AI 产品 ARPU；云消费增长
+- 板块情绪：mixed
+- 来源：[Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks), [Intuit 8-K](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/intu-20260520.htm)
+
+### Data Center Power / Energy
+- 最新催化：3 Nuclear Power Stocks Worth Owning as the AI Power Crunch Builds - 24/7 Wall St.：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。；NVIDIA’s AI Spending Surge to $279B as Infrastructure Commitments Hit Record Levels, NVDA Stock Gains - CarbonCredits.com：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 NVDA, CEG, VST, NEE, ETN。 来源主题：Data Center Power, Energy, Grid Infrastructure。；Brookfield Renewable Targets AI Power Boom With Storage, Nuclear Expansion - Yahoo Finance：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。
+- 受益股票：NEE, D, CEG, VST, ETN, PWR, VRT
+- 承压股票：电力接入慢且融资成本高的数据中心项目
+- 需要继续观察的信号：PPA 价格；监管审批；核能项目；电网接入
+- 板块情绪：bullish
+- 来源：[24/7 Wall St.](https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHpzUEJROS16OWFJY2xBRlV2UWJmVHpuTlo2c09BUVlGT2dScU5fZ0R0NTVkQXZkU0drNlhFY3VVaV9YMlB2U1Z6VW9ia0RkMzljaFZqRzE4VnhDdEFJaEFIdENmREEyY1B1MU5ZYkR5cXRBUG9yREt5UnZfN1M5VU1mSHRQUk94ZURCS1lVUFhHLWRyZF9kT0ZRTDR2WG94VWp0RHBieEJCX1BkMVE?oc=5), [CarbonCredits.com](https://news.google.com/rss/articles/CBMijgFBVV95cUxPOHVETzNjaVdDZVZXT25JMjA1MDBwaWYxRHZac1pEbFV3UndwbGRDRVJFdE0ySEhtcV9MTFFMTjgtVGlWeTZuVmJ0Ymd3cEtGcDFwdGVPZ1MwS1RBRHBrSWwycHBVSGlHYy1EU0lOMEdPNW1UWF9LOFQ3VlZtQWxaTTl0Y3REb2hQWF9Cc3ZR?oc=5), [Yahoo Finance](https://news.google.com/rss/articles/CBMimgFBVV95cUxNVk9fcGV3blhSbGJTNGQxSld1SmZ2a09VNXFnaGZwbHdpcjZHSlYtNEpjZ3J6NV81ZG5Ra200Rm5FMC1GS09SNUgtZHJpVi0tZ1JvV1hQbmI3ZktZWG5sZ1B5MjRGRkMzb2N0TDl5QXJoNjQ0eVdqcVJlcXNHMWRYQUpCM3gzU2hZU2tuNm9UT1d3YlRLZTdxbkRB?oc=5)
+
+### Robotics / Automation
+- 最新催化：AI 从云端模型向实体自动化扩散仍是中期主题
+- 受益股票：TSLA, ISRG, ROK, TER
+- 承压股票：订单不清晰的纯概念机器人股
+- 需要继续观察的信号：量产节奏；单位经济性；企业自动化 capex
+- 板块情绪：uncertain
+- 来源：[Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks)
+
+### Space / Defense Tech
+- 最新催化：Elon Musk is being tapped to co-lead the Pentagon's "Project Meridian," which has 120 days to identify the weapons, technology and military capabilities the US may need for future wars. Musk's SpaceX and Palmer Luckey's Anduril already have extensive Pe - facebook.com：这是国防科技和太空商业化信号，重点看政府预算、合同节奏、发射频率和订单积压，而不是单纯概念热度。直接映射到 RKLB, ASTS, LMT, NOC, PLTR。 来源主题：Space Tech, Defense Tech。；ONDS, AVAV, KTOS, RCAT, UMAC Stocks Rise Overnight: Pentagon Maps Out AI-Driven Defense Shift With Autonomous Warfare Command - stocktwits.com：这是国防科技和太空商业化信号，重点看政府预算、合同节奏、发射频率和订单积压，而不是单纯概念热度。直接映射到 RKLB, ASTS, LMT, NOC, PLTR。 来源主题：Space Tech, Defense Tech。；Nasdaq, S&P 500, Dow Futures Climb As Trump's $2B Quantum Computing Bet Outweighs Iran Jitters: RKLB, IBM, RGTI, NIO In Focus - stocktwits.com：这是国防科技和太空商业化信号，重点看政府预算、合同节奏、发射频率和订单积压，而不是单纯概念热度。直接映射到 RKLB, ASTS, LMT, NOC, PLTR。 来源主题：Space Tech, Defense Tech。
+- 受益股票：RKLB, ASTS, LMT, NOC, PLTR
+- 承压股票：现金流弱、依赖融资的早期太空股
+- 需要继续观察的信号：发射频率；政府合同；预算案；订单积压
+- 板块情绪：uncertain
+- 来源：[facebook.com](https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZU9PZjJkdjd4NXpXNllMeFRNNXhtTGMzdUNSZTh5Mzg1M1Q1a1Byc0ZUemRMUkRiS29nOHVhNVRfcWc0MmRkR3k5NDR3eHl1bWxGVUF1Rm9hOFNwUXBBRUtPeXJjazFZWG1Hblp5cWdaUmlNSEFwUVpLaDQyTTluQUtJVTFMSHJSYkpCWmtHZ1BmQkhHWGh2M2x5OXMzT0pwM29xT3ZXYnhKejN0VTFzQWhJYkZROVZjRVB6U1VyUHhiTFBpUngta0VVYWs1UHhVbnA1TkVuU0txNTZBUzVydQ?oc=5), [stocktwits.com](https://news.google.com/rss/articles/CBMikgJBVV95cUxOajhhMkdFeHFBVFA0Vk1tRmdUVVRJY3k1ZWFycTdNNDNwOFYtOFEySElmamJMdjFMa1pFeXBEN0lYdWFaZ3RsS05qeEExVG95YWlFVzBYYURFZGJsRG9TNENfLUZZd2h3bmhueXMyaFJFRFd1MWs2ZmNmdS1adndnaGdvbFJUUkZ3VWt0UzlDaDh1ZjdKeXFwSEhWTElxX1VDUlNFWnlmYTlfUGY3aG05c1ExTWNWZE9ZcXZacTAzMXNGcGxIMzhuMDNGM1czS2VkNDBhOG0taGdHdkR3cGhMNHVRTW9iaHVlNHRJRWh4bFFTVllhQXhCZm9iUG8tSDkzVzlmLTMyZXAyT1FzcHdaQ0hn?oc=5), [stocktwits.com](https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSFNYOEFETFZCenFIMHI2ZFZ2QTRVTGRQTFBPOFc0dXF1QVBpYzVYcVRvN3ZXYlMwMTRmNUpMRU55Vmx3dzFYUXJNTy1fY1luclFVa3lUNHFnd0RZaG95UjhOSVFCVTdfWnZ4cE5fT1R1NnhPVGhFS1l2dm5lMmwzRjFOSmxESFc1dHNuVDQ0Y25QdUZkSHd5ZUlmSEt3X3hZYjVpcEZKZl9MWmt4b01CS3ctVGpia0wxQ1RndW9DSEQ5YkpHNzVuTk11R19XanlkdENULUNqRFJnZlo1ZEo0MjNB?oc=5)
+
+### Crypto-related Tech
+- 最新催化：NEAR Intents hit by $3.8M exploit, pauses cross-chain services in latest crypto hack - CoinDesk：这是风险偏好信号，重点看 BTC/ETH、稳定币监管、矿企转 AI hosting 的合同质量，以及高杠杆标的是否放大波动。直接映射到 COIN, MSTR, MARA, RIOT, IREN。 来源主题：Crypto Infrastructure。；Bitcoin's August Rally Lifted Nearly Every Crypto Stock – Except This One - stocktwits.com：这是风险偏好信号，重点看 BTC/ETH、稳定币监管、矿企转 AI hosting 的合同质量，以及高杠杆标的是否放大波动。直接映射到 COIN, MSTR, MARA, RIOT, IREN。 来源主题：Crypto Infrastructure。；MARA Holdings, Inc. (MARA) Stock Price, News, Quote & History - Yahoo! Finance Canada：这是风险偏好信号，重点看 BTC/ETH、稳定币监管、矿企转 AI hosting 的合同质量，以及高杠杆标的是否放大波动。直接映射到 MARA, COIN, MSTR, RIOT, IREN。 来源主题：Crypto Infrastructure。
+- 受益股票：COIN, MSTR, RIOT, MARA, IREN, CRCL
+- 承压股票：高杠杆矿企, 电力成本上行的挖矿股
+- 需要继续观察的信号：BTC/ETH 价格；稳定币监管；AI hosting 合同质量
+- 板块情绪：uncertain
+- 来源：[CoinDesk](https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWkdGRWlUSFI4VEwyNEU0QVl3NF9PZ2N6ZWN2ZlBtajJLTzF3X190SnlVbHFMbE5qbTd5STFGeERSTlNtR25BVDc0MERRRTdQeFpTMEdxN250czNVWVdGckhXRUJib19EWGFvVll0ZlZYZ2wzMnAyalJaN0QyTFNHazF5dWZhY2pIWGk1V1N1bmZqN2d6RXl5dVJfRG1BWWlDMmh6TzVKX1RhcXZJMnNrT25tT3h3N19pVWJpQUEyV0JBWEk?oc=5), [stocktwits.com](https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSTdfUFZKMVhaeTU4RzBZQVpwSGVoNndyMGszTGhTWk5oT1piRmJadnotcWhNVXl2a0dfN01KVWpNMzNLd3FRdVlkQ09UQThqR1d6eFdGM2VBdWhTTWdJN2VGX25Wdl9xRlJDcU54OXBTazc3eXgyWWJFQ2phUm5kd1FSdWNYUnBIX3JOU0hfYmVWRGRNNFVxTGI5MzhBUVlCQzF5Y0VBWW1mU0Y1d2JMMkRNcTFpT3dRaGl2U3R2V3Y?oc=5), [Yahoo! Finance Canada](https://news.google.com/rss/articles/CBMiUkFVX3lxTE56UmZHMlpjQUhSbmFmdS1scTVUdmRtU2hEVmpNMjVSd2h3RWZHdUNneE5TM2dwZzRNSm9GdFhyVXZyWkZuUThsYnB2TUJobUloMmc?oc=5)
+
+### Other Tech-linked Themes
+- 最新催化：Nasdaq, S&P 500, Dow Futures Mixed Even As Micron Fuels AI Rally: ORCL, NKE, TSLA, RKLB, ASTS, PSKY In Focus - TradingView：这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 RKLB, ASTS, TSLA, QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。；TSX slips as financial shares lead losses, global yield surge weighs - The Globe and Mail：这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。；US stock futures slip ahead of inflation report - WTVB：这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。
+- 受益股票：AAPL, GOOGL, META, AMZN
+- 承压股票：供应链或监管暴露较高的科技股
+- 需要继续观察的信号：美元；关税；出口管制；反垄断监管
+- 板块情绪：uncertain
+- 来源：[TradingView](https://news.google.com/rss/articles/CBMi8gFBVV95cUxNTUxsLWpYck1IRkg2VG9EbVRvT01LOVlZbUYzcjcwVlhiZm02NmZYZVYxdS16SmZtS1ljT3NyMHYtN0FqVnNGTFRpZE1KNlUyR0FpZnVZa3VyQnR0OVhCeFo5MHk1UEpIZDFSSXlzeDkzWW9YdW5uUEhmczlFRnhNelZpWXdPZ3BaM19xS2gyQWpPSUZQdjhKX1FtbS03eXFfM1VvaVVmMXZVQ2o4RXpyV0JRUHRPLURCSGg1VjRwRDZQRmNNTHNBaWN5dUxCUW9QeFZUc01ablhKMDU2Ukg4RnlVdkRNMGoweFZpQ3ZjdlBYUQ?oc=5), [The Globe and Mail](https://news.google.com/rss/articles/CBMi6AFBVV95cUxPV21pU1l5SVF1SDg0a18zSS1zbjlOR3VRNmllT3hNMmtwMHJ6V0hvbjBZbFlWTnJ6OTV1T0JjQjBwcXd6MmxDeXpFWWVFbExoSEsxYWdseTJrcFp2ajhOS2d3U01KOGg2V09BU25fQVZtM2JPY25lYlRvc0tXa08wSUZxRFN5N1JlY09PWWtEZGcxRnl6QW1TYWtXcWVrQnNvdk5hbjl4VnFFQVl3c1o1VE5aX1JaNUpkb2cwY1ROcFZHVVdzUUhIdTdqZmdtRWktZ1FvSzdtTGJIQ25KN1FHZUxkeUxaMWRj?oc=5), [WTVB](https://news.google.com/rss/articles/CBMimAFBVV95cUxOb2FPTVFBc3RtSFd4WE4td0NDTkZjZFN0eC1DOXctOUNBUWtpdmVrb3BfOTdObWVtOGp3Vm9Qdk9oVWp1dTNTWm1zcE0zUHI0OEZfME01SVhILW93N09NWTczNVliVV9mUXB1OFRoRzRSOU5BNWY2UG92OU9PblB2TTFGN0FJYnhOeDlIS0ZSRzcwTTFxeUVtTw?oc=5)
+
+## 5. 大盘与宏观环境
+- 美债收益率变化：利率线索来自最新公开信号：“Nasdaq, S&P 500, Dow Futures Mixed Even As Micron Fuels AI Rally: ORCL, NKE, TSLA, RKLB, ASTS, PSKY In Focus - TradingView”。若 10Y/2Y 美债收益率上行，高估值成长股和 AI 软件股估值会更敏感。
+- 美元指数：美元方向重点参考：“TSX slips as financial shares lead losses, global yield surge weighs - The Globe and Mail”。强美元通常压制跨国科技公司估值和海外收入折算。
+- 原油 / 黄金：未发现高权重能源冲击信号，油价暂时不是科技股估值的第一变量。；黄金如果和美元同涨，通常代表避险需求升温；如果黄金回落而美债收益率稳定，成长股风险偏好更容易维持。
+- VIX 或市场风险偏好：风险偏好用两个信号观察：指数是否扩散上涨，以及高 beta 科技股是否跑赢防御板块。若 Top Signals 只集中在少数股票，说明市场仍是分化行情。
+- 重要宏观数据或预期：覆盖期内未抓到高优先级宏观/Fed 事件。
+- 对成长股、科技股、小盘股的影响：如果通胀/利率信号偏热，优先压制长久期科技股、小盘成长股和高估值 AI 概念；如果利率回落，AI 基础设施和半导体更容易获得估值支撑。
+- 来源：[TradingView](https://news.google.com/rss/articles/CBMi8gFBVV95cUxNTUxsLWpYck1IRkg2VG9EbVRvT01LOVlZbUYzcjcwVlhiZm02NmZYZVYxdS16SmZtS1ljT3NyMHYtN0FqVnNGTFRpZE1KNlUyR0FpZnVZa3VyQnR0OVhCeFo5MHk1UEpIZDFSSXlzeDkzWW9YdW5uUEhmczlFRnhNelZpWXdPZ3BaM19xS2gyQWpPSUZQdjhKX1FtbS03eXFfM1VvaVVmMXZVQ2o4RXpyV0JRUHRPLURCSGg1VjRwRDZQRmNNTHNBaWN5dUxCUW9QeFZUc01ablhKMDU2Ukg4RnlVdkRNMGoweFZpQ3ZjdlBYUQ?oc=5), [The Globe and Mail](https://news.google.com/rss/articles/CBMi6AFBVV95cUxPV21pU1l5SVF1SDg0a18zSS1zbjlOR3VRNmllT3hNMmtwMHJ6V0hvbjBZbFlWTnJ6OTV1T0JjQjBwcXd6MmxDeXpFWWVFbExoSEsxYWdseTJrcFp2ajhOS2d3U01KOGg2V09BU25fQVZtM2JPY25lYlRvc0tXa08wSUZxRFN5N1JlY09PWWtEZGcxRnl6QW1TYWtXcWVrQnNvdk5hbjl4VnFFQVl3c1o1VE5aX1JaNUpkb2cwY1ROcFZHVVdzUUhIdTdqZmdtRWktZ1FvSzdtTGJIQ25KN1FHZUxkeUxaMWRj?oc=5), [WTVB](https://news.google.com/rss/articles/CBMimAFBVV95cUxOb2FPTVFBc3RtSFd4WE4td0NDTkZjZFN0eC1DOXctOUNBUWtpdmVrb3BfOTdObWVtOGp3Vm9Qdk9oVWp1dTNTWm1zcE0zUHI0OEZfME01SVhILW93N09NWTczNVliVV9mUXB1OFRoRzRSOU5BNWY2UG92OU9PblB2TTFGN0FJYnhOeDlIS0ZSRzcwTTFxeUVtTw?oc=5)
+
+## 6. 前一个交易日跌幅较大的股票复盘
+### CTVA - Corteva, Inc.
+- 前一交易日跌幅：-84.44%
+- 成交量是否异常：StockAnalysis 显示成交量为 59,161,757。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。
+- 可能下跌原因：该股进入跌幅榜，同时相关公开新闻指向：“Dow Falls Over 200 Points; Micron Earnings Top Views - benzinga.com”。优先判断为单股催化或主题退潮引发的风险重定价，重点看跌幅是否扩散到同板块。
+- 原因类型：company_specific
+- 催化：other；fact
+- 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。
+- 来源：[benzinga.com](https://news.google.com/rss/articles/CBMitAFBVV95cUxNUGc1dVR5dmtWVWpUVEtqNlFtQ0FqczF2RkRISkNXU0RTUUpMbGpWSmsyRzRYR1VlckVrRzlHemQ5ZEJETmZocnY0clhyYlBvQzNDMkVodW1jNHRJWHc5cm5iZWZaTG1DclV6Ni1qc0kyMW02Vy1jTDY5dDZKR1o5dDRlOWZzcDVpdEoySURXdzd5bTl5dkNJR3VpMXdfRGUwd05ITlJrZWM0Z0hDVlFMeHREc2Q?oc=5)
+
+### WCT - Wellchange Holdings Company Limited
+- 前一交易日跌幅：-78.62%
+- 成交量是否异常：StockAnalysis 显示成交量为 1,047,315。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。
+- 可能下跌原因：该股进入跌幅榜但未抓到明确单一新闻催化，优先按价格异动处理：若同板块多股同步下跌，更可能是行业或风险偏好问题；若孤立下跌，更可能是公司自身催化。
+- 原因类型：unknown
+- 催化：price_action；needs_news_confirmation
+- 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。
+- 来源：[StockAnalysis top losers](https://stockanalysis.com/markets/losers/)
+
+### MI - NFT Limited
+- 前一交易日跌幅：-61.57%
+- 成交量是否异常：StockAnalysis 显示成交量为 354,012。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。
+- 可能下跌原因：该股进入跌幅榜，同时相关公开新闻指向：“This Analyst Just Downgraded Moderna Stock. Here's Why. - Barchart.com”。优先判断为单股催化或主题退潮引发的风险重定价，重点看跌幅是否扩散到同板块。
+- 原因类型：company_specific
+- 催化：other；uncertain
+- 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。
+- 来源：[Barchart.com](https://news.google.com/rss/articles/CBMingFBVV95cUxQWEJIMXQ2S0FRQkVaRVFZRTdpTDlqOWJWdENSODJ6Um1VbTJXdHc0bC1rV3dXQXNEamRGcUxMLWtfeFpXVWMwWVB6OTNGdGlOUDBxbHdERGV6amxQc3F6VWExcmZ4RlJTY1lDcUZvNWZubVBUTGd0Tm9sVEw0bFhMVEFVMmI5T3BEVjlMX0tGRkdKb0RtTldaVGRFQ1kyQQ?oc=5)
+
+### COLA - Columbus Acquisition Corp
+- 前一交易日跌幅：-60.96%
+- 成交量是否异常：StockAnalysis 显示成交量为 39,563。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。
+- 可能下跌原因：该股进入跌幅榜，同时相关公开新闻指向：“UK shares Entain, BAT, ICG and Coca-Cola HBC make Deutsche Bank’s top picks - uk.finance.yahoo.com”。优先判断为单股催化或主题退潮引发的风险重定价，重点看跌幅是否扩散到同板块。
+- 原因类型：company_specific
+- 催化：other；uncertain
+- 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。
+- 来源：[uk.finance.yahoo.com](https://news.google.com/rss/articles/CBMifkFVX3lxTFBjM0FGQUQ5RjdfWVMxVXdMTHU0SjgxV2lEUFNkM25Wd3BJZUtrclVTdHhWWTBMRE1WejZiZmprblpXYkVwRU5JQWwtMlNfWUpJUXluM3diSDlRWTdzWThNWF8wMkRidVhUanhxcEFJbHN3WGlUYWs0ejB5eERWUQ?oc=5)
+
+### STKH - Steakholder Foods Ltd.
+- 前一交易日跌幅：-43.96%
+- 成交量是否异常：StockAnalysis 显示成交量为 15,383,740。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。
+- 可能下跌原因：该股进入跌幅榜但未抓到明确单一新闻催化，优先按价格异动处理：若同板块多股同步下跌，更可能是行业或风险偏好问题；若孤立下跌，更可能是公司自身催化。
+- 原因类型：unknown
+- 催化：price_action；needs_news_confirmation
+- 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。
+- 来源：[StockAnalysis top losers](https://stockanalysis.com/markets/losers/)
+
+### VIVK - Vivakor, Inc.
+- 前一交易日跌幅：-40.02%
+- 成交量是否异常：StockAnalysis 显示成交量为 3,327,085。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。
+- 可能下跌原因：该股进入跌幅榜，同时相关公开新闻指向：“Vivakor (VIVK) Shares Tumble 27% After Hours: Here's Why - benzinga.com”。优先判断为单股催化或主题退潮引发的风险重定价，重点看跌幅是否扩散到同板块。
+- 原因类型：company_specific
+- 催化：other；uncertain
+- 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。
+- 来源：[benzinga.com](https://news.google.com/rss/articles/CBMirAFBVV95cUxQM2JMS2NIRVBwYko1eHAzQTJOa2dYTjNhSDFVVVI5bFZQUWt2M0lLQ1lmX1ZFeTJWc1R3SWo5YUt6cmlrYmNkQkdFT1VjekprSUtEQkVJZmtFbU9vRzF4TldUc2xqYjZxTjlMVHpVdGVqZF8xRjlmN2xGZUxJY2g3V2JHZ3BCUFAzSG5NTkh4SXBnTXFqcjFwSl9nS3ZXenpDT2hTWjdWS2RZVno2?oc=5)
+
+### NIVF - NewGenIvf Group Limited
+- 前一交易日跌幅：-38.15%
+- 成交量是否异常：StockAnalysis 显示成交量为 30,500,789。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。
+- 可能下跌原因：该股进入跌幅榜，同时相关公开新闻指向：“Dow Falls Over 200 Points; Micron Earnings Top Views - benzinga.com”。优先判断为单股催化或主题退潮引发的风险重定价，重点看跌幅是否扩散到同板块。
+- 原因类型：company_specific
+- 催化：other；fact
+- 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。
+- 来源：[benzinga.com](https://news.google.com/rss/articles/CBMitAFBVV95cUxNUGc1dVR5dmtWVWpUVEtqNlFtQ0FqczF2RkRISkNXU0RTUUpMbGpWSmsyRzRYR1VlckVrRzlHemQ5ZEJETmZocnY0clhyYlBvQzNDMkVodW1jNHRJWHc5cm5iZWZaTG1DclV6Ni1qc0kyMW02Vy1jTDY5dDZKR1o5dDRlOWZzcDVpdEoySURXdzd5bTl5dkNJR3VpMXdfRGUwd05ITlJrZWM0Z0hDVlFMeHREc2Q?oc=5)
+
+### VERI - Veritone, Inc.
+- 前一交易日跌幅：-36.78%
+- 成交量是否异常：StockAnalysis 显示成交量为 21,617,719。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。
+- 可能下跌原因：该股进入跌幅榜，同时相关公开新闻指向：“Valero Energy Corp Stock (VLO) Moved Up by 4.12% on Oct 1: Facts Behind the Movement - tradingkey.com”。优先判断为单股催化或主题退潮引发的风险重定价，重点看跌幅是否扩散到同板块。
+- 原因类型：company_specific
+- 催化：other；uncertain
+- 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。
+- 来源：[tradingkey.com](https://news.google.com/rss/articles/CBMiigFBVV95cUxQaVRLRXZZUm51WWltMHh1SU1LdG9vTUhiNTBUWEhfS3dSS3F5TlRKeFNOcTN5d2dpS3BpU2xxYlhqQmpPZVVFODdBYTI2N01KaFgzM0xRbjlVZ1ptemoxdEJDNW5aOGxHQmcxcjYtQzJFTUtjbXRCRk9YLUtaU19qa3VXeEpRUk5YV3c?oc=5)
+
+## 7. 2026-10-01 值得重点盯盘的股票 / 板块
+| 股票 / 板块 | 为什么值得看 | 关键触发点 | 风险点 | 优先级 | 来源 |
+|---|---|---|---|---|---|
+| RKLB | 2026-10-01 高权重信号对应的核心观察对象：“Nasdaq, S&P 500, Dow Futures Mixed Even As Micron Fuels AI Rally: ORCL, NKE, TSLA, RKLB, ASTS, PSKY In Focus - TradingView”。关注它是否从新闻标题变成板块共振。 | 2026-10-01 US equity market session / premarket setup | 利率或美元若反向走强，会削弱科技股风险偏好。 | high | [TradingView](https://news.google.com/rss/articles/CBMi8gFBVV95cUxNTUxsLWpYck1IRkg2VG9EbVRvT01LOVlZbUYzcjcwVlhiZm02NmZYZVYxdS16SmZtS1ljT3NyMHYtN0FqVnNGTFRpZE1KNlUyR0FpZnVZa3VyQnR0OVhCeFo5MHk1UEpIZDFSSXlzeDkzWW9YdW5uUEhmczlFRnhNelZpWXdPZ3BaM19xS2gyQWpPSUZQdjhKX1FtbS03eXFfM1VvaVVmMXZVQ2o4RXpyV0JRUHRPLURCSGg1VjRwRDZQRmNNTHNBaWN5dUxCUW9QeFZUc01ablhKMDU2Ukg4RnlVdkRNMGoweFZpQ3ZjdlBYUQ?oc=5) |
+| NVDA | 2026-10-01 高权重信号对应的核心观察对象：“3 AI Infrastructure Stocks as Rising Bond Yields Test Data Center Spending - Simply Wall Street”。关注它是否从新闻标题变成板块共振。 | 3 AI Infrastructure Stocks as Rising Bond Yields Test Data Center Spending - Simply Wall Street | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | high | [Simply Wall Street](https://news.google.com/rss/articles/CBMizwFBVV95cUxNZ3JTZmVTUUVPMVRFY0VBQXhfd0JlWEVrYUJxTm9FTTlLNU84MGNzZjI5ckVNRjBkWlJzdmVRTjhDcS1GNFE5TWFvRE9ORFhERC1FY0lXaFA4U2RndWVqOUo5UGJ3RUFqaGlhNHpweVAyNXJ6Nm9nQ0VaMFhMY2V1RnREV3cyVjBLQ3ViY1JXOU1VX1g0dkotU2Q3eW91V0xPeGZWRHlVZWVaMUdwQVpOeEZtcFd5ZW1HanlsSl9Sb19mVUhxdl9aTzdWNWhrUDTSAdQBQVVfeXFMT2JwRFVqdmcySl9rUk5BUmxLbU5BWmt6dGsxbGl0Q2FNTWFnUm5qMmlvZmNSSXdrUVMzLVh0NXpLVUM4YWlzUTZocTZsMlZjcXVXMGxaMEpzLUFGUjJZMEpKWktIOHJMekhYQnNVSmI1dTFZYVJvV2RTV3V3TkJSNFdnQWk4OTIzcWlfT253enlrcGVnV2w5eXJ6dHRHNXB4Q284TnRHVnl6YWc5dUVqblBvZVhGaTdHemcwT3Q0Tzg5cGlPRklnbmZEU2R2US1ETFI2Qmc?oc=5) |
+| NVDA | 2026-10-01 高权重信号对应的核心观察对象：“CHPY: A 39% Yielding Semiconductor Bet I'm Adding To My 21%+ Income Portfolio - Seeking Alpha”。关注它是否从新闻标题变成板块共振。 | CHPY: A 39% Yielding Semiconductor Bet I'm Adding To My 21%+ Income Portfolio - Seeking Alpha | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | medium | [Seeking Alpha](https://news.google.com/rss/articles/CBMizwFBVV95cUxNTHFXTERqMU5ESkZqWTNvWXBHT2p3UWItTnVadGxGQUliSGlqS2pJQ2J4cDhNaTA1ZUlEenJmeWQ4cTdGMVdwUjlzNWN4SXN1QjRpcGJIWmd1anFDQ2tzdEN6dnJTNFlld25wNXNVamRwWnpoV25tdnN2b1hhRGVlZjlBeUp4RXpYdjFLUHFVS2k5UGg5SUZ4b29YUjBXcS1LQy1OV1oweUpRR2F6N1V3amFSY0xsMU40MU51eTI5VnRRTmVFaGpUV1RIWlVBbTQ?oc=5) |
+| COHR | 2026-10-01 高权重信号对应的核心观察对象：“Integrated Photonic Modules Market To 2035: AI Data Center Demand Accelerates Growth - News and Statistics - IndexBox”。关注它是否从新闻标题变成板块共振。 | Integrated Photonic Modules Market To 2035: AI Data Center Demand Accelerates Growth - News and Statistics - IndexBox | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | medium | [IndexBox](https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSkF3VFhYcWdYNDU4ZHBMSDJOZHd5eGJXeFp2VzBXVnh2OGczVHhvQkpDbnVnRlNpMDlJQXJWY1RnRWRwaFVVMVBQeHdwVG5EVE9ROUxpN211aWIzWTZwZmRMNTMycFl1dFJuMWYtZWVWVEpqVGpqU1pEZ1o2SWNCTDR0SEVMbnY1YUdlM1YxOWxDTl9NM1pqZTJXV3hZWHRPcExKUEp5V0JSMDJadXRFR1lzZ2VNM2xUbVUyWlV3UEI?oc=5) |
+
+## 8. 总结：2026-10-01 市场的主线是什么？
+2026-10-01 的报告由当日公开新闻源重新抓取生成。最高权重信号是“Nasdaq, S&P 500, Dow Futures Mixed Even As Micron Fuels AI Rally: ORCL, NKE, TSLA, RKLB, ASTS, PSKY In Focus - TradingView”，涉及 Macro、Rates、Nasdaq；第二层信号是“3 AI Infrastructure Stocks as Rising Bond Yields Test Data Center Spending - Simply Wall Street”。 盘前最重要的是判断这些信号是否形成板块共振：AI/半导体若扩散到服务器、光通信、电力设备，说明风险偏好仍在；若只停留在少数标题股，则更像分化行情。
+
+来源说明：本总结综合以上 Top Signals、事件日历、板块、宏观和个股复盘模块的公开来源，不构成买卖建议。
