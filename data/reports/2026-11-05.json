@@ -1,0 +1,1253 @@
+{
+  "report": {
+    "report_date": "2026-11-05",
+    "generated_at": "2026-11-05T19:27:05.185Z",
+    "market_session": "premarket",
+    "market_summary": "2026-11-05 的报告由当日公开新闻源重新抓取生成。最高权重信号是“Market Movers blog: US markets rise at the open as Congress turns blue - Investment Week”，涉及 Macro、Rates、Nasdaq；第二层信号是“AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% - 24/7 Wall St.”。 盘前最重要的是判断这些信号是否形成板块共振：AI/半导体若扩散到服务器、光通信、电力设备，说明风险偏好仍在；若只停留在少数标题股，则更像分化行情。",
+    "overall_sentiment": "mixed",
+    "main_theme": "2026-11-05 盘前主线：Market Movers blog: US markets rise at the open as Congress turns blue - Investment Week",
+    "markdown_summary": "# Daily US Market Intelligence Report\n日期：2026-11-05\n覆盖范围：2026-11-05 至 2026-11-12\n美股状态：premarket\n\n## 1. 2026-11-05 最重要的 3-5 个市场信号\n### 1. Market Movers blog: US markets rise at the open as Congress turns blue - Investment Week\n- 事件 / 信号是什么：这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。 盘前优先看 QQQ, SPY 是否带动 Macro / Rates / Nasdaq 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。\n- 为什么重要：宏观信号决定估值折现率：利率上行会先压制 Nasdaq、软件和小盘成长，利率回落则更利于半导体与 AI 基础设施延续风险偏好。\n- 可能影响的方向：uncertain\n- 可能影响的板块或股票：Macro, Rates, Nasdaq, QQQ, SPY\n- 影响时间：this_week\n- 信息来源链接：[Investment Week](https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5)\n\n### 2. AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% - 24/7 Wall St.\n- 事件 / 信号是什么：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 AMD, NVDA, DELL, SMCI, VRT。 来源主题：AI Infrastructure, Data Center, Semiconductor。 盘前优先看 AMD, NVDA, DELL, SMCI, VRT, ANET 是否带动 AI Infrastructure / Data Center / Semiconductor 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。\n- 为什么重要：AI 信号的关键在于 capex 是否继续扩散：如果订单从 GPU 扩到服务器、电源、散热和网络，受益链条会变宽；如果只集中在少数龙头，概念股会分化。\n- 可能影响的方向：bullish\n- 可能影响的板块或股票：AI Infrastructure, Data Center, Semiconductor, AMD, NVDA, DELL, SMCI, VRT, ANET\n- 影响时间：this_week\n- 信息来源链接：[24/7 Wall St.](https://news.google.com/rss/articles/CBMixgFBVV95cUxQZXpOcVdYWWIyd0ZyaldnY3QxMFJUUk14d3E0UmpWVzRwakhSOF9lOUE1azgtTmxRMm55V1JWZ24wZmhsNlVjWHBtZW1DNTJLMmFRNjd1YS0yaFJ1cUxQQVhkdU14V0Mzb1VjbFBreGpFS3FjYUdnXzd1NkVYUUlEY05uYWVJVEgxaGMzbDhzMU5rZWpmNkxqcjdBT0lLMy1kWVlhN1lhbjB2TDFEOGQ4SEJ3YXAxUnpuMi1kMy1RdkZzZVFicVE?oc=5)\n\n### 3. US Chip Stocks Plunge Mid-Session; Qualcomm Tumbles 13%, Arm Drops Over 10% - BigGo Finance\n- 事件 / 信号是什么：这是半导体风格切换信号，重点区分 GPU/ASIC/先进封装受益股和传统 MCU、汽车工业链。若资金继续追逐 AI 算力，SMH 内部会继续分化。直接映射到 ARM, NVDA, AMD, AVGO, MRVL。 来源主题：Semiconductor, AI ASIC, GPU。 盘前优先看 ARM, NVDA, AMD, AVGO, MRVL, TSM 是否带动 Semiconductor / AI ASIC / GPU 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。\n- 为什么重要：半导体是 AI 主线的核心风险资产，市场会区分算力受益、ASIC/EDA 受益、存储受益和传统周期股，内部轮动比指数涨跌更重要。\n- 可能影响的方向：bullish\n- 可能影响的板块或股票：Semiconductor, AI ASIC, GPU, ARM, NVDA, AMD, AVGO, MRVL, TSM, ASML\n- 影响时间：this_week\n- 信息来源链接：[BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTFBzY0FRZ05UaEpBRFZkTl82YnhyUHFPb3MxNVo1eFFWaVRidE1OQml5djVkM3g3aGhISmFoVjFONi1yV1Jvc1hDWWhMRmIyQjBIYmdWZ2M4RWFZSy1rNUN5MTYyR3V2b1M2WVF1RzRYNG5iWjd2ZVE?oc=5)\n\n### 4. Credo and Oracle Drive AI Optical Innovation: Is CRDO Set to Benefit? - TradingView\n- 事件 / 信号是什么：这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。直接映射到 COHR, LITE, CIEN, AAOI, MRVL。 来源主题：Optical Communication, Networking, Data Center。 盘前优先看 COHR, LITE, CIEN, AAOI, MRVL, AVGO 是否带动 Optical Communication / Networking / Data Center 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：市场预期。\n- 为什么重要：光通信是 AI 集群扩容的瓶颈环节之一，若 CPO/1.6T/硅光订单继续被验证，资金可能从 GPU 龙头外溢到网络和光模块链。\n- 可能影响的方向：bullish\n- 可能影响的板块或股票：Optical Communication, Networking, Data Center, COHR, LITE, CIEN, AAOI, MRVL, AVGO\n- 影响时间：medium_term\n- 信息来源链接：[TradingView](https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQWhnNGZEb1dCOVJkeDZveDJ4VU53ZVpRNjkwYk1TaWZLUjBpQTBOdDhfYnhNTFI1NlJTbl93cEYzVFlsbDNIYlY4VWYxclVZU2RldUViQkszNUo5M200QWU0YnBwdDZ0dHZ5cHpOQnNZN05HTmFMdlJQOVlfTEZhTUNBRk9yYnhjWjZwZUpjLTBDVTVFTF9Na3Q2dW9WSlZIWnlWdHNDMnZtOHZOU0E4cUUwbjVPS0NFenNLQTQ0ZmE?oc=5)\n\n### 5. Treasury Yield Moves Put Guidewire Stock And Other Software Names In Focus - Simply Wall St\n- 事件 / 信号是什么：这是企业 AI 变现信号，重点看 AI 功能能否变成 RPO、净留存、云消费和价格提升，而不是只停留在产品叙事。直接映射到 MSFT, GOOGL, AMZN, CRM, SNOW。 来源主题：Cloud, Software, Cybersecurity。 盘前优先看 MSFT, GOOGL, AMZN, CRM, SNOW, DDOG 是否带动 Cloud / Software / Cybersecurity 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。\n- 为什么重要：软件和云的重点是 AI 能否真正变现。RPO、净留存、云消费和毛利率比产品发布更能决定估值方向。\n- 可能影响的方向：uncertain\n- 可能影响的板块或股票：Cloud, Software, Cybersecurity, MSFT, GOOGL, AMZN, CRM, SNOW, DDOG, CRWD\n- 影响时间：medium_term\n- 信息来源链接：[Simply Wall St](https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT2VsVUl1WXdoTnd5SVBTY1hKM0tydy1OWW5Hc0ZKamFoRXZoYmxWYWh5VlpGNFcxUFcyYktMUC00cllWMENmd08xZTJwRHNsQVlOX001ZkhUVGpXVWhDNHhIV2JoczJtYXhHWU43RTgzTlN3X0Q0bU1Tc2VUZnEwcHJQRjdJY3VkaTR3U3VvRHZOY25VN3lHaFNBZUZRSl9hOUE0ZTg1Nm9TbzFLODNjdnJMR2NTVWdYUjZaOWFXcWJxY09XaHJ4em9Uam9UdnNSZ3Zzb9IB1AFBVV95cUxPT2VsVUl1WXdoTnd5SVBTY1hKM0tydy1OWW5Hc0ZKamFoRXZoYmxWYWh5VlpGNFcxUFcyYktMUC00cllWMENmd08xZTJwRHNsQVlOX001ZkhUVGpXVWhDNHhIV2JoczJtYXhHWU43RTgzTlN3X0Q0bU1Tc2VUZnEwcHJQRjdJY3VkaTR3U3VvRHZOY25VN3lHaFNBZUZRSl9hOUE0ZTg1Nm9TbzFLODNjdnJMR2NTVWdYUjZaOWFXcWJxY09XaHJ4em9Uam9UdnNSZ3Zzbw?oc=5)\n\n## 2. 2026-11-05 至 2026-11-12 关键事件日历\n| 日期 | 事件 | 重要性 | 可能影响的资产或板块 | 需要关注的关键点 | 来源 |\n|---|---|---|---|---|---|\n| 2026-11-05 | 2026-11-05 US equity market session / premarket setup | medium | Nasdaq, S&P 500, QQQ, SPY, SMH | 2026-11-05 视角：当日事件。当天重点看实际结果、盘前预期差和盘中板块扩散。把当天盘前新闻、收益率、期货和热门成长股开盘反应作为事件日历的第一项，避免把前一交易日的未来日历原样复制。 | [Nasdaq market activity](https://www.nasdaq.com/market-activity) |\n\n## 3. 最近几天值得期待的财报 / 叙事\n### 光通信 / CPO：AI 网络瓶颈的下一段外溢叙事（near-term，2026-11-05 近端跟踪）\n- 日期：near-term\n- 类型：narrative\n- 我看好的原因：我看好这个叙事，因为它和 AI capex 强相关，又不像 GPU 龙头那样拥挤，弹性更偏二线和供应链扩散。\n- 核心逻辑：截至 2026-11-05，2026-11-05 近端跟踪。仍处在预期酝酿阶段，重点是确认这条线是否被新闻、订单和分析师预期持续强化。相关股票：COHR, LITE, CIEN, AAOI, MRVL。\n- 受益股票 / 板块：COHR, LITE, CIEN, AAOI, MRVL, AVGO\n- 需要盯的验证点：2026-11-05 近端跟踪重点看：1.6T 光模块订单、CPO 量产路线、DSP 供应、云厂商网络 capex 表述。\n- 风险点：订单兑现慢、价格竞争或客户集中度过高，会让高波动光模块股快速回撤。\n- 信心等级：high\n- 来源：[TradingView](https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQWhnNGZEb1dCOVJkeDZveDJ4VU53ZVpRNjkwYk1TaWZLUjBpQTBOdDhfYnhNTFI1NlJTbl93cEYzVFlsbDNIYlY4VWYxclVZU2RldUViQkszNUo5M200QWU0YnBwdDZ0dHZ5cHpOQnNZN05HTmFMdlJQOVlfTEZhTUNBRk9yYnhjWjZwZUpjLTBDVTVFTF9Na3Q2dW9WSlZIWnlWdHNDMnZtOHZOU0E4cUUwbjVPS0NFenNLQTQ0ZmE?oc=5)\n\n### 数据中心电力：AI 扩张最硬的供给约束（near-term，2026-11-05 近端跟踪）\n- 日期：near-term\n- 类型：narrative\n- 我看好的原因：我看好这个叙事，因为它把 AI 交易从芯片扩展到真实基础设施，且受订单、政策和电网瓶颈共同驱动。\n- 核心逻辑：截至 2026-11-05，2026-11-05 近端跟踪。仍处在预期酝酿阶段，重点是确认这条线是否被新闻、订单和分析师预期持续强化。相关股票：CEG, VST, ETN, PWR, VRT。\n- 受益股票 / 板块：CEG, VST, ETN, PWR, VRT, NEE\n- 需要盯的验证点：2026-11-05 近端跟踪重点看：PPA 合同、核能/电网审批、数据中心并网新闻、电力设备 backlog。\n- 风险点：监管审批慢、融资成本高或电价政治压力上升，会压制项目落地速度。\n- 信心等级：medium\n- 来源：[Benzinga](https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbWtwWjdBdmFsZlNUaWNwNTlzN055X01tWjVCRTVFQUVPS3RDMVNucWFTNnh4UnlrNHdPUVpaNFNQbWkyOExNTUFvZWdnMVR6eWd1MzhZak5lQlBKZjZIcDk0cWhGdUY1MUV2dWNrYkdRVm94bkdYZmV2b0lZTmFOUEdXcjZPdUc2S2Zid2hlWlBjMC03QjhZWlpqeEt3aXpjbmtFSFZNMzZfdFFEakNYSktQLVd1Mi1vR1IzYXQ1R0VBS1N1MzYzdHUyUWVDTmZQcGgyOTNrczVJMnEzWWJocE5qMmMzQQ?oc=5)\n\n### 国防科技 / 太空商业化：预算与合同驱动的成长叙事（near-term，2026-11-05 近端跟踪）\n- 日期：near-term\n- 类型：narrative\n- 我看好的原因：我看好这个叙事，因为它和传统经济周期相关性较低，同时 AI、卫星通信和国防现代化有交集。\n- 核心逻辑：截至 2026-11-05，2026-11-05 近端跟踪。仍处在预期酝酿阶段，重点是确认这条线是否被新闻、订单和分析师预期持续强化。相关股票：RKLB, ASTS, PLTR, LMT, NOC。\n- 受益股票 / 板块：RKLB, ASTS, PLTR, LMT, NOC\n- 需要盯的验证点：2026-11-05 近端跟踪重点看：政府合同、发射节奏、预算案、订单积压和现金消耗。\n- 风险点：早期太空股现金流弱、融资敏感，任何发射延迟或合同落空都会放大波动。\n- 信心等级：medium\n- 来源：[Simply Wall St](https://news.google.com/rss/articles/CBMidkFVX3lxTE9VY2FwTUZOek9CX050ZGxLWW5fM2NPZGZhVmFSXzF6dXItSVFsWklnOUNtdmFlQWF3MFNSS0tXX1I5c09oU3B5aXBiLTJUQkRNV01GUjNRNzdBV2NSRGlCV0phSFBUdXZYZWRBcU5QcFQ2X0lqNUE?oc=5)\n\n## 4. AI / 科技 / 半导体 / 光通信重点观察\n### AI Infrastructure\n- 最新催化：AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% - 24/7 Wall St.：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 AMD, NVDA, DELL, SMCI, VRT。 来源主题：AI Infrastructure, Data Center, Semiconductor。；Arista Networks And 2 Other AI Infrastructure Stocks To Own - Yahoo Finance Singapore：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 NVDA, DELL, SMCI, VRT, ANET。 来源主题：AI Infrastructure, Data Center, Semiconductor。；Beyond Hyperscalers: Here’s the Next $1 Trillion AI Infrastructure Opportunity - Beth Kindig – Medium：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 NVDA, DELL, SMCI, VRT, ANET。 来源主题：AI Infrastructure, Data Center, Semiconductor。\n- 受益股票：NVDA, DELL, SMCI, VRT, ANET\n- 承压股票：估值高但订单验证不足的 AI 概念股\n- 需要继续观察的信号：AI server backlog；GPU supply；推理需求；云厂商 capex\n- 板块情绪：bullish\n- 来源：[24/7 Wall St.](https://news.google.com/rss/articles/CBMixgFBVV95cUxQZXpOcVdYWWIyd0ZyaldnY3QxMFJUUk14d3E0UmpWVzRwakhSOF9lOUE1azgtTmxRMm55V1JWZ24wZmhsNlVjWHBtZW1DNTJLMmFRNjd1YS0yaFJ1cUxQQVhkdU14V0Mzb1VjbFBreGpFS3FjYUdnXzd1NkVYUUlEY05uYWVJVEgxaGMzbDhzMU5rZWpmNkxqcjdBT0lLMy1kWVlhN1lhbjB2TDFEOGQ4SEJ3YXAxUnpuMi1kMy1RdkZzZVFicVE?oc=5), [Yahoo Finance Singapore](https://news.google.com/rss/articles/CBMigAFBVV95cUxQS0NwakJ2RklNUG5UMDBmYnVqQTU3cFBPbmh1YmlGaVZEeU90VWlMMDNBSl9NV0RNT1hDc0xadEszWnZ0TUduT012SVJYZU1nYzlTckxTWnVEYVpPekR3Y2lLY21PbmI4Y0w1alBkMVhvRGxEMVUySWRSRXFYSEpkVQ?oc=5), [Beth Kindig – Medium](https://news.google.com/rss/articles/CBMiswFBVV95cUxObUJxbUxTelo5RGpVdENpWV9jZWpkM0pHS3ByR1QyREcxVVVhcE5rbkx6VmtMbTRZaTYtSU5rV0pfaFBMRF95bW4zbzhnd3I1M3MtMDRBRUpmTnNZREVVY1podjlSMVlpNWdwMmtrOWFIc05VampoOHpYa09wQkJTay1HdXR5TGdGU3pmQ2VFZDZmYUNUSl9EdFp6V1pDN01GRWhpS2w3c1Rzc2l6N2wyOFdxcw?oc=5)\n\n### Semiconductors\n- 最新催化：AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% - 24/7 Wall St.：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 AMD, NVDA, DELL, SMCI, VRT。 来源主题：AI Infrastructure, Data Center, Semiconductor。；US Chip Stocks Plunge Mid-Session; Qualcomm Tumbles 13%, Arm Drops Over 10% - BigGo Finance：这是半导体风格切换信号，重点区分 GPU/ASIC/先进封装受益股和传统 MCU、汽车工业链。若资金继续追逐 AI 算力，SMH 内部会继续分化。直接映射到 ARM, NVDA, AMD, AVGO, MRVL。 来源主题：Semiconductor, AI ASIC, GPU。；Arista Networks And 2 Other AI Infrastructure Stocks To Own - Yahoo Finance Singapore：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 NVDA, DELL, SMCI, VRT, ANET。 来源主题：AI Infrastructure, Data Center, Semiconductor。\n- 受益股票：MRVL, AVGO, SNPS, CDNS, TSM, ASML\n- 承压股票：MCHP, 传统 MCU/汽车工业链复苏较慢标的\n- 需要继续观察的信号：数据中心收入；先进制程需求；毛利率；客户集中度\n- 板块情绪：bullish\n- 来源：[24/7 Wall St.](https://news.google.com/rss/articles/CBMixgFBVV95cUxQZXpOcVdYWWIyd0ZyaldnY3QxMFJUUk14d3E0UmpWVzRwakhSOF9lOUE1azgtTmxRMm55V1JWZ24wZmhsNlVjWHBtZW1DNTJLMmFRNjd1YS0yaFJ1cUxQQVhkdU14V0Mzb1VjbFBreGpFS3FjYUdnXzd1NkVYUUlEY05uYWVJVEgxaGMzbDhzMU5rZWpmNkxqcjdBT0lLMy1kWVlhN1lhbjB2TDFEOGQ4SEJ3YXAxUnpuMi1kMy1RdkZzZVFicVE?oc=5), [BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTFBzY0FRZ05UaEpBRFZkTl82YnhyUHFPb3MxNVo1eFFWaVRidE1OQml5djVkM3g3aGhISmFoVjFONi1yV1Jvc1hDWWhMRmIyQjBIYmdWZ2M4RWFZSy1rNUN5MTYyR3V2b1M2WVF1RzRYNG5iWjd2ZVE?oc=5), [Yahoo Finance Singapore](https://news.google.com/rss/articles/CBMigAFBVV95cUxQS0NwakJ2RklNUG5UMDBmYnVqQTU3cFBPbmh1YmlGaVZEeU90VWlMMDNBSl9NV0RNT1hDc0xadEszWnZ0TUduT012SVJYZU1nYzlTckxTWnVEYVpPekR3Y2lLY21PbmI4Y0w1alBkMVhvRGxEMVUySWRSRXFYSEpkVQ?oc=5)\n\n### Optical Communication / Networking\n- 最新催化：Credo and Oracle Drive AI Optical Innovation: Is CRDO Set to Benefit? - TradingView：这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。直接映射到 COHR, LITE, CIEN, AAOI, MRVL。 来源主题：Optical Communication, Networking, Data Center。；Power, reliability and diversity: optical connectivity takeaways from OCP Global Summit - Nokia：这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。直接映射到 COHR, LITE, CIEN, AAOI, MRVL。 来源主题：Optical Communication, Networking, Data Center。；Marvell and Lumentum reshape the AI connectivity market - Yole Group：这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。直接映射到 COHR, LITE, CIEN, AAOI, MRVL。 来源主题：Optical Communication, Networking, Data Center。\n- 受益股票：COHR, LITE, CIEN, AAOI, MRVL, AVGO, GLW\n- 承压股票：订单兑现慢或价格竞争加剧的高波动光模块股\n- 需要继续观察的信号：1.6T 订单；CPO 量产；DSP 供应；交换芯片路线图\n- 板块情绪：bullish\n- 来源：[TradingView](https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQWhnNGZEb1dCOVJkeDZveDJ4VU53ZVpRNjkwYk1TaWZLUjBpQTBOdDhfYnhNTFI1NlJTbl93cEYzVFlsbDNIYlY4VWYxclVZU2RldUViQkszNUo5M200QWU0YnBwdDZ0dHZ5cHpOQnNZN05HTmFMdlJQOVlfTEZhTUNBRk9yYnhjWjZwZUpjLTBDVTVFTF9Na3Q2dW9WSlZIWnlWdHNDMnZtOHZOU0E4cUUwbjVPS0NFenNLQTQ0ZmE?oc=5), [Nokia](https://news.google.com/rss/articles/CBMiswFBVV95cUxONTdsZ2lZMVZFbV9yc2NqMkp3T2twZnFwTEZqcUVFM0FWclI4d1VrcW5FdEpNQnZmUG5fcnQxemFPLUxuUHp5Y3hMUzZqbFdweUZxWV9TQXdTTzJLX0hmc1JnQTdGejZRc0pWal9nN0JHNnJOSXlGT2VGc0tHc25BOUxlUC1VUWtLam52X3FJcmF3OVk5bHotYXpCVjNVNmlNOGFmMHhaOGxoNlR0Ynotbmx0Zw?oc=5), [Yole Group](https://news.google.com/rss/articles/CBMiogFBVV95cUxQY1o3eVNDNGlITjdKOUo3NUhucDZvb0FnenQ5dHJubmZjYnFyME43WWpsd1NRV0J6T3pZVTJFZm1kMEo0aDM3ZGxWYjJ2ajVqdml0Qm9EenRpdHQ2MXNKLTlJWTV2dTYtX25WUU1CUlNfYlNDU3FMSFpLYVNrTzBEZWwzZ2hmVjdBeXUtTEVORk9ZY1dRd0ltY3piTDF5YTRBSEE?oc=5)\n\n### Cloud / Software\n- 最新催化：Treasury Yield Moves Put Guidewire Stock And Other Software Names In Focus - Simply Wall St：这是企业 AI 变现信号，重点看 AI 功能能否变成 RPO、净留存、云消费和价格提升，而不是只停留在产品叙事。直接映射到 MSFT, GOOGL, AMZN, CRM, SNOW。 来源主题：Cloud, Software, Cybersecurity。\n- 受益股票：CRM, SNOW, MSFT, ORCL, DDOG\n- 承压股票：INTU, AI 替代风险较高的软件股\n- 需要继续观察的信号：RPO；净留存率；AI 产品 ARPU；云消费增长\n- 板块情绪：mixed\n- 来源：[Simply Wall St](https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT2VsVUl1WXdoTnd5SVBTY1hKM0tydy1OWW5Hc0ZKamFoRXZoYmxWYWh5VlpGNFcxUFcyYktMUC00cllWMENmd08xZTJwRHNsQVlOX001ZkhUVGpXVWhDNHhIV2JoczJtYXhHWU43RTgzTlN3X0Q0bU1Tc2VUZnEwcHJQRjdJY3VkaTR3U3VvRHZOY25VN3lHaFNBZUZRSl9hOUE0ZTg1Nm9TbzFLODNjdnJMR2NTVWdYUjZaOWFXcWJxY09XaHJ4em9Uam9UdnNSZ3Zzb9IB1AFBVV95cUxPT2VsVUl1WXdoTnd5SVBTY1hKM0tydy1OWW5Hc0ZKamFoRXZoYmxWYWh5VlpGNFcxUFcyYktMUC00cllWMENmd08xZTJwRHNsQVlOX001ZkhUVGpXVWhDNHhIV2JoczJtYXhHWU43RTgzTlN3X0Q0bU1Tc2VUZnEwcHJQRjdJY3VkaTR3U3VvRHZOY25VN3lHaFNBZUZRSl9hOUE0ZTg1Nm9TbzFLODNjdnJMR2NTVWdYUjZaOWFXcWJxY09XaHJ4em9Uam9UdnNSZ3Zzbw?oc=5)\n\n### Data Center Power / Energy\n- 最新催化：EXCLUSIVE: AI Power Boom Fuels Energy Startup Valuations, But Investors See Risks - Benzinga：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。；3 Utility Stocks Investors Are Watching As AI Data Center Power Demand Grows - Simply Wall St：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。；Policy Uncertainty Continues to Rise, U.S. Power Sector Faces Divergence - NAI500：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。\n- 受益股票：NEE, D, CEG, VST, ETN, PWR, VRT\n- 承压股票：电力接入慢且融资成本高的数据中心项目\n- 需要继续观察的信号：PPA 价格；监管审批；核能项目；电网接入\n- 板块情绪：bullish\n- 来源：[Benzinga](https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbWtwWjdBdmFsZlNUaWNwNTlzN055X01tWjVCRTVFQUVPS3RDMVNucWFTNnh4UnlrNHdPUVpaNFNQbWkyOExNTUFvZWdnMVR6eWd1MzhZak5lQlBKZjZIcDk0cWhGdUY1MUV2dWNrYkdRVm94bkdYZmV2b0lZTmFOUEdXcjZPdUc2S2Zid2hlWlBjMC03QjhZWlpqeEt3aXpjbmtFSFZNMzZfdFFEakNYSktQLVd1Mi1vR1IzYXQ1R0VBS1N1MzYzdHUyUWVDTmZQcGgyOTNrczVJMnEzWWJocE5qMmMzQQ?oc=5), [Simply Wall St](https://news.google.com/rss/articles/CBMiwgFBVV95cUxQa0JlLUppaXNaUl9GX3dZRko3VE1VR3lIcFBsRmV3TzJrQlVHcVB5Ql8zcTRnVXFfMlZqT294MFVfakpzeTdpeTdOU1ZQNVpXNFpLNk5ZZ19TbDNwZUQxMENvS3JrNl9TVWx1MF9hTTgtZVJsX2FHdjlfZFV1LXpBSlRySkcyZWFXR3RoWWptby1wS3plRUJhYVYwYUtYNW9hRXY5M1JyeUxMMlNac2hSRU80M0NCV09YUmZWbDdkZWFmZ9IBxwFBVV95cUxQeVJhQjctR3NiRW1uVWRTM3BuOUJyUmhCZC00UmkzRllXVXlZM0xXNnFnWlVCWjdpLTlHNE5ud19ibld6QXZOMHJsYThidUxsU2xqYUV0TWt3OFNjSHlSTXZoWGhpYWI4YlJKVE5ISWh6V0FXY2RndW9MMnAxZlpTVG85LXdmZWQxZ1RMWUVCUThyTGJ4MElYWUYtUUl5eVZlZURsTEJmSldsRTNFTUxvODJGN2Iyc1NFdzAtY09VeFdRQUhGaDVF?oc=5), [NAI500](https://news.google.com/rss/articles/CBMipgFBVV95cUxPWktOQW94REhlcHdmQk1WczltTUQtTldZTmZocG5OZjNNNTlYanRhRUZST0xCcXdfN2x3Y0UzaUVtZ3Y0WF9lcmpfTVJLSmNPci1fQ2RwbnRhQmQyQ0lNcnE4VWo2TGx2ZG5wbkdUN3FwVDljbVktN0wySUZMQUZYTlBIX3BLN1ZLUTdvdzJmMXRrcmJJV2xhdlQ3YUttY2ZtRUJHZTZR?oc=5)\n\n### Robotics / Automation\n- 最新催化：AI 从云端模型向实体自动化扩散仍是中期主题\n- 受益股票：TSLA, ISRG, ROK, TER\n- 承压股票：订单不清晰的纯概念机器人股\n- 需要继续观察的信号：量产节奏；单位经济性；企业自动化 capex\n- 板块情绪：uncertain\n- 来源：[Kiplinger earnings calendar](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks)\n\n### Space / Defense Tech\n- 最新催化：HawkEye 360 (NYSE:HAWK) - Stock Analysis - Simply Wall St：这是国防科技和太空商业化信号，重点看政府预算、合同节奏、发射频率和订单积压，而不是单纯概念热度。直接映射到 RKLB, ASTS, LMT, NOC, PLTR。 来源主题：Space Tech, Defense Tech。\n- 受益股票：RKLB, ASTS, LMT, NOC, PLTR\n- 承压股票：现金流弱、依赖融资的早期太空股\n- 需要继续观察的信号：发射频率；政府合同；预算案；订单积压\n- 板块情绪：uncertain\n- 来源：[Simply Wall St](https://news.google.com/rss/articles/CBMidkFVX3lxTE9VY2FwTUZOek9CX050ZGxLWW5fM2NPZGZhVmFSXzF6dXItSVFsWklnOUNtdmFlQWF3MFNSS0tXX1I5c09oU3B5aXBiLTJUQkRNV01GUjNRNzdBV2NSRGlCV0phSFBUdXZYZWRBcU5QcFQ2X0lqNUE?oc=5)\n\n### Crypto-related Tech\n- 最新催化：Bitcoin (BTC) price falls below $76K as AI stock rout hit Strategy (MSTR), Coinbase (COIN), Circle (CRCL) - CoinDesk：这是风险偏好信号，重点看 BTC/ETH、稳定币监管、矿企转 AI hosting 的合同质量，以及高杠杆标的是否放大波动。直接映射到 CRCL, COIN, MSTR, MARA, RIOT。 来源主题：Crypto Infrastructure。；Circle Sinks 12%, Coinbase and Strategy Tumble 10% as Bitcoin Slide Hits Crypto Stocks - 24/7 Wall St.：这是风险偏好信号，重点看 BTC/ETH、稳定币监管、矿企转 AI hosting 的合同质量，以及高杠杆标的是否放大波动。直接映射到 COIN, MSTR, MARA, RIOT, IREN。 来源主题：Crypto Infrastructure。；Oversold bitcoin miners' grid connections carry a massive scarcity premium, VanEck says - CoinDesk：这是风险偏好信号，重点看 BTC/ETH、稳定币监管、矿企转 AI hosting 的合同质量，以及高杠杆标的是否放大波动。直接映射到 COIN, MSTR, MARA, RIOT, IREN。 来源主题：Crypto Infrastructure。\n- 受益股票：COIN, MSTR, RIOT, MARA, IREN, CRCL\n- 承压股票：高杠杆矿企, 电力成本上行的挖矿股\n- 需要继续观察的信号：BTC/ETH 价格；稳定币监管；AI hosting 合同质量\n- 板块情绪：uncertain\n- 来源：[CoinDesk](https://news.google.com/rss/articles/CBMi0gFBVV95cUxPN3VFZFhZZVFocTFFbk1VWFpidzk5SlF6VzVpbk5aakNLT2RTVDZwVWJSX2xVY3F4MVpaV3lRM2JPM3MtNUpTVmxObkNxX0t6WjB2OUMtVmxueDBRcGMwZmNZN0s4WEFHQWhzbXVXSEdWcXpyM3d6UXdWWnlsc0tsY01ndE9TWWN6MXBxOFNqeTlpdW9oSkFHd1pxMi0tMFlUYnNyRnV4elhZczBRNWhsempubS1xc1BFNUZWT3F3MlhWMXRweVU2TS1BV0pjUU0zX3c?oc=5), [24/7 Wall St.](https://news.google.com/rss/articles/CBMixgFBVV95cUxQYTQwVmNTRU85VmJ2WEdKNW4zdEl0cTdaeEZXQnZpdmtOdk5uQ0tHNWplcUN3eVZkMUpPMkhrNlYzZ3Y4ejdQSTRXSTVaLUpzUGt1Z3hmbTFTZG9Pbm1Qc2w1YUI2UjlPelF6M1JQcW1WakhWX0RUcmU5MjR1dzB0QjYwM2M0UmpaREhLNWhad296Rk9zd0RfV2dNZnkxVEFuOHJMOWdxOXJUMWlNdS1kQ1VoTW9BejFnSVVTcERSbkZDRVJhMVE?oc=5), [CoinDesk](https://news.google.com/rss/articles/CBMirgFBVV95cUxQYlBWWFF2d2JpdU9oQ1VLUTUycW1NYU94OFd0NmNJTnozdy1hTlhZajI3anpNMzhDLTVpb2h5WHZKRS1COW5nTGRieFhOdHV4ZHBwa0VNcW5hQm8xemQyY1ItMWgyMGpaTzNRODE1ZjV5dHAwVU1TYVp5ZGtGRHNUQ2czUHY5c3VJYmFtWGVHVkw3eUdTdHhCOFpCcjY3VEZvSUo0alJHNThiNVhXVXc?oc=5)\n\n### Other Tech-linked Themes\n- 最新催化：Market Movers blog: US markets rise at the open as Congress turns blue - Investment Week：这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。；Stock Market Today: Rotation Away From AI Stocks Increases as Money Flows to AI Landlords - 24/7 Wall St.：这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。；Nasdaq Futures Slip as Chip Selloff Rages On; Earnings and Fed Speak on Tap - Barchart.com：这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。\n- 受益股票：AAPL, GOOGL, META, AMZN\n- 承压股票：供应链或监管暴露较高的科技股\n- 需要继续观察的信号：美元；关税；出口管制；反垄断监管\n- 板块情绪：uncertain\n- 来源：[Investment Week](https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5), [24/7 Wall St.](https://news.google.com/rss/articles/CBMitgFBVV95cUxQRzcycnpyYk1uclpWNWtmU1hLY2x0OHBpOXVaQ0w4UVBpVTVYamdSZmhRcVhtRjlDZV9yUWZRZzFuZ2l0V2tQWFJMd1dkWnpuZG1ZR29fMTRoa0NNUjJEbFFTdzgtckpHX3dBdkZCYkMwWmFHbnV1UUVSMzRtYzM0cGxreHI2djd3ZGJfd1pwMFY2ZThyOE1jSXBOaTMzNHZ2VUhvX1dCaTRyQkRVSXh1Z29oTXFPQQ?oc=5), [Barchart.com](https://news.google.com/rss/articles/CBMivgFBVV95cUxPaURpY2VwV0xyc3Z4bnVmcHlaRUpadWFHMkNObW5lRkwycnhnOC1Gb2gyMWV3al93alEtRjdQM1hUclpUYi1zcWRhVUtsSE4taTBoR0VvaFNMZlJQSHRVdzUzRzhwVnMxd1BXdnRyWXZzUmZrNkhLNHVQaGkwVXhEV0xDSUlqRmR4ZGdSZl9TSUs1djA4Q0ZIZ1l5T0hCZ0RQYmV0VVAxT0FCNjBKb1dUZlV4elhDRHN0MHFnQU9n?oc=5)\n\n## 5. 大盘与宏观环境\n- 美债收益率变化：利率线索来自最新公开信号：“Market Movers blog: US markets rise at the open as Congress turns blue - Investment Week”。若 10Y/2Y 美债收益率上行，高估值成长股和 AI 软件股估值会更敏感。\n- 美元指数：美元方向重点参考：“Stock Market Today: Rotation Away From AI Stocks Increases as Money Flows to AI Landlords - 24/7 Wall St.”。强美元通常压制跨国科技公司估值和海外收入折算。\n- 原油 / 黄金：未发现高权重能源冲击信号，油价暂时不是科技股估值的第一变量。；黄金如果和美元同涨，通常代表避险需求升温；如果黄金回落而美债收益率稳定，成长股风险偏好更容易维持。\n- VIX 或市场风险偏好：风险偏好用两个信号观察：指数是否扩散上涨，以及高 beta 科技股是否跑赢防御板块。若 Top Signals 只集中在少数股票，说明市场仍是分化行情。\n- 重要宏观数据或预期：覆盖期内未抓到高优先级宏观/Fed 事件。\n- 对成长股、科技股、小盘股的影响：如果通胀/利率信号偏热，优先压制长久期科技股、小盘成长股和高估值 AI 概念；如果利率回落，AI 基础设施和半导体更容易获得估值支撑。\n- 来源：[Investment Week](https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5), [24/7 Wall St.](https://news.google.com/rss/articles/CBMitgFBVV95cUxQRzcycnpyYk1uclpWNWtmU1hLY2x0OHBpOXVaQ0w4UVBpVTVYamdSZmhRcVhtRjlDZV9yUWZRZzFuZ2l0V2tQWFJMd1dkWnpuZG1ZR29fMTRoa0NNUjJEbFFTdzgtckpHX3dBdkZCYkMwWmFHbnV1UUVSMzRtYzM0cGxreHI2djd3ZGJfd1pwMFY2ZThyOE1jSXBOaTMzNHZ2VUhvX1dCaTRyQkRVSXh1Z29oTXFPQQ?oc=5), [Barchart.com](https://news.google.com/rss/articles/CBMivgFBVV95cUxPaURpY2VwV0xyc3Z4bnVmcHlaRUpadWFHMkNObW5lRkwycnhnOC1Gb2gyMWV3al93alEtRjdQM1hUclpUYi1zcWRhVUtsSE4taTBoR0VvaFNMZlJQSHRVdzUzRzhwVnMxd1BXdnRyWXZzUmZrNkhLNHVQaGkwVXhEV0xDSUlqRmR4ZGdSZl9TSUs1djA4Q0ZIZ1l5T0hCZ0RQYmV0VVAxT0FCNjBKb1dUZlV4elhDRHN0MHFnQU9n?oc=5)\n\n## 6. 前一个交易日跌幅较大的股票复盘\n### CDLR - Cadeler A/S\n- 前一交易日跌幅：-71.71%\n- 成交量是否异常：StockAnalysis 显示成交量为 150,570。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。\n- 可能下跌原因：该股进入跌幅榜但未抓到明确单一新闻催化，优先按价格异动处理：若同板块多股同步下跌，更可能是行业或风险偏好问题；若孤立下跌，更可能是公司自身催化。\n- 原因类型：unknown\n- 催化：price_action；needs_news_confirmation\n- 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。\n- 来源：[StockAnalysis top losers](https://stockanalysis.com/markets/losers/)\n\n### SNWV - SANUWAVE Health, Inc.\n- 前一交易日跌幅：-64.05%\n- 成交量是否异常：StockAnalysis 显示成交量为 842,938。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。\n- 可能下跌原因：该股进入跌幅榜但未抓到明确单一新闻催化，优先按价格异动处理：若同板块多股同步下跌，更可能是行业或风险偏好问题；若孤立下跌，更可能是公司自身催化。\n- 原因类型：unknown\n- 催化：price_action；needs_news_confirmation\n- 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。\n- 来源：[StockAnalysis top losers](https://stockanalysis.com/markets/losers/)\n\n### VCYT - Veracyte, Inc.\n- 前一交易日跌幅：-57.77%\n- 成交量是否异常：StockAnalysis 显示成交量为 10,911,672。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。\n- 可能下跌原因：该股进入跌幅榜，同时相关公开新闻指向：“Why Is Veracyte Stock Sinking Thursday? - Benzinga”。优先判断为单股催化或主题退潮引发的风险重定价，重点看跌幅是否扩散到同板块。\n- 原因类型：company_specific\n- 催化：other；uncertain\n- 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。\n- 来源：[Benzinga](https://news.google.com/rss/articles/CBMimwFBVV95cUxPWGN0Rk5MeVU1SnNtSHNKNWlzMGZZQkE1NTR2cFFMT2pQaE9EZFVObWhFLU1EWHVzUzdEazZYWUkwb09VdzB2aFoteUEyMnYteGJjNXd5Z3hWMHZ0eHkzakF0ZlF6V3dONDM0aHZwZ080aXZydHQ3R2Yxd0VKaG9YNFdzVlh0c1hTa3Z2eFpqRE9CTjRpSWgwQll6Yw?oc=5)\n\n### MNTN - MNTN, Inc.\n- 前一交易日跌幅：-54.29%\n- 成交量是否异常：StockAnalysis 显示成交量为 7,752,554。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。\n- 可能下跌原因：该股进入跌幅榜，同时相关公开新闻指向：“Raymond James downgrades MNTN stock rating on sales upheaval By Investing.com - Investing.com India”。优先判断为单股催化或主题退潮引发的风险重定价，重点看跌幅是否扩散到同板块。\n- 原因类型：company_specific\n- 催化：other；uncertain\n- 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。\n- 来源：[Investing.com India](https://news.google.com/rss/articles/CBMivgFBVV95cUxPSEF3THdBT1p0aFJDT0Z0V20wUDRaYlhva1ViTEd2M3B3NE1WbVdybWVET093ZzZHZzNHQ1ZYQnQxeG5OYm1Db1lnZTF1NjFJaEVucTJFWEtIc1RBS0tZcTFYRG5keFZ3YzlocE11TWExZV9xLWRPNTUtcGowLWZJb2h5UG9fNHFST2FpWFJKZTBIbVphOHhkNkM4Vk9rdUJ5VnZ4WEhOalQyZUV2T2RiM3d3cTdGMmR2cWY3eVlB?oc=5)\n\n### ELPW - Elong Power Holding Limited\n- 前一交易日跌幅：-48.01%\n- 成交量是否异常：StockAnalysis 显示成交量为 61,448,026。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。\n- 可能下跌原因：该股进入跌幅榜但未抓到明确单一新闻催化，优先按价格异动处理：若同板块多股同步下跌，更可能是行业或风险偏好问题；若孤立下跌，更可能是公司自身催化。\n- 原因类型：unknown\n- 催化：price_action；needs_news_confirmation\n- 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。\n- 来源：[StockAnalysis top losers](https://stockanalysis.com/markets/losers/)\n\n### ANVS - Annovis Bio, Inc.\n- 前一交易日跌幅：-47.17%\n- 成交量是否异常：StockAnalysis 显示成交量为 25,619,671。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。\n- 可能下跌原因：该股进入跌幅榜但未抓到明确单一新闻催化，优先按价格异动处理：若同板块多股同步下跌，更可能是行业或风险偏好问题；若孤立下跌，更可能是公司自身催化。\n- 原因类型：unknown\n- 催化：price_action；needs_news_confirmation\n- 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。\n- 来源：[StockAnalysis top losers](https://stockanalysis.com/markets/losers/)\n\n### PARA - Parabolic Technologies, Inc.\n- 前一交易日跌幅：-45.11%\n- 成交量是否异常：StockAnalysis 显示成交量为 18,080,624。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。\n- 可能下跌原因：该股进入跌幅榜，同时相关公开新闻指向：“Morgan Stanley Downgrades Cisco On AI Impacting Gross Margins - Investor's Business Daily”。优先判断为单股催化或主题退潮引发的风险重定价，重点看跌幅是否扩散到同板块。\n- 原因类型：company_specific\n- 催化：other；uncertain\n- 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。\n- 来源：[Investor's Business Daily](https://news.google.com/rss/articles/CBMijgFBVV95cUxNenlRbU9KcTNickNGZy1DQ1dLTGlwb2FtaEhBZzlyRjBORUlwOWwxUEpCaG9Fbm10TGF5ZFk4RmNqQkZtQWYtbEFXR2FYUXlkNFVlaVpoOWpQVm1IempVdUVhb3ZLMjNkaE9OVEJjQlVsWnE3WnFLdEx6bDhjRlh4amY0YW5zWGs5YnJyLVhR?oc=5)\n\n### PASW - Ping An Biomedical Co., Ltd.\n- 前一交易日跌幅：-41.98%\n- 成交量是否异常：StockAnalysis 显示成交量为 186,385。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。\n- 可能下跌原因：该股进入跌幅榜，同时相关公开新闻指向：“Taboola.com (NASDAQ:TBLA) Shares Down 19.4% After Analyst Downgrade - MarketBeat”。优先判断为单股催化或主题退潮引发的风险重定价，重点看跌幅是否扩散到同板块。\n- 原因类型：company_specific\n- 催化：other；uncertain\n- 需要继续观察的点：盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。\n- 来源：[MarketBeat](https://news.google.com/rss/articles/CBMivwFBVV95cUxQVjlzSld5SnNOUGs5ZDBzaXlWU0NqLXlMakQ0cDM3OFhSc0E0V3JZVGhvUEZjTWVIX3dxaWxfek9YQTYwWHJ4RUdmZEZBbEk3a0syMWNBckw5WElpaTZKeHhYUXZvcGJNTUhZb1dqTjZacl84djlCdzBRbTNCbHE3b0tIaWNrNWZBYVU3bVlHVUJtR0JsaUIwUnRiNDBzRGoyQWdieWZNYTVPYzhrYkFfaGNrMGE1UmNGY3hDNFJrTQ?oc=5)\n\n## 7. 2026-11-05 值得重点盯盘的股票 / 板块\n| 股票 / 板块 | 为什么值得看 | 关键触发点 | 风险点 | 优先级 | 来源 |\n|---|---|---|---|---|---|\n| QQQ | 2026-11-05 高权重信号对应的核心观察对象：“Market Movers blog: US markets rise at the open as Congress turns blue - Investment Week”。关注它是否从新闻标题变成板块共振。 | 2026-11-05 US equity market session / premarket setup | 利率或美元若反向走强，会削弱科技股风险偏好。 | high | [Investment Week](https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5) |\n| AMD | 2026-11-05 高权重信号对应的核心观察对象：“AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% - 24/7 Wall St.”。关注它是否从新闻标题变成板块共振。 | AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% - 24/7 Wall St. | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | high | [24/7 Wall St.](https://news.google.com/rss/articles/CBMixgFBVV95cUxQZXpOcVdYWWIyd0ZyaldnY3QxMFJUUk14d3E0UmpWVzRwakhSOF9lOUE1azgtTmxRMm55V1JWZ24wZmhsNlVjWHBtZW1DNTJLMmFRNjd1YS0yaFJ1cUxQQVhkdU14V0Mzb1VjbFBreGpFS3FjYUdnXzd1NkVYUUlEY05uYWVJVEgxaGMzbDhzMU5rZWpmNkxqcjdBT0lLMy1kWVlhN1lhbjB2TDFEOGQ4SEJ3YXAxUnpuMi1kMy1RdkZzZVFicVE?oc=5) |\n| ARM | 2026-11-05 高权重信号对应的核心观察对象：“US Chip Stocks Plunge Mid-Session; Qualcomm Tumbles 13%, Arm Drops Over 10% - BigGo Finance”。关注它是否从新闻标题变成板块共振。 | US Chip Stocks Plunge Mid-Session; Qualcomm Tumbles 13%, Arm Drops Over 10% - BigGo Finance | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | medium | [BigGo Finance](https://news.google.com/rss/articles/CBMidkFVX3lxTFBzY0FRZ05UaEpBRFZkTl82YnhyUHFPb3MxNVo1eFFWaVRidE1OQml5djVkM3g3aGhISmFoVjFONi1yV1Jvc1hDWWhMRmIyQjBIYmdWZ2M4RWFZSy1rNUN5MTYyR3V2b1M2WVF1RzRYNG5iWjd2ZVE?oc=5) |\n| COHR | 2026-11-05 高权重信号对应的核心观察对象：“Credo and Oracle Drive AI Optical Innovation: Is CRDO Set to Benefit? - TradingView”。关注它是否从新闻标题变成板块共振。 | Credo and Oracle Drive AI Optical Innovation: Is CRDO Set to Benefit? - TradingView | 若同板块没有跟随，说明它可能只是标题热度，不是主线。 | medium | [TradingView](https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQWhnNGZEb1dCOVJkeDZveDJ4VU53ZVpRNjkwYk1TaWZLUjBpQTBOdDhfYnhNTFI1NlJTbl93cEYzVFlsbDNIYlY4VWYxclVZU2RldUViQkszNUo5M200QWU0YnBwdDZ0dHZ5cHpOQnNZN05HTmFMdlJQOVlfTEZhTUNBRk9yYnhjWjZwZUpjLTBDVTVFTF9Na3Q2dW9WSlZIWnlWdHNDMnZtOHZOU0E4cUUwbjVPS0NFenNLQTQ0ZmE?oc=5) |\n\n## 8. 总结：2026-11-05 市场的主线是什么？\n2026-11-05 的报告由当日公开新闻源重新抓取生成。最高权重信号是“Market Movers blog: US markets rise at the open as Congress turns blue - Investment Week”，涉及 Macro、Rates、Nasdaq；第二层信号是“AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% - 24/7 Wall St.”。 盘前最重要的是判断这些信号是否形成板块共振：AI/半导体若扩散到服务器、光通信、电力设备，说明风险偏好仍在；若只停留在少数标题股，则更像分化行情。\n\n来源说明：本总结综合以上 Top Signals、事件日历、板块、宏观和个股复盘模块的公开来源，不构成买卖建议。\n",
+    "id": 20261105,
+    "created_at": "2026-11-05T19:27:05.186Z",
+    "updated_at": "2026-11-05T19:27:05.186Z"
+  },
+  "topSignals": [
+    {
+      "title": "Market Movers blog: US markets rise at the open as Congress turns blue - Investment Week",
+      "summary": "这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。 盘前优先看 QQQ, SPY 是否带动 Macro / Rates / Nasdaq 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。",
+      "why_it_matters": "宏观信号决定估值折现率：利率上行会先压制 Nasdaq、软件和小盘成长，利率回落则更利于半导体与 AI 基础设施延续风险偏好。",
+      "direction": "uncertain",
+      "affected_sectors": [
+        "Macro",
+        "Rates",
+        "Nasdaq"
+      ],
+      "affected_tickers": [
+        "QQQ",
+        "SPY"
+      ],
+      "impact_horizon": "this_week",
+      "importance_score": 94,
+      "source_urls": [
+        {
+          "title": "Investment Week",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% - 24/7 Wall St.",
+      "summary": "这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 AMD, NVDA, DELL, SMCI, VRT。 来源主题：AI Infrastructure, Data Center, Semiconductor。 盘前优先看 AMD, NVDA, DELL, SMCI, VRT, ANET 是否带动 AI Infrastructure / Data Center / Semiconductor 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。",
+      "why_it_matters": "AI 信号的关键在于 capex 是否继续扩散：如果订单从 GPU 扩到服务器、电源、散热和网络，受益链条会变宽；如果只集中在少数龙头，概念股会分化。",
+      "direction": "bullish",
+      "affected_sectors": [
+        "AI Infrastructure",
+        "Data Center",
+        "Semiconductor"
+      ],
+      "affected_tickers": [
+        "AMD",
+        "NVDA",
+        "DELL",
+        "SMCI",
+        "VRT",
+        "ANET"
+      ],
+      "impact_horizon": "this_week",
+      "importance_score": 92,
+      "source_urls": [
+        {
+          "title": "24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZXpOcVdYWWIyd0ZyaldnY3QxMFJUUk14d3E0UmpWVzRwakhSOF9lOUE1azgtTmxRMm55V1JWZ24wZmhsNlVjWHBtZW1DNTJLMmFRNjd1YS0yaFJ1cUxQQVhkdU14V0Mzb1VjbFBreGpFS3FjYUdnXzd1NkVYUUlEY05uYWVJVEgxaGMzbDhzMU5rZWpmNkxqcjdBT0lLMy1kWVlhN1lhbjB2TDFEOGQ4SEJ3YXAxUnpuMi1kMy1RdkZzZVFicVE?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "US Chip Stocks Plunge Mid-Session; Qualcomm Tumbles 13%, Arm Drops Over 10% - BigGo Finance",
+      "summary": "这是半导体风格切换信号，重点区分 GPU/ASIC/先进封装受益股和传统 MCU、汽车工业链。若资金继续追逐 AI 算力，SMH 内部会继续分化。直接映射到 ARM, NVDA, AMD, AVGO, MRVL。 来源主题：Semiconductor, AI ASIC, GPU。 盘前优先看 ARM, NVDA, AMD, AVGO, MRVL, TSM 是否带动 Semiconductor / AI ASIC / GPU 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。",
+      "why_it_matters": "半导体是 AI 主线的核心风险资产，市场会区分算力受益、ASIC/EDA 受益、存储受益和传统周期股，内部轮动比指数涨跌更重要。",
+      "direction": "bullish",
+      "affected_sectors": [
+        "Semiconductor",
+        "AI ASIC",
+        "GPU"
+      ],
+      "affected_tickers": [
+        "ARM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "TSM",
+        "ASML"
+      ],
+      "impact_horizon": "this_week",
+      "importance_score": 90,
+      "source_urls": [
+        {
+          "title": "BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzY0FRZ05UaEpBRFZkTl82YnhyUHFPb3MxNVo1eFFWaVRidE1OQml5djVkM3g3aGhISmFoVjFONi1yV1Jvc1hDWWhMRmIyQjBIYmdWZ2M4RWFZSy1rNUN5MTYyR3V2b1M2WVF1RzRYNG5iWjd2ZVE?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "Credo and Oracle Drive AI Optical Innovation: Is CRDO Set to Benefit? - TradingView",
+      "summary": "这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。直接映射到 COHR, LITE, CIEN, AAOI, MRVL。 来源主题：Optical Communication, Networking, Data Center。 盘前优先看 COHR, LITE, CIEN, AAOI, MRVL, AVGO 是否带动 Optical Communication / Networking / Data Center 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：市场预期。",
+      "why_it_matters": "光通信是 AI 集群扩容的瓶颈环节之一，若 CPO/1.6T/硅光订单继续被验证，资金可能从 GPU 龙头外溢到网络和光模块链。",
+      "direction": "bullish",
+      "affected_sectors": [
+        "Optical Communication",
+        "Networking",
+        "Data Center"
+      ],
+      "affected_tickers": [
+        "COHR",
+        "LITE",
+        "CIEN",
+        "AAOI",
+        "MRVL",
+        "AVGO"
+      ],
+      "impact_horizon": "medium_term",
+      "importance_score": 84,
+      "source_urls": [
+        {
+          "title": "TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQWhnNGZEb1dCOVJkeDZveDJ4VU53ZVpRNjkwYk1TaWZLUjBpQTBOdDhfYnhNTFI1NlJTbl93cEYzVFlsbDNIYlY4VWYxclVZU2RldUViQkszNUo5M200QWU0YnBwdDZ0dHZ5cHpOQnNZN05HTmFMdlJQOVlfTEZhTUNBRk9yYnhjWjZwZUpjLTBDVTVFTF9Na3Q2dW9WSlZIWnlWdHNDMnZtOHZOU0E4cUUwbjVPS0NFenNLQTQ0ZmE?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "Treasury Yield Moves Put Guidewire Stock And Other Software Names In Focus - Simply Wall St",
+      "summary": "这是企业 AI 变现信号，重点看 AI 功能能否变成 RPO、净留存、云消费和价格提升，而不是只停留在产品叙事。直接映射到 MSFT, GOOGL, AMZN, CRM, SNOW。 来源主题：Cloud, Software, Cybersecurity。 盘前优先看 MSFT, GOOGL, AMZN, CRM, SNOW, DDOG 是否带动 Cloud / Software / Cybersecurity 同向反应；如果只有单一股票反应，按个股催化处理，如果板块同步反应，则可能升级为当日主线。信息性质：不确定信息。",
+      "why_it_matters": "软件和云的重点是 AI 能否真正变现。RPO、净留存、云消费和毛利率比产品发布更能决定估值方向。",
+      "direction": "uncertain",
+      "affected_sectors": [
+        "Cloud",
+        "Software",
+        "Cybersecurity"
+      ],
+      "affected_tickers": [
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "CRM",
+        "SNOW",
+        "DDOG",
+        "CRWD"
+      ],
+      "impact_horizon": "medium_term",
+      "importance_score": 82,
+      "source_urls": [
+        {
+          "title": "Simply Wall St",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT2VsVUl1WXdoTnd5SVBTY1hKM0tydy1OWW5Hc0ZKamFoRXZoYmxWYWh5VlpGNFcxUFcyYktMUC00cllWMENmd08xZTJwRHNsQVlOX001ZkhUVGpXVWhDNHhIV2JoczJtYXhHWU43RTgzTlN3X0Q0bU1Tc2VUZnEwcHJQRjdJY3VkaTR3U3VvRHZOY25VN3lHaFNBZUZRSl9hOUE0ZTg1Nm9TbzFLODNjdnJMR2NTVWdYUjZaOWFXcWJxY09XaHJ4em9Uam9UdnNSZ3Zzb9IB1AFBVV95cUxPT2VsVUl1WXdoTnd5SVBTY1hKM0tydy1OWW5Hc0ZKamFoRXZoYmxWYWh5VlpGNFcxUFcyYktMUC00cllWMENmd08xZTJwRHNsQVlOX001ZkhUVGpXVWhDNHhIV2JoczJtYXhHWU43RTgzTlN3X0Q0bU1Tc2VUZnEwcHJQRjdJY3VkaTR3U3VvRHZOY25VN3lHaFNBZUZRSl9hOUE0ZTg1Nm9TbzFLODNjdnJMR2NTVWdYUjZaOWFXcWJxY09XaHJ4em9Uam9UdnNSZ3Zzbw?oc=5"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "event_date": "2026-11-05",
+      "event_name": "2026-11-05 US equity market session / premarket setup",
+      "event_type": "market_session",
+      "importance": "medium",
+      "affected_assets": [
+        "Nasdaq",
+        "S&P 500",
+        "QQQ",
+        "SPY",
+        "SMH"
+      ],
+      "watch_points": "2026-11-05 视角：当日事件。当天重点看实际结果、盘前预期差和盘中板块扩散。把当天盘前新闻、收益率、期货和热门成长股开盘反应作为事件日历的第一项，避免把前一交易日的未来日历原样复制。",
+      "source_urls": [
+        {
+          "title": "Nasdaq market activity",
+          "url": "https://www.nasdaq.com/market-activity"
+        }
+      ]
+    }
+  ],
+  "sectors": [
+    {
+      "sector_name": "AI Infrastructure",
+      "latest_catalysts": [
+        "AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% - 24/7 Wall St.：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 AMD, NVDA, DELL, SMCI, VRT。 来源主题：AI Infrastructure, Data Center, Semiconductor。",
+        "Arista Networks And 2 Other AI Infrastructure Stocks To Own - Yahoo Finance Singapore：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 NVDA, DELL, SMCI, VRT, ANET。 来源主题：AI Infrastructure, Data Center, Semiconductor。",
+        "Beyond Hyperscalers: Here’s the Next $1 Trillion AI Infrastructure Opportunity - Beth Kindig – Medium：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 NVDA, DELL, SMCI, VRT, ANET。 来源主题：AI Infrastructure, Data Center, Semiconductor。"
+      ],
+      "beneficiary_tickers": [
+        "NVDA",
+        "DELL",
+        "SMCI",
+        "VRT",
+        "ANET"
+      ],
+      "pressured_tickers": [
+        "估值高但订单验证不足的 AI 概念股"
+      ],
+      "watch_signals": [
+        "AI server backlog",
+        "GPU supply",
+        "推理需求",
+        "云厂商 capex"
+      ],
+      "source_urls": [
+        {
+          "title": "24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZXpOcVdYWWIyd0ZyaldnY3QxMFJUUk14d3E0UmpWVzRwakhSOF9lOUE1azgtTmxRMm55V1JWZ24wZmhsNlVjWHBtZW1DNTJLMmFRNjd1YS0yaFJ1cUxQQVhkdU14V0Mzb1VjbFBreGpFS3FjYUdnXzd1NkVYUUlEY05uYWVJVEgxaGMzbDhzMU5rZWpmNkxqcjdBT0lLMy1kWVlhN1lhbjB2TDFEOGQ4SEJ3YXAxUnpuMi1kMy1RdkZzZVFicVE?oc=5"
+        },
+        {
+          "title": "Yahoo Finance Singapore",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS0NwakJ2RklNUG5UMDBmYnVqQTU3cFBPbmh1YmlGaVZEeU90VWlMMDNBSl9NV0RNT1hDc0xadEszWnZ0TUduT012SVJYZU1nYzlTckxTWnVEYVpPekR3Y2lLY21PbmI4Y0w1alBkMVhvRGxEMVUySWRSRXFYSEpkVQ?oc=5"
+        },
+        {
+          "title": "Beth Kindig – Medium",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObUJxbUxTelo5RGpVdENpWV9jZWpkM0pHS3ByR1QyREcxVVVhcE5rbkx6VmtMbTRZaTYtSU5rV0pfaFBMRF95bW4zbzhnd3I1M3MtMDRBRUpmTnNZREVVY1podjlSMVlpNWdwMmtrOWFIc05VampoOHpYa09wQkJTay1HdXR5TGdGU3pmQ2VFZDZmYUNUSl9EdFp6V1pDN01GRWhpS2w3c1Rzc2l6N2wyOFdxcw?oc=5"
+        }
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "sector_name": "Semiconductors",
+      "latest_catalysts": [
+        "AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% - 24/7 Wall St.：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 AMD, NVDA, DELL, SMCI, VRT。 来源主题：AI Infrastructure, Data Center, Semiconductor。",
+        "US Chip Stocks Plunge Mid-Session; Qualcomm Tumbles 13%, Arm Drops Over 10% - BigGo Finance：这是半导体风格切换信号，重点区分 GPU/ASIC/先进封装受益股和传统 MCU、汽车工业链。若资金继续追逐 AI 算力，SMH 内部会继续分化。直接映射到 ARM, NVDA, AMD, AVGO, MRVL。 来源主题：Semiconductor, AI ASIC, GPU。",
+        "Arista Networks And 2 Other AI Infrastructure Stocks To Own - Yahoo Finance Singapore：这是 AI 资本开支链条信号，核心不是“AI 热不热”，而是订单是否能从 NVDA 外溢到服务器、散热、电源、网络和数据中心运营商。直接映射到 NVDA, DELL, SMCI, VRT, ANET。 来源主题：AI Infrastructure, Data Center, Semiconductor。"
+      ],
+      "beneficiary_tickers": [
+        "MRVL",
+        "AVGO",
+        "SNPS",
+        "CDNS",
+        "TSM",
+        "ASML"
+      ],
+      "pressured_tickers": [
+        "MCHP",
+        "传统 MCU/汽车工业链复苏较慢标的"
+      ],
+      "watch_signals": [
+        "数据中心收入",
+        "先进制程需求",
+        "毛利率",
+        "客户集中度"
+      ],
+      "source_urls": [
+        {
+          "title": "24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZXpOcVdYWWIyd0ZyaldnY3QxMFJUUk14d3E0UmpWVzRwakhSOF9lOUE1azgtTmxRMm55V1JWZ24wZmhsNlVjWHBtZW1DNTJLMmFRNjd1YS0yaFJ1cUxQQVhkdU14V0Mzb1VjbFBreGpFS3FjYUdnXzd1NkVYUUlEY05uYWVJVEgxaGMzbDhzMU5rZWpmNkxqcjdBT0lLMy1kWVlhN1lhbjB2TDFEOGQ4SEJ3YXAxUnpuMi1kMy1RdkZzZVFicVE?oc=5"
+        },
+        {
+          "title": "BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzY0FRZ05UaEpBRFZkTl82YnhyUHFPb3MxNVo1eFFWaVRidE1OQml5djVkM3g3aGhISmFoVjFONi1yV1Jvc1hDWWhMRmIyQjBIYmdWZ2M4RWFZSy1rNUN5MTYyR3V2b1M2WVF1RzRYNG5iWjd2ZVE?oc=5"
+        },
+        {
+          "title": "Yahoo Finance Singapore",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS0NwakJ2RklNUG5UMDBmYnVqQTU3cFBPbmh1YmlGaVZEeU90VWlMMDNBSl9NV0RNT1hDc0xadEszWnZ0TUduT012SVJYZU1nYzlTckxTWnVEYVpPekR3Y2lLY21PbmI4Y0w1alBkMVhvRGxEMVUySWRSRXFYSEpkVQ?oc=5"
+        }
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "sector_name": "Optical Communication / Networking",
+      "latest_catalysts": [
+        "Credo and Oracle Drive AI Optical Innovation: Is CRDO Set to Benefit? - TradingView：这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。直接映射到 COHR, LITE, CIEN, AAOI, MRVL。 来源主题：Optical Communication, Networking, Data Center。",
+        "Power, reliability and diversity: optical connectivity takeaways from OCP Global Summit - Nokia：这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。直接映射到 COHR, LITE, CIEN, AAOI, MRVL。 来源主题：Optical Communication, Networking, Data Center。",
+        "Marvell and Lumentum reshape the AI connectivity market - Yole Group：这是 AI 集群网络瓶颈信号，重点看 1.6T 光模块、CPO、硅光、DSP 和交换芯片是否成为下一段 capex 重点。直接映射到 COHR, LITE, CIEN, AAOI, MRVL。 来源主题：Optical Communication, Networking, Data Center。"
+      ],
+      "beneficiary_tickers": [
+        "COHR",
+        "LITE",
+        "CIEN",
+        "AAOI",
+        "MRVL",
+        "AVGO",
+        "GLW"
+      ],
+      "pressured_tickers": [
+        "订单兑现慢或价格竞争加剧的高波动光模块股"
+      ],
+      "watch_signals": [
+        "1.6T 订单",
+        "CPO 量产",
+        "DSP 供应",
+        "交换芯片路线图"
+      ],
+      "source_urls": [
+        {
+          "title": "TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQWhnNGZEb1dCOVJkeDZveDJ4VU53ZVpRNjkwYk1TaWZLUjBpQTBOdDhfYnhNTFI1NlJTbl93cEYzVFlsbDNIYlY4VWYxclVZU2RldUViQkszNUo5M200QWU0YnBwdDZ0dHZ5cHpOQnNZN05HTmFMdlJQOVlfTEZhTUNBRk9yYnhjWjZwZUpjLTBDVTVFTF9Na3Q2dW9WSlZIWnlWdHNDMnZtOHZOU0E4cUUwbjVPS0NFenNLQTQ0ZmE?oc=5"
+        },
+        {
+          "title": "Nokia",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONTdsZ2lZMVZFbV9yc2NqMkp3T2twZnFwTEZqcUVFM0FWclI4d1VrcW5FdEpNQnZmUG5fcnQxemFPLUxuUHp5Y3hMUzZqbFdweUZxWV9TQXdTTzJLX0hmc1JnQTdGejZRc0pWal9nN0JHNnJOSXlGT2VGc0tHc25BOUxlUC1VUWtLam52X3FJcmF3OVk5bHotYXpCVjNVNmlNOGFmMHhaOGxoNlR0Ynotbmx0Zw?oc=5"
+        },
+        {
+          "title": "Yole Group",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY1o3eVNDNGlITjdKOUo3NUhucDZvb0FnenQ5dHJubmZjYnFyME43WWpsd1NRV0J6T3pZVTJFZm1kMEo0aDM3ZGxWYjJ2ajVqdml0Qm9EenRpdHQ2MXNKLTlJWTV2dTYtX25WUU1CUlNfYlNDU3FMSFpLYVNrTzBEZWwzZ2hmVjdBeXUtTEVORk9ZY1dRd0ltY3piTDF5YTRBSEE?oc=5"
+        }
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "sector_name": "Cloud / Software",
+      "latest_catalysts": [
+        "Treasury Yield Moves Put Guidewire Stock And Other Software Names In Focus - Simply Wall St：这是企业 AI 变现信号，重点看 AI 功能能否变成 RPO、净留存、云消费和价格提升，而不是只停留在产品叙事。直接映射到 MSFT, GOOGL, AMZN, CRM, SNOW。 来源主题：Cloud, Software, Cybersecurity。"
+      ],
+      "beneficiary_tickers": [
+        "CRM",
+        "SNOW",
+        "MSFT",
+        "ORCL",
+        "DDOG"
+      ],
+      "pressured_tickers": [
+        "INTU",
+        "AI 替代风险较高的软件股"
+      ],
+      "watch_signals": [
+        "RPO",
+        "净留存率",
+        "AI 产品 ARPU",
+        "云消费增长"
+      ],
+      "source_urls": [
+        {
+          "title": "Simply Wall St",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT2VsVUl1WXdoTnd5SVBTY1hKM0tydy1OWW5Hc0ZKamFoRXZoYmxWYWh5VlpGNFcxUFcyYktMUC00cllWMENmd08xZTJwRHNsQVlOX001ZkhUVGpXVWhDNHhIV2JoczJtYXhHWU43RTgzTlN3X0Q0bU1Tc2VUZnEwcHJQRjdJY3VkaTR3U3VvRHZOY25VN3lHaFNBZUZRSl9hOUE0ZTg1Nm9TbzFLODNjdnJMR2NTVWdYUjZaOWFXcWJxY09XaHJ4em9Uam9UdnNSZ3Zzb9IB1AFBVV95cUxPT2VsVUl1WXdoTnd5SVBTY1hKM0tydy1OWW5Hc0ZKamFoRXZoYmxWYWh5VlpGNFcxUFcyYktMUC00cllWMENmd08xZTJwRHNsQVlOX001ZkhUVGpXVWhDNHhIV2JoczJtYXhHWU43RTgzTlN3X0Q0bU1Tc2VUZnEwcHJQRjdJY3VkaTR3U3VvRHZOY25VN3lHaFNBZUZRSl9hOUE0ZTg1Nm9TbzFLODNjdnJMR2NTVWdYUjZaOWFXcWJxY09XaHJ4em9Uam9UdnNSZ3Zzbw?oc=5"
+        }
+      ],
+      "sentiment": "mixed"
+    },
+    {
+      "sector_name": "Data Center Power / Energy",
+      "latest_catalysts": [
+        "EXCLUSIVE: AI Power Boom Fuels Energy Startup Valuations, But Investors See Risks - Benzinga：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。",
+        "3 Utility Stocks Investors Are Watching As AI Data Center Power Demand Grows - Simply Wall St：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。",
+        "Policy Uncertainty Continues to Rise, U.S. Power Sector Faces Divergence - NAI500：这是 AI 数据中心约束信号，电力接入、PPA、核能、电网设备和散热可能成为算力扩张的真实瓶颈。直接映射到 CEG, VST, NEE, ETN, PWR。 来源主题：Data Center Power, Energy, Grid Infrastructure。"
+      ],
+      "beneficiary_tickers": [
+        "NEE",
+        "D",
+        "CEG",
+        "VST",
+        "ETN",
+        "PWR",
+        "VRT"
+      ],
+      "pressured_tickers": [
+        "电力接入慢且融资成本高的数据中心项目"
+      ],
+      "watch_signals": [
+        "PPA 价格",
+        "监管审批",
+        "核能项目",
+        "电网接入"
+      ],
+      "source_urls": [
+        {
+          "title": "Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbWtwWjdBdmFsZlNUaWNwNTlzN055X01tWjVCRTVFQUVPS3RDMVNucWFTNnh4UnlrNHdPUVpaNFNQbWkyOExNTUFvZWdnMVR6eWd1MzhZak5lQlBKZjZIcDk0cWhGdUY1MUV2dWNrYkdRVm94bkdYZmV2b0lZTmFOUEdXcjZPdUc2S2Zid2hlWlBjMC03QjhZWlpqeEt3aXpjbmtFSFZNMzZfdFFEakNYSktQLVd1Mi1vR1IzYXQ1R0VBS1N1MzYzdHUyUWVDTmZQcGgyOTNrczVJMnEzWWJocE5qMmMzQQ?oc=5"
+        },
+        {
+          "title": "Simply Wall St",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQa0JlLUppaXNaUl9GX3dZRko3VE1VR3lIcFBsRmV3TzJrQlVHcVB5Ql8zcTRnVXFfMlZqT294MFVfakpzeTdpeTdOU1ZQNVpXNFpLNk5ZZ19TbDNwZUQxMENvS3JrNl9TVWx1MF9hTTgtZVJsX2FHdjlfZFV1LXpBSlRySkcyZWFXR3RoWWptby1wS3plRUJhYVYwYUtYNW9hRXY5M1JyeUxMMlNac2hSRU80M0NCV09YUmZWbDdkZWFmZ9IBxwFBVV95cUxQeVJhQjctR3NiRW1uVWRTM3BuOUJyUmhCZC00UmkzRllXVXlZM0xXNnFnWlVCWjdpLTlHNE5ud19ibld6QXZOMHJsYThidUxsU2xqYUV0TWt3OFNjSHlSTXZoWGhpYWI4YlJKVE5ISWh6V0FXY2RndW9MMnAxZlpTVG85LXdmZWQxZ1RMWUVCUThyTGJ4MElYWUYtUUl5eVZlZURsTEJmSldsRTNFTUxvODJGN2Iyc1NFdzAtY09VeFdRQUhGaDVF?oc=5"
+        },
+        {
+          "title": "NAI500",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWktOQW94REhlcHdmQk1WczltTUQtTldZTmZocG5OZjNNNTlYanRhRUZST0xCcXdfN2x3Y0UzaUVtZ3Y0WF9lcmpfTVJLSmNPci1fQ2RwbnRhQmQyQ0lNcnE4VWo2TGx2ZG5wbkdUN3FwVDljbVktN0wySUZMQUZYTlBIX3BLN1ZLUTdvdzJmMXRrcmJJV2xhdlQ3YUttY2ZtRUJHZTZR?oc=5"
+        }
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "sector_name": "Robotics / Automation",
+      "latest_catalysts": [
+        "AI 从云端模型向实体自动化扩散仍是中期主题"
+      ],
+      "beneficiary_tickers": [
+        "TSLA",
+        "ISRG",
+        "ROK",
+        "TER"
+      ],
+      "pressured_tickers": [
+        "订单不清晰的纯概念机器人股"
+      ],
+      "watch_signals": [
+        "量产节奏",
+        "单位经济性",
+        "企业自动化 capex"
+      ],
+      "source_urls": [
+        {
+          "title": "Kiplinger earnings calendar",
+          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        }
+      ],
+      "sentiment": "uncertain"
+    },
+    {
+      "sector_name": "Space / Defense Tech",
+      "latest_catalysts": [
+        "HawkEye 360 (NYSE:HAWK) - Stock Analysis - Simply Wall St：这是国防科技和太空商业化信号，重点看政府预算、合同节奏、发射频率和订单积压，而不是单纯概念热度。直接映射到 RKLB, ASTS, LMT, NOC, PLTR。 来源主题：Space Tech, Defense Tech。"
+      ],
+      "beneficiary_tickers": [
+        "RKLB",
+        "ASTS",
+        "LMT",
+        "NOC",
+        "PLTR"
+      ],
+      "pressured_tickers": [
+        "现金流弱、依赖融资的早期太空股"
+      ],
+      "watch_signals": [
+        "发射频率",
+        "政府合同",
+        "预算案",
+        "订单积压"
+      ],
+      "source_urls": [
+        {
+          "title": "Simply Wall St",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VY2FwTUZOek9CX050ZGxLWW5fM2NPZGZhVmFSXzF6dXItSVFsWklnOUNtdmFlQWF3MFNSS0tXX1I5c09oU3B5aXBiLTJUQkRNV01GUjNRNzdBV2NSRGlCV0phSFBUdXZYZWRBcU5QcFQ2X0lqNUE?oc=5"
+        }
+      ],
+      "sentiment": "uncertain"
+    },
+    {
+      "sector_name": "Crypto-related Tech",
+      "latest_catalysts": [
+        "Bitcoin (BTC) price falls below $76K as AI stock rout hit Strategy (MSTR), Coinbase (COIN), Circle (CRCL) - CoinDesk：这是风险偏好信号，重点看 BTC/ETH、稳定币监管、矿企转 AI hosting 的合同质量，以及高杠杆标的是否放大波动。直接映射到 CRCL, COIN, MSTR, MARA, RIOT。 来源主题：Crypto Infrastructure。",
+        "Circle Sinks 12%, Coinbase and Strategy Tumble 10% as Bitcoin Slide Hits Crypto Stocks - 24/7 Wall St.：这是风险偏好信号，重点看 BTC/ETH、稳定币监管、矿企转 AI hosting 的合同质量，以及高杠杆标的是否放大波动。直接映射到 COIN, MSTR, MARA, RIOT, IREN。 来源主题：Crypto Infrastructure。",
+        "Oversold bitcoin miners' grid connections carry a massive scarcity premium, VanEck says - CoinDesk：这是风险偏好信号，重点看 BTC/ETH、稳定币监管、矿企转 AI hosting 的合同质量，以及高杠杆标的是否放大波动。直接映射到 COIN, MSTR, MARA, RIOT, IREN。 来源主题：Crypto Infrastructure。"
+      ],
+      "beneficiary_tickers": [
+        "COIN",
+        "MSTR",
+        "RIOT",
+        "MARA",
+        "IREN",
+        "CRCL"
+      ],
+      "pressured_tickers": [
+        "高杠杆矿企",
+        "电力成本上行的挖矿股"
+      ],
+      "watch_signals": [
+        "BTC/ETH 价格",
+        "稳定币监管",
+        "AI hosting 合同质量"
+      ],
+      "source_urls": [
+        {
+          "title": "CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPN3VFZFhZZVFocTFFbk1VWFpidzk5SlF6VzVpbk5aakNLT2RTVDZwVWJSX2xVY3F4MVpaV3lRM2JPM3MtNUpTVmxObkNxX0t6WjB2OUMtVmxueDBRcGMwZmNZN0s4WEFHQWhzbXVXSEdWcXpyM3d6UXdWWnlsc0tsY01ndE9TWWN6MXBxOFNqeTlpdW9oSkFHd1pxMi0tMFlUYnNyRnV4elhZczBRNWhsempubS1xc1BFNUZWT3F3MlhWMXRweVU2TS1BV0pjUU0zX3c?oc=5"
+        },
+        {
+          "title": "24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYTQwVmNTRU85VmJ2WEdKNW4zdEl0cTdaeEZXQnZpdmtOdk5uQ0tHNWplcUN3eVZkMUpPMkhrNlYzZ3Y4ejdQSTRXSTVaLUpzUGt1Z3hmbTFTZG9Pbm1Qc2w1YUI2UjlPelF6M1JQcW1WakhWX0RUcmU5MjR1dzB0QjYwM2M0UmpaREhLNWhad296Rk9zd0RfV2dNZnkxVEFuOHJMOWdxOXJUMWlNdS1kQ1VoTW9BejFnSVVTcERSbkZDRVJhMVE?oc=5"
+        },
+        {
+          "title": "CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYlBWWFF2d2JpdU9oQ1VLUTUycW1NYU94OFd0NmNJTnozdy1hTlhZajI3anpNMzhDLTVpb2h5WHZKRS1COW5nTGRieFhOdHV4ZHBwa0VNcW5hQm8xemQyY1ItMWgyMGpaTzNRODE1ZjV5dHAwVU1TYVp5ZGtGRHNUQ2czUHY5c3VJYmFtWGVHVkw3eUdTdHhCOFpCcjY3VEZvSUo0alJHNThiNVhXVXc?oc=5"
+        }
+      ],
+      "sentiment": "uncertain"
+    },
+    {
+      "sector_name": "Other Tech-linked Themes",
+      "latest_catalysts": [
+        "Market Movers blog: US markets rise at the open as Congress turns blue - Investment Week：这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。",
+        "Stock Market Today: Rotation Away From AI Stocks Increases as Money Flows to AI Landlords - 24/7 Wall St.：这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。",
+        "Nasdaq Futures Slip as Chip Selloff Rages On; Earnings and Fed Speak on Tap - Barchart.com：这是影响指数估值倍数的宏观信号，重点看美债收益率和美元是否同步上行。若利率压力升温，Nasdaq、SMH 和高估值软件通常更容易承压；若利率回落，AI/半导体反弹弹性更大。直接映射到 QQQ, SPY。 来源主题：Macro, Rates, Nasdaq。"
+      ],
+      "beneficiary_tickers": [
+        "AAPL",
+        "GOOGL",
+        "META",
+        "AMZN"
+      ],
+      "pressured_tickers": [
+        "供应链或监管暴露较高的科技股"
+      ],
+      "watch_signals": [
+        "美元",
+        "关税",
+        "出口管制",
+        "反垄断监管"
+      ],
+      "source_urls": [
+        {
+          "title": "Investment Week",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5"
+        },
+        {
+          "title": "24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRzcycnpyYk1uclpWNWtmU1hLY2x0OHBpOXVaQ0w4UVBpVTVYamdSZmhRcVhtRjlDZV9yUWZRZzFuZ2l0V2tQWFJMd1dkWnpuZG1ZR29fMTRoa0NNUjJEbFFTdzgtckpHX3dBdkZCYkMwWmFHbnV1UUVSMzRtYzM0cGxreHI2djd3ZGJfd1pwMFY2ZThyOE1jSXBOaTMzNHZ2VUhvX1dCaTRyQkRVSXh1Z29oTXFPQQ?oc=5"
+        },
+        {
+          "title": "Barchart.com",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaURpY2VwV0xyc3Z4bnVmcHlaRUpadWFHMkNObW5lRkwycnhnOC1Gb2gyMWV3al93alEtRjdQM1hUclpUYi1zcWRhVUtsSE4taTBoR0VvaFNMZlJQSHRVdzUzRzhwVnMxd1BXdnRyWXZzUmZrNkhLNHVQaGkwVXhEV0xDSUlqRmR4ZGdSZl9TSUs1djA4Q0ZIZ1l5T0hCZ0RQYmV0VVAxT0FCNjBKb1dUZlV4elhDRHN0MHFnQU9n?oc=5"
+        }
+      ],
+      "sentiment": "uncertain"
+    }
+  ],
+  "macro": {
+    "treasury_yields": "利率线索来自最新公开信号：“Market Movers blog: US markets rise at the open as Congress turns blue - Investment Week”。若 10Y/2Y 美债收益率上行，高估值成长股和 AI 软件股估值会更敏感。",
+    "dollar_index": "美元方向重点参考：“Stock Market Today: Rotation Away From AI Stocks Increases as Money Flows to AI Landlords - 24/7 Wall St.”。强美元通常压制跨国科技公司估值和海外收入折算。",
+    "crude_oil": "未发现高权重能源冲击信号，油价暂时不是科技股估值的第一变量。",
+    "gold": "黄金如果和美元同涨，通常代表避险需求升温；如果黄金回落而美债收益率稳定，成长股风险偏好更容易维持。",
+    "vix": "风险偏好用两个信号观察：指数是否扩散上涨，以及高 beta 科技股是否跑赢防御板块。若 Top Signals 只集中在少数股票，说明市场仍是分化行情。",
+    "macro_data": "覆盖期内未抓到高优先级宏观/Fed 事件。",
+    "growth_tech_smallcap_impact": "如果通胀/利率信号偏热，优先压制长久期科技股、小盘成长股和高估值 AI 概念；如果利率回落，AI 基础设施和半导体更容易获得估值支撑。",
+    "source_urls": [
+      {
+        "title": "Investment Week",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5"
+      },
+      {
+        "title": "24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRzcycnpyYk1uclpWNWtmU1hLY2x0OHBpOXVaQ0w4UVBpVTVYamdSZmhRcVhtRjlDZV9yUWZRZzFuZ2l0V2tQWFJMd1dkWnpuZG1ZR29fMTRoa0NNUjJEbFFTdzgtckpHX3dBdkZCYkMwWmFHbnV1UUVSMzRtYzM0cGxreHI2djd3ZGJfd1pwMFY2ZThyOE1jSXBOaTMzNHZ2VUhvX1dCaTRyQkRVSXh1Z29oTXFPQQ?oc=5"
+      },
+      {
+        "title": "Barchart.com",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaURpY2VwV0xyc3Z4bnVmcHlaRUpadWFHMkNObW5lRkwycnhnOC1Gb2gyMWV3al93alEtRjdQM1hUclpUYi1zcWRhVUtsSE4taTBoR0VvaFNMZlJQSHRVdzUzRzhwVnMxd1BXdnRyWXZzUmZrNkhLNHVQaGkwVXhEV0xDSUlqRmR4ZGdSZl9TSUs1djA4Q0ZIZ1l5T0hCZ0RQYmV0VVAxT0FCNjBKb1dUZlV4elhDRHN0MHFnQU9n?oc=5"
+      }
+    ]
+  },
+  "decliners": [
+    {
+      "ticker": "CDLR",
+      "company_name": "Cadeler A/S",
+      "previous_day_change_percent": -71.71,
+      "volume_note": "StockAnalysis 显示成交量为 150,570。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。",
+      "reason": "该股进入跌幅榜但未抓到明确单一新闻催化，优先按价格异动处理：若同板块多股同步下跌，更可能是行业或风险偏好问题；若孤立下跌，更可能是公司自身催化。",
+      "reason_type": "unknown",
+      "catalysts": [
+        "price_action",
+        "needs_news_confirmation"
+      ],
+      "watch_points": "盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。",
+      "source_urls": [
+        {
+          "title": "StockAnalysis top losers",
+          "url": "https://stockanalysis.com/markets/losers/"
+        }
+      ]
+    },
+    {
+      "ticker": "SNWV",
+      "company_name": "SANUWAVE Health, Inc.",
+      "previous_day_change_percent": -64.05,
+      "volume_note": "StockAnalysis 显示成交量为 842,938。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。",
+      "reason": "该股进入跌幅榜但未抓到明确单一新闻催化，优先按价格异动处理：若同板块多股同步下跌，更可能是行业或风险偏好问题；若孤立下跌，更可能是公司自身催化。",
+      "reason_type": "unknown",
+      "catalysts": [
+        "price_action",
+        "needs_news_confirmation"
+      ],
+      "watch_points": "盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。",
+      "source_urls": [
+        {
+          "title": "StockAnalysis top losers",
+          "url": "https://stockanalysis.com/markets/losers/"
+        }
+      ]
+    },
+    {
+      "ticker": "VCYT",
+      "company_name": "Veracyte, Inc.",
+      "previous_day_change_percent": -57.77,
+      "volume_note": "StockAnalysis 显示成交量为 10,911,672。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。",
+      "reason": "该股进入跌幅榜，同时相关公开新闻指向：“Why Is Veracyte Stock Sinking Thursday? - Benzinga”。优先判断为单股催化或主题退潮引发的风险重定价，重点看跌幅是否扩散到同板块。",
+      "reason_type": "company_specific",
+      "catalysts": [
+        "other",
+        "uncertain"
+      ],
+      "watch_points": "盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。",
+      "source_urls": [
+        {
+          "title": "Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWGN0Rk5MeVU1SnNtSHNKNWlzMGZZQkE1NTR2cFFMT2pQaE9EZFVObWhFLU1EWHVzUzdEazZYWUkwb09VdzB2aFoteUEyMnYteGJjNXd5Z3hWMHZ0eHkzakF0ZlF6V3dONDM0aHZwZ080aXZydHQ3R2Yxd0VKaG9YNFdzVlh0c1hTa3Z2eFpqRE9CTjRpSWgwQll6Yw?oc=5"
+        }
+      ]
+    },
+    {
+      "ticker": "MNTN",
+      "company_name": "MNTN, Inc.",
+      "previous_day_change_percent": -54.29,
+      "volume_note": "StockAnalysis 显示成交量为 7,752,554。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。",
+      "reason": "该股进入跌幅榜，同时相关公开新闻指向：“Raymond James downgrades MNTN stock rating on sales upheaval By Investing.com - Investing.com India”。优先判断为单股催化或主题退潮引发的风险重定价，重点看跌幅是否扩散到同板块。",
+      "reason_type": "company_specific",
+      "catalysts": [
+        "other",
+        "uncertain"
+      ],
+      "watch_points": "盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。",
+      "source_urls": [
+        {
+          "title": "Investing.com India",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSEF3THdBT1p0aFJDT0Z0V20wUDRaYlhva1ViTEd2M3B3NE1WbVdybWVET093ZzZHZzNHQ1ZYQnQxeG5OYm1Db1lnZTF1NjFJaEVucTJFWEtIc1RBS0tZcTFYRG5keFZ3YzlocE11TWExZV9xLWRPNTUtcGowLWZJb2h5UG9fNHFST2FpWFJKZTBIbVphOHhkNkM4Vk9rdUJ5VnZ4WEhOalQyZUV2T2RiM3d3cTdGMmR2cWY3eVlB?oc=5"
+        }
+      ]
+    },
+    {
+      "ticker": "ELPW",
+      "company_name": "Elong Power Holding Limited",
+      "previous_day_change_percent": -48.01,
+      "volume_note": "StockAnalysis 显示成交量为 61,448,026。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。",
+      "reason": "该股进入跌幅榜但未抓到明确单一新闻催化，优先按价格异动处理：若同板块多股同步下跌，更可能是行业或风险偏好问题；若孤立下跌，更可能是公司自身催化。",
+      "reason_type": "unknown",
+      "catalysts": [
+        "price_action",
+        "needs_news_confirmation"
+      ],
+      "watch_points": "盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。",
+      "source_urls": [
+        {
+          "title": "StockAnalysis top losers",
+          "url": "https://stockanalysis.com/markets/losers/"
+        }
+      ]
+    },
+    {
+      "ticker": "ANVS",
+      "company_name": "Annovis Bio, Inc.",
+      "previous_day_change_percent": -47.17,
+      "volume_note": "StockAnalysis 显示成交量为 25,619,671。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。",
+      "reason": "该股进入跌幅榜但未抓到明确单一新闻催化，优先按价格异动处理：若同板块多股同步下跌，更可能是行业或风险偏好问题；若孤立下跌，更可能是公司自身催化。",
+      "reason_type": "unknown",
+      "catalysts": [
+        "price_action",
+        "needs_news_confirmation"
+      ],
+      "watch_points": "盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。",
+      "source_urls": [
+        {
+          "title": "StockAnalysis top losers",
+          "url": "https://stockanalysis.com/markets/losers/"
+        }
+      ]
+    },
+    {
+      "ticker": "PARA",
+      "company_name": "Parabolic Technologies, Inc.",
+      "previous_day_change_percent": -45.11,
+      "volume_note": "StockAnalysis 显示成交量为 18,080,624。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。",
+      "reason": "该股进入跌幅榜，同时相关公开新闻指向：“Morgan Stanley Downgrades Cisco On AI Impacting Gross Margins - Investor's Business Daily”。优先判断为单股催化或主题退潮引发的风险重定价，重点看跌幅是否扩散到同板块。",
+      "reason_type": "company_specific",
+      "catalysts": [
+        "other",
+        "uncertain"
+      ],
+      "watch_points": "盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。",
+      "source_urls": [
+        {
+          "title": "Investor's Business Daily",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNenlRbU9KcTNickNGZy1DQ1dLTGlwb2FtaEhBZzlyRjBORUlwOWwxUEpCaG9Fbm10TGF5ZFk4RmNqQkZtQWYtbEFXR2FYUXlkNFVlaVpoOWpQVm1IempVdUVhb3ZLMjNkaE9OVEJjQlVsWnE3WnFLdEx6bDhjRlh4amY0YW5zWGs5YnJyLVhR?oc=5"
+        }
+      ]
+    },
+    {
+      "ticker": "PASW",
+      "company_name": "Ping An Biomedical Co., Ltd.",
+      "previous_day_change_percent": -41.98,
+      "volume_note": "StockAnalysis 显示成交量为 186,385。若该股成交额较小，单日跌幅更容易被流动性放大；若成交额较大，则更值得看作真实资金撤退。",
+      "reason": "该股进入跌幅榜，同时相关公开新闻指向：“Taboola.com (NASDAQ:TBLA) Shares Down 19.4% After Analyst Downgrade - MarketBeat”。优先判断为单股催化或主题退潮引发的风险重定价，重点看跌幅是否扩散到同板块。",
+      "reason_type": "company_specific",
+      "catalysts": [
+        "other",
+        "uncertain"
+      ],
+      "watch_points": "盘前重点看是否反弹失败、同板块是否跟跌、是否出现评级/融资/监管/财报补充消息。",
+      "source_urls": [
+        {
+          "title": "MarketBeat",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVjlzSld5SnNOUGs5ZDBzaXlWU0NqLXlMakQ0cDM3OFhSc0E0V3JZVGhvUEZjTWVIX3dxaWxfek9YQTYwWHJ4RUdmZEZBbEk3a0syMWNBckw5WElpaTZKeHhYUXZvcGJNTUhZb1dqTjZacl84djlCdzBRbTNCbHE3b0tIaWNrNWZBYVU3bVlHVUJtR0JsaUIwUnRiNDBzRGoyQWdieWZNYTVPYzhrYkFfaGNrMGE1UmNGY3hDNFJrTQ?oc=5"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol_or_sector": "QQQ",
+      "reason_to_watch": "2026-11-05 高权重信号对应的核心观察对象：“Market Movers blog: US markets rise at the open as Congress turns blue - Investment Week”。关注它是否从新闻标题变成板块共振。",
+      "key_trigger": "2026-11-05 US equity market session / premarket setup",
+      "risk_points": "利率或美元若反向走强，会削弱科技股风险偏好。",
+      "priority": "high",
+      "source_urls": [
+        {
+          "title": "Investment Week",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5"
+        }
+      ]
+    },
+    {
+      "symbol_or_sector": "AMD",
+      "reason_to_watch": "2026-11-05 高权重信号对应的核心观察对象：“AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% - 24/7 Wall St.”。关注它是否从新闻标题变成板块共振。",
+      "key_trigger": "AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% - 24/7 Wall St.",
+      "risk_points": "若同板块没有跟随，说明它可能只是标题热度，不是主线。",
+      "priority": "high",
+      "source_urls": [
+        {
+          "title": "24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZXpOcVdYWWIyd0ZyaldnY3QxMFJUUk14d3E0UmpWVzRwakhSOF9lOUE1azgtTmxRMm55V1JWZ24wZmhsNlVjWHBtZW1DNTJLMmFRNjd1YS0yaFJ1cUxQQVhkdU14V0Mzb1VjbFBreGpFS3FjYUdnXzd1NkVYUUlEY05uYWVJVEgxaGMzbDhzMU5rZWpmNkxqcjdBT0lLMy1kWVlhN1lhbjB2TDFEOGQ4SEJ3YXAxUnpuMi1kMy1RdkZzZVFicVE?oc=5"
+        }
+      ]
+    },
+    {
+      "symbol_or_sector": "ARM",
+      "reason_to_watch": "2026-11-05 高权重信号对应的核心观察对象：“US Chip Stocks Plunge Mid-Session; Qualcomm Tumbles 13%, Arm Drops Over 10% - BigGo Finance”。关注它是否从新闻标题变成板块共振。",
+      "key_trigger": "US Chip Stocks Plunge Mid-Session; Qualcomm Tumbles 13%, Arm Drops Over 10% - BigGo Finance",
+      "risk_points": "若同板块没有跟随，说明它可能只是标题热度，不是主线。",
+      "priority": "medium",
+      "source_urls": [
+        {
+          "title": "BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzY0FRZ05UaEpBRFZkTl82YnhyUHFPb3MxNVo1eFFWaVRidE1OQml5djVkM3g3aGhISmFoVjFONi1yV1Jvc1hDWWhMRmIyQjBIYmdWZ2M4RWFZSy1rNUN5MTYyR3V2b1M2WVF1RzRYNG5iWjd2ZVE?oc=5"
+        }
+      ]
+    },
+    {
+      "symbol_or_sector": "COHR",
+      "reason_to_watch": "2026-11-05 高权重信号对应的核心观察对象：“Credo and Oracle Drive AI Optical Innovation: Is CRDO Set to Benefit? - TradingView”。关注它是否从新闻标题变成板块共振。",
+      "key_trigger": "Credo and Oracle Drive AI Optical Innovation: Is CRDO Set to Benefit? - TradingView",
+      "risk_points": "若同板块没有跟随，说明它可能只是标题热度，不是主线。",
+      "priority": "medium",
+      "source_urls": [
+        {
+          "title": "TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQWhnNGZEb1dCOVJkeDZveDJ4VU53ZVpRNjkwYk1TaWZLUjBpQTBOdDhfYnhNTFI1NlJTbl93cEYzVFlsbDNIYlY4VWYxclVZU2RldUViQkszNUo5M200QWU0YnBwdDZ0dHZ5cHpOQnNZN05HTmFMdlJQOVlfTEZhTUNBRk9yYnhjWjZwZUpjLTBDVTVFTF9Na3Q2dW9WSlZIWnlWdHNDMnZtOHZOU0E4cUUwbjVPS0NFenNLQTQ0ZmE?oc=5"
+        }
+      ]
+    }
+  ],
+  "narratives": [
+    {
+      "title": "光通信 / CPO：AI 网络瓶颈的下一段外溢叙事（near-term，2026-11-05 近端跟踪）",
+      "event_date": "near-term",
+      "narrative_type": "narrative",
+      "thesis": "截至 2026-11-05，2026-11-05 近端跟踪。仍处在预期酝酿阶段，重点是确认这条线是否被新闻、订单和分析师预期持续强化。相关股票：COHR, LITE, CIEN, AAOI, MRVL。",
+      "why_i_like_it": "我看好这个叙事，因为它和 AI capex 强相关，又不像 GPU 龙头那样拥挤，弹性更偏二线和供应链扩散。",
+      "beneficiary_tickers": [
+        "COHR",
+        "LITE",
+        "CIEN",
+        "AAOI",
+        "MRVL",
+        "AVGO"
+      ],
+      "risk_points": "订单兑现慢、价格竞争或客户集中度过高，会让高波动光模块股快速回撤。",
+      "what_to_watch": "2026-11-05 近端跟踪重点看：1.6T 光模块订单、CPO 量产路线、DSP 供应、云厂商网络 capex 表述。",
+      "conviction": "high",
+      "source_urls": [
+        {
+          "title": "TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQWhnNGZEb1dCOVJkeDZveDJ4VU53ZVpRNjkwYk1TaWZLUjBpQTBOdDhfYnhNTFI1NlJTbl93cEYzVFlsbDNIYlY4VWYxclVZU2RldUViQkszNUo5M200QWU0YnBwdDZ0dHZ5cHpOQnNZN05HTmFMdlJQOVlfTEZhTUNBRk9yYnhjWjZwZUpjLTBDVTVFTF9Na3Q2dW9WSlZIWnlWdHNDMnZtOHZOU0E4cUUwbjVPS0NFenNLQTQ0ZmE?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "数据中心电力：AI 扩张最硬的供给约束（near-term，2026-11-05 近端跟踪）",
+      "event_date": "near-term",
+      "narrative_type": "narrative",
+      "thesis": "截至 2026-11-05，2026-11-05 近端跟踪。仍处在预期酝酿阶段，重点是确认这条线是否被新闻、订单和分析师预期持续强化。相关股票：CEG, VST, ETN, PWR, VRT。",
+      "why_i_like_it": "我看好这个叙事，因为它把 AI 交易从芯片扩展到真实基础设施，且受订单、政策和电网瓶颈共同驱动。",
+      "beneficiary_tickers": [
+        "CEG",
+        "VST",
+        "ETN",
+        "PWR",
+        "VRT",
+        "NEE"
+      ],
+      "risk_points": "监管审批慢、融资成本高或电价政治压力上升，会压制项目落地速度。",
+      "what_to_watch": "2026-11-05 近端跟踪重点看：PPA 合同、核能/电网审批、数据中心并网新闻、电力设备 backlog。",
+      "conviction": "medium",
+      "source_urls": [
+        {
+          "title": "Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbWtwWjdBdmFsZlNUaWNwNTlzN055X01tWjVCRTVFQUVPS3RDMVNucWFTNnh4UnlrNHdPUVpaNFNQbWkyOExNTUFvZWdnMVR6eWd1MzhZak5lQlBKZjZIcDk0cWhGdUY1MUV2dWNrYkdRVm94bkdYZmV2b0lZTmFOUEdXcjZPdUc2S2Zid2hlWlBjMC03QjhZWlpqeEt3aXpjbmtFSFZNMzZfdFFEakNYSktQLVd1Mi1vR1IzYXQ1R0VBS1N1MzYzdHUyUWVDTmZQcGgyOTNrczVJMnEzWWJocE5qMmMzQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "title": "国防科技 / 太空商业化：预算与合同驱动的成长叙事（near-term，2026-11-05 近端跟踪）",
+      "event_date": "near-term",
+      "narrative_type": "narrative",
+      "thesis": "截至 2026-11-05，2026-11-05 近端跟踪。仍处在预期酝酿阶段，重点是确认这条线是否被新闻、订单和分析师预期持续强化。相关股票：RKLB, ASTS, PLTR, LMT, NOC。",
+      "why_i_like_it": "我看好这个叙事，因为它和传统经济周期相关性较低，同时 AI、卫星通信和国防现代化有交集。",
+      "beneficiary_tickers": [
+        "RKLB",
+        "ASTS",
+        "PLTR",
+        "LMT",
+        "NOC"
+      ],
+      "risk_points": "早期太空股现金流弱、融资敏感，任何发射延迟或合同落空都会放大波动。",
+      "what_to_watch": "2026-11-05 近端跟踪重点看：政府合同、发射节奏、预算案、订单积压和现金消耗。",
+      "conviction": "medium",
+      "source_urls": [
+        {
+          "title": "Simply Wall St",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VY2FwTUZOek9CX050ZGxLWW5fM2NPZGZhVmFSXzF6dXItSVFsWklnOUNtdmFlQWF3MFNSS0tXX1I5c09oU3B5aXBiLTJUQkRNV01GUjNRNzdBV2NSRGlCV0phSFBUdXZYZWRBcU5QcFQ2X0lqNUE?oc=5"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Investment Week",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "macro"
+    },
+    {
+      "title": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZXpOcVdYWWIyd0ZyaldnY3QxMFJUUk14d3E0UmpWVzRwakhSOF9lOUE1azgtTmxRMm55V1JWZ24wZmhsNlVjWHBtZW1DNTJLMmFRNjd1YS0yaFJ1cUxQQVhkdU14V0Mzb1VjbFBreGpFS3FjYUdnXzd1NkVYUUlEY05uYWVJVEgxaGMzbDhzMU5rZWpmNkxqcjdBT0lLMy1kWVlhN1lhbjB2TDFEOGQ4SEJ3YXAxUnpuMi1kMy1RdkZzZVFicVE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "ai"
+    },
+    {
+      "title": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRzcycnpyYk1uclpWNWtmU1hLY2x0OHBpOXVaQ0w4UVBpVTVYamdSZmhRcVhtRjlDZV9yUWZRZzFuZ2l0V2tQWFJMd1dkWnpuZG1ZR29fMTRoa0NNUjJEbFFTdzgtckpHX3dBdkZCYkMwWmFHbnV1UUVSMzRtYzM0cGxreHI2djd3ZGJfd1pwMFY2ZThyOE1jSXBOaTMzNHZ2VUhvX1dCaTRyQkRVSXh1Z29oTXFPQQ?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "macro"
+    },
+    {
+      "title": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzY0FRZ05UaEpBRFZkTl82YnhyUHFPb3MxNVo1eFFWaVRidE1OQml5djVkM3g3aGhISmFoVjFONi1yV1Jvc1hDWWhMRmIyQjBIYmdWZ2M4RWFZSy1rNUN5MTYyR3V2b1M2WVF1RzRYNG5iWjd2ZVE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "semiconductor"
+    },
+    {
+      "title": "Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS0NwakJ2RklNUG5UMDBmYnVqQTU3cFBPbmh1YmlGaVZEeU90VWlMMDNBSl9NV0RNT1hDc0xadEszWnZ0TUduT012SVJYZU1nYzlTckxTWnVEYVpPekR3Y2lLY21PbmI4Y0w1alBkMVhvRGxEMVUySWRSRXFYSEpkVQ?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "ai"
+    },
+    {
+      "title": "Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaURpY2VwV0xyc3Z4bnVmcHlaRUpadWFHMkNObW5lRkwycnhnOC1Gb2gyMWV3al93alEtRjdQM1hUclpUYi1zcWRhVUtsSE4taTBoR0VvaFNMZlJQSHRVdzUzRzhwVnMxd1BXdnRyWXZzUmZrNkhLNHVQaGkwVXhEV0xDSUlqRmR4ZGdSZl9TSUs1djA4Q0ZIZ1l5T0hCZ0RQYmV0VVAxT0FCNjBKb1dUZlV4elhDRHN0MHFnQU9n?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "macro"
+    },
+    {
+      "title": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTGltQ1laWTRjdVRfcGJwWTZHVkE0Y0J5MlJtd015amczUnFLLWs2c1RNSXNsdHppUlI4WHp3MHdCdWtYOVVQVEZScWRaenhtdzl6eWJ1TEpOaEJkWWRyaS1PZ1lGTkVZVEVxTjN1T3NLRHBRLTRac2w4YTJGOU4ydmZWUGZDb0xTODBPeXJmZkh3QkFJQjZoUg?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "semiconductor"
+    },
+    {
+      "title": "Beth Kindig – Medium",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObUJxbUxTelo5RGpVdENpWV9jZWpkM0pHS3ByR1QyREcxVVVhcE5rbkx6VmtMbTRZaTYtSU5rV0pfaFBMRF95bW4zbzhnd3I1M3MtMDRBRUpmTnNZREVVY1podjlSMVlpNWdwMmtrOWFIc05VampoOHpYa09wQkJTay1HdXR5TGdGU3pmQ2VFZDZmYUNUSl9EdFp6V1pDN01GRWhpS2w3c1Rzc2l6N2wyOFdxcw?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "ai"
+    },
+    {
+      "title": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQTRNOGxBOG9YQklfMzFVRGRSbmlYX3RXTWpvRzg5b2FDRWFRNWpub1FNS3hQdUd6WnZqd2l6eGI3ZWd3eVpsU2hlMHNLZ3dyUjNBLUl5ZTAxVFItQ25lTTNWT1hoLTNYWENrUlF1bVhZZklja3dPQ3RjeVR0RTEyeXA2U1BiVVZYRXdvWDJaOHN0ZTNoYmNCSllybTMxODN0V2dMQWJ2YWtWWXVEajdUdFd4MUIxVWVFUXlCVTVuWVJtRWcxZF83aldjY2NTdEI3TlVDSWRPLVFLb2xrMi1kUm1KR3NteURB?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "macro"
+    },
+    {
+      "title": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTHpLN09qTHQ2ck1fcmV0X3NYeUl1elNlbWdFc1JJd0QtNGNFdUtGS2Zvd0FfcWFkZVZyWFRqd0djd29UckQtYmVQTl9PVHJsMklLYlJfNEc2VksxbXVOUlEzaUVuWDY4Z05SUlpraWd1WTFxa25pYjE3WFB3WVcxbVh3WTE0VVRVZllJVU5kR3R4TXdNRE9JYkNuU25QNlN3UnlVdTRyUm1sVzVoM2p4Ui1JWWdRUHVBWjh0VFJsOF91Zk56N1VfT3lkbzJHVFJzZDQ5SGR2cGE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "semiconductor"
+    },
+    {
+      "title": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQWhnNGZEb1dCOVJkeDZveDJ4VU53ZVpRNjkwYk1TaWZLUjBpQTBOdDhfYnhNTFI1NlJTbl93cEYzVFlsbDNIYlY4VWYxclVZU2RldUViQkszNUo5M200QWU0YnBwdDZ0dHZ5cHpOQnNZN05HTmFMdlJQOVlfTEZhTUNBRk9yYnhjWjZwZUpjLTBDVTVFTF9Na3Q2dW9WSlZIWnlWdHNDMnZtOHZOU0E4cUUwbjVPS0NFenNLQTQ0ZmE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "optical_communication"
+    },
+    {
+      "title": "Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPN1owOS1HVVI4Q01UelhFM1NOQjF6dFNOQlZTSVA5Q1JSYlNCV3NKNTk0TURDRnFxRVlZYzViYW5NcHhkR2V5blV4V0RLbGRBTzhkZXFCYWtocTdwajBxeURjYUtHV29UU3hSeXNnRXFZdEVvc3FtdmJhVnU4MFlwQkxqQ09OWDNuU0pFc1lScTFnR0tlV0NkRDktTk5rRjdrODZsQWtiTVQwTlgtV1RzWjJMSHh3RnFXeGRVY0pGd2phd1k?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "ai"
+    },
+    {
+      "title": "Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT2VsVUl1WXdoTnd5SVBTY1hKM0tydy1OWW5Hc0ZKamFoRXZoYmxWYWh5VlpGNFcxUFcyYktMUC00cllWMENmd08xZTJwRHNsQVlOX001ZkhUVGpXVWhDNHhIV2JoczJtYXhHWU43RTgzTlN3X0Q0bU1Tc2VUZnEwcHJQRjdJY3VkaTR3U3VvRHZOY25VN3lHaFNBZUZRSl9hOUE0ZTg1Nm9TbzFLODNjdnJMR2NTVWdYUjZaOWFXcWJxY09XaHJ4em9Uam9UdnNSZ3Zzb9IB1AFBVV95cUxPT2VsVUl1WXdoTnd5SVBTY1hKM0tydy1OWW5Hc0ZKamFoRXZoYmxWYWh5VlpGNFcxUFcyYktMUC00cllWMENmd08xZTJwRHNsQVlOX001ZkhUVGpXVWhDNHhIV2JoczJtYXhHWU43RTgzTlN3X0Q0bU1Tc2VUZnEwcHJQRjdJY3VkaTR3U3VvRHZOY25VN3lHaFNBZUZRSl9hOUE0ZTg1Nm9TbzFLODNjdnJMR2NTVWdYUjZaOWFXcWJxY09XaHJ4em9Uam9UdnNSZ3Zzbw?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "software"
+    },
+    {
+      "title": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbWtwWjdBdmFsZlNUaWNwNTlzN055X01tWjVCRTVFQUVPS3RDMVNucWFTNnh4UnlrNHdPUVpaNFNQbWkyOExNTUFvZWdnMVR6eWd1MzhZak5lQlBKZjZIcDk0cWhGdUY1MUV2dWNrYkdRVm94bkdYZmV2b0lZTmFOUEdXcjZPdUc2S2Zid2hlWlBjMC03QjhZWlpqeEt3aXpjbmtFSFZNMzZfdFFEakNYSktQLVd1Mi1vR1IzYXQ1R0VBS1N1MzYzdHUyUWVDTmZQcGgyOTNrczVJMnEzWWJocE5qMmMzQQ?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "energy"
+    },
+    {
+      "title": "Nokia",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONTdsZ2lZMVZFbV9yc2NqMkp3T2twZnFwTEZqcUVFM0FWclI4d1VrcW5FdEpNQnZmUG5fcnQxemFPLUxuUHp5Y3hMUzZqbFdweUZxWV9TQXdTTzJLX0hmc1JnQTdGejZRc0pWal9nN0JHNnJOSXlGT2VGc0tHc25BOUxlUC1VUWtLam52X3FJcmF3OVk5bHotYXpCVjNVNmlNOGFmMHhaOGxoNlR0Ynotbmx0Zw?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "optical_communication"
+    },
+    {
+      "title": "Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQa0JlLUppaXNaUl9GX3dZRko3VE1VR3lIcFBsRmV3TzJrQlVHcVB5Ql8zcTRnVXFfMlZqT294MFVfakpzeTdpeTdOU1ZQNVpXNFpLNk5ZZ19TbDNwZUQxMENvS3JrNl9TVWx1MF9hTTgtZVJsX2FHdjlfZFV1LXpBSlRySkcyZWFXR3RoWWptby1wS3plRUJhYVYwYUtYNW9hRXY5M1JyeUxMMlNac2hSRU80M0NCV09YUmZWbDdkZWFmZ9IBxwFBVV95cUxQeVJhQjctR3NiRW1uVWRTM3BuOUJyUmhCZC00UmkzRllXVXlZM0xXNnFnWlVCWjdpLTlHNE5ud19ibld6QXZOMHJsYThidUxsU2xqYUV0TWt3OFNjSHlSTXZoWGhpYWI4YlJKVE5ISWh6V0FXY2RndW9MMnAxZlpTVG85LXdmZWQxZ1RMWUVCUThyTGJ4MElYWUYtUUl5eVZlZURsTEJmSldsRTNFTUxvODJGN2Iyc1NFdzAtY09VeFdRQUhGaDVF?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "energy"
+    },
+    {
+      "title": "Yole Group",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY1o3eVNDNGlITjdKOUo3NUhucDZvb0FnenQ5dHJubmZjYnFyME43WWpsd1NRV0J6T3pZVTJFZm1kMEo0aDM3ZGxWYjJ2ajVqdml0Qm9EenRpdHQ2MXNKLTlJWTV2dTYtX25WUU1CUlNfYlNDU3FMSFpLYVNrTzBEZWwzZ2hmVjdBeXUtTEVORk9ZY1dRd0ltY3piTDF5YTRBSEE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "optical_communication"
+    },
+    {
+      "title": "Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VY2FwTUZOek9CX050ZGxLWW5fM2NPZGZhVmFSXzF6dXItSVFsWklnOUNtdmFlQWF3MFNSS0tXX1I5c09oU3B5aXBiLTJUQkRNV01GUjNRNzdBV2NSRGlCV0phSFBUdXZYZWRBcU5QcFQ2X0lqNUE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "defense"
+    },
+    {
+      "title": "NAI500",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWktOQW94REhlcHdmQk1WczltTUQtTldZTmZocG5OZjNNNTlYanRhRUZST0xCcXdfN2x3Y0UzaUVtZ3Y0WF9lcmpfTVJLSmNPci1fQ2RwbnRhQmQyQ0lNcnE4VWo2TGx2ZG5wbkdUN3FwVDljbVktN0wySUZMQUZYTlBIX3BLN1ZLUTdvdzJmMXRrcmJJV2xhdlQ3YUttY2ZtRUJHZTZR?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "energy"
+    },
+    {
+      "title": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPN3VFZFhZZVFocTFFbk1VWFpidzk5SlF6VzVpbk5aakNLT2RTVDZwVWJSX2xVY3F4MVpaV3lRM2JPM3MtNUpTVmxObkNxX0t6WjB2OUMtVmxueDBRcGMwZmNZN0s4WEFHQWhzbXVXSEdWcXpyM3d6UXdWWnlsc0tsY01ndE9TWWN6MXBxOFNqeTlpdW9oSkFHd1pxMi0tMFlUYnNyRnV4elhZczBRNWhsempubS1xc1BFNUZWT3F3MlhWMXRweVU2TS1BV0pjUU0zX3c?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "crypto"
+    },
+    {
+      "title": "Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQMXFiVkdRS2x5S0daU0hpS0JPOGtEVFhRV2l0d1JjdGhMci15ZzV3RF9QMVZqTEhWNG1PS3dRRnRvUDk0WmwwWG9aMjRNNTc1MmtoOW9QTDZkdEs0NEdwQ2huRWVHeHRsdXpzaVRkVzIweDFoZUY4emFzYzgyTjVVQWNqV1lEOF85YUhldHJzamc5NnVvSV91R0RsS2RzaTJ3WlVkMUZLTHRYT2NEOElhQkVzcXRUWEhGVkpqZHZDSDY4cU9ZWUVBRzZUTmpQYVpMeDRIRzZZUGJ0TWVKRXhlMTAxUkV4dHpKVnAxclNSYjRoNHdpU3RkUm9XMm1xdmtWRjZYYXF5QTFpb1B5bUpHS3M1eEJra25ySWc?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "optical_communication"
+    },
+    {
+      "title": "The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWmo3Tmxmei1qWDF1Uy1DdEhpN2R6eGVmN01Vc0NCLUg4UnhrS3lITzI1N1pJaExCRXlfcHAtV2tKcWpWak5tMkF2UnFxOG5vLUc1WTFRVlVjajdEZDlxN1NVNkE4RDVPbDg4QmhBcTc2czMtV1N0angwRmZsMGNXLUVPUC1DWXNtUmFORWV3X1pnbUFUdmNZV0twOHY2QTVvVUtMN05Xa2J2ZWVZbGZRVy1seExhWjU5N1RWbmJGRnEzRGtFNGVqWnQ5VTlrcE1rYURVTjFaWXAxSEV3dFE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "energy"
+    },
+    {
+      "title": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYTQwVmNTRU85VmJ2WEdKNW4zdEl0cTdaeEZXQnZpdmtOdk5uQ0tHNWplcUN3eVZkMUpPMkhrNlYzZ3Y4ejdQSTRXSTVaLUpzUGt1Z3hmbTFTZG9Pbm1Qc2w1YUI2UjlPelF6M1JQcW1WakhWX0RUcmU5MjR1dzB0QjYwM2M0UmpaREhLNWhad296Rk9zd0RfV2dNZnkxVEFuOHJMOWdxOXJUMWlNdS1kQ1VoTW9BejFnSVVTcERSbkZDRVJhMVE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "crypto"
+    },
+    {
+      "title": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYlBWWFF2d2JpdU9oQ1VLUTUycW1NYU94OFd0NmNJTnozdy1hTlhZajI3anpNMzhDLTVpb2h5WHZKRS1COW5nTGRieFhOdHV4ZHBwa0VNcW5hQm8xemQyY1ItMWgyMGpaTzNRODE1ZjV5dHAwVU1TYVp5ZGtGRHNUQ2czUHY5c3VJYmFtWGVHVkw3eUdTdHhCOFpCcjY3VEZvSUo0alJHNThiNVhXVXc?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "crypto"
+    },
+    {
+      "title": "TheStreet",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdEc2dkVZRmtLNTlsWFNveHYtWExQU1QzOURGTC1YSmF5WUQ4UzF1amFYdFdJMWpRRnNZd0JFYlJ3YXd4ZUltbUM1eDVnbW9NZlVKTnRSOVgwZy1pRG5aY3F5MzBZZnA3VjE0ZTVFN180Y09HQ3c1U05SdjR4UGY5TkhqOXhuZDhDQkVzRUZEYmh2ZVNnV2JUTmhjMUhMbFA1VGlz?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "crypto"
+    },
+    {
+      "title": "Nasdaq market activity",
+      "url": "https://www.nasdaq.com/market-activity",
+      "publisher": "nasdaq.com",
+      "published_at": "2026-11-05",
+      "related_section": "event:2026-11-05 US equity market session / premarket setup"
+    },
+    {
+      "title": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZXpOcVdYWWIyd0ZyaldnY3QxMFJUUk14d3E0UmpWVzRwakhSOF9lOUE1azgtTmxRMm55V1JWZ24wZmhsNlVjWHBtZW1DNTJLMmFRNjd1YS0yaFJ1cUxQQVhkdU14V0Mzb1VjbFBreGpFS3FjYUdnXzd1NkVYUUlEY05uYWVJVEgxaGMzbDhzMU5rZWpmNkxqcjdBT0lLMy1kWVlhN1lhbjB2TDFEOGQ4SEJ3YXAxUnpuMi1kMy1RdkZzZVFicVE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:AI Infrastructure"
+    },
+    {
+      "title": "Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS0NwakJ2RklNUG5UMDBmYnVqQTU3cFBPbmh1YmlGaVZEeU90VWlMMDNBSl9NV0RNT1hDc0xadEszWnZ0TUduT012SVJYZU1nYzlTckxTWnVEYVpPekR3Y2lLY21PbmI4Y0w1alBkMVhvRGxEMVUySWRSRXFYSEpkVQ?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:AI Infrastructure"
+    },
+    {
+      "title": "Beth Kindig – Medium",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObUJxbUxTelo5RGpVdENpWV9jZWpkM0pHS3ByR1QyREcxVVVhcE5rbkx6VmtMbTRZaTYtSU5rV0pfaFBMRF95bW4zbzhnd3I1M3MtMDRBRUpmTnNZREVVY1podjlSMVlpNWdwMmtrOWFIc05VampoOHpYa09wQkJTay1HdXR5TGdGU3pmQ2VFZDZmYUNUSl9EdFp6V1pDN01GRWhpS2w3c1Rzc2l6N2wyOFdxcw?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:AI Infrastructure"
+    },
+    {
+      "title": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZXpOcVdYWWIyd0ZyaldnY3QxMFJUUk14d3E0UmpWVzRwakhSOF9lOUE1azgtTmxRMm55V1JWZ24wZmhsNlVjWHBtZW1DNTJLMmFRNjd1YS0yaFJ1cUxQQVhkdU14V0Mzb1VjbFBreGpFS3FjYUdnXzd1NkVYUUlEY05uYWVJVEgxaGMzbDhzMU5rZWpmNkxqcjdBT0lLMy1kWVlhN1lhbjB2TDFEOGQ4SEJ3YXAxUnpuMi1kMy1RdkZzZVFicVE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Semiconductors"
+    },
+    {
+      "title": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzY0FRZ05UaEpBRFZkTl82YnhyUHFPb3MxNVo1eFFWaVRidE1OQml5djVkM3g3aGhISmFoVjFONi1yV1Jvc1hDWWhMRmIyQjBIYmdWZ2M4RWFZSy1rNUN5MTYyR3V2b1M2WVF1RzRYNG5iWjd2ZVE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Semiconductors"
+    },
+    {
+      "title": "Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS0NwakJ2RklNUG5UMDBmYnVqQTU3cFBPbmh1YmlGaVZEeU90VWlMMDNBSl9NV0RNT1hDc0xadEszWnZ0TUduT012SVJYZU1nYzlTckxTWnVEYVpPekR3Y2lLY21PbmI4Y0w1alBkMVhvRGxEMVUySWRSRXFYSEpkVQ?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Semiconductors"
+    },
+    {
+      "title": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQWhnNGZEb1dCOVJkeDZveDJ4VU53ZVpRNjkwYk1TaWZLUjBpQTBOdDhfYnhNTFI1NlJTbl93cEYzVFlsbDNIYlY4VWYxclVZU2RldUViQkszNUo5M200QWU0YnBwdDZ0dHZ5cHpOQnNZN05HTmFMdlJQOVlfTEZhTUNBRk9yYnhjWjZwZUpjLTBDVTVFTF9Na3Q2dW9WSlZIWnlWdHNDMnZtOHZOU0E4cUUwbjVPS0NFenNLQTQ0ZmE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Optical Communication / Networking"
+    },
+    {
+      "title": "Nokia",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONTdsZ2lZMVZFbV9yc2NqMkp3T2twZnFwTEZqcUVFM0FWclI4d1VrcW5FdEpNQnZmUG5fcnQxemFPLUxuUHp5Y3hMUzZqbFdweUZxWV9TQXdTTzJLX0hmc1JnQTdGejZRc0pWal9nN0JHNnJOSXlGT2VGc0tHc25BOUxlUC1VUWtLam52X3FJcmF3OVk5bHotYXpCVjNVNmlNOGFmMHhaOGxoNlR0Ynotbmx0Zw?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Optical Communication / Networking"
+    },
+    {
+      "title": "Yole Group",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY1o3eVNDNGlITjdKOUo3NUhucDZvb0FnenQ5dHJubmZjYnFyME43WWpsd1NRV0J6T3pZVTJFZm1kMEo0aDM3ZGxWYjJ2ajVqdml0Qm9EenRpdHQ2MXNKLTlJWTV2dTYtX25WUU1CUlNfYlNDU3FMSFpLYVNrTzBEZWwzZ2hmVjdBeXUtTEVORk9ZY1dRd0ltY3piTDF5YTRBSEE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Optical Communication / Networking"
+    },
+    {
+      "title": "Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT2VsVUl1WXdoTnd5SVBTY1hKM0tydy1OWW5Hc0ZKamFoRXZoYmxWYWh5VlpGNFcxUFcyYktMUC00cllWMENmd08xZTJwRHNsQVlOX001ZkhUVGpXVWhDNHhIV2JoczJtYXhHWU43RTgzTlN3X0Q0bU1Tc2VUZnEwcHJQRjdJY3VkaTR3U3VvRHZOY25VN3lHaFNBZUZRSl9hOUE0ZTg1Nm9TbzFLODNjdnJMR2NTVWdYUjZaOWFXcWJxY09XaHJ4em9Uam9UdnNSZ3Zzb9IB1AFBVV95cUxPT2VsVUl1WXdoTnd5SVBTY1hKM0tydy1OWW5Hc0ZKamFoRXZoYmxWYWh5VlpGNFcxUFcyYktMUC00cllWMENmd08xZTJwRHNsQVlOX001ZkhUVGpXVWhDNHhIV2JoczJtYXhHWU43RTgzTlN3X0Q0bU1Tc2VUZnEwcHJQRjdJY3VkaTR3U3VvRHZOY25VN3lHaFNBZUZRSl9hOUE0ZTg1Nm9TbzFLODNjdnJMR2NTVWdYUjZaOWFXcWJxY09XaHJ4em9Uam9UdnNSZ3Zzbw?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Cloud / Software"
+    },
+    {
+      "title": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbWtwWjdBdmFsZlNUaWNwNTlzN055X01tWjVCRTVFQUVPS3RDMVNucWFTNnh4UnlrNHdPUVpaNFNQbWkyOExNTUFvZWdnMVR6eWd1MzhZak5lQlBKZjZIcDk0cWhGdUY1MUV2dWNrYkdRVm94bkdYZmV2b0lZTmFOUEdXcjZPdUc2S2Zid2hlWlBjMC03QjhZWlpqeEt3aXpjbmtFSFZNMzZfdFFEakNYSktQLVd1Mi1vR1IzYXQ1R0VBS1N1MzYzdHUyUWVDTmZQcGgyOTNrczVJMnEzWWJocE5qMmMzQQ?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Data Center Power / Energy"
+    },
+    {
+      "title": "Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQa0JlLUppaXNaUl9GX3dZRko3VE1VR3lIcFBsRmV3TzJrQlVHcVB5Ql8zcTRnVXFfMlZqT294MFVfakpzeTdpeTdOU1ZQNVpXNFpLNk5ZZ19TbDNwZUQxMENvS3JrNl9TVWx1MF9hTTgtZVJsX2FHdjlfZFV1LXpBSlRySkcyZWFXR3RoWWptby1wS3plRUJhYVYwYUtYNW9hRXY5M1JyeUxMMlNac2hSRU80M0NCV09YUmZWbDdkZWFmZ9IBxwFBVV95cUxQeVJhQjctR3NiRW1uVWRTM3BuOUJyUmhCZC00UmkzRllXVXlZM0xXNnFnWlVCWjdpLTlHNE5ud19ibld6QXZOMHJsYThidUxsU2xqYUV0TWt3OFNjSHlSTXZoWGhpYWI4YlJKVE5ISWh6V0FXY2RndW9MMnAxZlpTVG85LXdmZWQxZ1RMWUVCUThyTGJ4MElYWUYtUUl5eVZlZURsTEJmSldsRTNFTUxvODJGN2Iyc1NFdzAtY09VeFdRQUhGaDVF?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Data Center Power / Energy"
+    },
+    {
+      "title": "NAI500",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWktOQW94REhlcHdmQk1WczltTUQtTldZTmZocG5OZjNNNTlYanRhRUZST0xCcXdfN2x3Y0UzaUVtZ3Y0WF9lcmpfTVJLSmNPci1fQ2RwbnRhQmQyQ0lNcnE4VWo2TGx2ZG5wbkdUN3FwVDljbVktN0wySUZMQUZYTlBIX3BLN1ZLUTdvdzJmMXRrcmJJV2xhdlQ3YUttY2ZtRUJHZTZR?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Data Center Power / Energy"
+    },
+    {
+      "title": "Kiplinger earnings calendar",
+      "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+      "publisher": "kiplinger.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Robotics / Automation"
+    },
+    {
+      "title": "Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VY2FwTUZOek9CX050ZGxLWW5fM2NPZGZhVmFSXzF6dXItSVFsWklnOUNtdmFlQWF3MFNSS0tXX1I5c09oU3B5aXBiLTJUQkRNV01GUjNRNzdBV2NSRGlCV0phSFBUdXZYZWRBcU5QcFQ2X0lqNUE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Space / Defense Tech"
+    },
+    {
+      "title": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPN3VFZFhZZVFocTFFbk1VWFpidzk5SlF6VzVpbk5aakNLT2RTVDZwVWJSX2xVY3F4MVpaV3lRM2JPM3MtNUpTVmxObkNxX0t6WjB2OUMtVmxueDBRcGMwZmNZN0s4WEFHQWhzbXVXSEdWcXpyM3d6UXdWWnlsc0tsY01ndE9TWWN6MXBxOFNqeTlpdW9oSkFHd1pxMi0tMFlUYnNyRnV4elhZczBRNWhsempubS1xc1BFNUZWT3F3MlhWMXRweVU2TS1BV0pjUU0zX3c?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Crypto-related Tech"
+    },
+    {
+      "title": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYTQwVmNTRU85VmJ2WEdKNW4zdEl0cTdaeEZXQnZpdmtOdk5uQ0tHNWplcUN3eVZkMUpPMkhrNlYzZ3Y4ejdQSTRXSTVaLUpzUGt1Z3hmbTFTZG9Pbm1Qc2w1YUI2UjlPelF6M1JQcW1WakhWX0RUcmU5MjR1dzB0QjYwM2M0UmpaREhLNWhad296Rk9zd0RfV2dNZnkxVEFuOHJMOWdxOXJUMWlNdS1kQ1VoTW9BejFnSVVTcERSbkZDRVJhMVE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Crypto-related Tech"
+    },
+    {
+      "title": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYlBWWFF2d2JpdU9oQ1VLUTUycW1NYU94OFd0NmNJTnozdy1hTlhZajI3anpNMzhDLTVpb2h5WHZKRS1COW5nTGRieFhOdHV4ZHBwa0VNcW5hQm8xemQyY1ItMWgyMGpaTzNRODE1ZjV5dHAwVU1TYVp5ZGtGRHNUQ2czUHY5c3VJYmFtWGVHVkw3eUdTdHhCOFpCcjY3VEZvSUo0alJHNThiNVhXVXc?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Crypto-related Tech"
+    },
+    {
+      "title": "Investment Week",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Other Tech-linked Themes"
+    },
+    {
+      "title": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRzcycnpyYk1uclpWNWtmU1hLY2x0OHBpOXVaQ0w4UVBpVTVYamdSZmhRcVhtRjlDZV9yUWZRZzFuZ2l0V2tQWFJMd1dkWnpuZG1ZR29fMTRoa0NNUjJEbFFTdzgtckpHX3dBdkZCYkMwWmFHbnV1UUVSMzRtYzM0cGxreHI2djd3ZGJfd1pwMFY2ZThyOE1jSXBOaTMzNHZ2VUhvX1dCaTRyQkRVSXh1Z29oTXFPQQ?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Other Tech-linked Themes"
+    },
+    {
+      "title": "Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaURpY2VwV0xyc3Z4bnVmcHlaRUpadWFHMkNObW5lRkwycnhnOC1Gb2gyMWV3al93alEtRjdQM1hUclpUYi1zcWRhVUtsSE4taTBoR0VvaFNMZlJQSHRVdzUzRzhwVnMxd1BXdnRyWXZzUmZrNkhLNHVQaGkwVXhEV0xDSUlqRmR4ZGdSZl9TSUs1djA4Q0ZIZ1l5T0hCZ0RQYmV0VVAxT0FCNjBKb1dUZlV4elhDRHN0MHFnQU9n?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "sector:Other Tech-linked Themes"
+    },
+    {
+      "title": "StockAnalysis top losers",
+      "url": "https://stockanalysis.com/markets/losers/",
+      "publisher": "stockanalysis.com",
+      "published_at": "2026-11-05",
+      "related_section": "decliner:CDLR"
+    },
+    {
+      "title": "StockAnalysis top losers",
+      "url": "https://stockanalysis.com/markets/losers/",
+      "publisher": "stockanalysis.com",
+      "published_at": "2026-11-05",
+      "related_section": "decliner:SNWV"
+    },
+    {
+      "title": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWGN0Rk5MeVU1SnNtSHNKNWlzMGZZQkE1NTR2cFFMT2pQaE9EZFVObWhFLU1EWHVzUzdEazZYWUkwb09VdzB2aFoteUEyMnYteGJjNXd5Z3hWMHZ0eHkzakF0ZlF6V3dONDM0aHZwZ080aXZydHQ3R2Yxd0VKaG9YNFdzVlh0c1hTa3Z2eFpqRE9CTjRpSWgwQll6Yw?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "decliner:VCYT"
+    },
+    {
+      "title": "Investing.com India",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSEF3THdBT1p0aFJDT0Z0V20wUDRaYlhva1ViTEd2M3B3NE1WbVdybWVET093ZzZHZzNHQ1ZYQnQxeG5OYm1Db1lnZTF1NjFJaEVucTJFWEtIc1RBS0tZcTFYRG5keFZ3YzlocE11TWExZV9xLWRPNTUtcGowLWZJb2h5UG9fNHFST2FpWFJKZTBIbVphOHhkNkM4Vk9rdUJ5VnZ4WEhOalQyZUV2T2RiM3d3cTdGMmR2cWY3eVlB?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "decliner:MNTN"
+    },
+    {
+      "title": "StockAnalysis top losers",
+      "url": "https://stockanalysis.com/markets/losers/",
+      "publisher": "stockanalysis.com",
+      "published_at": "2026-11-05",
+      "related_section": "decliner:ELPW"
+    },
+    {
+      "title": "StockAnalysis top losers",
+      "url": "https://stockanalysis.com/markets/losers/",
+      "publisher": "stockanalysis.com",
+      "published_at": "2026-11-05",
+      "related_section": "decliner:ANVS"
+    },
+    {
+      "title": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNenlRbU9KcTNickNGZy1DQ1dLTGlwb2FtaEhBZzlyRjBORUlwOWwxUEpCaG9Fbm10TGF5ZFk4RmNqQkZtQWYtbEFXR2FYUXlkNFVlaVpoOWpQVm1IempVdUVhb3ZLMjNkaE9OVEJjQlVsWnE3WnFLdEx6bDhjRlh4amY0YW5zWGs5YnJyLVhR?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "decliner:PARA"
+    },
+    {
+      "title": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVjlzSld5SnNOUGs5ZDBzaXlWU0NqLXlMakQ0cDM3OFhSc0E0V3JZVGhvUEZjTWVIX3dxaWxfek9YQTYwWHJ4RUdmZEZBbEk3a0syMWNBckw5WElpaTZKeHhYUXZvcGJNTUhZb1dqTjZacl84djlCdzBRbTNCbHE3b0tIaWNrNWZBYVU3bVlHVUJtR0JsaUIwUnRiNDBzRGoyQWdieWZNYTVPYzhrYkFfaGNrMGE1UmNGY3hDNFJrTQ?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "decliner:PASW"
+    },
+    {
+      "title": "Investment Week",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "watchlist:QQQ"
+    },
+    {
+      "title": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZXpOcVdYWWIyd0ZyaldnY3QxMFJUUk14d3E0UmpWVzRwakhSOF9lOUE1azgtTmxRMm55V1JWZ24wZmhsNlVjWHBtZW1DNTJLMmFRNjd1YS0yaFJ1cUxQQVhkdU14V0Mzb1VjbFBreGpFS3FjYUdnXzd1NkVYUUlEY05uYWVJVEgxaGMzbDhzMU5rZWpmNkxqcjdBT0lLMy1kWVlhN1lhbjB2TDFEOGQ4SEJ3YXAxUnpuMi1kMy1RdkZzZVFicVE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "watchlist:AMD"
+    },
+    {
+      "title": "BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzY0FRZ05UaEpBRFZkTl82YnhyUHFPb3MxNVo1eFFWaVRidE1OQml5djVkM3g3aGhISmFoVjFONi1yV1Jvc1hDWWhMRmIyQjBIYmdWZ2M4RWFZSy1rNUN5MTYyR3V2b1M2WVF1RzRYNG5iWjd2ZVE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "watchlist:ARM"
+    },
+    {
+      "title": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQWhnNGZEb1dCOVJkeDZveDJ4VU53ZVpRNjkwYk1TaWZLUjBpQTBOdDhfYnhNTFI1NlJTbl93cEYzVFlsbDNIYlY4VWYxclVZU2RldUViQkszNUo5M200QWU0YnBwdDZ0dHZ5cHpOQnNZN05HTmFMdlJQOVlfTEZhTUNBRk9yYnhjWjZwZUpjLTBDVTVFTF9Na3Q2dW9WSlZIWnlWdHNDMnZtOHZOU0E4cUUwbjVPS0NFenNLQTQ0ZmE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "watchlist:COHR"
+    },
+    {
+      "title": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQWhnNGZEb1dCOVJkeDZveDJ4VU53ZVpRNjkwYk1TaWZLUjBpQTBOdDhfYnhNTFI1NlJTbl93cEYzVFlsbDNIYlY4VWYxclVZU2RldUViQkszNUo5M200QWU0YnBwdDZ0dHZ5cHpOQnNZN05HTmFMdlJQOVlfTEZhTUNBRk9yYnhjWjZwZUpjLTBDVTVFTF9Na3Q2dW9WSlZIWnlWdHNDMnZtOHZOU0E4cUUwbjVPS0NFenNLQTQ0ZmE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "narrative:光通信 / CPO：AI 网络瓶颈的下一段外溢叙事（near-term，2026-11-05 近端跟踪）"
+    },
+    {
+      "title": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbWtwWjdBdmFsZlNUaWNwNTlzN055X01tWjVCRTVFQUVPS3RDMVNucWFTNnh4UnlrNHdPUVpaNFNQbWkyOExNTUFvZWdnMVR6eWd1MzhZak5lQlBKZjZIcDk0cWhGdUY1MUV2dWNrYkdRVm94bkdYZmV2b0lZTmFOUEdXcjZPdUc2S2Zid2hlWlBjMC03QjhZWlpqeEt3aXpjbmtFSFZNMzZfdFFEakNYSktQLVd1Mi1vR1IzYXQ1R0VBS1N1MzYzdHUyUWVDTmZQcGgyOTNrczVJMnEzWWJocE5qMmMzQQ?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "narrative:数据中心电力：AI 扩张最硬的供给约束（near-term，2026-11-05 近端跟踪）"
+    },
+    {
+      "title": "Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VY2FwTUZOek9CX050ZGxLWW5fM2NPZGZhVmFSXzF6dXItSVFsWklnOUNtdmFlQWF3MFNSS0tXX1I5c09oU3B5aXBiLTJUQkRNV01GUjNRNzdBV2NSRGlCV0phSFBUdXZYZWRBcU5QcFQ2X0lqNUE?oc=5",
+      "publisher": "news.google.com",
+      "published_at": "2026-11-05",
+      "related_section": "narrative:国防科技 / 太空商业化：预算与合同驱动的成长叙事（near-term，2026-11-05 近端跟踪）"
+    },
+    {
+      "title": "BEA release schedule",
+      "url": "https://www.bea.gov/news/schedule",
+      "publisher": "bea.gov",
+      "published_at": "2026-11-05",
+      "related_section": "macro"
+    },
+    {
+      "title": "Federal Reserve calendar",
+      "url": "https://www.federalreserve.gov/newsevents/calendar.htm",
+      "publisher": "federalreserve.gov",
+      "published_at": "2026-11-05",
+      "related_section": "macro"
+    }
+  ]
+}
